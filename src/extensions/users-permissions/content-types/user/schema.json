@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "up_users",
+  "info": { "name": "user", "singularName": "user", "pluralName": "users", "displayName": "User" },
+  "options": { "draftAndPublish": false, "timestamps": true },
+  "attributes": {
+    "username": { "type": "string", "minLength": 3, "unique": true, "required": true },
+    "email": { "type": "email", "minLength": 6, "required": true },
+    "provider": { "type": "string" },
+    "password": { "type": "password", "private": true },
+    "confirmed": { "type": "boolean", "default": false },
+    "blocked": { "type": "boolean", "default": false },
+    "role": { "type": "relation", "relation": "manyToOne", "target": "plugin::users-permissions.role", "inversedBy": "users" },
+    "balance": { "type": "decimal", "default": 0, "required": true },
+    "invite_code": { "type": "string", "unique": true },
+    "agent": { "type": "relation", "relation": "manyToOne", "target": "plugin::users-permissions.user", "inversedBy": "players" },
+    "players": { "type": "relation", "relation": "oneToMany", "target": "plugin::users-permissions.user", "mappedBy": "agent" }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bets",
+  "info": {
+    "singularName": "bet",
+    "pluralName": "bets",
+    "displayName": "Bet"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "fixture_id": { "type": "string", "required": true },
+    "home_team": { "type": "string", "required": true },
+    "away_team": { "type": "string", "required": true },
+    "prediction": { "type": "string", "required": true },
+    "predictionKey": { "type": "string", "required": true },
+    "odds": { "type": "decimal", "required": true },
+    "stake": { "type": "integer", "required": true },
+    "potential_return": { "type": "decimal", "required": true },
+    "status": { "type": "string", "default": "pending" },
+    "user": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "plugin::users-permissions.user"
+    }
+  }
+}

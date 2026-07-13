@@ -1,0 +1,103 @@
+{
+  "kind": "collectionType",
+  "collectionName": "fixtures",
+  "info": {
+    "singularName": "fixture",
+    "pluralName": "fixtures",
+    "displayName": "Fixture"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "fixture_id": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "home_team": {
+      "type": "string",
+      "required": true
+    },
+    "away_team": {
+      "type": "string",
+      "required": true
+    },
+    "sport_key": {
+      "type": "string"
+    },
+    "sport_title": {
+      "type": "string"
+    },
+    "league_name": {
+      "type": "string"
+    },
+    "commence_time": {
+      "type": "datetime",
+      "required": true
+    },
+    "odds_home": {
+      "type": "decimal",
+      "default": 1.0
+    },
+    "odds_draw": {
+      "type": "decimal",
+      "default": 1.0
+    },
+    "odds_away": {
+      "type": "decimal",
+      "default": 1.0
+    },
+    "odds_updated_at": {
+      "type": "datetime"
+    },
+    "odds_bookmaker": {
+      "type": "string"
+    },
+    "odds_provider": {
+      "type": "string"
+    },
+    "is_live": {
+      "type": "boolean",
+      "default": false
+    },
+    "inplay": {
+      "type": "boolean",
+      "default": false
+    },
+    "markets": {
+      "type": "json"
+    },
+    "home_score": {
+      "type": "integer",
+      "default": 0
+    },
+    "away_score": {
+      "type": "integer",
+      "default": 0
+    },
+    "live_minute": {
+      "type": "integer",
+      "default": 0
+    },
+    "ball_position": {
+      "type": "decimal"
+    },
+    "ball_position_x": {
+      "type": "decimal"
+    },
+    "ball_position_y": {
+      "type": "decimal"
+    },
+    "live_stats": {
+      "type": "json"
+    },
+    "live_events": {
+      "type": "json"
+    },
+    "status": {
+      "type": "string",
+      "default": "open"
+    }
+  }
+}

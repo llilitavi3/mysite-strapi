@@ -1,0 +1,68 @@
+html,
+body,
+#strapi {
+  direction: rtl !important;
+  text-align: right;
+}
+
+body.rb-strapi-admin-rtl {
+  font-family: "Noto Sans Hebrew", "Noto Sans", Arial, system-ui, -apple-system, "Segoe UI", sans-serif !important;
+}
+
+body.rb-strapi-admin-rtl * {
+  font-family: "Noto Sans Hebrew", "Noto Sans", Arial, system-ui, -apple-system, "Segoe UI", sans-serif !important;
+  letter-spacing: 0 !important;
+}
+
+body.rb-strapi-admin-rtl input,
+body.rb-strapi-admin-rtl textarea,
+body.rb-strapi-admin-rtl [role="textbox"] {
+  direction: rtl !important;
+  text-align: right !important;
+}
+
+body.rb-strapi-admin-rtl input[type="email"],
+body.rb-strapi-admin-rtl input[name="email"],
+body.rb-strapi-admin-rtl input[type="password"] {
+  direction: ltr !important;
+  text-align: left !important;
+}
+
+body.rb-strapi-admin-rtl [data-strapi-header],
+body.rb-strapi-admin-rtl header,
+body.rb-strapi-admin-rtl nav,
+body.rb-strapi-admin-rtl aside,
+body.rb-strapi-admin-rtl main,
+body.rb-strapi-admin-rtl form {
+  direction: rtl !important;
+}
+
+body.rb-strapi-admin-rtl table,
+body.rb-strapi-admin-rtl [role="table"],
+body.rb-strapi-admin-rtl [role="grid"] {
+  direction: rtl !important;
+}
+
+body.rb-strapi-admin-rtl [data-radix-popper-content-wrapper],
+body.rb-strapi-admin-rtl [role="menu"],
+body.rb-strapi-admin-rtl [role="listbox"],
+body.rb-strapi-admin-rtl [role="dialog"] {
+  direction: rtl !important;
+  text-align: right !important;
+}
+
+@media (max-width: 768px) {
+  body.rb-strapi-admin-rtl aside {
+    right: 0 !important;
+    left: auto !important;
+  }
+
+  body.rb-strapi-admin-rtl main {
+    min-width: 0 !important;
+  }
+
+  body.rb-strapi-admin-rtl button,
+  body.rb-strapi-admin-rtl a {
+    max-width: 100%;
+  }
+}

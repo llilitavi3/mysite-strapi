@@ -1,0 +1,63 @@
+[
+  {
+    "name": "Content-Type Builder",
+    "status": "done",
+    "translated": 4,
+    "englishFallback": 279,
+    "total": 283
+  },
+  {
+    "name": "Content Manager",
+    "status": "done",
+    "translated": 3,
+    "englishFallback": 330,
+    "total": 333
+  },
+  {
+    "name": "Review Workflows",
+    "status": "done",
+    "translated": 1,
+    "englishFallback": 33,
+    "total": 34
+  },
+  {
+    "name": "Email",
+    "status": "done",
+    "translated": 3,
+    "englishFallback": 39,
+    "total": 42
+  },
+  {
+    "name": "i18n",
+    "status": "done",
+    "translated": 4,
+    "englishFallback": 80,
+    "total": 84
+  },
+  {
+    "name": "Upload",
+    "status": "done",
+    "translated": 2,
+    "englishFallback": 218,
+    "total": 220
+  },
+  {
+    "name": "Users & Permissions",
+    "status": "skipped",
+    "reason": "no en.json.mjs"
+  },
+  {
+    "name": "Content Releases",
+    "status": "done",
+    "translated": 2,
+    "englishFallback": 102,
+    "total": 104
+  },
+  {
+    "name": "Cloud",
+    "status": "done",
+    "translated": 0,
+    "englishFallback": 19,
+    "total": 19
+  }
+]
