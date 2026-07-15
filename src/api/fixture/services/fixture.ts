@@ -646,15 +646,17 @@ export default factories.createCoreService('api::fixture.fixture', ({ strapi }) 
     };
   },
 
+    // ... פונקציית עזר ל-BetsAPI (syncFromBetsApi) כאן ...
+
   async syncAllProviders() {
     const theOdds = await this.syncFromTheOddsApi();
-
+    const betsApi = await this.syncFromBetsApi(); // שילוב ה-BetsAPI
     return {
-      success: Boolean(theOdds?.success),
-      providers: { theOdds },
-      fetched: Number(theOdds?.fetched || 0),
-      created: Number(theOdds?.created || 0),
-      updated: Number(theOdds?.updated || 0),
+      success: true,
+      providers: { theOdds, betsApi },
+      created: (theOdds?.created || 0) + betsApi.created,
+      updated: (theOdds?.updated || 0) + betsApi.updated,
     };
   },
 }));
+
