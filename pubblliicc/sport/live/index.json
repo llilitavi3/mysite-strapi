@@ -1,0 +1,3045 @@
+{
+ "version": 3,
+ "indexPages": [
+  "index.html"
+ ],
+ "redirects": [],
+ "files": [
+  {
+   "path": "index.json"
+  },
+  {
+   "path": "index.dat"
+  },
+  {
+   "path": "index.rdf"
+  },
+  {
+   "path": "history.rdf"
+  },
+  {
+   "path": "^metadata^"
+  },
+  {
+   "path": "index.html",
+   "url": "/sport/live/",
+   "role": "document",
+   "token": "00516fe199939967cec1c3009dccab91f76c7a8d"
+  },
+  {
+   "path": "index.xhtml",
+   "role": "document"
+  },
+  {
+   "path": "index.svg",
+   "role": "document"
+  },
+  {
+   "path": "favicon.ico",
+   "url": "/assets/images/logos/favicons/favicon.ico",
+   "role": "resource",
+   "token": "178eebe962879b3524a078b005d38c35a647fda0"
+  },
+  {
+   "path": "favicons.png",
+   "url": "/assets/images/logos/favicons/favicons.png",
+   "role": "resource",
+   "token": "284beec4c42b87a1724090f2d75cb15e9cf128e8"
+  },
+  {
+   "path": "favicon-96x96.png",
+   "url": "/assets/images/logos/favicons/favicon-96x96.png",
+   "role": "resource",
+   "token": "0c97443c345bfdfd3490560642aef2894579aff7"
+  },
+  {
+   "path": "common.variables.css",
+   "url": "/assets/css/common.variables.css",
+   "role": "css-utf-8",
+   "token": "a7a64c38f4928b5f1816e3da018e91eedb0ec96f"
+  },
+  {
+   "path": "app-styles.css",
+   "url": "/assets/css/app-styles.css",
+   "role": "css-utf-8",
+   "token": "16d8de96eedb2def86ee6419b4434f05f9b6244e"
+  },
+  {
+   "path": "styles.css",
+   "url": "/assets/css/styles.css",
+   "role": "css-utf-8",
+   "token": "ef4fd118defaf5e1596cafa5b9ee729a33f75c92"
+  },
+  {
+   "path": "css.css",
+   "url": "https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700&display=swap",
+   "role": "css-utf-8",
+   "token": "4783d393ae6cee3792093b730100e8c9939363b1"
+  },
+  {
+   "path": "css-1.css",
+   "url": "https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400,500,600,700&display=swap",
+   "role": "css-utf-8",
+   "token": "78e2d7fc848e0efb0173cda2ed01393f514c8b35"
+  },
+  {
+   "path": "main.6cceff07.js",
+   "url": "https://cdn.ml.bcua.io/animation/widget/static/js/main.6cceff07.js",
+   "role": "resource",
+   "token": "5fc7b7e41edc80f39e3a88e697925ccc8f49e75a"
+  },
+  {
+   "path": "recaptcha__en.js",
+   "url": "https://www.gstatic.com/recaptcha/releases/MerVUtRoajKEbP7pLiGXkL28/recaptcha__en.js",
+   "role": "resource",
+   "token": "d9d1c1362be855989d11cb8d633f27c9b0843d94"
+  },
+  {
+   "path": "main.f500bfaf.css",
+   "url": "https://cdn.ml.bcua.io/animation/widget/static/css/main.f500bfaf.css",
+   "role": "css-utf-8",
+   "token": "64e818d6bb24cdf201970d35c40c8d8b8dfa4f0f"
+  },
+  {
+   "path": "sport-6046.png",
+   "url": "/assets/images/sport-6046.png",
+   "role": "resource",
+   "token": "529c9f41a051f4c38b551e217ecf294bf37745ca"
+  },
+  {
+   "path": "sport-48242.png",
+   "url": "/assets/images/sport-48242.png",
+   "role": "resource",
+   "token": "a2fb96170b2db2b39170cbffaea43c94651d8515"
+  },
+  {
+   "path": "sport-687888.png",
+   "url": "/assets/images/sport-687888.png",
+   "role": "resource",
+   "token": "828aac9a32516ba918ea4c6677c571996b3b0684"
+  },
+  {
+   "path": "sport-209.png",
+   "url": "/assets/images/sport-209.png",
+   "role": "resource",
+   "token": "58dd7dfa9c54173949332dc0590377c92fad86d5"
+  },
+  {
+   "path": "sport-154830.png",
+   "url": "/assets/images/sport-154830.png",
+   "role": "resource",
+   "token": "3b00a767c75df6af5b6add68754c41065e5ce6a6"
+  },
+  {
+   "path": "he.svg",
+   "url": "https://cdnjunction.com/Websites/images/flag/he.svg?v=57.587",
+   "role": "resource",
+   "token": "1976bb7df18c6c846aa0d8b46e2f59450df62c85"
+  },
+  {
+   "path": "sport-54094.png",
+   "url": "/assets/images/sport-54094.png",
+   "role": "resource",
+   "token": "4db6fed53d8c5eff0dd60777f388f271f236a089"
+  },
+  {
+   "path": "sport-154914.png",
+   "url": "/assets/images/sport-154914.png",
+   "role": "resource",
+   "token": "f1d666a80911dd78edc5610a4ae9448691f4f4d9"
+  },
+  {
+   "path": "sport-35709.png",
+   "url": "/assets/images/sport-35709.png",
+   "role": "resource",
+   "token": "4daf611f40f0afd00f67dceec9b9f96a50a0401b"
+  },
+  {
+   "path": "sport-265917.png",
+   "url": "/assets/images/sport-265917.png",
+   "role": "resource",
+   "token": "43b109b84a9c01a033e6b664fdd872e24ab7998a"
+  },
+  {
+   "path": "sport-11.png",
+   "url": "/assets/images/sport-11.png",
+   "role": "resource",
+   "token": "d3d04a465f9388b4d2770135ba2e66c36676e327"
+  },
+  {
+   "path": "sport-251.png",
+   "url": "/assets/images/sport-251.png",
+   "role": "resource",
+   "token": "a88faadb5ec58fe60302ee801ba953a81186d1c8"
+  },
+  {
+   "path": "sport-452674.png",
+   "url": "/assets/images/sport-452674.png",
+   "role": "resource",
+   "token": "21b1a474404f42772724f413f517969a85d5bc7c"
+  },
+  {
+   "path": "sport-250.png",
+   "url": "/assets/images/sport-250.png",
+   "role": "resource",
+   "token": "9596be60c1c18ddaceaaec4221e89ae0de9caea9"
+  },
+  {
+   "path": "sport-252.png",
+   "url": "/assets/images/sport-252.png",
+   "role": "resource",
+   "token": "e8c0ab191ee8f1262e6e234b166ba90a53f7caf9"
+  },
+  {
+   "path": "sport-687887.png",
+   "url": "/assets/images/sport-687887.png",
+   "role": "resource",
+   "token": "abead9211a6f40f1ccca340b1d7645529e3a41f4"
+  },
+  {
+   "path": "sport-282.png",
+   "url": "/assets/images/sport-282.png",
+   "role": "resource",
+   "token": "ef659a245d6f460e8b8ca4abd7c5590527e8740a"
+  },
+  {
+   "path": "xlarge-logo.png",
+   "url": "https://cdnjunction.com/Websites/images/SponsorShip/xlarge-logo.png?v=57.587",
+   "role": "resource",
+   "token": "f2b08a7707dc125d863053560777ab44b3e845b8"
+  },
+  {
+   "path": "plus-18-movie.svg",
+   "url": "https://cdnjunction.com/Websites/images/plus-18-movie.svg?v=57.587",
+   "role": "resource",
+   "token": "9d3ce39763879e1bd0d2be3da685ae40a6c83c4d"
+  },
+  {
+   "path": "IntegrationLoader.min.js",
+   "url": "https://sport.dggloble.com/js/Partner/IntegrationLoader.min.js",
+   "role": "resource",
+   "token": "05f691f03e4995bfc13b78f7c903d18efd8cfbda"
+  },
+  {
+   "path": "main-H4IEVCYZ.js",
+   "url": "https://demo.xlargesoftware.com/main-H4IEVCYZ.js",
+   "role": "resource",
+   "token": "533a10258d08001d7b2baf28723dc588b9e75dc1"
+  },
+  {
+   "path": "51ddff14-8184-492c-b9eb-eea3d1a40f7c.png",
+   "url": "https://cdnjunction.com/images/sliderall/51ddff14-8184-492c-b9eb-eea3d1a40f7c.png",
+   "role": "resource",
+   "token": "caddd9692d8734dc0ba591842b069239ae56a51d"
+  },
+  {
+   "path": "sport-35232.png",
+   "url": "/assets/images/sport-35232.png",
+   "role": "resource",
+   "token": "ca8525af7d71b7d0cabbb5d8090793d7eb2c5480"
+  },
+  {
+   "path": "sport-255.png",
+   "url": "/assets/images/sport-255.png",
+   "role": "resource",
+   "token": "6f480f68fab594bc7a2fd782873ffb4c6e6962c4"
+  },
+  {
+   "path": "widgetloader.js",
+   "url": "https://cdn.ml.bcua.io/animation/widget/widgetloader.js?ts=1782289746636",
+   "role": "resource",
+   "token": "792eb2b423a40727ca3ed200d9d9b30d3befc4a5"
+  },
+  {
+   "path": "sport-305.png",
+   "url": "/assets/images/sport-305.png",
+   "role": "resource",
+   "token": "d8dcbccbf21da93147968ea5dd4b37257c80b7c1"
+  },
+  {
+   "path": "sport-304.png",
+   "url": "/assets/images/sport-304.png",
+   "role": "resource",
+   "token": "1a04eeecd3637312fe2ca25eaf26fa403ca6c917"
+  },
+  {
+   "path": "balls.f4c0ccc35900a9ea8666.gif",
+   "url": "https://cdn.ml.bcua.io/animation/widget/static/media/balls.f4c0ccc35900a9ea8666.gif",
+   "role": "resource",
+   "token": "96ab3e068cb2c124ab81c9cfd348204168062659"
+  },
+  {
+   "path": "footer-provider-images.webp",
+   "url": "https://cdnjunction.com/Websites_MS/images/footer-provider-images.webp?v=57.587",
+   "role": "resource",
+   "token": "c409fc919f4b2868c63be7ac60ab8ec23a20942b"
+  },
+  {
+   "path": "cg-panel-bg.png",
+   "url": "https://cdnjunction.com/Websites_MS/images/cg-panel-bg.png?v=57.587",
+   "role": "resource",
+   "token": "8b95b5e2503b445035dc1b42b5f39ea035cffe0e"
+  },
+  {
+   "path": "xlarge-logo.png",
+   "url": "https://cdnjunction.com/Websites_MS/images/SponsorShip/xlarge-logo.png?v=57.587",
+   "role": "resource",
+   "token": "982c2ecd3004d7a0a7b2a43d86517c97e8c66b36"
+  },
+  {
+   "path": "star.svg",
+   "url": "https://cdnjunction.com/Websites_MS/images/star.svg?v=57.587",
+   "role": "resource",
+   "token": "0cc2bd6200f988d250286bab23d68035da835ae0"
+  },
+  {
+   "path": "casino-card-bg.webp",
+   "url": "https://cdnjunction.com/Websites_MS/images/casino-card-bg.webp?v=57.587",
+   "role": "resource",
+   "token": "810dcb35172fd33dd20707aa8de3703c5cd47d11"
+  },
+  {
+   "path": "crown-bronze.webp",
+   "url": "https://cdnjunction.com/Websites_MS/images/tournament/crown-bronze.webp?v=57.587",
+   "role": "resource",
+   "token": "0a31682ea1e031715c4f682fab3505d1b765f823"
+  },
+  {
+   "path": "crown-silver.webp",
+   "url": "https://cdnjunction.com/Websites_MS/images/tournament/crown-silver.webp?v=57.587",
+   "role": "resource",
+   "token": "4e159d4f916dcb300b1a0ff95daf27cfdfd3f840"
+  },
+  {
+   "path": "crown-gold.webp",
+   "url": "https://cdnjunction.com/Websites_MS/images/tournament/crown-gold.webp?v=57.587",
+   "role": "resource",
+   "token": "8a27070054830041e4f32835c73e1c9a6f6cbf09"
+  },
+  {
+   "path": "leagues.webp",
+   "url": "https://cdnjunction.com/Websites_MS/images/leagues.webp?v=57.587",
+   "role": "resource",
+   "token": "b9c53a13716ba1decc6396eadd716366153bc4c5"
+  },
+  {
+   "path": "Casino-Jackpot-background.webp",
+   "url": "https://cdnjunction.com/Websites_MS/images/Casino-Jackpot-background.webp?v=57.587",
+   "role": "resource",
+   "token": "aac6794dc2002e1ca23f3088e10e19cc3fb1cad2"
+  },
+  {
+   "path": "king-crown.webp",
+   "url": "https://cdnjunction.com/Websites_MS/images/king-crown.webp?v=57.587",
+   "role": "resource",
+   "token": "61efff25c40c1bdd3b4f2a201efd1a6c49808458"
+  },
+  {
+   "path": "Major-image.webp",
+   "url": "https://cdnjunction.com/Websites_MS/images/Major-image.webp?v=57.587",
+   "role": "resource",
+   "token": "98e3a06ac8616bd3b93cfb23280982a25f183ff5"
+  },
+  {
+   "path": "Mini-image.webp",
+   "url": "https://cdnjunction.com/Websites_MS/images/Mini-image.webp?v=57.587",
+   "role": "resource",
+   "token": "b6be46a4c48383846c637d2eaf92c7c1536a0bc0"
+  },
+  {
+   "path": "Minar-image.webp",
+   "url": "https://cdnjunction.com/Websites_MS/images/Minar-image.webp?v=57.587",
+   "role": "resource",
+   "token": "ea11c0735d1dcb5078a270d597fa2b8244f65aad"
+  },
+  {
+   "path": "casino-provider-bg.webp",
+   "url": "https://cdnjunction.com/Websites_MS/images/casino-provider-bg.webp?v=57.587",
+   "role": "resource",
+   "token": "3ac533d5478734a6d105f2621330b9b199e3d311"
+  },
+  {
+   "path": "playground-overlay.webp",
+   "url": "https://cdnjunction.com/Websites_MS/images/sports/playground-overlay.webp?v=57.587",
+   "role": "resource",
+   "token": "b2a5de9cb914d112e0414ac1ffbf6b4a96b66277"
+  },
+  {
+   "path": "pregame-common-bg.webp",
+   "url": "https://cdnjunction.com/Websites_MS/images/sports/pregame-common-bg.webp?v=57.587",
+   "role": "resource",
+   "token": "ea6801274075f100e4b7c707da706a3b0cee3e56"
+  },
+  {
+   "path": "api.js",
+   "url": "https://www.google.com/recaptcha/api.js",
+   "role": "resource",
+   "token": "31334270003acd6cafb96a8cdea72675e6143916"
+  },
+  {
+   "path": "pregame-football-bg.jpg",
+   "url": "https://cdnjunction.com/Websites_MS/images/sports/pregame-football-bg.jpg?v=57.587",
+   "role": "resource",
+   "token": "d586719db7b08bee0765c822293e0e3ff9186769"
+  },
+  {
+   "path": "pregame-basketball-bg.jpg",
+   "url": "https://cdnjunction.com/Websites_MS/images/sports/pregame-basketball-bg.jpg?v=57.587",
+   "role": "resource",
+   "token": "103df73dd81516320709c4d9935918e19f4b99a7"
+  },
+  {
+   "path": "pregame-tennis-bg.jpg",
+   "url": "https://cdnjunction.com/Websites_MS/images/sports/pregame-tennis-bg.jpg?v=57.587",
+   "role": "resource",
+   "token": "63114ca991491a8aa90cd6b47a020cbce5396d0a"
+  },
+  {
+   "path": "pregame-volleyball-bg.jpg",
+   "url": "https://cdnjunction.com/Websites_MS/images/sports/pregame-volleyball-bg.jpg?v=57.587",
+   "role": "resource",
+   "token": "7da3f163c6697cdc3a87c30cb40bbe808dbd6caf"
+  },
+  {
+   "path": "pregame-baseball-bg.jpg",
+   "url": "https://cdnjunction.com/Websites_MS/images/sports/pregame-baseball-bg.jpg?v=57.587",
+   "role": "resource",
+   "token": "a081b6a717819dd5f5490531242877defe5d2c89"
+  },
+  {
+   "path": "pregame-tabletennis-bg.jpg",
+   "url": "https://cdnjunction.com/Websites_MS/images/sports/pregame-tabletennis-bg.jpg?v=57.587",
+   "role": "resource",
+   "token": "d80c047ae7fccfcaa41b0dfc6fefbe198b36b03a"
+  },
+  {
+   "path": "pregame-handball-bg.jpg",
+   "url": "https://cdnjunction.com/Websites_MS/images/sports/pregame-handball-bg.jpg?v=57.587",
+   "role": "resource",
+   "token": "809f0d106e58b9a1f9fab8bdc3ec269b8f12d721"
+  },
+  {
+   "path": "pregame-icehockey-bg.jpg",
+   "url": "https://cdnjunction.com/Websites_MS/images/sports/pregame-icehockey-bg.jpg?v=57.587",
+   "role": "resource",
+   "token": "fedaf23f2173bf30d149fd0d37fe0d1ab30faa3a"
+  },
+  {
+   "path": "pregame-rugby-bg.jpg",
+   "url": "https://cdnjunction.com/Websites_MS/images/sports/pregame-rugby-bg.jpg?v=57.587",
+   "role": "resource",
+   "token": "063274b99fa82454fdaab3102149c5a4d39187d2"
+  },
+  {
+   "path": "pregame-snooker-bg.jpg",
+   "url": "https://cdnjunction.com/Websites_MS/images/sports/pregame-snooker-bg.jpg?v=57.587",
+   "role": "resource",
+   "token": "4654412518853eb39ceb7591193c655c512b4237"
+  },
+  {
+   "path": "pregame-futsal-bg.jpg",
+   "url": "https://cdnjunction.com/Websites_MS/images/sports/pregame-futsal-bg.jpg?v=57.587",
+   "role": "resource",
+   "token": "6bdca3477b9638c19bba9a4f2bce3fe7cbcee7c9"
+  },
+  {
+   "path": "pregame-dart-bg.jpg",
+   "url": "https://cdnjunction.com/Websites_MS/images/sports/pregame-dart-bg.jpg?v=57.587",
+   "role": "resource",
+   "token": "619677a7a03bec2e7b2b8fe683609bd301ac6973"
+  },
+  {
+   "path": "pregame-esports-bg.jpg",
+   "url": "https://cdnjunction.com/Websites_MS/images/sports/pregame-esports-bg.jpg?v=57.587",
+   "role": "resource",
+   "token": "ac9d7fdb432e1e6db352449069f82c5df2242d5d"
+  },
+  {
+   "path": "pregame-beachvolleyball-bg.jpg",
+   "url": "https://cdnjunction.com/Websites_MS/images/sports/pregame-beachvolleyball-bg.jpg?v=57.587",
+   "role": "resource",
+   "token": "4214229b85ce3f0f00dd87d7295197cd4b946cc1"
+  },
+  {
+   "path": "pregame-boxing-bg.jpg",
+   "url": "https://cdnjunction.com/Websites_MS/images/sports/pregame-boxing-bg.jpg?v=57.587",
+   "role": "resource",
+   "token": "291e5c7f64782c2ed3018191dbd83b44fae0bf75"
+  },
+  {
+   "path": "pregame-golf-bg.jpg",
+   "url": "https://cdnjunction.com/Websites_MS/images/sports/pregame-golf-bg.jpg?v=57.587",
+   "role": "resource",
+   "token": "f42428bbc6fc7f86d92ca97afb60ae50f8e9902d"
+  },
+  {
+   "path": "pregame-counterstrike-bg.jpg",
+   "url": "https://cdnjunction.com/Websites_MS/images/sports/pregame-counterstrike-bg.jpg?v=57.587",
+   "role": "resource",
+   "token": "be2fcb9e2fddb3c43f116cee5c6c70fcc651254c"
+  },
+  {
+   "path": "pregame-cricket-bg.jpg",
+   "url": "https://cdnjunction.com/Websites_MS/images/sports/pregame-cricket-bg.jpg?v=57.587",
+   "role": "resource",
+   "token": "b40b17f45eb98fe39cb69078a749f523bf7fe31f"
+  },
+  {
+   "path": "pregame-american-football-bg.jpg",
+   "url": "https://cdnjunction.com/Websites_MS/images/sports/pregame-american-football-bg.jpg?v=57.587",
+   "role": "resource",
+   "token": "27aefb0ff53e629a87b9ac6542aa20e21eb002fa"
+  },
+  {
+   "path": "pregame-horse-racing-bg.jpg",
+   "url": "https://cdnjunction.com/Websites_MS/images/sports/pregame-horse-racing-bg.jpg?v=57.587",
+   "role": "resource",
+   "token": "9b0f89c8697c2152d75e4bae68763165380d067a"
+  },
+  {
+   "path": "pregame-mma-bg.jpg",
+   "url": "https://cdnjunction.com/Websites_MS/images/sports/pregame-mma-bg.jpg?v=57.587",
+   "role": "resource",
+   "token": "288b027d181ec02029b417be83d4e15a5a942913"
+  },
+  {
+   "path": "pregame-wintersports-bg.jpg",
+   "url": "https://cdnjunction.com/Websites_MS/images/sports/pregame-wintersports-bg.jpg?v=57.587",
+   "role": "resource",
+   "token": "568b9a19c6714c66b912fe6300d354c3db59bbd1"
+  },
+  {
+   "path": "pregame-cycling-bg.jpg",
+   "url": "https://cdnjunction.com/Websites_MS/images/sports/pregame-cycling-bg.jpg?v=57.587",
+   "role": "resource",
+   "token": "f015f6d12f40fae1a47e36f3ed205ca19f1fe599"
+  },
+  {
+   "path": "pregame-motorsports-bg.jpg",
+   "url": "https://cdnjunction.com/Websites_MS/images/sports/pregame-motorsports-bg.jpg?v=57.587",
+   "role": "resource",
+   "token": "7d0400d7816e8dc3c0244a241f80191277832ff5"
+  },
+  {
+   "path": "soccer-field.png",
+   "url": "https://cdnjunction.com/Websites_MS/images/sports/soccer-field.png?v=57.587",
+   "role": "resource",
+   "token": "7325e47e79f35c6248721b1c50f2ca28e7cd765a"
+  },
+  {
+   "path": "basketball-field.png",
+   "url": "https://cdnjunction.com/Websites_MS/images/sports/basketball-field.png?v=57.587",
+   "role": "resource",
+   "token": "e46a2457699681a86426fd78c4bd00d8dd540158"
+  },
+  {
+   "path": "tennis-field.png",
+   "url": "https://cdnjunction.com/Websites_MS/images/sports/tennis-field.png?v=57.587",
+   "role": "resource",
+   "token": "aa6e0eed8e7426e7b6b9182f35609a5365655196"
+  },
+  {
+   "path": "volleyball-field.png",
+   "url": "https://cdnjunction.com/Websites_MS/images/sports/volleyball-field.png?v=57.587",
+   "role": "resource",
+   "token": "cbe35eab5726478edb981c033c0ad4050615b4b0"
+  },
+  {
+   "path": "icehockey-field.png",
+   "url": "https://cdnjunction.com/Websites_MS/images/sports/icehockey-field.png?v=57.587",
+   "role": "resource",
+   "token": "28c79618d687e979ba2d8b517e753a0bbc2ae0fa"
+  },
+  {
+   "path": "tournament-background.webp",
+   "url": "https://cdnjunction.com/Websites_MS/images/tournament/tournament-background.webp?v=57.587",
+   "role": "resource",
+   "token": "84b0355df855dd1d736be98546aac163c579af5a"
+  },
+  {
+   "path": "winner-icon.webp",
+   "url": "https://cdnjunction.com/Websites_MS/images/winner-icon.webp?v=57.587",
+   "role": "resource",
+   "token": "9b6dea7c3083cced10958add19ec8dd8991f25f0"
+  },
+  {
+   "path": "live-stream.png",
+   "url": "https://cdnjunction.com/Websites_MS/images/sports/live-stream.png?v=57.587",
+   "role": "resource",
+   "token": "db64daf6da80091915e23608ff8d96238a55ae66"
+  },
+  {
+   "path": "icon_bonus.gif",
+   "url": "https://cdnjunction.com/Websites_MS/images/icon_bonus.gif?v=57.587",
+   "role": "resource",
+   "token": "3b6f2c7e2391bb710af3ff8f54e8e1cb82b1f3eb"
+  },
+  {
+   "path": "cup-gray.svg",
+   "url": "https://cdnjunction.com/Websites_MS/images/cup-gray.svg?v=57.587",
+   "role": "resource",
+   "token": "919029ca770d02840508134ee7182fdb219802d5"
+  },
+  {
+   "path": "cup-main.svg",
+   "url": "https://cdnjunction.com/Websites_MS/images/cup-main.svg?v=57.587",
+   "role": "resource",
+   "token": "e5c088a3fa3c2054a0c5ea3ff856094a1f842ea3"
+  },
+  {
+   "path": "celebration.gif",
+   "url": "https://cdnjunction.com/Websites_MS/images/celebration.gif?v=57.587",
+   "role": "resource",
+   "token": "5a11271be7c075cde91ae8ee14490795f22e907a"
+  },
+  {
+   "path": "777.svg",
+   "url": "https://cdnjunction.com/Websites_MS/images/777.svg?v=57.587",
+   "role": "resource",
+   "token": "b948adf735124fc73476c122dac3b6cda79d0e5c"
+  },
+  {
+   "path": "default-slot-game.webp",
+   "url": "https://cdnjunction.com/Websites_MS/images/default-slot-game.webp?v=57.587",
+   "role": "resource",
+   "token": "c9bfb43514019023416d6cbc7eebc652db9f57ed"
+  },
+  {
+   "path": "default-casinolive-game.webp",
+   "url": "https://cdnjunction.com/Websites_MS/images/default-casinolive-game.webp?v=57.587",
+   "role": "resource",
+   "token": "326b562920a239d2c63d17843c40c6edf04eeb4d"
+  },
+  {
+   "path": "default-virtual-game.webp",
+   "url": "https://cdnjunction.com/Websites_MS/images/default-virtual-game.webp?v=57.587",
+   "role": "resource",
+   "token": "211b6448e08b2291bec8e72b5a91ef1819fa30ca"
+  },
+  {
+   "path": "mile-banner.webp",
+   "url": "https://cdnjunction.com/Websites_MS/images/mile-banner.webp?v=57.587",
+   "role": "resource",
+   "token": "5e6c618d5e8d174e368a4f899a9506292f266fc5"
+  },
+  {
+   "path": "flags.webp",
+   "url": "https://cdnjunction.com/Websites_MS/images/flags.webp?v=57.587",
+   "role": "resource",
+   "token": "65df47e67090f3221c33b9b61cf11dd20fa77e6b"
+  },
+  {
+   "path": "payment-spirit.webp",
+   "url": "https://cdnjunction.com/Websites_MS/images/payment-spirit.webp?v=57.587",
+   "role": "resource",
+   "token": "156230e4db2e6f50aba78367dec21c652ac5b8b8"
+  },
+  {
+   "path": "advice-bg.webp",
+   "url": "https://cdnjunction.com/Websites_MS/images/advice-bg.webp?v=57.587",
+   "role": "resource",
+   "token": "f3c6af72cede905a7ffb644f895888b380b8cbb4"
+  },
+  {
+   "path": "advice-circle.svg",
+   "url": "https://cdnjunction.com/Websites_MS/images/advice-circle.svg?v=57.587",
+   "role": "resource",
+   "token": "17b981f6d2ef1f7762458cfeab89ef831a896793"
+  },
+  {
+   "path": "login-cup.svg",
+   "url": "https://cdnjunction.com/Websites_MS/images/login-cup.svg?v=57.587",
+   "role": "resource",
+   "token": "102912d3fdbd8cde35d78893ad363d8e5f389b59"
+  },
+  {
+   "path": "default-slot-game-light.webp",
+   "url": "https://cdnjunction.com/Websites_MS/images/default-slot-game-light.webp?v=57.587",
+   "role": "resource",
+   "token": "24ac9cd7a994b95a5b8ebdc218cba37ab0883b6d"
+  },
+  {
+   "path": "default-casinolive-game-light.webp",
+   "url": "https://cdnjunction.com/Websites_MS/images/default-casinolive-game-light.webp?v=57.587",
+   "role": "resource",
+   "token": "fe0aa430ad8452a85cc276ba75e4dd77aeac5229"
+  },
+  {
+   "path": "default-virtual-game-light.webp",
+   "url": "https://cdnjunction.com/Websites_MS/images/default-virtual-game-light.webp?v=57.587",
+   "role": "resource",
+   "token": "3b170b668a7d4f3a2af014b951b47180f90b7cbf"
+  },
+  {
+   "path": "mile-banner-rtl.webp",
+   "url": "https://cdnjunction.com/Websites_MS/images/mile-banner-rtl.webp?v=57.587",
+   "role": "resource",
+   "token": "0ddb3a2cc4918014baadd3fba7fd21a0601ef19b"
+  },
+  {
+   "path": "arrowLSel.webp",
+   "url": "https://cdnjunction.com/Websites_MS/images/arrowLSel.webp?v=57.587",
+   "role": "resource",
+   "token": "3029d5a942b39bd3d301ee834550186df608d662"
+  },
+  {
+   "path": "arrowRSel.webp",
+   "url": "https://cdnjunction.com/Websites_MS/images/arrowRSel.webp?v=57.587",
+   "role": "resource",
+   "token": "395b846550ce4f748ee41b796814429fcd59008e"
+  },
+  {
+   "path": "popular-leagues-bg.png",
+   "url": "https://cdnjunction.com/Websites_MS/images/popular-leagues-bg.png?v=57.587",
+   "role": "resource",
+   "token": "be878a5e3d7fff5e3cb39cc35b7b45a4838ec3e1"
+  },
+  {
+   "path": "promotion-banner.webp",
+   "url": "/assets/images/promotion-banner.webp",
+   "role": "resource",
+   "token": "e36a48ad53e7f9e04df292e3d799227c3fd72b9b"
+  },
+  {
+   "path": "promotion-banner-light.webp",
+   "url": "/assets/images/promotion-banner-light.webp",
+   "role": "resource",
+   "token": "ec6bca3b540de521cd6ac7880b918195fdcd9c2c"
+  },
+  {
+   "path": "league-icon-star.webp",
+   "url": "/assets/images/dashboard/league/league-icon-star.webp",
+   "role": "resource",
+   "token": "894b6d6c0746c3ce0bd2035751ed994256749931"
+  },
+  {
+   "path": "euroleague-logo.webp",
+   "url": "/assets/images/dashboard/league/euroleague-logo.webp",
+   "role": "resource",
+   "token": "e82168a2a93304acb5719bd5a748802bae8587f6"
+  },
+  {
+   "path": "ligue1_logo.webp",
+   "url": "/assets/images/dashboard/league/ligue1_logo.webp",
+   "role": "resource",
+   "token": "45114bcb4979bdb52d7fcacd00b5104a5dbebec3"
+  },
+  {
+   "path": "bundesliga-logo.webp",
+   "url": "/assets/images/dashboard/league/bundesliga-logo.webp",
+   "role": "resource",
+   "token": "de8774ebfd8d128ab819460e65f89b85f00e1bc1"
+  },
+  {
+   "path": "champions-league-logo.webp",
+   "url": "/assets/images/dashboard/league/champions-league-logo.webp",
+   "role": "resource",
+   "token": "57a977872afa5ad07bb576b03cb881eaaf1eb251"
+  },
+  {
+   "path": "europa-league-logo.webp",
+   "url": "/assets/images/dashboard/league/europa-league-logo.webp",
+   "role": "resource",
+   "token": "b905706f1ae86276b6bf190f6a6779b4a8d211eb"
+  },
+  {
+   "path": "premier-league-logo.webp",
+   "url": "/assets/images/dashboard/league/premier-league-logo.webp",
+   "role": "resource",
+   "token": "5dc660430fe4b7e2716245054d416d32f42515cb"
+  },
+  {
+   "path": "uefaeuropaconferenceleague-logo.webp",
+   "url": "/assets/images/dashboard/league/uefaeuropaconferenceleague-logo.webp",
+   "role": "resource",
+   "token": "b10de7c6ab7fe9fc9298b65551efc027cb02920d"
+  },
+  {
+   "path": "nba-logo.webp",
+   "url": "/assets/images/dashboard/league/nba-logo.webp",
+   "role": "resource",
+   "token": "c3605bce3df47b9bbf3984fb97e3206fcc587c77"
+  },
+  {
+   "path": "super-Lig-logo.webp",
+   "url": "/assets/images/dashboard/league/super-Lig-logo.webp",
+   "role": "resource",
+   "token": "7ddc922298704c92dbeb7d2a736a6d5a324f8611"
+  },
+  {
+   "path": "serie-a-logo.webp",
+   "url": "/assets/images/dashboard/league/serie-a-logo.webp",
+   "role": "resource",
+   "token": "64ab182cf806f6238e2a4d409e2df4ac8631487d"
+  },
+  {
+   "path": "laliga-logo.webp",
+   "url": "/assets/images/dashboard/league/laliga-logo.webp",
+   "role": "resource",
+   "token": "3d2ad97c22769577528d911309d002e21215dfc3"
+  },
+  {
+   "path": "logo.png",
+   "url": "/assets/images/logos/logo.png",
+   "role": "resource",
+   "token": "bbbfd87773cd6ec7dbab6658cc6674b485a7d5d4"
+  },
+  {
+   "path": "logo-black.png",
+   "url": "/assets/images/logos/logo-black.png",
+   "role": "resource",
+   "token": "12e8fdfdd2105091bf226d251e08064cd9bcc32b"
+  },
+  {
+   "path": "favicon.svg",
+   "url": "/assets/images/logos/favicons/favicon.svg",
+   "role": "resource",
+   "token": "183a0ace970c2ed04c584242e0e2e4781457fca3"
+  },
+  {
+   "path": "header-bg-image.svg",
+   "url": "/assets/images/header-bg-image.svg",
+   "role": "resource",
+   "token": "a9903089eded70f34074f91d2273c6a81f510fc0"
+  },
+  {
+   "path": "login-bg.webp",
+   "url": "/assets/images/login-bg.webp",
+   "role": "resource",
+   "token": "91eff404063cb18dbaf2e887de008470ae19df4e"
+  },
+  {
+   "path": "login-auth-img.webp",
+   "url": "/assets/images/login-auth-img.webp",
+   "role": "resource",
+   "token": "15006238a832333e13f3410ce8a98e877986f876"
+  },
+  {
+   "path": "register-auth-img.webp",
+   "url": "/assets/images/register-auth-img.webp",
+   "role": "resource",
+   "token": "cc0e82a2394cfb6f5ec1a63116b5181fc2f10304"
+  },
+  {
+   "path": "cashout.svg",
+   "url": "/assets/images/cashout.svg",
+   "role": "resource",
+   "token": "1207c141c1d68f764c4f76b58dde61c8eccc6e34"
+  },
+  {
+   "path": "cashout-white.svg",
+   "url": "/assets/images/cashout-white.svg",
+   "role": "resource",
+   "token": "bda98cb5e78f2d990ff4d9beb7d0ebab3ca6fae0"
+  },
+  {
+   "path": "cup-winner.svg",
+   "url": "/assets/images/cup-winner.svg",
+   "role": "resource",
+   "token": "122718ef34b5c8bdcf01ea11d4f1bb93fc3edf53"
+  },
+  {
+   "path": "product-common-bg.png",
+   "url": "/assets/images/dashboard/product-common-bg.png",
+   "role": "resource",
+   "token": "68b4f0c72a99980bbccb3252e0795bf1670f4802"
+  },
+  {
+   "path": "product-active.svg",
+   "url": "/assets/images/dashboard/product-active.svg",
+   "role": "resource",
+   "token": "c068a0e150f6f10afa8a672907dd2d275da81ae3"
+  },
+  {
+   "path": "product-active-light.svg",
+   "url": "/assets/images/dashboard/product-active-light.svg",
+   "role": "resource",
+   "token": "8ccd57a97f11e7a4955a5551fc682139f3c6c5df"
+  },
+  {
+   "path": "m-point-system-banner.webp",
+   "url": "/assets/images/m-point-system-banner.webp",
+   "role": "resource",
+   "token": "5517682c12f3fb19fc0e4b4bc0585f45dde79a84"
+  },
+  {
+   "path": "point-system-banner.webp",
+   "url": "/assets/images/point-system-banner.webp",
+   "role": "resource",
+   "token": "a3a6ce11c16870ebc657687b2f1f00532fe4130c"
+  },
+  {
+   "path": "logo-small.svg",
+   "url": "/assets/images/logos/logo-small.svg",
+   "role": "resource",
+   "token": "3dee4be296fea3dda74f98bac02f5c8a741aeb7d"
+  },
+  {
+   "path": "039a008f63183e73cf6d335124fac5dce4332ac9.svg",
+   "role": "resource",
+   "token": "05552699e8b17ce0d1f12820918af981bf0e25cc"
+  },
+  {
+   "path": "0c1851d7270e83fea20c8664ad382f5c0291d460.svg",
+   "role": "resource",
+   "token": "0139ce0ba6883bd0310903b96f4a53c65722312a"
+  },
+  {
+   "path": "1f8dbb9f8c48f12b49ec1953fb0f6aaa3674af63.svg",
+   "role": "resource",
+   "token": "f8ee23a7fd8173aec5a5c1aac62018be95d4f52c"
+  },
+  {
+   "path": "32d7d53565af90c8875f876704f5b41211193b0e.svg",
+   "role": "resource",
+   "token": "e48219f25b71e6b3df78cea6e772a655a2f60ebe"
+  },
+  {
+   "path": "f8c429cf887fabe3c64c742aa2e205c6dcad17d9.svg",
+   "role": "resource",
+   "token": "5b1fb62725f32f4e64064ed456ada379ccaec4ec"
+  },
+  {
+   "path": "casino.css",
+   "url": "/assets/css/casino.css",
+   "role": "css-utf-8",
+   "token": "6289aa7a3580c7b68eeeb319b18d6de0618f1e09"
+  },
+  {
+   "path": "custom.css",
+   "url": "/assets/css/custom.css",
+   "role": "css-utf-8",
+   "token": "de83aee558fdc1facfb280d24cdc07d46361562d"
+  },
+  {
+   "path": "sportxl.css",
+   "url": "/assets/css/sportxl.css",
+   "role": "css-utf-8",
+   "token": "035b2364f775a29338a90772c5baf40a3ba555dc"
+  },
+  {
+   "path": "61852b9f5138ec55b5b326df7f4a389222969812.svg",
+   "role": "resource",
+   "token": "d99f58de91f63532577eacc492167489f94fd0fb"
+  },
+  {
+   "path": "888e65e8c0838158b1d3d77f61556770559a4de7.svg",
+   "role": "resource",
+   "token": "040106eca05e526a82e600b688b54c493cd20267"
+  },
+  {
+   "path": "fa-brands-400.eot",
+   "url": "/assets/css/media/fa-brands-400.eot",
+   "role": "resource",
+   "token": "2aa019d48807d66d5b261148c444640f1354cdf5"
+  },
+  {
+   "path": "fa-brands-400.woff2",
+   "url": "/assets/css/media/fa-brands-400.woff2",
+   "role": "resource",
+   "token": "997595378656db5a1bd2e16e00fc7b9c395f9aa1"
+  },
+  {
+   "path": "bootstrapper.min.js",
+   "url": "https://sport.dggloble.com/js/partner/bootstrapper.min.js",
+   "role": "resource",
+   "token": "3055968d61e99b944f97cd4182b976e3298698bb"
+  },
+  {
+   "path": "fa-brands-400.woff",
+   "url": "/assets/css/media/fa-brands-400.woff",
+   "role": "resource",
+   "token": "ff1939072f6a3cfcd73e5958b4cfbacd08e6b321"
+  },
+  {
+   "path": "fa-brands-400.ttf",
+   "url": "/assets/css/media/fa-brands-400.ttf",
+   "role": "resource",
+   "token": "2c38325b962e61ff5d0e42ca0efd75486593a489"
+  },
+  {
+   "path": "fa-regular-400.eot",
+   "url": "/assets/css/media/fa-regular-400.eot",
+   "role": "resource",
+   "token": "111e493104dd315ce68969e0f11d3da975cd9c79"
+  },
+  {
+   "path": "fa-brands-400.svg",
+   "url": "/assets/css/media/fa-brands-400.svg",
+   "role": "resource",
+   "token": "d616563e56708193f9dfa28dc7d81ca75a328669"
+  },
+  {
+   "path": "fa-regular-400.woff2",
+   "url": "/assets/css/media/fa-regular-400.woff2",
+   "role": "resource",
+   "token": "07995af6e8e07a96c6e6ac97e906d6b170b54bb9"
+  },
+  {
+   "path": "fa-regular-400.woff",
+   "url": "/assets/css/media/fa-regular-400.woff",
+   "role": "resource",
+   "token": "2efa3f5af6b1c9734cd553f64de6eb6dcff46a60"
+  },
+  {
+   "path": "fa-regular-400.ttf",
+   "url": "/assets/css/media/fa-regular-400.ttf",
+   "role": "resource",
+   "token": "31860bc86dcdb9b46fc5fbe19becfe80a31e6739"
+  },
+  {
+   "path": "fa-solid-900.eot",
+   "url": "/assets/css/media/fa-solid-900.eot",
+   "role": "resource",
+   "token": "99a20bd99a4c5f485489cadc3f725ed0a573d899"
+  },
+  {
+   "path": "fa-regular-400.svg",
+   "url": "/assets/css/media/fa-regular-400.svg",
+   "role": "resource",
+   "token": "388300526743899574ddb9f0ed35695b148c106c"
+  },
+  {
+   "path": "fa-solid-900.woff2",
+   "url": "/assets/css/media/fa-solid-900.woff2",
+   "role": "resource",
+   "token": "550d4d72f0fae1df717dd45847af711770eafcb1"
+  },
+  {
+   "path": "fa-solid-900.woff",
+   "url": "/assets/css/media/fa-solid-900.woff",
+   "role": "resource",
+   "token": "57317b5c62d3cdc1fbfc14ebb93f54051c42203e"
+  },
+  {
+   "path": "fa-solid-900.ttf",
+   "url": "/assets/css/media/fa-solid-900.ttf",
+   "role": "resource",
+   "token": "809fcaf330fe8946b4be8186a0a527c8c582b1ea"
+  },
+  {
+   "path": "fa-solid-900.svg",
+   "url": "/assets/css/media/fa-solid-900.svg",
+   "role": "resource",
+   "token": "c37b4c596dc5e4455485920126740c7f2e5dc9a7"
+  },
+  {
+   "path": "Nunito-Regular.woff2",
+   "url": "/assets/css/media/Nunito-Regular.woff2",
+   "role": "resource",
+   "token": "a819c5132fe1884a455af130dc6ddcdda439ebeb"
+  },
+  {
+   "path": "Nunito-Regular.woff",
+   "url": "/assets/css/media/Nunito-Regular.woff",
+   "role": "resource",
+   "token": "35eb0c50017801ff8d12f977fffcbd8bc0dbcb59"
+  },
+  {
+   "path": "Nunito-Medium.woff2",
+   "url": "/assets/css/media/Nunito-Medium.woff2",
+   "role": "resource",
+   "token": "9f33770d7ba177221769ff75ffe389742d578f63"
+  },
+  {
+   "path": "Nunito-Medium.woff",
+   "url": "/assets/css/media/Nunito-Medium.woff",
+   "role": "resource",
+   "token": "2ce25b0740e1ebc2d56ea1b6d94491d779653d2c"
+  },
+  {
+   "path": "Nunito-SemiBold.woff2",
+   "url": "/assets/css/media/Nunito-SemiBold.woff2",
+   "role": "resource",
+   "token": "ff463bfcc6a12205182b5a8a9da3582da1275449"
+  },
+  {
+   "path": "Nunito-SemiBold.woff",
+   "url": "/assets/css/media/Nunito-SemiBold.woff",
+   "role": "resource",
+   "token": "81963b50296e0938aaa59640f5f9d74e63c09f57"
+  },
+  {
+   "path": "Nunito-Bold.woff2",
+   "url": "/assets/css/media/Nunito-Bold.woff2",
+   "role": "resource",
+   "token": "e53f926cf8e045bfd49166ec017a94e901dcea5a"
+  },
+  {
+   "path": "Nunito-Bold.woff",
+   "url": "/assets/css/media/Nunito-Bold.woff",
+   "role": "resource",
+   "token": "aea6c0a256c8b000fc7626b8b277ea535e746a3a"
+  },
+  {
+   "path": "Tourney-Medium.woff2",
+   "url": "/assets/css/media/Tourney-Medium.woff2",
+   "role": "resource",
+   "token": "d2d157914f9802401c2c5a1ffa2c622bf01cf4ac"
+  },
+  {
+   "path": "Tourney-Medium.woff",
+   "url": "/assets/css/media/Tourney-Medium.woff",
+   "role": "resource",
+   "token": "528ffb3e1f0f9278e6b2f33f051724a016e95dc0"
+  },
+  {
+   "path": "Tourney-Regular.woff2",
+   "url": "/assets/css/media/Tourney-Regular.woff2",
+   "role": "resource",
+   "token": "51dbbf08fcfd86e55f1a03a3c9af02511544a496"
+  },
+  {
+   "path": "BankGothicBT-Medium.woff2",
+   "url": "/assets/css/media/BankGothicBT-Medium.woff2",
+   "role": "resource",
+   "token": "04e8febca834b4a8d17dded1daa008bd30426e5b"
+  },
+  {
+   "path": "Tourney-Regular.woff",
+   "url": "/assets/css/media/Tourney-Regular.woff",
+   "role": "resource",
+   "token": "c238d4a54a98d8134ab0ec4c9d7ae82139df60f1"
+  },
+  {
+   "path": "BankGothicBT-Medium.woff",
+   "url": "/assets/css/media/BankGothicBT-Medium.woff",
+   "role": "resource",
+   "token": "88d9afdf972f61258c59a16c37cd76669c7318bf"
+  },
+  {
+   "path": "BankGothic-Regular.woff",
+   "url": "/assets/css/media/BankGothic-Regular.woff",
+   "role": "resource",
+   "token": "cfbd017146601371318a8e12ab5cb246b506741a"
+  },
+  {
+   "path": "BankGothicBT-Light.woff2",
+   "url": "/assets/css/media/BankGothicBT-Light.woff2",
+   "role": "resource",
+   "token": "638507ec477eed718bbd12de0703002d00110633"
+  },
+  {
+   "path": "BankGothicBT-Light.woff",
+   "url": "/assets/css/media/BankGothicBT-Light.woff",
+   "role": "resource",
+   "token": "888d9b1f5fa2a65f31bf9fe12dc77b50fe23d721"
+  },
+  {
+   "path": "BankGothicBold.woff2",
+   "url": "/assets/css/media/BankGothicBold.woff2",
+   "role": "resource",
+   "token": "bdf98091b13a73542bdd4a42e11265a7d4b83c8d"
+  },
+  {
+   "path": "BankGothicBold.woff",
+   "url": "/assets/css/media/BankGothicBold.woff",
+   "role": "resource",
+   "token": "d8ff009dfcf746ad466f6cafadd7233dd80cbde6"
+  },
+  {
+   "path": "AirIndia-Regular.woff2",
+   "url": "/assets/css/media/AirIndia-Regular.woff2",
+   "role": "resource",
+   "token": "16a8d526faa272a08750ee44b2355a9f3127a0a0"
+  },
+  {
+   "path": "AirIndia-Regular.woff",
+   "url": "/assets/css/media/AirIndia-Regular.woff",
+   "role": "resource",
+   "token": "99c0257d82572413df92d2f1bd6afb0591fed5c4"
+  },
+  {
+   "path": "CopperplateGothic-Bold.woff2",
+   "url": "/assets/css/media/CopperplateGothic-Bold.woff2",
+   "role": "resource",
+   "token": "c50dab61354512282266bafb123b88dbf7741fc7"
+  },
+  {
+   "path": "CopperplateGothic-Bold.woff",
+   "url": "/assets/css/media/CopperplateGothic-Bold.woff",
+   "role": "resource",
+   "token": "cb1019a7d96136c73a91fcbed84d0573707ae6fb"
+  },
+  {
+   "path": "Sora-Light.woff2",
+   "url": "/assets/css/media/Sora-Light.woff2",
+   "role": "resource",
+   "token": "0c644f64e4c37122c97a96f43db34eebb2c02b81"
+  },
+  {
+   "path": "Sora-Light.woff",
+   "url": "/assets/css/media/Sora-Light.woff",
+   "role": "resource",
+   "token": "b16821fd42ebf32792390492dc8165d98de21cee"
+  },
+  {
+   "path": "Sora-ExtraBold.woff2",
+   "url": "/assets/css/media/Sora-ExtraBold.woff2",
+   "role": "resource",
+   "token": "6912cecab5b213b51aa36bc12c7acf779dda1322"
+  },
+  {
+   "path": "Sora-ExtraBold.woff",
+   "url": "/assets/css/media/Sora-ExtraBold.woff",
+   "role": "resource",
+   "token": "6f52fb45c84c4f64ea6c7a2afe8dadd230be9465"
+  },
+  {
+   "path": "Sora-Thin.woff2",
+   "url": "/assets/css/media/Sora-Thin.woff2",
+   "role": "resource",
+   "token": "fbf5097e290cb0d523225b067cb366aed502d225"
+  },
+  {
+   "path": "Sora-Thin.woff",
+   "url": "/assets/css/media/Sora-Thin.woff",
+   "role": "resource",
+   "token": "562ba46bdc1f5d2ff80bdad4bcf87edf7f52cabe"
+  },
+  {
+   "path": "Sora-ExtraLight.woff2",
+   "url": "/assets/css/media/Sora-ExtraLight.woff2",
+   "role": "resource",
+   "token": "12e357144d469bd6e887e21b9a05670f001457af"
+  },
+  {
+   "path": "Sora-ExtraLight.woff",
+   "url": "/assets/css/media/Sora-ExtraLight.woff",
+   "role": "resource",
+   "token": "5b09e29afab2717d354a79730bca8cf44250800a"
+  },
+  {
+   "path": "Sora-Bold.woff2",
+   "url": "/assets/css/media/Sora-Bold.woff2",
+   "role": "resource",
+   "token": "9bb89f6b2403a954d53b62d5598a6ed4ee20415b"
+  },
+  {
+   "path": "Sora-Bold.woff",
+   "url": "/assets/css/media/Sora-Bold.woff",
+   "role": "resource",
+   "token": "5972365662a9cb0445597112797f008c5da43156"
+  },
+  {
+   "path": "Sora-Regular.woff2",
+   "url": "/assets/css/media/Sora-Regular.woff2",
+   "role": "resource",
+   "token": "083a2c4c0423b67ef3031f4e33816a53d35b409d"
+  },
+  {
+   "path": "Sora-Regular.woff",
+   "url": "/assets/css/media/Sora-Regular.woff",
+   "role": "resource",
+   "token": "83648206f72f162b382cb87932916f52aed44031"
+  },
+  {
+   "path": "Sora-SemiBold.woff2",
+   "url": "/assets/css/media/Sora-SemiBold.woff2",
+   "role": "resource",
+   "token": "5f913e8a86ec8b2381a01484a8ff89c512ff931d"
+  },
+  {
+   "path": "Sora-SemiBold.woff",
+   "url": "/assets/css/media/Sora-SemiBold.woff",
+   "role": "resource",
+   "token": "01ebb4097d23d405ab9393abbbd08c012e809ead"
+  },
+  {
+   "path": "Sora-Medium.woff2",
+   "url": "/assets/css/media/Sora-Medium.woff2",
+   "role": "resource",
+   "token": "1dd543a60b210481ee056cd9439f950ceffdaaba"
+  },
+  {
+   "path": "Sora-Medium.woff",
+   "url": "/assets/css/media/Sora-Medium.woff",
+   "role": "resource",
+   "token": "784ca11ef72c0c80cf1f2d09b2173f754b4ac17f"
+  },
+  {
+   "path": "Poppins-Bold.woff2",
+   "url": "/assets/css/media/Poppins-Bold.woff2",
+   "role": "resource",
+   "token": "f4086c825159bf84e3fdf72db95ad9f1d30b8698"
+  },
+  {
+   "path": "Poppins-Bold.woff",
+   "url": "/assets/css/media/Poppins-Bold.woff",
+   "role": "resource",
+   "token": "72e30825012c62863a40551016f67a5157468ab6"
+  },
+  {
+   "path": "Poppins-BoldItalic.woff2",
+   "url": "/assets/css/media/Poppins-BoldItalic.woff2",
+   "role": "resource",
+   "token": "db44242868da80633cc903105a582de0c7b4e3b0"
+  },
+  {
+   "path": "Poppins-BoldItalic.woff",
+   "url": "/assets/css/media/Poppins-BoldItalic.woff",
+   "role": "resource",
+   "token": "b638411ef275a4db6e5504fa8793e890d4673ab4"
+  },
+  {
+   "path": "Poppins-Black.woff2",
+   "url": "/assets/css/media/Poppins-Black.woff2",
+   "role": "resource",
+   "token": "6c5303a308409c3f4417eb5d40cac652747022ee"
+  },
+  {
+   "path": "Poppins-Black.woff",
+   "url": "/assets/css/media/Poppins-Black.woff",
+   "role": "resource",
+   "token": "c2f2a44d42cbd0b7e22dcc239abbfc174bd4e49a"
+  },
+  {
+   "path": "Poppins-ExtraBoldItalic.woff2",
+   "url": "/assets/css/media/Poppins-ExtraBoldItalic.woff2",
+   "role": "resource",
+   "token": "e4b13e72d5dad4d9d252f7b7288f6deefeb43cd8"
+  },
+  {
+   "path": "Poppins-ExtraBoldItalic.woff",
+   "url": "/assets/css/media/Poppins-ExtraBoldItalic.woff",
+   "role": "resource",
+   "token": "e36358a8d7a40e91532f5c2570f1270eb94bfe2d"
+  },
+  {
+   "path": "Poppins-BlackItalic.woff2",
+   "url": "/assets/css/media/Poppins-BlackItalic.woff2",
+   "role": "resource",
+   "token": "1fe7d6866ad9765e86e56d5342a9060683d04fb5"
+  },
+  {
+   "path": "Poppins-BlackItalic.woff",
+   "url": "/assets/css/media/Poppins-BlackItalic.woff",
+   "role": "resource",
+   "token": "ef9d25a615d3defcb5f4723eae4fe0b8b5aa7428"
+  },
+  {
+   "path": "Poppins-ExtraBold.woff2",
+   "url": "/assets/css/media/Poppins-ExtraBold.woff2",
+   "role": "resource",
+   "token": "2c10f53bb658113c51e71e617b0dc9f1a6bdffa5"
+  },
+  {
+   "path": "Poppins-MediumItalic.woff2",
+   "url": "/assets/css/media/Poppins-MediumItalic.woff2",
+   "role": "resource",
+   "token": "2fbb9f319668a76a5af3e6492f2a280a4ca12916"
+  },
+  {
+   "path": "Poppins-ExtraBold.woff",
+   "url": "/assets/css/media/Poppins-ExtraBold.woff",
+   "role": "resource",
+   "token": "7c09b704b619d9ed7fe99390e191df8bbf8592f8"
+  },
+  {
+   "path": "Poppins-MediumItalic.woff",
+   "url": "/assets/css/media/Poppins-MediumItalic.woff",
+   "role": "resource",
+   "token": "97c4a6b5029ff47c6ff1647f2646e1f65cf310bd"
+  },
+  {
+   "path": "Poppins-Light.woff2",
+   "url": "/assets/css/media/Poppins-Light.woff2",
+   "role": "resource",
+   "token": "c075213ea08c6740c9824306f7c836cc4bbed8a3"
+  },
+  {
+   "path": "Poppins-Light.woff",
+   "url": "/assets/css/media/Poppins-Light.woff",
+   "role": "resource",
+   "token": "3463a5d7fa2803a18ddc9ab0ac720473c470cdbf"
+  },
+  {
+   "path": "Poppins-Medium.woff2",
+   "url": "/assets/css/media/Poppins-Medium.woff2",
+   "role": "resource",
+   "token": "601b2fa75be3ab9372f4a74067ab8e610d63d7aa"
+  },
+  {
+   "path": "Poppins-Medium.woff",
+   "url": "/assets/css/media/Poppins-Medium.woff",
+   "role": "resource",
+   "token": "a6c850092c1e11a085c44873d7c39a16de593c0a"
+  },
+  {
+   "path": "Poppins-ExtraLightItalic.woff2",
+   "url": "/assets/css/media/Poppins-ExtraLightItalic.woff2",
+   "role": "resource",
+   "token": "e60028f4708affb31e7646dc7238b36f6eaede4d"
+  },
+  {
+   "path": "Poppins-ExtraLightItalic.woff",
+   "url": "/assets/css/media/Poppins-ExtraLightItalic.woff",
+   "role": "resource",
+   "token": "80b0c205e96a99535b70cd5587cec54f0df09be0"
+  },
+  {
+   "path": "Poppins-LightItalic.woff2",
+   "url": "/assets/css/media/Poppins-LightItalic.woff2",
+   "role": "resource",
+   "token": "e0cc793c71fcc8b733e0ee7a0485697a5e5a5d34"
+  },
+  {
+   "path": "Poppins-LightItalic.woff",
+   "url": "/assets/css/media/Poppins-LightItalic.woff",
+   "role": "resource",
+   "token": "6ea365107e18ef2e449078e76ead195c80d685cc"
+  },
+  {
+   "path": "Poppins-ExtraLight.woff2",
+   "url": "/assets/css/media/Poppins-ExtraLight.woff2",
+   "role": "resource",
+   "token": "d28cf681875a5c72c3868e8f9a664b9aa610e0a0"
+  },
+  {
+   "path": "Poppins-ExtraLight.woff",
+   "url": "/assets/css/media/Poppins-ExtraLight.woff",
+   "role": "resource",
+   "token": "ec164a72850bf765e0b89bcf7e0ef92b95662922"
+  },
+  {
+   "path": "Poppins-Italic.woff2",
+   "url": "/assets/css/media/Poppins-Italic.woff2",
+   "role": "resource",
+   "token": "f4e1075e552f214a6fa3cc82e9058440e7d10c52"
+  },
+  {
+   "path": "Poppins-Italic.woff",
+   "url": "/assets/css/media/Poppins-Italic.woff",
+   "role": "resource",
+   "token": "a947a0efb875179f1be3d129aa7c171742d34686"
+  },
+  {
+   "path": "Poppins-Thin.woff2",
+   "url": "/assets/css/media/Poppins-Thin.woff2",
+   "role": "resource",
+   "token": "1e07a3b9adc4630ec6be80b25bea0ef0aebb998f"
+  },
+  {
+   "path": "Poppins-Regular.woff2",
+   "url": "/assets/css/media/Poppins-Regular.woff2",
+   "role": "resource",
+   "token": "c7fe043e67c1d2bd6d6d28a11fdc532f4caf5705"
+  },
+  {
+   "path": "Poppins-Thin.woff",
+   "url": "/assets/css/media/Poppins-Thin.woff",
+   "role": "resource",
+   "token": "25d9fbc4c0972969e8417f8c9c8ad1362891a065"
+  },
+  {
+   "path": "Poppins-Regular.woff",
+   "url": "/assets/css/media/Poppins-Regular.woff",
+   "role": "resource",
+   "token": "ba5b2c2d6ff48101509adf6c7b8dfe81ae3b1616"
+  },
+  {
+   "path": "Poppins-SemiBoldItalic.woff2",
+   "url": "/assets/css/media/Poppins-SemiBoldItalic.woff2",
+   "role": "resource",
+   "token": "7e61c95239630b93e080b1c8ad5fc2caa1cc898a"
+  },
+  {
+   "path": "Poppins-SemiBoldItalic.woff",
+   "url": "/assets/css/media/Poppins-SemiBoldItalic.woff",
+   "role": "resource",
+   "token": "674c36fd5be598a547e8369a568e43a395f92a23"
+  },
+  {
+   "path": "Poppins-SemiBold.woff2",
+   "url": "/assets/css/media/Poppins-SemiBold.woff2",
+   "role": "resource",
+   "token": "029d928453331d215ff99753cf223d14ff0e46f1"
+  },
+  {
+   "path": "Poppins-SemiBold.woff",
+   "url": "/assets/css/media/Poppins-SemiBold.woff",
+   "role": "resource",
+   "token": "d5c3706929c74b22d867b0acc21ca4095402845e"
+  },
+  {
+   "path": "Poppins-ThinItalic.woff2",
+   "url": "/assets/css/media/Poppins-ThinItalic.woff2",
+   "role": "resource",
+   "token": "5fc808cb3e020f645957d41dbf83575e3191b407"
+  },
+  {
+   "path": "Poppins-ThinItalic.woff",
+   "url": "/assets/css/media/Poppins-ThinItalic.woff",
+   "role": "resource",
+   "token": "85753208cb2d2584f356c7feadef9d36d80aa17e"
+  },
+  {
+   "path": "icomoon.eot",
+   "url": "/assets/css/media/icomoon.eot",
+   "role": "resource",
+   "token": "30427a924fa176a535fdf548c7fa7ad36be241b7"
+  },
+  {
+   "path": "icomoon.ttf",
+   "url": "/assets/css/media/icomoon.ttf",
+   "role": "resource",
+   "token": "84dcfc682b2770daea147a38a99e691f7d9f5be5"
+  },
+  {
+   "path": "icomoon.woff",
+   "url": "/assets/css/media/icomoon.woff",
+   "role": "resource",
+   "token": "1578644e1bbbd204021d457a41275d6377c8e8cf"
+  },
+  {
+   "path": "icomoon.svg",
+   "url": "/assets/css/media/icomoon.svg",
+   "role": "resource",
+   "token": "4afd6d8f1d49f8bb4b628e0eb7809a077cc0df52"
+  },
+  {
+   "path": "icomoon-sport.eot",
+   "url": "/assets/css/media/icomoon-sport.eot",
+   "role": "resource",
+   "token": "e79f9306195a596f494a88a3eb1537fdc8751ca9"
+  },
+  {
+   "path": "icomoon-sport.ttf",
+   "url": "/assets/css/media/icomoon-sport.ttf",
+   "role": "resource",
+   "token": "c51b8bbdac1e9c418d2fb1643a229b50e89beb71"
+  },
+  {
+   "path": "icomoon-sport.woff",
+   "url": "/assets/css/media/icomoon-sport.woff",
+   "role": "resource",
+   "token": "a33dd29d3d8b0e6c9c0663944de53c1a1cdec9dd"
+  },
+  {
+   "path": "icomoon-sport.svg",
+   "url": "/assets/css/media/icomoon-sport.svg",
+   "role": "resource",
+   "token": "746603dfb8a13ed8c4d8ba98619729005df2321b"
+  },
+  {
+   "path": "svg-sport-icons.eot",
+   "url": "/assets/css/media/svg-sport-icons.eot",
+   "role": "resource",
+   "token": "62be0f412a037fbf869159b7c57ebaa5cd1f80af"
+  },
+  {
+   "path": "svg-sport-icons.ttf",
+   "url": "/assets/css/media/svg-sport-icons.ttf",
+   "role": "resource",
+   "token": "5fc4c98bf527be000bf93346254488b74d3d9b57"
+  },
+  {
+   "path": "svg-sport-icons.woff",
+   "url": "/assets/css/media/svg-sport-icons.woff",
+   "role": "resource",
+   "token": "af29a4fc57a2326472085363de83c6841a5eb0a6"
+  },
+  {
+   "path": "svg-sport-icons.svg",
+   "url": "/assets/css/media/svg-sport-icons.svg",
+   "role": "resource",
+   "token": "ee9dbcf39df5713702de919f65235d7bcc1e4737"
+  },
+  {
+   "path": "icomoon-sidebar.eot",
+   "url": "/assets/css/media/icomoon-sidebar.eot",
+   "role": "resource",
+   "token": "cb85e524be58201cdfc672a74ba24a1b5bc59f56"
+  },
+  {
+   "path": "icomoon-sidebar.ttf",
+   "url": "/assets/css/media/icomoon-sidebar.ttf",
+   "role": "resource",
+   "token": "333e75fa384ddc99fc0f68c116179f59b92696f8"
+  },
+  {
+   "path": "icomoon-sidebar.woff",
+   "url": "/assets/css/media/icomoon-sidebar.woff",
+   "role": "resource",
+   "token": "87daf5e20ded7a3bdccbc54de6e927687e6c8b72"
+  },
+  {
+   "path": "icomoon-sidebar.svg",
+   "url": "/assets/css/media/icomoon-sidebar.svg",
+   "role": "resource",
+   "token": "73733a9a9e590e161d23aa6c654a24c39e222de1"
+  },
+  {
+   "path": "sidebar-new.eot",
+   "url": "/assets/css/media/sidebar-new.eot",
+   "role": "resource",
+   "token": "84947cace85acb68faf2fc44175e70e834b45851"
+  },
+  {
+   "path": "sidebar-new.ttf",
+   "url": "/assets/css/media/sidebar-new.ttf",
+   "role": "resource",
+   "token": "293e8750e6163ecf9864733d55dbf32d51dbe922"
+  },
+  {
+   "path": "sidebar-new.woff",
+   "url": "/assets/css/media/sidebar-new.woff",
+   "role": "resource",
+   "token": "1c8809d5620e3529922d97def8bb0253e4ca888a"
+  },
+  {
+   "path": "sidebar-new.svg",
+   "url": "/assets/css/media/sidebar-new.svg",
+   "role": "resource",
+   "token": "eda5574677f1f085d8563322f4cffd30cca6cf88"
+  },
+  {
+   "path": "sport-icons.eot",
+   "url": "/assets/css/media/sport-icons.eot",
+   "role": "resource",
+   "token": "2fb70be79581315d2aafcfc88b50102de248aa90"
+  },
+  {
+   "path": "sport-icons.ttf",
+   "url": "/assets/css/media/sport-icons.ttf",
+   "role": "resource",
+   "token": "2eb829158a426355a0b95b570471374c3c18c071"
+  },
+  {
+   "path": "sport-icons.woff",
+   "url": "/assets/css/media/sport-icons.woff",
+   "role": "resource",
+   "token": "39e459b8e56100efc6837ce7bf36d16635f99647"
+  },
+  {
+   "path": "sport-icons.svg",
+   "url": "/assets/css/media/sport-icons.svg",
+   "role": "resource",
+   "token": "6cf71b502e648e21c2b1b9a7ec7a06027811c092"
+  },
+  {
+   "path": "f08e4fb9d5eae1a142665308d335ad574b28ea46.png",
+   "role": "resource",
+   "token": "46cef4d85fc9aeb5475b7e839f8164f5264e6e1c"
+  },
+  {
+   "path": "f9488442f819db2211cf2e4d01ffd4eb100e995f.svg",
+   "role": "resource",
+   "token": "fd6521fa4830388d0a67e32a397d3cd4f14f6d81"
+  },
+  {
+   "path": "LDI2apCSOBg7S-QT7pasEfOqeef2kg.woff2",
+   "url": "https://fonts.gstatic.com/s/rajdhani/v17/LDI2apCSOBg7S-QT7pasEfOqeef2kg.woff2",
+   "role": "resource",
+   "token": "dba8381b567732931e2321d207d550963dbf4262"
+  },
+  {
+   "path": "LDI2apCSOBg7S-QT7pasEfOleef2kg.woff2",
+   "url": "https://fonts.gstatic.com/s/rajdhani/v17/LDI2apCSOBg7S-QT7pasEfOleef2kg.woff2",
+   "role": "resource",
+   "token": "5f3b9319fd415ba1a9afb2e25442ae205427443a"
+  },
+  {
+   "path": "LDI2apCSOBg7S-QT7pasEfOreec.woff2",
+   "url": "https://fonts.gstatic.com/s/rajdhani/v17/LDI2apCSOBg7S-QT7pasEfOreec.woff2",
+   "role": "resource",
+   "token": "f85f2b55a3cded83a231c8d05ef7f1556da835fa"
+  },
+  {
+   "path": "LDIxapCSOBg7S-QT7p4GM-aUWA.woff2",
+   "url": "https://fonts.gstatic.com/s/rajdhani/v17/LDIxapCSOBg7S-QT7p4GM-aUWA.woff2",
+   "role": "resource",
+   "token": "fb2079fc7b9a78dc9d53d005d55175667027fc15"
+  },
+  {
+   "path": "LDIxapCSOBg7S-QT7p4JM-aUWA.woff2",
+   "url": "https://fonts.gstatic.com/s/rajdhani/v17/LDIxapCSOBg7S-QT7p4JM-aUWA.woff2",
+   "role": "resource",
+   "token": "47514b83eb85341e56d6186340014b61b0e89d68"
+  },
+  {
+   "path": "LDIxapCSOBg7S-QT7p4HM-Y.woff2",
+   "url": "https://fonts.gstatic.com/s/rajdhani/v17/LDIxapCSOBg7S-QT7p4HM-Y.woff2",
+   "role": "resource",
+   "token": "e0ad7bb9bd86f993cacf72616f8726debf833ba8"
+  },
+  {
+   "path": "LDI2apCSOBg7S-QT7pb0EPOqeef2kg.woff2",
+   "url": "https://fonts.gstatic.com/s/rajdhani/v17/LDI2apCSOBg7S-QT7pb0EPOqeef2kg.woff2",
+   "role": "resource",
+   "token": "77fc33c71e848150a1a28e8d072ba3639bad9f62"
+  },
+  {
+   "path": "LDI2apCSOBg7S-QT7pb0EPOleef2kg.woff2",
+   "url": "https://fonts.gstatic.com/s/rajdhani/v17/LDI2apCSOBg7S-QT7pb0EPOleef2kg.woff2",
+   "role": "resource",
+   "token": "e5853dd1be8b3e1cd1aeb37c4fd2a844df2f90a0"
+  },
+  {
+   "path": "LDI2apCSOBg7S-QT7pb0EPOreec.woff2",
+   "url": "https://fonts.gstatic.com/s/rajdhani/v17/LDI2apCSOBg7S-QT7pb0EPOreec.woff2",
+   "role": "resource",
+   "token": "88440fc4afafcdcc85886052cca20794291de160"
+  },
+  {
+   "path": "LDI2apCSOBg7S-QT7pbYF_Oqeef2kg.woff2",
+   "url": "https://fonts.gstatic.com/s/rajdhani/v17/LDI2apCSOBg7S-QT7pbYF_Oqeef2kg.woff2",
+   "role": "resource",
+   "token": "101ebed268381c440c1397d6102945a0151b3b60"
+  },
+  {
+   "path": "LDI2apCSOBg7S-QT7pbYF_Oleef2kg.woff2",
+   "url": "https://fonts.gstatic.com/s/rajdhani/v17/LDI2apCSOBg7S-QT7pbYF_Oleef2kg.woff2",
+   "role": "resource",
+   "token": "2939b37a0adbac7c4ed59cec8a25ef18940b871f"
+  },
+  {
+   "path": "LDI2apCSOBg7S-QT7pbYF_Oreec.woff2",
+   "url": "https://fonts.gstatic.com/s/rajdhani/v17/LDI2apCSOBg7S-QT7pbYF_Oreec.woff2",
+   "role": "resource",
+   "token": "42d5dab140017f7c400e04a3e2261b18d0472562"
+  },
+  {
+   "path": "LDI2apCSOBg7S-QT7pa8FvOqeef2kg.woff2",
+   "url": "https://fonts.gstatic.com/s/rajdhani/v17/LDI2apCSOBg7S-QT7pa8FvOqeef2kg.woff2",
+   "role": "resource",
+   "token": "29e1a132ab2eb5fd49a1e5960b1bd01159eea2fc"
+  },
+  {
+   "path": "LDI2apCSOBg7S-QT7pa8FvOleef2kg.woff2",
+   "url": "https://fonts.gstatic.com/s/rajdhani/v17/LDI2apCSOBg7S-QT7pa8FvOleef2kg.woff2",
+   "role": "resource",
+   "token": "ff047bf1c033bd2e7b7ce59c54c579a120fb759b"
+  },
+  {
+   "path": "LDI2apCSOBg7S-QT7pa8FvOreec.woff2",
+   "url": "https://fonts.gstatic.com/s/rajdhani/v17/LDI2apCSOBg7S-QT7pa8FvOreec.woff2",
+   "role": "resource",
+   "token": "d0dd7216f6c61dc81dff3a7148922132d944df5b"
+  },
+  {
+   "path": "ieVl2ZhZI2eCN5jzbjEETS9weq8-19-7DRs5.woff2",
+   "url": "https://fonts.gstatic.com/s/robotocondensed/v31/ieVl2ZhZI2eCN5jzbjEETS9weq8-19-7DRs5.woff2",
+   "role": "resource",
+   "token": "cc61535f2771f4eb8308d922039262cc05503a8a"
+  },
+  {
+   "path": "ieVl2ZhZI2eCN5jzbjEETS9weq8-19a7DRs5.woff2",
+   "url": "https://fonts.gstatic.com/s/robotocondensed/v31/ieVl2ZhZI2eCN5jzbjEETS9weq8-19a7DRs5.woff2",
+   "role": "resource",
+   "token": "972e339570e38d9a9b3a623588de100a6dc078b3"
+  },
+  {
+   "path": "ieVl2ZhZI2eCN5jzbjEETS9weq8-1967DRs5.woff2",
+   "url": "https://fonts.gstatic.com/s/robotocondensed/v31/ieVl2ZhZI2eCN5jzbjEETS9weq8-1967DRs5.woff2",
+   "role": "resource",
+   "token": "c58e7f9d05619041c702ff55a22d0e02e6794938"
+  },
+  {
+   "path": "ieVl2ZhZI2eCN5jzbjEETS9weq8-19G7DRs5.woff2",
+   "url": "https://fonts.gstatic.com/s/robotocondensed/v31/ieVl2ZhZI2eCN5jzbjEETS9weq8-19G7DRs5.woff2",
+   "role": "resource",
+   "token": "747b9830634a894853cd745e71f8487a0db07262"
+  },
+  {
+   "path": "ieVl2ZhZI2eCN5jzbjEETS9weq8-1927DRs5.woff2",
+   "url": "https://fonts.gstatic.com/s/robotocondensed/v31/ieVl2ZhZI2eCN5jzbjEETS9weq8-1927DRs5.woff2",
+   "role": "resource",
+   "token": "e378f2a0e548dbe940a939170eab4fc332255664"
+  },
+  {
+   "path": "ieVl2ZhZI2eCN5jzbjEETS9weq8-19y7DRs5.woff2",
+   "url": "https://fonts.gstatic.com/s/robotocondensed/v31/ieVl2ZhZI2eCN5jzbjEETS9weq8-19y7DRs5.woff2",
+   "role": "resource",
+   "token": "4ce65bc7332f419112e5dc21589af2789bba3b4c"
+  },
+  {
+   "path": "ieVl2ZhZI2eCN5jzbjEETS9weq8-19K7DQ.woff2",
+   "url": "https://fonts.gstatic.com/s/robotocondensed/v31/ieVl2ZhZI2eCN5jzbjEETS9weq8-19K7DQ.woff2",
+   "role": "resource",
+   "token": "1e9dfb99c48877bccf4c8e8da3631e496b0d3059"
+  },
+  {
+   "path": "5cdd8acf7bff6470cc58d5a6032ca769b9048485.svg",
+   "role": "resource",
+   "token": "c8c87fea8a638cb4fa8944429fff40adca94c739"
+  },
+  {
+   "path": "00f6f96abbe90f4775244c83a3db227fede97ae3.svg",
+   "role": "resource",
+   "token": "5355f5115326f609116e40ec3c9596a5d0ffb6d1"
+  },
+  {
+   "path": "e48f6137783b5d58492bcb1fb296842561f91464.svg",
+   "role": "resource",
+   "token": "520678e16effede2534a7c5fd393ed1e04a3c67d"
+  },
+  {
+   "path": "c7a5f6d52ccbdb8ae0d9ff67f69c11bc7656a82e.png",
+   "role": "resource",
+   "token": "b082422e789d0f261e31976f655a247466c9fd73"
+  },
+  {
+   "path": "f05a70f2a8c4ca1c02df8d599dc5f9d42ab1cd74.png",
+   "role": "resource",
+   "token": "48e4fb0d92a00a6f4c2d21ef9241a2efccc7fe00"
+  },
+  {
+   "path": "db95954e3cccc63018718072715913bc7ccdc6d0.png",
+   "role": "resource",
+   "token": "37293734416f4e59ce3a4954f1085c4a62f7e0ac"
+  },
+  {
+   "path": "5ce9c588ce309adc80ea0657e9dd48b5bed54404.png",
+   "role": "resource",
+   "token": "90181d066a62cfd9f2dfafe315f1741a727d80f3"
+  },
+  {
+   "path": "_.html",
+   "url": "https://www.xlargesoftware.com/",
+   "role": "document",
+   "token": "ab245dfc9370b331e5202becc43cf04782608770"
+  },
+  {
+   "path": "favicon.png",
+   "url": "https://www.xlargesoftware.com/Content/images/favicons/favicon.png",
+   "role": "resource",
+   "token": "1efc823c81698b92251f44d8c16cf5bc2c8d892b"
+  },
+  {
+   "path": "bootstrap.min.css",
+   "url": "https://www.xlargesoftware.com/Content/css/bootstrap.min.css",
+   "role": "css-utf-8",
+   "token": "d97638e2eba91605db668308e2573767e4684e9e"
+  },
+  {
+   "path": "style.css",
+   "url": "https://www.xlargesoftware.com/Content/css/style.css",
+   "role": "css-utf-8",
+   "token": "c114fad5add04e52e5fd758d7335db272092b41c"
+  },
+  {
+   "path": "slick.css",
+   "url": "https://www.xlargesoftware.com/Content/css/slick.css",
+   "role": "css-utf-8",
+   "token": "53071d6ef0889fe12661cd7c9a2059352c5103ef"
+  },
+  {
+   "path": "logo.png",
+   "url": "https://www.xlargesoftware.com/Content/images/logo.png",
+   "role": "resource",
+   "token": "1dc415ed2b0d4817b0184a435a3befd46ccbfa52"
+  },
+  {
+   "path": "TR.svg",
+   "url": "https://www.xlargesoftware.com/Content/images/TR.svg",
+   "role": "resource",
+   "token": "2f47d80543095bc058d2390bf13917710361da18"
+  },
+  {
+   "path": "EN.svg",
+   "url": "https://www.xlargesoftware.com/Content/images/EN.svg",
+   "role": "resource",
+   "token": "73b96414d595f18ae2f797bf2cd87032f87d059c"
+  },
+  {
+   "path": "animate.css",
+   "url": "https://www.xlargesoftware.com/Content/css/animate.css",
+   "role": "css-utf-8",
+   "token": "5a37f309bf8ae23cdd61a1aab74458cd1b1a80bf"
+  },
+  {
+   "path": "DE.svg",
+   "url": "https://www.xlargesoftware.com/Content/images/DE.svg",
+   "role": "resource",
+   "token": "2be7ff7ab22b7cfe3f10113b28072030286d7daa"
+  },
+  {
+   "path": "licence.png",
+   "url": "https://www.xlargesoftware.com/Content/images/licence.png",
+   "role": "resource",
+   "token": "eaf028dd0d4e62a399d23acb6500815efff02676"
+  },
+  {
+   "path": "home-background.jpg",
+   "url": "https://www.xlargesoftware.com/Content/images/home-background.jpg",
+   "role": "resource",
+   "token": "ea41558c78abb78f5296830948edd501bc536716"
+  },
+  {
+   "path": "js.js",
+   "url": "https://www.googletagmanager.com/gtag/js?id=UA-157949046-1",
+   "role": "resource",
+   "token": "b9ec84e5d814edac282c14389cf333a59fc3e31c"
+  },
+  {
+   "path": "slide-image3.png",
+   "url": "https://www.xlargesoftware.com/Content/images/slide-image3.png",
+   "role": "resource",
+   "token": "cac319c05ba99d926b47ad0a0a96138edb9a79a0"
+  },
+  {
+   "path": "slide-image4.png",
+   "url": "https://www.xlargesoftware.com/Content/images/slide-image4.png",
+   "role": "resource",
+   "token": "7add75c852527359bf807a2085d7e7714f13a4f0"
+  },
+  {
+   "path": "icons.css",
+   "url": "https://www.xlargesoftware.com/Content/css/icons.css",
+   "role": "css-utf-8",
+   "token": "c0e0741034aa8a363425e61c52ef9dc254cb3a37"
+  },
+  {
+   "path": "sport-betting.png",
+   "url": "https://www.xlargesoftware.com/Content/images/sport-betting.png",
+   "role": "resource",
+   "token": "a80b90d285aa8da6a67fd57db0d2f7100c270e98"
+  },
+  {
+   "path": "x.svg",
+   "url": "https://www.xlargesoftware.com/Content/images/x.svg",
+   "role": "resource",
+   "token": "f18b4c9ca29ec98083f585235fac7fbede791261"
+  },
+  {
+   "path": "logo-white.svg",
+   "url": "https://www.xlargesoftware.com/Content/images/logo-white.svg",
+   "role": "resource",
+   "token": "923dfdd6b2d734470305aa549ef63fdaf294eca0"
+  },
+  {
+   "path": "email-decode.min.js",
+   "url": "https://www.xlargesoftware.com/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js",
+   "role": "resource",
+   "token": "df24da6e44da62f0679e4206f362add3983edf0f"
+  },
+  {
+   "path": "slick.min.js",
+   "url": "https://www.xlargesoftware.com/Content/js/slick.min.js",
+   "role": "resource",
+   "token": "316b6b00e85b544d8aac921e2ea03a70e3fcd742"
+  },
+  {
+   "path": "app.js",
+   "url": "https://www.xlargesoftware.com/Content/js/app.js",
+   "role": "resource",
+   "token": "56e0cc4d9009fb0351cb7e09e9897a15a97fee07"
+  },
+  {
+   "path": "slide-image1.png",
+   "url": "https://www.xlargesoftware.com/Content/images/slide-image1.png",
+   "role": "resource",
+   "token": "3e1317cb64ea85f6ee052037ddcfdee1d6b6103d"
+  },
+  {
+   "path": "bootstrap.bundle.min.js",
+   "url": "https://www.xlargesoftware.com/Content/js/bootstrap.bundle.min.js",
+   "role": "resource",
+   "token": "da0c814ac68969d5ef9aa48584fe49de507c49c7"
+  },
+  {
+   "path": "slide-image2.png",
+   "url": "https://www.xlargesoftware.com/Content/images/slide-image2.png",
+   "role": "resource",
+   "token": "3c847071691885577876f177a8d5ca783c158929"
+  },
+  {
+   "path": "slide-image5.png",
+   "url": "https://www.xlargesoftware.com/Content/images/slide-image5.png",
+   "role": "resource",
+   "token": "c8f74f2ec1f3042121fe0437838b1c4d3612cc86"
+  },
+  {
+   "path": "slide-image6.png",
+   "url": "https://www.xlargesoftware.com/Content/images/slide-image6.png",
+   "role": "resource",
+   "token": "e27e2fe9feadccb18e1639ceaf5f74a8be4af0bf"
+  },
+  {
+   "path": "home-csino-virtual.png",
+   "url": "https://www.xlargesoftware.com/Content/images/home-csino-virtual.png",
+   "role": "resource",
+   "token": "8d279168bf7cc8450cdbc4cb99ff7d2931d8c8c6"
+  },
+  {
+   "path": "home-skill-games.png",
+   "url": "https://www.xlargesoftware.com/Content/images/home-skill-games.png",
+   "role": "resource",
+   "token": "d59a68c2cef4c82be83f5b5bf679d30e22ea91df"
+  },
+  {
+   "path": "home-virtual-sport.png",
+   "url": "https://www.xlargesoftware.com/Content/images/home-virtual-sport.png",
+   "role": "resource",
+   "token": "7e1fad2216ddb5111c02c4c8ef672462d7be3161"
+  },
+  {
+   "path": "image-devices.png",
+   "url": "https://www.xlargesoftware.com/Content/images/image-devices.png",
+   "role": "resource",
+   "token": "a43a081f193e4432b7b9c0bb9f8e96b2d7b20e01"
+  },
+  {
+   "path": "home-casino.png",
+   "url": "https://www.xlargesoftware.com/Content/images/home-casino.png",
+   "role": "resource",
+   "token": "951bc95bd40749f0c26fc870d358c68b1e823135"
+  },
+  {
+   "path": "jquery-3.6.0.min.js",
+   "url": "https://www.xlargesoftware.com/Content/js/jquery-3.6.0.min.js",
+   "role": "resource",
+   "token": "00eff3020253c8490b646f3f79f70919adb40832"
+  },
+  {
+   "path": "sticky-sidebar.min.js",
+   "url": "https://www.xlargesoftware.com/Scripts/sticky-sidebar.min.js",
+   "role": "resource",
+   "token": "9fbbad33771d1623c2fc796317100c61ceb78d9b"
+  },
+  {
+   "path": "aos.js",
+   "url": "https://www.xlargesoftware.com/Content/js/aos.js",
+   "role": "resource",
+   "token": "e3cc1b8d3e8130f0b22581d323db8be38d7a7cdb"
+  },
+  {
+   "path": "aos.css",
+   "url": "https://www.xlargesoftware.com/Content/css/aos.css",
+   "role": "css-utf-8",
+   "token": "b977bc886ca9c514ae291e59c6e77a2476e66ade"
+  },
+  {
+   "path": "be2a51a26d0606dc8761748ea2ab631acf6016da.svg",
+   "role": "resource",
+   "token": "11353e98930249ebe24627cb1c7b2c25b76e0594"
+  },
+  {
+   "path": "55f1fb594ed69f5015740504a72061692a7e8c07.svg",
+   "role": "resource",
+   "token": "6da597fca14590937564091999f3d9a50399cbdf"
+  },
+  {
+   "path": "9fd9978557a9cd59108093fd1ae5e449c6554a32.svg",
+   "role": "resource",
+   "token": "10b33df98e31a69becccd7b0e79954aead95cf64"
+  },
+  {
+   "path": "bfb20a3e45f438ae0b0ccb89afeaf9bf907a4d4f.svg",
+   "role": "resource",
+   "token": "702802245637b93955d87f5cd149a21400803823"
+  },
+  {
+   "path": "f2fd673c22cf4c0d13121551be4e68e1bc3924e1.svg",
+   "role": "resource",
+   "token": "7ee542e4f518786d07c9e6fd2a0112fe777cdb71"
+  },
+  {
+   "path": "d86f189c13752cd3cc9b3e47ede1179e22fb3c58.svg",
+   "role": "resource",
+   "token": "0a27592defd901ec6890bd0cae41f02202d95a3f"
+  },
+  {
+   "path": "07354548f4ba5a80668b68754822030f6886b05d.svg",
+   "role": "resource",
+   "token": "5acf9dd8cf4880e2c4da19659fc6cdaa3e23935c"
+  },
+  {
+   "path": "5f78cab5d9b64180b32890995fbc292eed3049e1.svg",
+   "role": "resource",
+   "token": "7a5cd6cc39e457623d80f19f13e30b159bb4bdcc"
+  },
+  {
+   "path": "f0f9842abd1f5ac9929c7423baa481dd4828f209.svg",
+   "role": "resource",
+   "token": "7b1c5f055fe66bcfa47d27397ea3484d8b0a4daa"
+  },
+  {
+   "path": "c0aa07d24d71fc86c27e56a78398bcaf6d40696a.svg",
+   "role": "resource",
+   "token": "0c303b28d5f933c6aae389f5366469378fbba603"
+  },
+  {
+   "path": "ececcfedc1cb7c3732aa8651f6461b6c109b466b.svg",
+   "role": "resource",
+   "token": "ea2b77ad616e6de61bf99cb9b1a846d4fe8d2f12"
+  },
+  {
+   "path": "dd6374c70505a8440342ed0a719f9056f996eaa5.svg",
+   "role": "resource",
+   "token": "e64abb9cab773df86ca82d034141ba9526ca7a82"
+  },
+  {
+   "path": "ea316f37fc2423fcb2b20eab15704eaa6d2e4ef9.svg",
+   "role": "resource",
+   "token": "c6a38585acc7c931fd8c4ec9152d02c8a7a3a659"
+  },
+  {
+   "path": "7dae9903347952ebbafea6ca64a56d6f64a5c0b7.svg",
+   "role": "resource",
+   "token": "dab4999ed7163d5ed92b354ec8fbb4be06da1924"
+  },
+  {
+   "path": "4274a074e12f038042322751ee73fa27495ee4b4.svg",
+   "role": "resource",
+   "token": "97e2426085ee9e44bd354a4c076abc4442946511"
+  },
+  {
+   "path": "c750539f4e5f30d633d6fdc37d95b4d88bff136c.svg",
+   "role": "resource",
+   "token": "a995acda396a1fc91ba4b541cbbdd2e3c6a005ae"
+  },
+  {
+   "path": "46479f81ffdefe619b0af6f5cb1f15e9d14adffc.svg",
+   "role": "resource",
+   "token": "98ddc3dfe49346ce764eb660e6dd12dc3209bfc0"
+  },
+  {
+   "path": "Ruberoid-Bold.eot",
+   "url": "https://www.xlargesoftware.com/Content/fonts/Ruberoid-Bold.eot",
+   "role": "resource",
+   "token": "9871600dcb2a25dd40b8c5242d7090e86d3fbf74"
+  },
+  {
+   "path": "loader.svg",
+   "url": "https://www.xlargesoftware.com/Content/images/loader.svg",
+   "role": "resource",
+   "token": "2b71be02a0f5f1d7e0da65e7faac80bb2a3b19de"
+  },
+  {
+   "path": "Ruberoid-Bold.woff",
+   "url": "https://www.xlargesoftware.com/Content/fonts/Ruberoid-Bold.woff",
+   "role": "resource",
+   "token": "5da5b8e10494347a3e9957af9ee2e35e12cc80f8"
+  },
+  {
+   "path": "Ruberoid-Bold.ttf",
+   "url": "https://www.xlargesoftware.com/Content/fonts/Ruberoid-Bold.ttf",
+   "role": "resource",
+   "token": "dd6d3437775052ffa4480481e184c49401d0df4a"
+  },
+  {
+   "path": "Ruberoid-Bold.svg",
+   "url": "https://www.xlargesoftware.com/Content/fonts/Ruberoid-Bold.svg",
+   "role": "resource",
+   "token": "3b974ace7cde4a58cb23c064e04c3f77dcfa8b8b"
+  },
+  {
+   "path": "icon-handshake.gif",
+   "url": "https://www.xlargesoftware.com/Content/images/icon-handshake.gif",
+   "role": "resource",
+   "token": "e59668ab9570ed80a0c96e372efbf9dfe3e9b001"
+  },
+  {
+   "path": "Ruberoid-Medium.woff",
+   "url": "https://www.xlargesoftware.com/Content/fonts/Ruberoid-Medium.woff",
+   "role": "resource",
+   "token": "41e2f5f2fa96b01abf8fcbd0b362c21a3a3b613c"
+  },
+  {
+   "path": "Ruberoid-Medium.eot",
+   "url": "https://www.xlargesoftware.com/Content/fonts/Ruberoid-Medium.eot",
+   "role": "resource",
+   "token": "7c71aad3be4143ebff8d626244c53a39269c9588"
+  },
+  {
+   "path": "Ruberoid-Medium.ttf",
+   "url": "https://www.xlargesoftware.com/Content/fonts/Ruberoid-Medium.ttf",
+   "role": "resource",
+   "token": "047e0787ff3809cf26abf92df695d85db0b5f042"
+  },
+  {
+   "path": "Ruberoid-Medium.svg",
+   "url": "https://www.xlargesoftware.com/Content/fonts/Ruberoid-Medium.svg",
+   "role": "resource",
+   "token": "de5c5766b20c7dc6cf8cd1b9ffa38605f5bf08b3"
+  },
+  {
+   "path": "Ruberoid-Regular.woff",
+   "url": "https://www.xlargesoftware.com/Content/fonts/Ruberoid-Regular.woff",
+   "role": "resource",
+   "token": "27192999bf94eba73d78e899283b83f6ec0a4529"
+  },
+  {
+   "path": "Ruberoid-Regular.ttf",
+   "url": "https://www.xlargesoftware.com/Content/fonts/Ruberoid-Regular.ttf",
+   "role": "resource",
+   "token": "fc00be8e2c31a6d0ab83959d7597df5684334048"
+  },
+  {
+   "path": "Ruberoid-Regular.svg",
+   "url": "https://www.xlargesoftware.com/Content/fonts/Ruberoid-Regular.svg",
+   "role": "resource",
+   "token": "ce401d77b03545ec0113259baef50f31b6e88ddd"
+  },
+  {
+   "path": "line-background.jpg",
+   "url": "https://www.xlargesoftware.com/Content/images/line-background.jpg",
+   "role": "resource",
+   "token": "ca0eae6f9138eb1b493edca6ad1fbb9582298dc5"
+  },
+  {
+   "path": "icon-cms.gif",
+   "url": "https://www.xlargesoftware.com/Content/images/icon-cms.gif",
+   "role": "resource",
+   "token": "d2e68eb190b736d0d50950e8d1b8f107a5fc671a"
+  },
+  {
+   "path": "icon-idea.gif",
+   "url": "https://www.xlargesoftware.com/Content/images/icon-idea.gif",
+   "role": "resource",
+   "token": "5e22075ac92b83481d7e150c9396f23b1441dd6c"
+  },
+  {
+   "path": "Ruberoid-Regular.eot",
+   "url": "https://www.xlargesoftware.com/Content/fonts/Ruberoid-Regular.eot",
+   "role": "resource",
+   "token": "47387faac6a4ae41acd5be2c0ce08834642864b7"
+  },
+  {
+   "path": "icon-casino-setting.gif",
+   "url": "https://www.xlargesoftware.com/Content/images/icon-casino-setting.gif",
+   "role": "resource",
+   "token": "bdce5af3c3802499e3fdd34430e70be36e3614a0"
+  },
+  {
+   "path": "icon-money.gif",
+   "url": "https://www.xlargesoftware.com/Content/images/icon-money.gif",
+   "role": "resource",
+   "token": "c4c93a4ce9627c1ef68e2ca17ff342777dfe8ef6"
+  },
+  {
+   "path": "icon-testing.gif",
+   "url": "https://www.xlargesoftware.com/Content/images/icon-testing.gif",
+   "role": "resource",
+   "token": "c879c7ffb77a2a822a1b0a9be92a3c2393970e71"
+  },
+  {
+   "path": "icon-theme.gif",
+   "url": "https://www.xlargesoftware.com/Content/images/icon-theme.gif",
+   "role": "resource",
+   "token": "7a9feb1e6f56480a1629775223a09b1ddef06928"
+  },
+  {
+   "path": "scroll-sigh.png",
+   "url": "https://www.xlargesoftware.com/Content/images/scroll-sigh.png",
+   "role": "resource",
+   "token": "cfe8bcc0fffe99515a8b4ef7cbbb8e97f7f8ffec"
+  },
+  {
+   "path": "icon-payment.gif",
+   "url": "https://www.xlargesoftware.com/Content/images/icon-payment.gif",
+   "role": "resource",
+   "token": "54b103e1531418e872aacde9298c34161b67bd6e"
+  },
+  {
+   "path": "icon-sport-settings.gif",
+   "url": "https://www.xlargesoftware.com/Content/images/icon-sport-settings.gif",
+   "role": "resource",
+   "token": "dceec7f5bd91f1a5718c279dbcc1c173101f6b3e"
+  },
+  {
+   "path": "icons.eot",
+   "url": "https://www.xlargesoftware.com/Content/fonts/icons.eot?hf2jdv",
+   "role": "resource",
+   "token": "5660269a2840e690f8509c4b832387e6c8f3c25f"
+  },
+  {
+   "path": "icons.ttf",
+   "url": "https://www.xlargesoftware.com/Content/fonts/icons.ttf?hf2jdv",
+   "role": "resource",
+   "token": "c3adebca320b6620c0f9f1fb53d1729468b88100"
+  },
+  {
+   "path": "icons.woff",
+   "url": "https://www.xlargesoftware.com/Content/fonts/icons.woff?hf2jdv",
+   "role": "resource",
+   "token": "4f5b8c04dd93aa1b5017e082e68226aa549f7253"
+  },
+  {
+   "path": "icons.svg",
+   "url": "https://www.xlargesoftware.com/Content/fonts/icons.svg?hf2jdv",
+   "role": "resource",
+   "token": "a2cec8a18558ff52729d80777b8c64acb15f5949"
+  },
+  {
+   "path": "flags.png",
+   "url": "https://www.xlargesoftware.com/Content/images/flags.png",
+   "role": "resource",
+   "token": "978b8309452b59af8ab88b0a75ab6ce980ce2387"
+  },
+  {
+   "path": "UC4a12502Hv2TT7T-AuDUxMw.html",
+   "url": "https://www.youtube.com/channel/UC4a12502Hv2TT7T-AuDUxMw",
+   "role": "document",
+   "token": "bb86ed2e9c391c9ea962dbebd29a811cd31dd3b9"
+  },
+  {
+   "path": "favicon-1.ico",
+   "url": "https://www.youtube.com/s/desktop/395dc19a/img/favicon.ico",
+   "role": "resource",
+   "token": "4e34aeecb3dca285b0f05b94b5032ea05db3f682"
+  },
+  {
+   "path": "favicon_48x48.png",
+   "url": "https://www.youtube.com/s/desktop/395dc19a/img/favicon_48x48.png",
+   "role": "resource",
+   "token": "18cc7ae3491ee59bce92f3d6f2826ca97df05abf"
+  },
+  {
+   "path": "favicon_32x32.png",
+   "url": "https://www.youtube.com/s/desktop/395dc19a/img/favicon_32x32.png",
+   "role": "resource",
+   "token": "cee91e753a4b23c9799c03dd4efaf79c183aa014"
+  },
+  {
+   "path": "favicon_96x96.png",
+   "url": "https://www.youtube.com/s/desktop/395dc19a/img/favicon_96x96.png",
+   "role": "resource",
+   "token": "39c17ee8773166b9ea93d5c58fbac84ddeb14577"
+  },
+  {
+   "path": "favicon_144x144.png",
+   "url": "https://www.youtube.com/s/desktop/395dc19a/img/favicon_144x144.png",
+   "role": "resource",
+   "token": "83705690dc0cc58979206f51e31a6a2432d25ae8"
+  },
+  {
+   "path": "web-animations-next-lite.min.js",
+   "url": "https://www.youtube.com/s/desktop/395dc19a/jsbin/web-animations-next-lite.min.vflset/web-animations-next-lite.min.js",
+   "role": "resource",
+   "token": "479a29d0ef53fe7f67d7b806809e4293d4d4283d"
+  },
+  {
+   "path": "custom-elements-es5-adapter.js",
+   "url": "https://www.youtube.com/s/desktop/395dc19a/jsbin/custom-elements-es5-adapter.vflset/custom-elements-es5-adapter.js",
+   "role": "resource",
+   "token": "b334fe0bed143abf394508de1f686bfa0ac1fbfd"
+  },
+  {
+   "path": "scheduler.js",
+   "url": "https://www.youtube.com/s/desktop/395dc19a/jsbin/scheduler.vflset/scheduler.js",
+   "role": "resource",
+   "token": "ec858b3c7a2e1372d4cbfcf7ad5e9800fe41b85a"
+  },
+  {
+   "path": "www-i18n-constants.js",
+   "url": "https://www.youtube.com/s/desktop/395dc19a/jsbin/www-i18n-constants-en_US.vflset/www-i18n-constants.js",
+   "role": "resource",
+   "token": "9dcb0f86a818bd1a5a6eea3a1399903aed2cca8c"
+  },
+  {
+   "path": "webcomponents-sd.js",
+   "url": "https://www.youtube.com/s/desktop/395dc19a/jsbin/webcomponents-sd.vflset/webcomponents-sd.js",
+   "role": "resource",
+   "token": "0d9648fec121e0cd1bbec6379d97d71ed3719656"
+  },
+  {
+   "path": "spf.js",
+   "url": "https://www.youtube.com/s/desktop/395dc19a/jsbin/spf.vflset/spf.js",
+   "role": "resource",
+   "token": "fffb448273dde26663f345bf918917756cb04e05"
+  },
+  {
+   "path": "network.js",
+   "url": "https://www.youtube.com/s/desktop/395dc19a/jsbin/network.vflset/network.js",
+   "role": "resource",
+   "token": "d2be7dfe9c8472a13a9975ee24d359504fad2512"
+  },
+  {
+   "path": "intersection-observer.min.js",
+   "url": "https://www.youtube.com/s/desktop/395dc19a/jsbin/intersection-observer.min.vflset/intersection-observer.min.js",
+   "role": "resource",
+   "token": "ead7bc6dd56a06b950ab32466b5efa2427587eff"
+  },
+  {
+   "path": "css2.css",
+   "url": "https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=YouTube+Sans:wght@300..900&display=swap",
+   "role": "css-utf-8",
+   "token": "43c912ae4ef3bbfbeb8f201d9d137687b8c78c57"
+  },
+  {
+   "path": "www-onepick-2x.css",
+   "url": "https://www.youtube.com/s/desktop/395dc19a/cssbin/www-onepick-2x.css",
+   "role": "css-utf-8",
+   "token": "7d9dd678bef2909650a334888706ac5f0e77b65e"
+  },
+  {
+   "path": "www-main-desktop-watch-page-skeleton-2x.css",
+   "url": "https://www.youtube.com/s/desktop/395dc19a/cssbin/www-main-desktop-watch-page-skeleton-2x.css",
+   "role": "css-utf-8",
+   "token": "782cdf053663145d00c958eb54369c8ef0709ef2"
+  },
+  {
+   "path": "rs=AGKMywEYJpSDnRVxLLyNXM-g0w3spwZ_jg.css",
+   "url": "https://www.youtube.com/s/_/ytmainappweb/_/ss/k=ytmainappweb.kevlar_base.KTHbHKS4zWs.L.B1.O/am=AAAAAEAAwhgADg/d=0/br=1/rs=AGKMywEYJpSDnRVxLLyNXM-g0w3spwZ_jg",
+   "role": "css-utf-8",
+   "token": "6ff6f168833083ffcde5039aa748d12c3641a3ea"
+  },
+  {
+   "path": "m=kevlar_base_module,kevlar_main_module,kevlar_base_sync_mod_chunk.js",
+   "url": "https://www.youtube.com/s/_/ytmainappweb/_/js/k=ytmainappweb.kevlar_base.en_US.Rc-99vOvpXI.es5.O/am=AAAAAEAAwBAADA/d=1/br=1/rs=AGKMywGLeUB7Rc8Kk1Dj1EU3Kc1cGsEkug/m=kevlar_base_module,kevlar_main_module,kevlar_base_sync_mod_chunk",
+   "role": "resource",
+   "token": "e959b00b8d37501b0b3408d386dbcb1b3951f754"
+  },
+  {
+   "path": "KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3GUBGEe.woff2",
+   "url": "https://fonts.gstatic.com/s/roboto/v51/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3GUBGEe.woff2",
+   "role": "resource",
+   "token": "e597052e4ec0c63a0de39107bb1e8fb81694f2d4"
+  },
+  {
+   "path": "KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3iUBGEe.woff2",
+   "url": "https://fonts.gstatic.com/s/roboto/v51/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3iUBGEe.woff2",
+   "role": "resource",
+   "token": "accdedaede21d0c53229d10faf90e09d2e940de3"
+  },
+  {
+   "path": "KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3CUBGEe.woff2",
+   "url": "https://fonts.gstatic.com/s/roboto/v51/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3CUBGEe.woff2",
+   "role": "resource",
+   "token": "407952dae71203dfc06ff917177b311b68c213c9"
+  },
+  {
+   "path": "167b43e2935269a5f7cb873f4f9837cbb6752aae.svg",
+   "role": "resource",
+   "token": "40f86057eff56d45c9bb6f6969ce8a1010df44e6"
+  },
+  {
+   "path": "773463e020062fc079126ea905bfd7c200087fba.svg",
+   "role": "resource",
+   "token": "03d0068eeda5780a27b80c3725ba1add4993a307"
+  },
+  {
+   "path": "KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3-UBGEe.woff2",
+   "url": "https://fonts.gstatic.com/s/roboto/v51/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3-UBGEe.woff2",
+   "role": "resource",
+   "token": "ed6b8a5155e4dfaa3344a04181e12c66bd9ca4ac"
+  },
+  {
+   "path": "KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMawCUBGEe.woff2",
+   "url": "https://fonts.gstatic.com/s/roboto/v51/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMawCUBGEe.woff2",
+   "role": "resource",
+   "token": "14ed540c8f2a71415f672bb1d6cfb7ec5b1e7d3a"
+  },
+  {
+   "path": "KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMaxKUBGEe.woff2",
+   "url": "https://fonts.gstatic.com/s/roboto/v51/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMaxKUBGEe.woff2",
+   "role": "resource",
+   "token": "d22f621d587592b6dd27477fed827fcf83ca1430"
+  },
+  {
+   "path": "Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.9.woff2",
+   "url": "https://fonts.gstatic.com/s/youtubesans/v32/Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.9.woff2",
+   "role": "resource",
+   "token": "4caadde14419e429f1fea409b58ad9f63a6ca727"
+  },
+  {
+   "path": "Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.13.woff2",
+   "url": "https://fonts.gstatic.com/s/youtubesans/v32/Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.13.woff2",
+   "role": "resource",
+   "token": "dad090c7ecbde18493078cdbef31778776b33bd5"
+  },
+  {
+   "path": "Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.14.woff2",
+   "url": "https://fonts.gstatic.com/s/youtubesans/v32/Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.14.woff2",
+   "role": "resource",
+   "token": "2fd6fe164d46d87f22bcf79bc2d4c910554e3e7f"
+  },
+  {
+   "path": "KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3OUBGEe.woff2",
+   "url": "https://fonts.gstatic.com/s/roboto/v51/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3OUBGEe.woff2",
+   "role": "resource",
+   "token": "49637918028d953607f1f8101a9f1ba2057386b2"
+  },
+  {
+   "path": "KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3KUBGEe.woff2",
+   "url": "https://fonts.gstatic.com/s/roboto/v51/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3KUBGEe.woff2",
+   "role": "resource",
+   "token": "9797efbcc772b78100b0bd7ab081ad228abbf266"
+  },
+  {
+   "path": "Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.7.woff2",
+   "url": "https://fonts.gstatic.com/s/youtubesans/v32/Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.7.woff2",
+   "role": "resource",
+   "token": "5d00dffa62047a9214195b0e199a48e8546592bc"
+  },
+  {
+   "path": "Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.15.woff2",
+   "url": "https://fonts.gstatic.com/s/youtubesans/v32/Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.15.woff2",
+   "role": "resource",
+   "token": "908f99c41019cfcf65b29634291c4ce24f863934"
+  },
+  {
+   "path": "Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.16.woff2",
+   "url": "https://fonts.gstatic.com/s/youtubesans/v32/Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.16.woff2",
+   "role": "resource",
+   "token": "6921040cafde37ae63f54feba61549ca712a7629"
+  },
+  {
+   "path": "Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.17.woff2",
+   "url": "https://fonts.gstatic.com/s/youtubesans/v32/Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.17.woff2",
+   "role": "resource",
+   "token": "6806c2a7b0a26f3fb3fb907859822e006cb61215"
+  },
+  {
+   "path": "Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.50.woff2",
+   "url": "https://fonts.gstatic.com/s/youtubesans/v32/Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.50.woff2",
+   "role": "resource",
+   "token": "f5af1364f7bec8c4bfb936444c7f45ad92e29ac2"
+  },
+  {
+   "path": "Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.54.woff2",
+   "url": "https://fonts.gstatic.com/s/youtubesans/v32/Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.54.woff2",
+   "role": "resource",
+   "token": "43310b36dbe3d24f686a64d6cf07f644a496a479"
+  },
+  {
+   "path": "Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.27.woff2",
+   "url": "https://fonts.gstatic.com/s/youtubesans/v32/Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.27.woff2",
+   "role": "resource",
+   "token": "8fdd845ee2210cc23a01ead0ffb710e3f6f8e907"
+  },
+  {
+   "path": "Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.28.woff2",
+   "url": "https://fonts.gstatic.com/s/youtubesans/v32/Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.28.woff2",
+   "role": "resource",
+   "token": "9705b9d11d3cf77a19e59fed5e6f150b1f44956e"
+  },
+  {
+   "path": "KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBA.woff2",
+   "url": "https://fonts.gstatic.com/s/roboto/v51/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBA.woff2",
+   "role": "resource",
+   "token": "e3f8d37a6ab52dcdd59f094c2ba38a02b8608737"
+  },
+  {
+   "path": "Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.2.woff2",
+   "url": "https://fonts.gstatic.com/s/youtubesans/v32/Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.2.woff2",
+   "role": "resource",
+   "token": "ea799558a4100e34b0920db788d624b1295efb56"
+  },
+  {
+   "path": "Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.3.woff2",
+   "url": "https://fonts.gstatic.com/s/youtubesans/v32/Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.3.woff2",
+   "role": "resource",
+   "token": "43655e7f414055d6dd17d5adaa3f3a6e77279a7b"
+  },
+  {
+   "path": "Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.4.woff2",
+   "url": "https://fonts.gstatic.com/s/youtubesans/v32/Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.4.woff2",
+   "role": "resource",
+   "token": "88770ffc3143a33df1da2a16948c91ecfb82f34e"
+  },
+  {
+   "path": "Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.5.woff2",
+   "url": "https://fonts.gstatic.com/s/youtubesans/v32/Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.5.woff2",
+   "role": "resource",
+   "token": "bc1eeb572d77963d26b562543507d421835f27e7"
+  },
+  {
+   "path": "Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.6.woff2",
+   "url": "https://fonts.gstatic.com/s/youtubesans/v32/Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.6.woff2",
+   "role": "resource",
+   "token": "1bfeb80b4d1bc9221d2ece9b61cacdba601e43fd"
+  },
+  {
+   "path": "Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.109.woff2",
+   "url": "https://fonts.gstatic.com/s/youtubesans/v32/Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.109.woff2",
+   "role": "resource",
+   "token": "256208d6797d4deb2d1ecde42cfe7c0c3e40c236"
+  },
+  {
+   "path": "Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.37.woff2",
+   "url": "https://fonts.gstatic.com/s/youtubesans/v32/Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.37.woff2",
+   "role": "resource",
+   "token": "ac2fc7d270b96683d7d08681d5f1d3c1a313344a"
+  },
+  {
+   "path": "Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.8.woff2",
+   "url": "https://fonts.gstatic.com/s/youtubesans/v32/Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.8.woff2",
+   "role": "resource",
+   "token": "10672a3d8d305be36176d73549736f660ae2f732"
+  },
+  {
+   "path": "Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.10.woff2",
+   "url": "https://fonts.gstatic.com/s/youtubesans/v32/Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.10.woff2",
+   "role": "resource",
+   "token": "279ccafb693c5f69c9bbc17e8baac7f5a0a488dd"
+  },
+  {
+   "path": "Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.11.woff2",
+   "url": "https://fonts.gstatic.com/s/youtubesans/v32/Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.11.woff2",
+   "role": "resource",
+   "token": "21693d02c8bdb0d2e2d1affc6dc18cef03738d31"
+  },
+  {
+   "path": "Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.12.woff2",
+   "url": "https://fonts.gstatic.com/s/youtubesans/v32/Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.12.woff2",
+   "role": "resource",
+   "token": "1520d3a5f9b52bd587714dff21852cea47235585"
+  },
+  {
+   "path": "Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.18.woff2",
+   "url": "https://fonts.gstatic.com/s/youtubesans/v32/Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.18.woff2",
+   "role": "resource",
+   "token": "22060d0032bf7ef2346f32c563de4793b9121561"
+  },
+  {
+   "path": "Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.19.woff2",
+   "url": "https://fonts.gstatic.com/s/youtubesans/v32/Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.19.woff2",
+   "role": "resource",
+   "token": "c133de238271eeb96a6c85710616e4117eee2762"
+  },
+  {
+   "path": "Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.20.woff2",
+   "url": "https://fonts.gstatic.com/s/youtubesans/v32/Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.20.woff2",
+   "role": "resource",
+   "token": "292a237e04398cad459184f731e1a12cfc8e06e6"
+  },
+  {
+   "path": "Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.21.woff2",
+   "url": "https://fonts.gstatic.com/s/youtubesans/v32/Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.21.woff2",
+   "role": "resource",
+   "token": "abdcd71775a68a8910ecfe8fc57bcc0ef4b73228"
+  },
+  {
+   "path": "Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.22.woff2",
+   "url": "https://fonts.gstatic.com/s/youtubesans/v32/Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.22.woff2",
+   "role": "resource",
+   "token": "d7fbf221395fe96b2a33be9d0d9cb7123ea25b20"
+  },
+  {
+   "path": "Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.23.woff2",
+   "url": "https://fonts.gstatic.com/s/youtubesans/v32/Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.23.woff2",
+   "role": "resource",
+   "token": "d3ffb160deb24828778f40ca34693069f6da1a39"
+  },
+  {
+   "path": "Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.24.woff2",
+   "url": "https://fonts.gstatic.com/s/youtubesans/v32/Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.24.woff2",
+   "role": "resource",
+   "token": "7ed8c9fde6c749953a84aae8185df331ae4d5b34"
+  },
+  {
+   "path": "Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.25.woff2",
+   "url": "https://fonts.gstatic.com/s/youtubesans/v32/Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.25.woff2",
+   "role": "resource",
+   "token": "cc6577e69b29bc93df8463953c30a561891605ca"
+  },
+  {
+   "path": "Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.26.woff2",
+   "url": "https://fonts.gstatic.com/s/youtubesans/v32/Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.26.woff2",
+   "role": "resource",
+   "token": "789edb57f7c8f0fa533279d44c84a36152992854"
+  },
+  {
+   "path": "Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.29.woff2",
+   "url": "https://fonts.gstatic.com/s/youtubesans/v32/Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.29.woff2",
+   "role": "resource",
+   "token": "6a78afedf27ab83f1fa9cd695a9b6ce9284d5add"
+  },
+  {
+   "path": "Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.30.woff2",
+   "url": "https://fonts.gstatic.com/s/youtubesans/v32/Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.30.woff2",
+   "role": "resource",
+   "token": "a2b7a119310fd7750ab27e8956ed92104da9a0ca"
+  },
+  {
+   "path": "Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.31.woff2",
+   "url": "https://fonts.gstatic.com/s/youtubesans/v32/Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.31.woff2",
+   "role": "resource",
+   "token": "2a2c7ff9c0b74e9c88236ed44677adce6b048d29"
+  },
+  {
+   "path": "Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.32.woff2",
+   "url": "https://fonts.gstatic.com/s/youtubesans/v32/Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.32.woff2",
+   "role": "resource",
+   "token": "2f1830b8e100defb9772518b929138cfe50035e9"
+  },
+  {
+   "path": "Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.33.woff2",
+   "url": "https://fonts.gstatic.com/s/youtubesans/v32/Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.33.woff2",
+   "role": "resource",
+   "token": "ddae434d2df2602bf982e918922b810c980b6caf"
+  },
+  {
+   "path": "Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.34.woff2",
+   "url": "https://fonts.gstatic.com/s/youtubesans/v32/Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.34.woff2",
+   "role": "resource",
+   "token": "6fc64138f86d46e52adeea715c0715d2365c9352"
+  },
+  {
+   "path": "Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.35.woff2",
+   "url": "https://fonts.gstatic.com/s/youtubesans/v32/Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.35.woff2",
+   "role": "resource",
+   "token": "55a3e7690d02381362d1761b3258a732caabaf55"
+  },
+  {
+   "path": "Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.36.woff2",
+   "url": "https://fonts.gstatic.com/s/youtubesans/v32/Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.36.woff2",
+   "role": "resource",
+   "token": "85c4b8547683659359d29f2451b854729ea824d0"
+  },
+  {
+   "path": "Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.38.woff2",
+   "url": "https://fonts.gstatic.com/s/youtubesans/v32/Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.38.woff2",
+   "role": "resource",
+   "token": "c7a7ffd7812434537c6c888759d957ec8858da9b"
+  },
+  {
+   "path": "Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.39.woff2",
+   "url": "https://fonts.gstatic.com/s/youtubesans/v32/Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.39.woff2",
+   "role": "resource",
+   "token": "0a212dfca4b70a8455c8ef693cee2954ae1835cb"
+  },
+  {
+   "path": "Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.40.woff2",
+   "url": "https://fonts.gstatic.com/s/youtubesans/v32/Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.40.woff2",
+   "role": "resource",
+   "token": "7455505fa763a9ba9702198ef1fe9b93222d1cf8"
+  },
+  {
+   "path": "Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.41.woff2",
+   "url": "https://fonts.gstatic.com/s/youtubesans/v32/Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.41.woff2",
+   "role": "resource",
+   "token": "2228b0fa61f5e1446c350fcc58c317c9e1e69b5f"
+  },
+  {
+   "path": "Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.42.woff2",
+   "url": "https://fonts.gstatic.com/s/youtubesans/v32/Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.42.woff2",
+   "role": "resource",
+   "token": "bf25c9ef43f62c127dbc2ec54f618b2dd114ac21"
+  },
+  {
+   "path": "Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.43.woff2",
+   "url": "https://fonts.gstatic.com/s/youtubesans/v32/Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.43.woff2",
+   "role": "resource",
+   "token": "863c17f51fe9a2051127e199ff119ddd863a7aa5"
+  },
+  {
+   "path": "Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.44.woff2",
+   "url": "https://fonts.gstatic.com/s/youtubesans/v32/Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.44.woff2",
+   "role": "resource",
+   "token": "a6899ff6854812f7ae49b7801b501d11ce7ad2ec"
+  },
+  {
+   "path": "Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.45.woff2",
+   "url": "https://fonts.gstatic.com/s/youtubesans/v32/Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.45.woff2",
+   "role": "resource",
+   "token": "56930dd409ac853837845113104523bc87e1f65a"
+  },
+  {
+   "path": "Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.46.woff2",
+   "url": "https://fonts.gstatic.com/s/youtubesans/v32/Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.46.woff2",
+   "role": "resource",
+   "token": "5cb09ad34a828598c450b78b71fc5717df86df7f"
+  },
+  {
+   "path": "Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.47.woff2",
+   "url": "https://fonts.gstatic.com/s/youtubesans/v32/Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.47.woff2",
+   "role": "resource",
+   "token": "c95cef21c028bb401a911e5fc58fa14201cb8ebe"
+  },
+  {
+   "path": "Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.48.woff2",
+   "url": "https://fonts.gstatic.com/s/youtubesans/v32/Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.48.woff2",
+   "role": "resource",
+   "token": "45e3c79e592a04de9e69f2e298be9a709423eb60"
+  },
+  {
+   "path": "Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.49.woff2",
+   "url": "https://fonts.gstatic.com/s/youtubesans/v32/Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.49.woff2",
+   "role": "resource",
+   "token": "68140488f99ff53c1c1d7c93b0a235d84bc3bf81"
+  },
+  {
+   "path": "Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.51.woff2",
+   "url": "https://fonts.gstatic.com/s/youtubesans/v32/Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.51.woff2",
+   "role": "resource",
+   "token": "f1561d76d8d99801a8a8f76462e73fe8d36a0b7e"
+  },
+  {
+   "path": "Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.52.woff2",
+   "url": "https://fonts.gstatic.com/s/youtubesans/v32/Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.52.woff2",
+   "role": "resource",
+   "token": "e2f1b8dd0326bbdb9777e01b9f72904e1946e51a"
+  },
+  {
+   "path": "Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.53.woff2",
+   "url": "https://fonts.gstatic.com/s/youtubesans/v32/Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.53.woff2",
+   "role": "resource",
+   "token": "99ad7d719e145247bed1d5cf68702ef87c91657b"
+  },
+  {
+   "path": "Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.55.woff2",
+   "url": "https://fonts.gstatic.com/s/youtubesans/v32/Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.55.woff2",
+   "role": "resource",
+   "token": "0f2ca1df9f1112d849ea27ce8b29c3c192ace50c"
+  },
+  {
+   "path": "Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.56.woff2",
+   "url": "https://fonts.gstatic.com/s/youtubesans/v32/Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.56.woff2",
+   "role": "resource",
+   "token": "06d7fee8b9749416b72f008e97420a71536d737a"
+  },
+  {
+   "path": "Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.57.woff2",
+   "url": "https://fonts.gstatic.com/s/youtubesans/v32/Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.57.woff2",
+   "role": "resource",
+   "token": "00f937e1326a8576ddcfee97b3fc9d2962617641"
+  },
+  {
+   "path": "Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.58.woff2",
+   "url": "https://fonts.gstatic.com/s/youtubesans/v32/Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.58.woff2",
+   "role": "resource",
+   "token": "a56539e613f80f9c4299ad769fec8c57c7a51b49"
+  },
+  {
+   "path": "Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.61.woff2",
+   "url": "https://fonts.gstatic.com/s/youtubesans/v32/Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.61.woff2",
+   "role": "resource",
+   "token": "31be4b9cbbca8fc5bd7f32980fef957810a38238"
+  },
+  {
+   "path": "Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.62.woff2",
+   "url": "https://fonts.gstatic.com/s/youtubesans/v32/Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.62.woff2",
+   "role": "resource",
+   "token": "92ec3e1ea919d1a9970b9dea0a5d1cd20cef9f5c"
+  },
+  {
+   "path": "Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.63.woff2",
+   "url": "https://fonts.gstatic.com/s/youtubesans/v32/Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.63.woff2",
+   "role": "resource",
+   "token": "20daae9c9007740f0a120fc49baee62ea6be768f"
+  },
+  {
+   "path": "Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.64.woff2",
+   "url": "https://fonts.gstatic.com/s/youtubesans/v32/Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.64.woff2",
+   "role": "resource",
+   "token": "71a562d5a8924ab92e642f6aed302295a8a7028c"
+  },
+  {
+   "path": "Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.101.woff2",
+   "url": "https://fonts.gstatic.com/s/youtubesans/v32/Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.101.woff2",
+   "role": "resource",
+   "token": "4df59db961ef3cd92cc3b30cae120af4c3eb7200"
+  },
+  {
+   "path": "Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.102.woff2",
+   "url": "https://fonts.gstatic.com/s/youtubesans/v32/Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.102.woff2",
+   "role": "resource",
+   "token": "bc3e92f662d429611486c0a94ad4dec39cda89b9"
+  },
+  {
+   "path": "Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.103.woff2",
+   "url": "https://fonts.gstatic.com/s/youtubesans/v32/Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.103.woff2",
+   "role": "resource",
+   "token": "cb90ef3615c94ec5300a493ffefb9ad5f73126d7"
+  },
+  {
+   "path": "Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.104.woff2",
+   "url": "https://fonts.gstatic.com/s/youtubesans/v32/Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.104.woff2",
+   "role": "resource",
+   "token": "db4bb3dfe4063c8466962ee38ab6057b6ef91072"
+  },
+  {
+   "path": "Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.105.woff2",
+   "url": "https://fonts.gstatic.com/s/youtubesans/v32/Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.105.woff2",
+   "role": "resource",
+   "token": "8d048f27286952150d306c271d6c82ccc3f3fdb5"
+  },
+  {
+   "path": "Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.106.woff2",
+   "url": "https://fonts.gstatic.com/s/youtubesans/v32/Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.106.woff2",
+   "role": "resource",
+   "token": "f691a0afaf69780ad4509b28469c66411ff00250"
+  },
+  {
+   "path": "Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.107.woff2",
+   "url": "https://fonts.gstatic.com/s/youtubesans/v32/Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.107.woff2",
+   "role": "resource",
+   "token": "1f17be892244139c11eac3b8a4fe0f9e4130c5a5"
+  },
+  {
+   "path": "Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.108.woff2",
+   "url": "https://fonts.gstatic.com/s/youtubesans/v32/Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.108.woff2",
+   "role": "resource",
+   "token": "768f5f6a0325643434de11a4817a7561426eb5c5"
+  },
+  {
+   "path": "Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.110.woff2",
+   "url": "https://fonts.gstatic.com/s/youtubesans/v32/Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.110.woff2",
+   "role": "resource",
+   "token": "edf7258d36837d05c3f924149631931b38f25f71"
+  },
+  {
+   "path": "Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.111.woff2",
+   "url": "https://fonts.gstatic.com/s/youtubesans/v32/Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.111.woff2",
+   "role": "resource",
+   "token": "57949e92b1b3580f840719e432df120dcaeffc53"
+  },
+  {
+   "path": "Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.112.woff2",
+   "url": "https://fonts.gstatic.com/s/youtubesans/v32/Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.112.woff2",
+   "role": "resource",
+   "token": "e1dead19fd187e1b31695b2265d0ea70c7f75408"
+  },
+  {
+   "path": "Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.113.woff2",
+   "url": "https://fonts.gstatic.com/s/youtubesans/v32/Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.113.woff2",
+   "role": "resource",
+   "token": "f24e8e1359638d7fd6c5fcdae36f6bc0f8ec7b7f"
+  },
+  {
+   "path": "Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.118.woff2",
+   "url": "https://fonts.gstatic.com/s/youtubesans/v32/Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.118.woff2",
+   "role": "resource",
+   "token": "0ddd355ea2b1c45d52c00be24df5fe1ca5731a35"
+  },
+  {
+   "path": "Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HO_X7fH6Cg.woff2",
+   "url": "https://fonts.gstatic.com/s/youtubesans/v32/Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HO_X7fH6Cg.woff2",
+   "role": "resource",
+   "token": "3a77bbdf110e9fdd7fa61fefdcdd5f7000da0ad1"
+  },
+  {
+   "path": "Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HO_S7fH6Cg.woff2",
+   "url": "https://fonts.gstatic.com/s/youtubesans/v32/Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HO_S7fH6Cg.woff2",
+   "role": "resource",
+   "token": "67a28a7bc2436b3b0308d955ba996ac4cd00778b"
+  },
+  {
+   "path": "Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.59.woff2",
+   "url": "https://fonts.gstatic.com/s/youtubesans/v32/Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.59.woff2",
+   "role": "resource",
+   "token": "22c175ade0862e491f44e8f2e5af55fd8ad7003f"
+  },
+  {
+   "path": "Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.60.woff2",
+   "url": "https://fonts.gstatic.com/s/youtubesans/v32/Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.60.woff2",
+   "role": "resource",
+   "token": "6c5118313f22aff3eb94bb59c8616905a0d07994"
+  },
+  {
+   "path": "Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.65.woff2",
+   "url": "https://fonts.gstatic.com/s/youtubesans/v32/Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.65.woff2",
+   "role": "resource",
+   "token": "43784c6dbc667fa16da9a02157c39a653c99784b"
+  },
+  {
+   "path": "Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.94.woff2",
+   "url": "https://fonts.gstatic.com/s/youtubesans/v32/Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.94.woff2",
+   "role": "resource",
+   "token": "621de8087f40b23154136ed5155674be33e93d49"
+  },
+  {
+   "path": "Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.95.woff2",
+   "url": "https://fonts.gstatic.com/s/youtubesans/v32/Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.95.woff2",
+   "role": "resource",
+   "token": "da48f4b3cc28d51d7bfb0e66bd60cda17a66e771"
+  },
+  {
+   "path": "Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.96.woff2",
+   "url": "https://fonts.gstatic.com/s/youtubesans/v32/Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.96.woff2",
+   "role": "resource",
+   "token": "b8833986a2e39e54512ddc57ca9c1d95e37fef7f"
+  },
+  {
+   "path": "Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.98.woff2",
+   "url": "https://fonts.gstatic.com/s/youtubesans/v32/Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.98.woff2",
+   "role": "resource",
+   "token": "7906961ed8f49d6aa0a837eca0020ae35b2a7aa0"
+  },
+  {
+   "path": "Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.99.woff2",
+   "url": "https://fonts.gstatic.com/s/youtubesans/v32/Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.99.woff2",
+   "role": "resource",
+   "token": "39652c0d2c4d4c106f0416d4a5d0db83a082edae"
+  },
+  {
+   "path": "Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.100.woff2",
+   "url": "https://fonts.gstatic.com/s/youtubesans/v32/Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.100.woff2",
+   "role": "resource",
+   "token": "94511c17443ad141c99073133e6ed5b55bc600f1"
+  },
+  {
+   "path": "Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.114.woff2",
+   "url": "https://fonts.gstatic.com/s/youtubesans/v32/Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.114.woff2",
+   "role": "resource",
+   "token": "5f9dda2828905e23b7c56c41881929bf54ba4341"
+  },
+  {
+   "path": "Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.115.woff2",
+   "url": "https://fonts.gstatic.com/s/youtubesans/v32/Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.115.woff2",
+   "role": "resource",
+   "token": "b9820e99ea6753538f2bc5fd6941a123037e8190"
+  },
+  {
+   "path": "Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.116.woff2",
+   "url": "https://fonts.gstatic.com/s/youtubesans/v32/Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.116.woff2",
+   "role": "resource",
+   "token": "ac9446d9d45447e8c9361a8e6b52431f639143cb"
+  },
+  {
+   "path": "Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.117.woff2",
+   "url": "https://fonts.gstatic.com/s/youtubesans/v32/Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.117.woff2",
+   "role": "resource",
+   "token": "821c9540964bf99cc1d4b6a8d6bf5dc4df0df013"
+  },
+  {
+   "path": "Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.119.woff2",
+   "url": "https://fonts.gstatic.com/s/youtubesans/v32/Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HN_Rj-bIBTKe_JIhoUrEZNLnzQoo4nc.119.woff2",
+   "role": "resource",
+   "token": "2c9964d0f0c8fedb83f8c2e6832077a57abb571a"
+  },
+  {
+   "path": "Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HO_e7fH6Cg.woff2",
+   "url": "https://fonts.gstatic.com/s/youtubesans/v32/Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HO_e7fH6Cg.woff2",
+   "role": "resource",
+   "token": "a5ee15fbbc914b7c5fd72e45ec88a65b2b6b29f7"
+  },
+  {
+   "path": "Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HO_W7fH6Cg.woff2",
+   "url": "https://fonts.gstatic.com/s/youtubesans/v32/Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HO_W7fH6Cg.woff2",
+   "role": "resource",
+   "token": "1a39f184ebe800f4be061c9982431ac5b913dabc"
+  },
+  {
+   "path": "Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HO_R7fH6Cg.woff2",
+   "url": "https://fonts.gstatic.com/s/youtubesans/v32/Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HO_R7fH6Cg.woff2",
+   "role": "resource",
+   "token": "abb1acb72d48929fb8f8f5d9f0dff7fd054283f2"
+  },
+  {
+   "path": "Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HO_F7fH6Cg.woff2",
+   "url": "https://fonts.gstatic.com/s/youtubesans/v32/Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HO_F7fH6Cg.woff2",
+   "role": "resource",
+   "token": "5a2154f226133a27bcc6a0998eb8734117412b68"
+  },
+  {
+   "path": "Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HO_H7fH6Cg.woff2",
+   "url": "https://fonts.gstatic.com/s/youtubesans/v32/Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HO_H7fH6Cg.woff2",
+   "role": "resource",
+   "token": "280503e648397df3835087c6abbe66aee5b9fb06"
+  },
+  {
+   "path": "Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HO_c7fH6Cg.woff2",
+   "url": "https://fonts.gstatic.com/s/youtubesans/v32/Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HO_c7fH6Cg.woff2",
+   "role": "resource",
+   "token": "8e5bdbb50cdd7be23fcea943478f2cd8aedd6b38"
+  },
+  {
+   "path": "Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HO_d7fH6Cg.woff2",
+   "url": "https://fonts.gstatic.com/s/youtubesans/v32/Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HO_d7fH6Cg.woff2",
+   "role": "resource",
+   "token": "58ed89c49d06ec3bfd7925915ac054347127a500"
+  },
+  {
+   "path": "Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HO_T7fE.woff2",
+   "url": "https://fonts.gstatic.com/s/youtubesans/v32/Qw38ZQNGEDjaO2m6tqIqX5E-AVS5_rSejo46_PCTRspJ0OosolrBEJL3HO_T7fE.woff2",
+   "role": "resource",
+   "token": "4cf5e15986be558554ca5e1a42c433d531cc82ee"
+  }
+ ]
+}
