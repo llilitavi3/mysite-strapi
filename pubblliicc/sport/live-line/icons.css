@@ -1,0 +1,1341 @@
+@font-face {
+  font-family: 'xicons';
+  src:  url("icons.eot");
+  src:  url("icons.eot") format('embedded-opentype'),
+    url("icons.ttf") format('truetype'),
+    url("icons.woff") format('woff'),
+    url("icons.svg") format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.xicons{
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'xicons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-cashout:before {
+    content: "\e924";
+}
+
+.icon-label:before {
+    content: "\e925";
+}
+
+.icon-online:before {
+    content: "\e926";
+}
+.icon-clock:before {
+  content: "\e922";
+}
+.icon-user:before {
+  content: "\e923";
+}
+.icon-star:before {
+  content: "\f005";
+}
+.icon-star-half-alt:before {
+  content: "\f5c0";
+}
+.icon-star1:before {
+  content: "\f006";
+}
+.icon-point-system:before {
+  content: "\e90b";
+}
+.icon-virtual:before {
+  content: "\e90e";
+}
+.icon-customer-care:before {
+  content: "\e904";
+}
+.icon-money:before {
+  content: "\e915";
+}
+.icon-payment:before {
+  content: "\e916";
+}
+.icon-facebook-square:before {
+  content: "\f082";
+}
+.icon-twitter:before {
+  content: "\f099";
+}
+.icon-instagram:before {
+  content: "\f16d";
+}
+.icon-fee-coupon:before {
+  content: "\e900";
+}
+.icon-all:before {
+  content: "\e901";
+}
+.icon-cash:before {
+  content: "\e902";
+}
+.icon-cashback:before {
+  content: "\e903";
+}
+.icon-finance:before {
+  content: "\e905";
+}
+.icon-finance-bonus:before {
+  content: "\e906";
+}
+.icon-free-bet:before {
+  content: "\e907";
+}
+.icon-free-spin:before {
+  content: "\e908";
+}
+.icon-mobile:before {
+  content: "\e909";
+}
+.icon-odds:before {
+  content: "\e90a";
+}
+.icon-shopping:before {
+  content: "\e90c";
+}
+.icon-tv-match:before {
+  content: "\e90d";
+}
+.icon-virtual1:before {
+  content: "\e90f";
+  font-size:80%;
+}
+.icon-casino-setting:before {
+  content: "\e910";
+}
+.icon-cms:before {
+  content: "\e911";
+}
+.icon-handshake:before {
+  content: "\e912";
+}
+.icon-idea:before {
+  content: "\e913";
+}
+.icon-mail:before {
+  content: "\e914";
+}
+.icon-poker:before {
+  content: "\e917";
+}
+.icon-roulette:before {
+  content: "\e918";
+}
+.icon-skill-development:before {
+  content: "\e919";
+}
+.icon-skype:before {
+  content: "\e91a";
+}
+.icon-slot-machine:before {
+  content: "\e91b";
+}
+.icon-sport-betting:before {
+  content: "\e91c";
+}
+.icon-sport-betting1:before {
+  content: "\e91d";
+}
+.icon-sport-settings:before {
+  content: "\e91e";
+}
+.icon-testing:before {
+  content: "\e91f";
+}
+.icon-theme:before {
+  content: "\e920";
+}
+.icon-whatsapp:before {
+  content: "\e921";
+}
+.icon-long-arrow-right:before {
+  content: "\f178";
+}
+.icon-bezier-curve:before {
+  content: "\f55b";
+}
+
+.flag {
+    width: 18px;
+    height: 18px;
+    background: url("flags.png") no-repeat;
+    display: inline-block;
+    vertical-align: middle;
+    background-size: 100%;
+    margin-right: 6px;
+}
+
+.flag-asean {
+    background-position: 0 0
+}
+
+.flag-afghanistan, .flag-af {
+    background-position: 0 .346021%
+}
+
+.flag-africa, .flag-afr {
+    background-position: 0 .692042%
+}
+
+.flag-aland {
+    background-position: 0 1.038062%
+}
+
+.flag-albania, .flag-al {
+    background-position: 0 1.384083%
+}
+
+.flag-alderney {
+    background-position: 0 1.730104%
+}
+
+.flag-algeria, .flag-dz {
+    background-position: 0 2.076125%
+}
+
+.flag-all {
+    background-position: 0 2.422145%
+}
+
+.flag-americansamoa, .flag-as {
+    background-position: 0 2.768166%
+}
+
+.flag-ad, .flag-andorra {
+    background-position: 0 3.114187%
+}
+
+.flag-angola, .flag-ao {
+    background-position: 0 3.460208%
+}
+
+.flag-anguilla, .flag-ai {
+    background-position: 0 3.806228%
+}
+
+.flag-antiguaandbarbuda, .flag-ag {
+    background-position: 0 4.152249%
+}
+
+.flag-arableague {
+    background-position: 0 4.49827%
+}
+
+.flag-argentina, .flag-ar {
+    background-position: 0 4.844291%
+}
+
+.flag-armenia, .flag-am {
+    background-position: 0 5.190311%
+}
+
+.flag-aruba, .flag-aw {
+    background-position: 0 5.536332%
+}
+
+.flag-asia, .flag-asia {
+    background-position: 0 5.882353%
+}
+
+.flag-australia, .flag-au {
+    background-position: 0 6.228374%
+}
+
+.flag-austria, .flag-at {
+    background-position: 0 6.574394%
+}
+
+.flag-azerbaijan, .flag-az {
+    background-position: 0 6.920415%
+}
+
+.flag-bahamas, .flag-bs {
+    background-position: 0 7.266436%
+}
+
+.flag-bahrain, .flag-bh {
+    background-position: 0 7.612457%
+}
+
+.flag-bangladesh, .flag-bd {
+    background-position: 0 7.958478%
+}
+
+.flag-barbados, .flag-bb {
+    background-position: 0 8.304498%
+}
+
+.flag-basquecountry {
+    background-position: 0 8.650519%
+}
+
+.flag-belarus, .flag-by {
+    background-position: 0 8.99654%
+}
+
+.flag-belgium, .flag-be {
+    background-position: 0 9.342561%
+}
+
+.flag-belize, .flag-bz {
+    background-position: 0 9.688581%
+}
+
+.flag-benin, .flag-bj {
+    background-position: 0 10.034602%
+}
+
+.flag-bermuda, .flag-bm {
+    background-position: 0 10.380623%
+}
+
+.flag-bhutan, .flag-bt {
+    background-position: 0 10.726644%
+}
+
+.flag-bolivia, .flag-bo {
+    background-position: 0 11.072664%
+}
+
+.flag-bonairesinteustatiusandsaba {
+    background-position: 0 11.418685%
+}
+
+.flag-bosniaherzegovina, .flag-ba, .flag-boah {
+    background-position: 0 11.764706%
+}
+
+.flag-botswana, .flag-bw {
+    background-position: 0 12.110727%
+}
+
+.flag-bouvet, .flag-bv {
+    background-position: 0 12.456747%
+}
+
+.flag-, .flag-br {
+    background-position: 0 12.802768%
+}
+
+.flag-britishindianoceanterritory, .flag-io {
+    background-position: 0 13.148789%
+}
+
+.flag-brunei, .flag-bn {
+    background-position: 0 13.49481%
+}
+
+.flag-bulgaria, .flag-bg {
+    background-position: 0 13.84083%
+}
+
+.flag-burkinafaso, .flag-bf {
+    background-position: 0 14.186851%
+}
+
+.flag-burundi, .flag-bi {
+    background-position: 0 14.532872%
+}
+
+.flag-caricom {
+    background-position: 0 14.878893%
+}
+
+.flag-cis {
+    background-position: 0 15.224913%
+}
+
+.flag-cambodja, .flag-kh {
+    background-position: 0 15.570934%
+}
+
+.flag-cameroon, .flag-cm {
+    background-position: 0 15.916955%
+}
+
+.flag-canada, .flag-ca {
+    background-position: 0 16.262976%
+}
+
+.flag-capeverde, .flag-cv {
+    background-position: 0 16.608997%
+}
+
+.flag-catalonia {
+    background-position: 0 16.955017%
+}
+
+.flag-caymanislands, .flag-ky {
+    background-position: 0 17.301038%
+}
+
+.flag-centralafricanrepublic, .flag-cf {
+    background-position: 0 17.647059%
+}
+
+.flag-chad, .flag-td {
+    background-position: 0 17.99308%
+}
+
+.flag-chile, .flag-cl {
+    background-position: 0 18.3391%
+}
+
+.flag-china, .flag-cn {
+    background-position: 0 18.685121%
+}
+
+.flag-chinesetaipei {
+    background-position: 0 19.031142%
+}
+
+.flag-christmas, .flag-cx {
+    background-position: 0 19.377163%
+}
+
+.flag-cocoskeeling, .flag-cc {
+    background-position: 0 19.723183%
+}
+
+.flag-colombia, .flag-co {
+    background-position: 0 20.069204%
+}
+
+.flag-commonwealth {
+    background-position: 0 20.415225%
+}
+
+.flag-comoros, .flag-km {
+    background-position: 0 20.761246%
+}
+
+.flag-congobrazzaville, .flag-cg {
+    background-position: 0 21.107266%
+}
+
+.flag-congokinshasa, .flag-cd {
+    background-position: 0 21.453287%
+}
+
+.flag-cookislands, .flag-ck {
+    background-position: 0 21.799308%
+}
+
+.flag-costarica, .flag-cr {
+    background-position: 0 22.145329%
+}
+
+.flag-cotedivoire, .flag-ci {
+    background-position: 0 22.491349%
+}
+
+.flag-croatia, .flag-hr {
+    background-position: 0 22.83737%
+}
+
+.flag-cuba, .flag-cu {
+    background-position: 0 23.183391%
+}
+
+.flag-curacao, .flag-cw {
+    background-position: 0 23.529412%
+}
+
+.flag-cyprus, .flag-cy {
+    background-position: 0 23.875433%
+}
+
+.flag-czechrepublic, .flag-cz {
+    background-position: 0 24.221453%
+}
+
+.flag-denmark, .flag-dk {
+    background-position: 0 24.567474%
+}
+
+.flag-djibouti, .flag-dj {
+    background-position: 0 24.913495%
+}
+
+.flag-dominica, .flag-dm {
+    background-position: 0 25.259516%
+}
+
+.flag-dominicanrepublic, .flag-do {
+    background-position: 0 25.605536%
+}
+
+.flag-ecuador, .flag-ec {
+    background-position: 0 25.951557%
+}
+
+.flag-egypt, .flag-eg {
+    background-position: 0 26.297578%
+}
+
+.flag-elsalvador, .flag-sv {
+    background-position: 0 26.643599%
+}
+
+.flag-england, .flag-el {
+    background-position: 0 26.989619%
+}
+
+.flag-equatorialguinea, .flag-gq {
+    background-position: 0 27.33564%
+}
+
+.flag-eritrea, .flag-er {
+    background-position: 0 27.681661%
+}
+
+.flag-estonia, .flag-ee {
+    background-position: 0 28.027682%
+}
+
+.flag-ethiopia, .flag-et {
+    background-position: 0 28.373702%
+}
+
+.flag-europe, .flag-eu {
+    background-position: 0 28.719723%
+}
+
+.flag-fao {
+    background-position: 0 29.065744%
+}
+
+.flag-falkland, .flag-fk {
+    background-position: 0 29.411765%
+}
+
+.flag-faroes, .flag-fo {
+    background-position: 0 29.757785%
+}
+
+.flag-fiji, .flag-fj {
+    background-position: 0 30.103806%
+}
+
+.flag-finland, .flag-fi {
+    background-position: 0 30.449827%
+}
+
+.flag-france, .flag-fr {
+    background-position: 0 30.795848%
+}
+
+.flag-french-guiana, .flag-gf {
+    background-position: 0 31.141869%
+}
+
+.flag-frenchsouthernandantarcticlands, .flag-tf {
+    background-position: 0 31.487889%
+}
+
+.flag-gabon, .flag-ga {
+    background-position: 0 31.83391%
+}
+
+.flag-galicia {
+    background-position: 0 32.179931%
+}
+
+.flag-gambia, .flag-gm {
+    background-position: 0 32.525952%
+}
+
+.flag-georgia, .flag-ge {
+    background-position: 0 32.871972%
+}
+
+.flag-germany, .flag-de {
+    background-position: 0 33.217993%
+}
+
+.flag-ghana, .flag-gh {
+    background-position: 0 33.564014%
+}
+
+.flag-gibraltar, .flag-gi {
+    background-position: 0 33.910035%
+}
+
+.flag-greatbritain {
+    background-position: 0 34.256055%
+}
+
+.flag-greece, .flag-gr {
+    background-position: 0 34.602076%
+}
+
+.flag-greenland, .flag-gl {
+    background-position: 0 34.948097%
+}
+
+.flag-grenada, .flag-gd {
+    background-position: 0 35.294118%
+}
+
+.flag-guadeloupe, .flag-gp {
+    background-position: 0 35.640138%
+}
+
+.flag-guam, .flag-gu {
+    background-position: 0 35.986159%
+}
+
+.flag-guatemala, .flag-gt {
+    background-position: 0 36.33218%
+}
+
+.flag-guernsey, .flag-gg {
+    background-position: 0 36.678201%
+}
+
+.flag-guinea, .flag-gn {
+    background-position: 0 37.024221%
+}
+
+.flag-guineabissau, .flag-gw {
+    background-position: 0 37.370242%
+}
+
+.flag-guyana, .flag-gy {
+    background-position: 0 37.716263%
+}
+
+.flag-haiti, .flag-ht {
+    background-position: 0 38.062284%
+}
+
+.flag-heardislandandmcdonald, .flag-hm {
+    background-position: 0 38.408304%
+}
+
+.flag-honduras, .flag-hn {
+    background-position: 0 38.754325%
+}
+
+.flag-hongkong, .flag-hk {
+    background-position: 0 39.100346%
+}
+
+.flag-hungary, .flag-hu {
+    background-position: 0 39.446367%
+}
+
+.flag-iaea {
+    background-position: 0 39.792388%
+}
+
+.flag-iho {
+    background-position: 0 40.138408%
+}
+
+.flag-iceland, .flag-is {
+    background-position: 0 40.484429%
+}
+
+.flag-india, .flag-in {
+    background-position: 0 40.83045%
+}
+
+.flag-indonesia, .flag-id {
+    background-position: 0 41.176471%
+}
+
+.flag-international {
+    background-position: 0 41.522491%
+}
+
+.flag-iran, .flag-ir {
+    background-position: 0 41.868512%
+}
+
+.flag-iraq, .flag-iq {
+    background-position: 0 42.214533%
+}
+
+.flag-ireland, .flag-ie {
+    background-position: 0 42.560554%
+}
+
+.flag-islamicconference {
+    background-position: 0 42.906574%
+}
+
+.flag-isleofman, .flag-im {
+    background-position: 0 43.252595%
+}
+
+.flag-israel, .flag-il {
+    background-position: 0 43.598616%
+}
+
+.flag-italy, .flag-it {
+    background-position: 0 43.944637%
+}
+
+.flag-jamaica, .flag-jm {
+    background-position: 0 44.290657%
+}
+
+.flag-japan, .flag-jp {
+    background-position: 0 44.636678%
+}
+
+.flag-jersey, .flag-je {
+    background-position: 0 44.982699%
+}
+
+.flag-jordan, .flag-jo {
+    background-position: 0 45.32872%
+}
+
+.flag-kazakhstan, .flag-kz {
+    background-position: 0 45.67474%
+}
+
+.flag-kenya, .flag-ke {
+    background-position: 0 46.020761%
+}
+
+.flag-kiribati, .flag-ki {
+    background-position: 0 46.366782%
+}
+
+.flag-kosovo, .flag-xk {
+    background-position: 0 46.712803%
+}
+
+.flag-kurdish {
+    background-position: 0 47.058824%
+}
+
+.flag-kuwait, .flag-kw {
+    background-position: 0 47.404844%
+}
+
+.flag-kyrgyzstan, .flag-kg {
+    background-position: 0 47.750865%
+}
+
+.flag-laos, .flag-la {
+    background-position: 0 48.096886%
+}
+
+.flag-latvia, .flag-lv {
+    background-position: 0 48.442907%
+}
+
+.flag-lebanon, .flag-lb {
+    background-position: 0 48.788927%
+}
+
+.flag-lesotho, .flag-ls {
+    background-position: 0 49.134948%
+}
+
+.flag-liberia, .flag-lr {
+    background-position: 0 49.480969%
+}
+
+.flag-libya, .flag-ly {
+    background-position: 0 49.82699%
+}
+
+.flag-liechtenshein, .flag-li {
+    background-position: 0 50.17301%
+}
+
+.flag-lithuania, .flag-lt {
+    background-position: 0 50.519031%
+}
+
+.flag-luxembourg, .flag-lu {
+    background-position: 0 50.865052%
+}
+
+.flag-macao, .flag-mo {
+    background-position: 0 51.211073%
+}
+
+.flag-macedonia, .flag-northmacedonia, .flag-mk, .flag-rom {
+    background-position: 0 51.557093%
+}
+
+.flag-madagascar, .flag-mg {
+    background-position: 0 51.903114%
+}
+
+.flag-malawi, .flag-mw {
+    background-position: 0 52.249135%
+}
+
+.flag-malaysia, .flag-my {
+    background-position: 0 52.595156%
+}
+
+.flag-maldives, .flag-mv {
+    background-position: 0 52.941176%
+}
+
+.flag-mali, .flag-ml {
+    background-position: 0 53.287197%
+}
+
+.flag-malta, .flag-mt {
+    background-position: 0 53.633218%
+}
+
+.flag-marshallislands, .flag-mh {
+    background-position: 0 53.979239%
+}
+
+.flag-martinique, .flag-mq {
+    background-position: 0 54.32526%
+}
+
+.flag-mauritania, .flag-mr {
+    background-position: 0 54.67128%
+}
+
+.flag-mauritius, .flag-mu {
+    background-position: 0 55.017301%
+}
+
+.flag-mayotte, .flag-yt {
+    background-position: 0 55.363322%
+}
+
+.flag-mexico, .flag-mx {
+    background-position: 0 55.709343%
+}
+
+.flag-micronesia, .flag-fm {
+    background-position: 0 56.055363%
+}
+
+.flag-moldova, .flag-md {
+    background-position: 0 56.401384%
+}
+
+.flag-monaco, .flag-mc {
+    background-position: 0 56.747405%
+}
+
+.flag-mongolia, .flag-mn {
+    background-position: 0 57.093426%
+}
+
+.flag-montenegro, .flag-me {
+    background-position: 0 57.439446%
+}
+
+.flag-montserrat, .flag-ms {
+    background-position: 0 57.785467%
+}
+
+.flag-morocco, .flag-ma {
+    background-position: 0 58.131488%
+}
+
+.flag-mozambique, .flag-mz {
+    background-position: 0 58.477509%
+}
+
+.flag-myanmar, .flag-mm {
+    background-position: 0 58.823529%
+}
+
+.flag-nato {
+    background-position: 0 59.16955%
+}
+
+.flag-namibia, .flag-na {
+    background-position: 0 59.515571%
+}
+
+.flag-nauru, .flag-nr {
+    background-position: 0 59.861592%
+}
+
+.flag-nepal, .flag-np {
+    background-position: 0 60.207612%
+}
+
+.flag-netherlands, .flag-nl {
+    background-position: 0 60.553633%
+}
+
+.flag-netherlandsantilles, .flag-an {
+    background-position: 0 60.899654%
+}
+
+.flag-newcaledonia, .flag-nc {
+    background-position: 0 61.245675%
+}
+
+.flag-newzealand, .flag-nz {
+    background-position: 0 61.591696%
+}
+
+.flag-nicaragua, .flag-ni {
+    background-position: 0 61.937716%
+}
+
+.flag-niger, .flag-ne {
+    background-position: 0 62.283737%
+}
+
+.flag-nigeria, .flag-ng {
+    background-position: 0 62.629758%
+}
+
+.flag-niue, .flag-nu {
+    background-position: 0 62.975779%
+}
+
+.flag-norfolk, .flag-nf {
+    background-position: 0 63.321799%
+}
+
+.flag-northamerica, .flag-nca {
+    background-position: 0 63.66782%
+}
+
+.flag-northkorea, .flag-kp {
+    background-position: 0 64.013841%
+}
+
+.flag-northerncyprus {
+    background-position: 0 64.359862%
+}
+
+.flag-northernireland, .flag-en {
+    background-position: 0 64.705882%
+}
+
+.flag-northernmariana, .flag-mp {
+    background-position: 0 65.051903%
+}
+
+.flag-norway, .flag-no {
+    background-position: 0 65.397924%
+}
+
+.flag-oas {
+    background-position: 0 65.743945%
+}
+
+.flag-opec {
+    background-position: 0 66.089965%
+}
+
+.flag-oceania {
+    background-position: 0 66.435986%
+}
+
+.flag-olimpics {
+    background-position: 0 66.782007%
+}
+
+.flag-oman, .flag-om {
+    background-position: 0 67.128028%
+}
+
+.flag-pakistan, .flag-pk {
+    background-position: 0 67.474048%
+}
+
+.flag-palau, .flag-pw {
+    background-position: 0 67.820069%
+}
+
+.flag-palestine, .flag-ps {
+    background-position: 0 68.16609%
+}
+
+.flag-panama, .flag-pa {
+    background-position: 0 68.512111%
+}
+
+.flag-papuanewguinea, .flag-pg {
+    background-position: 0 68.858131%
+}
+
+.flag-paraguay, .flag-py {
+    background-position: 0 69.204152%
+}
+
+.flag-peru, .flag-pe {
+    background-position: 0 69.550173%
+}
+
+.flag-philippines, .flag-ph {
+    background-position: 0 69.896194%
+}
+
+.flag-pitcairn, .flag-pn {
+    background-position: 0 70.242215%
+}
+
+.flag-poland, .flag-pl {
+    background-position: 0 70.588235%
+}
+
+.flag-portugal, .flag-pt {
+    background-position: 0 70.934256%
+}
+
+.flag-puertorico, .flag-pr {
+    background-position: 0 71.280277%
+}
+
+.flag-qatar, .flag-qa {
+    background-position: 0 71.626298%
+}
+
+.flag-quebec {
+    background-position: 0 71.972318%
+}
+
+.flag-redcross {
+    background-position: 0 72.318339%
+}
+
+.flag-reunion, .flag-re {
+    background-position: 0 72.66436%
+}
+
+.flag-romania, .flag-ro {
+    background-position: 0 73.010381%
+}
+
+.flag-russia, .flag-ru {
+    background-position: 0 73.356401%
+}
+
+.flag-rwanda, .flag-rw {
+    background-position: 0 73.702422%
+}
+
+.flag-saintbarthelemy, .flag-bl {
+    background-position: 0 74.048443%
+}
+
+.flag-sainthelena, .flag-sh {
+    background-position: 0 74.394464%
+}
+
+.flag-saintlucia, .flag-lc {
+    background-position: 0 74.740484%
+}
+
+.flag-saintmartin, .flag-mf {
+    background-position: 0 75.086505%
+}
+
+.flag-saintpierreandmiquelon, .flag-pm {
+    background-position: 0 75.432526%
+}
+
+.flag-samoa, .flag-ws {
+    background-position: 0 75.778547%
+}
+
+.flag-sanmarino, .flag-sm {
+    background-position: 0 76.124567%
+}
+
+.flag-saotomeandprincipe, .flag-st {
+    background-position: 0 76.470588%
+}
+
+.flag-saudiarabia, .flag-sa {
+    background-position: 0 76.816609%
+}
+
+.flag-scotland, .flag-sq {
+    background-position: 0 77.16263%
+}
+
+.flag-senegal, .flag-sn {
+    background-position: 0 77.508651%
+}
+
+.flag-serbia, .flag-rs {
+    background-position: 0 77.854671%
+}
+
+.flag-seychelles, .flag-sc {
+    background-position: 0 78.200692%
+}
+
+.flag-sierraleone, .flag-sl {
+    background-position: 0 78.546713%
+}
+
+.flag-singapore, .flag-sg {
+    background-position: 0 78.892734%
+}
+
+.flag-sintmaarten, .flag-sx {
+    background-position: 0 79.238754%
+}
+
+.flag-slovakia, .flag-sk {
+    background-position: 0 79.584775%
+}
+
+.flag-slovenia, .flag-si {
+    background-position: 0 79.930796%
+}
+
+.flag-solomonislands, .flag-sb {
+    background-position: 0 80.276817%
+}
+
+.flag-somalia, .flag-so {
+    background-position: 0 80.622837%
+}
+
+.flag-somaliland {
+    background-position: 0 80.968858%
+}
+
+.flag-southafrica, .flag-za {
+    background-position: 0 81.314879%
+}
+
+.flag-southamerica, .flag-sam {
+    background-position: 0 81.6609%
+}
+
+.flag-southgeorgiaandsouthsandwich, .flag-gs {
+    background-position: 0 82.00692%
+}
+
+.flag-southkorea, .flag-kr {
+    background-position: 0 82.352941%
+}
+
+.flag-southsudan, .flag-ss {
+    background-position: 0 82.698962%
+}
+
+.flag-spain, .flag-es {
+    background-position: 0 83.044983%
+}
+
+.flag-srilanka, .flag-lk {
+    background-position: 0 83.391003%
+}
+
+.flag-stkittsandnevis, .flag-kn {
+    background-position: 0 83.737024%
+}
+
+.flag-stvincentandthegrenadines, .flag-vc {
+    background-position: 0 84.083045%
+}
+
+.flag-sudan, .flag-sd {
+    background-position: 0 84.429066%
+}
+
+.flag-suriname, .flag-sr {
+    background-position: 0 84.775087%
+}
+
+.flag-svalbardandjanmayen {
+    background-position: 0 85.121107%
+}
+
+.flag-swaziland, .flag-sz {
+    background-position: 0 85.467128%
+}
+
+.flag-sweden, .flag-se {
+    background-position: 0 85.813149%
+}
+
+.flag-switzerland, .flag-ch {
+    background-position: 0 86.15917%
+}
+
+.flag-syria, .flag-sy {
+    background-position: 0 86.50519%
+}
+
+.flag-tahiti {
+    background-position: 0 86.851211%
+}
+
+.flag-taiwan, .flag-tw {
+    background-position: 0 87.197232%
+}
+
+.flag-tajikistan, .flag-tj {
+    background-position: 0 87.543253%
+}
+
+.flag-United.Republic.of.Tanzania, .flag-tanzania, .flag-tz {
+    background-position: 0 87.889273%
+}
+
+.flag-thailand, .flag-th {
+    background-position: 0 88.235294%
+}
+
+.flag-timorleste, .flag-tl {
+    background-position: 0 88.581315%
+}
+
+.flag-togo, .flag-tg {
+    background-position: 0 88.927336%
+}
+
+.flag-tokelau, .flag-tk {
+    background-position: 0 89.273356%
+}
+
+.flag-tonga, .flag-to {
+    background-position: 0 89.619377%
+}
+
+.flag-trinidadtobago, .flag-tt {
+    background-position: 0 89.965398%
+}
+
+.flag-tristandacunha, .flag-tm {
+    background-position: 0 90.311419%
+}
+
+.flag-tunisia, .flag-tn {
+    background-position: 0 90.657439%
+}
+
+.flag-turkey, .flag-tr {
+    background-position: 0 91.00346%
+}
+
+.flag-turkmenistan, .flag-tm {
+    background-position: 0 91.349481%
+}
+
+.flag-turksandcaicosislands, .flag-tc {
+    background-position: 0 91.695502%
+}
+
+.flag-tuvalu, .flag-tv {
+    background-position: 0 92.041522%
+}
+
+.flag-unitedstates, .flag-us {
+    background-position: 0 92.387543%
+}
+
+.flag-uganda, .flag-ug {
+    background-position: 0 92.733564%
+}
+
+.flag-ukraine, .flag-ua {
+    background-position: 0 93.079585%
+}
+
+.flag-unitedarabemirates, .flag-ae {
+    background-position: 0 93.425606%
+}
+
+.flag-unitedkingdom, .flag-gb {
+    background-position: 0 93.771626%
+}
+
+.flag-uruguay, .flag-uy {
+    background-position: 0 94.117647%
+}
+
+.flag-uzbekistan, .flag-uz {
+    background-position: 0 94.463668%
+}
+
+.flag-vanutau, .flag-vu {
+    background-position: 0 94.809689%
+}
+
+.flag-vaticancity, .flag-va {
+    background-position: 0 95.155709%
+}
+
+.flag-venezuela, .flag-ve {
+    background-position: 0 95.50173%
+}
+
+.flag-vietnam, .flag-vn {
+    background-position: 0 95.847751%
+}
+
+.flag-virginislandsbritish, .flag-vg {
+    background-position: 0 96.193772%
+}
+
+.flag-virginislandsus, .flag-vi {
+    background-position: 0 96.539792%
+}
+
+.flag-wales, .flag-wls {
+    background-position: 0 96.885813%
+}
+
+.flag-wallisandfutuna, .flag-wf {
+    background-position: 0 97.231834%
+}
+
+.flag-westernsahara, .flag-eh {
+    background-position: 0 97.577855%
+}
+
+.flag-world, .flag-wd {
+    background-position: 0 97.923875%
+}
+
+.flag-yemen, .flag-ye {
+    background-position: 0 98.269896%
+}
+
+.flag-zambia, .flag-zm {
+    background-position: 0 98.615917%
+}
+
+.flag-zimbabwe, .flag-zw {
+    background-position: 0 98.961938%
+}
+
+.flag-allupcoming {
+    background-position: 0 99.307958%
+}
+
+.flag-america {
+    background-position: 0 99.653979%
+}
+
+.flag-withvideo {
+    background-position: 0 100%
+}

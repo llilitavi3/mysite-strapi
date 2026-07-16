@@ -1,0 +1,135 @@
+/* Applies only on /sport/live-line because this file is loaded only there */
+/* Background blocks marked in screenshot: 50% transparent */
+.rb-home-betting-head,
+.rb-home-betting-board,
+.rb-home-betting-layout,
+.rb-home-betting-events,
+.rb-sport-page-events,
+.rb-sport-page-event,
+.rb-home-betting-slide.rb-sport-page-event {
+  background: #47131380 !important;
+  background-color: #3d121280 !important;
+  background-image: none !important;
+}
+
+.rb-home-sport-group,
+.rb-home-sub-sport,
+.rb-sport-submenu-sport,
+.rb-sport-submenu-tabs button,
+.rb-sport-submenu-tabs a,
+.rb-home-sports-groups button,
+.rb-home-sub-sports button,
+.rb-home-sports-groups a,
+.rb-home-sub-sports a,
+.dash-sports-slide,
+.sx-sport-list li,
+.sx-sport-list li a,
+.sx-sports-swiper swiper-slide,
+.sx-sports-swiper swiper-slide a,
+.sportcountry-view li {
+  background: #56090989 !important;
+  background-color: #56090989 !important;
+  background-image: none !important;
+}
+
+.rb-home-sport-group > a,
+.rb-home-sub-sport > a,
+.rb-sport-submenu-sport > a,
+.dash-sports-slide > a,
+.sx-sport-list li > a,
+.sx-sports-swiper swiper-slide > a,
+.sportcountry-view li > a,
+.rb-home-sport-group > button,
+.rb-home-sub-sport > button,
+.rb-sport-submenu-sport > button,
+.dash-sports-slide > button,
+.sx-sport-list li > button,
+.sx-sports-swiper swiper-slide > button,
+.sportcountry-view li > button {
+  background: #56090989 !important;
+  background-color: #56090989 !important;
+  background-image: none !important;
+}
+
+.rb-home-sport-group.active,
+.rb-home-sub-sport.active,
+.rb-sport-submenu-sport.active,
+.rb-sport-submenu-tabs button.active,
+.rb-sport-submenu-tabs a.active,
+.dash-sports-slide.active,
+.sx-sport-list li.active,
+.sx-sports-swiper swiper-slide.active,
+.sportcountry-view li.active,
+.rb-home-sport-group.rb-click-active,
+.rb-home-sub-sport.rb-click-active,
+.rb-sport-submenu-sport.rb-click-active,
+.rb-sport-submenu-tabs button.rb-click-active,
+.rb-sport-submenu-tabs a.rb-click-active,
+.dash-sports-slide.rb-click-active,
+.sx-sport-list li.rb-click-active,
+.sx-sports-swiper swiper-slide.rb-click-active,
+.sportcountry-view li.rb-click-active {
+  background: #56090989 !important;
+  background-color: #56090989 !important;
+  background-image: none !important;
+}
+
+.rb-home-sport-group::before,
+.rb-home-sport-group::after,
+.rb-home-sub-sport::before,
+.rb-home-sub-sport::after,
+.rb-sport-submenu-sport::before,
+.rb-sport-submenu-sport::after,
+.dash-sports-slide::before,
+.dash-sports-slide::after,
+.sx-sport-list li::before,
+.sx-sport-list li::after,
+.sx-sports-swiper swiper-slide::before,
+.sx-sports-swiper swiper-slide::after,
+.sportcountry-view li::before,
+.sportcountry-view li::after {
+  background: transparent !important;
+  opacity: 0 !important;
+  box-shadow: none !important;
+  content: none !important;
+  display: none !important;
+}
+
+.rb-home-sport-group > a::before,
+.rb-home-sport-group > a::after,
+.rb-home-sub-sport > a::before,
+.rb-home-sub-sport > a::after,
+.rb-sport-submenu-sport > a::before,
+.rb-sport-submenu-sport > a::after,
+.dash-sports-slide > a::before,
+.dash-sports-slide > a::after,
+.sx-sport-list li > a::before,
+.sx-sport-list li > a::after,
+.sx-sports-swiper swiper-slide > a::before,
+.sx-sports-swiper swiper-slide > a::after,
+.sportcountry-view li > a::before,
+.sportcountry-view li > a::after,
+.rb-home-sport-group > button::before,
+.rb-home-sport-group > button::after,
+.rb-home-sub-sport > button::before,
+.rb-home-sub-sport > button::after,
+.rb-sport-submenu-sport > button::before,
+.rb-sport-submenu-sport > button::after {
+  background: transparent !important;
+  opacity: 0 !important;
+  box-shadow: none !important;
+  content: none !important;
+  display: none !important;
+}
+
+.rb-home-sport-group > span,
+.rb-home-sub-sport > span,
+.rb-sport-submenu-sport > span,
+.dash-sports-slide > span:first-child,
+.sx-sport-list li > span:first-child,
+.sx-sports-swiper swiper-slide > span:first-child,
+.sportcountry-view li > span:first-child {
+  background: transparent !important;
+  border-color: transparent !important;
+  box-shadow: none !important;
+}

@@ -1,0 +1,45 @@
+<!doctype html>
+<html class="dark-mode hidenotification rb-page-slider-pending sport-page live-sport-page" lang="he" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#120202">
+  <meta name="robots" content="index, follow">
+  <meta name="description" content="Live sports markets and in-play betting.">
+  <meta property="og:title" content="RoyalBet 88 - Live Sports">
+  <meta property="og:description" content="Live sports markets and in-play betting.">
+  <meta property="og:type" content="website">
+  <title>RoyalBet 88 - Live Sports</title>
+  <link rel="stylesheet" href="/assets/css/rb-shell.css?v=20260710a">
+  <link rel="stylesheet" href="/assets/css/rb-core.css?v=20260710a">
+  <link rel="stylesheet" href="/assets/css/sport/live-line/live-line-theme.css?v=20260705w">
+  <link rel="stylesheet" href="/assets/css/sport/live-line/live-line-sprites.css?v=20260705w">
+  <link rel="stylesheet" href="/assets/css/sport/live-line/live-line.css?v=20260710ae">
+</head>
+<body class="appSidebarVisible sx-sport-page-wrap">
+  <app-root>
+    <main class="app-main-content" aria-label="RoyalBet 88 - Live Sports"></main>
+  </app-root>
+
+  <noscript>
+    <p class="sr-only">JavaScript is required to load RoyalBet 88.</p>
+  </noscript>
+
+  <script>
+    window.ROYALBET_API_BASE = window.ROYALBET_API_BASE || (
+      ['localhost'].includes(window.location.hostname)
+        ? 'http://localhost:1337'
+        : ''
+    );
+    window.ROYALBET_SOCKET_URL = window.ROYALBET_SOCKET_URL || window.ROYALBET_API_BASE || window.location.origin;
+  </script>
+  <script defer src="/assets/js/royalbet-strapi-bridge.js?v=20260707a"></script>
+  <script defer src="/assets/js/royalbet-site-runtime-20260704j.js?v=20260710b"></script>
+  <script defer src="/assets/js/rb-security.js?v=20260705a"></script>
+  <script defer src="/assets/js/sport/live-line/live-line-config.js?v=20260705x"></script>
+  <script defer src="/assets/js/sport/live-line/live-line-sprites.js?v=20260705x"></script>
+  <script defer src="https://cdn.socket.io/4.8.1/socket.io.min.js" crossorigin="anonymous"></script>
+  <script defer src="/assets/js/sport/live-line/live-line.js?v=20260710ak"></script>
+  <script defer src="/assets/js/site-header.js?v=20260710a"></script>
+</body>
+</html>
