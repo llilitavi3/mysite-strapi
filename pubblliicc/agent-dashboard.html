@@ -1,0 +1,706 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Agent Dashboard - RoyalBet</title>
+  <style>
+    * { box-sizing: border-box; }
+    :root {
+      --bg: #080506;
+      --panel: #151012;
+      --panel-2: #1d1517;
+      --line: rgba(255,255,255,.09);
+      --text: #f7eeee;
+      --muted: #b9a7a7;
+      --red: #c92c2d;
+      --red-2: #f04a45;
+      --green: #37c978;
+      --gold: #ffcf70;
+      --blue: #5ea2ff;
+    }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      overflow-x: hidden;
+      background:
+        linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),
+        url("/assets/images/bg.jpg") center center / cover fixed no-repeat;
+      color: var(--text);
+      font-family: system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
+      font-size: 13px;
+      direction: rtl;
+    }
+    button, input, textarea { font: inherit; }
+    .shell { width: min(1240px, calc(100% - 24px)); margin: 0 auto; padding: 14px 0 24px; }
+    .topbar, .card, .stat {
+      min-width: 0;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: rgba(21,16,18,.92);
+      box-shadow: 0 12px 34px rgba(0,0,0,.24);
+    }
+    .topbar {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 10px;
+      align-items: center;
+      padding: 12px;
+      background: linear-gradient(180deg, rgba(255,255,255,.06), rgba(255,255,255,.02));
+      margin-bottom: 10px;
+    }
+    h1, h2, h3, p { margin: 0; }
+    h1 { font-size: 18px; }
+    h2 { font-size: 14px; }
+    h3 { font-size: 13px; }
+    .muted { color: var(--muted); }
+    .actions { display: flex; gap: 8px; flex-wrap: wrap; }
+    .btn {
+      border: 1px solid var(--line);
+      background: rgba(255,255,255,.06);
+      color: var(--text);
+      border-radius: 7px;
+      min-height: 32px;
+      padding: 7px 10px;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      font-weight: 400;
+    }
+    .btn.primary { background: linear-gradient(180deg, var(--red-2), var(--red)); border-color: rgba(255,120,120,.35); }
+    .btn.good { background: rgba(55,201,120,.15); color: #bdf6d6; border-color: rgba(55,201,120,.35); }
+    .btn.warn { background: rgba(255,207,112,.12); color: #ffe2aa; border-color: rgba(255,207,112,.28); }
+    .grid { display: grid; gap: 10px; }
+    .stats { grid-template-columns: repeat(4, minmax(0, 1fr)); margin-bottom: 10px; }
+    .stat { padding: 10px; min-height: 72px; }
+    .stat strong { display: block; font-size: 20px; color: #fff; margin-bottom: 2px; }
+    .stat span { color: var(--muted); font-size: 12px; }
+    .layout { grid-template-columns: minmax(0, 1.25fr) minmax(350px, .75fr); align-items: start; }
+    .layout > * { min-width: 0; }
+    .card-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 8px;
+      padding: 10px 12px;
+      border-bottom: 1px solid var(--line);
+    }
+    .card-body { padding: 10px 12px; }
+    .tools { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .tool {
+      background: var(--panel-2);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 10px;
+      display: grid;
+      gap: 8px;
+    }
+    label { color: var(--muted); font-size: 12px; display: grid; gap: 5px; }
+    input, textarea, select {
+      width: 100%;
+      border: 1px solid var(--line);
+      background: rgba(0,0,0,.22);
+      color: var(--text);
+      border-radius: 7px;
+      padding: 8px 9px;
+      outline: none;
+    }
+    textarea { min-height: 68px; resize: vertical; }
+    table { width: 100%; border-collapse: collapse; }
+    th, td { padding: 8px; text-align: right; border-bottom: 1px solid var(--line); vertical-align: middle; }
+    th { color: var(--muted); font-size: 11px; font-weight: 400; background: rgba(255,255,255,.03); }
+    td { font-size: 12px; }
+    .badge { display: inline-flex; border-radius: 999px; padding: 3px 8px; background: rgba(255,255,255,.08); color: #fff; font-size: 11px; font-weight: 400; }
+    .badge.pending { background: rgba(255,207,112,.14); color: var(--gold); }
+    .badge.done { background: rgba(55,201,120,.15); color: #aef3ce; }
+    .badge.reject { background: rgba(240,74,69,.18); color: #ffb7b4; }
+    .empty { color: var(--muted); text-align: center; padding: 20px; }
+    .table-wrap { max-width: 100%; overflow-x: auto; direction: ltr; }
+    .table-wrap table { direction: rtl; }
+    .request-list, .chat-log { display: grid; gap: 8px; max-height: 278px; overflow: auto; padding-inline-end: 2px; }
+    .request, .msg { padding: 9px; border-radius: 8px; background: rgba(255,255,255,.06); border: 1px solid var(--line); }
+    .request-head, .msg-head { display: flex; justify-content: space-between; gap: 8px; align-items: center; margin-bottom: 5px; }
+    .msg.mine { border-color: rgba(94,162,255,.35); background: rgba(94,162,255,.12); }
+    .notice { display: none; margin-bottom: 10px; padding: 9px 10px; border-radius: 8px; background: rgba(255,207,112,.12); color: #ffe2aa; border: 1px solid rgba(255,207,112,.25); }
+    @media (max-width: 900px) {
+      .shell { width: min(100% - 16px, 1240px); padding-top: 8px; }
+      .topbar, .layout { grid-template-columns: 1fr; }
+      .stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .tools { grid-template-columns: 1fr; }
+      table { min-width: 680px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="shell">
+    <div id="notice" class="notice"></div>
+    <section class="topbar">
+      <div>
+        <h1 data-rb-i18n="dashboard.agent.topTitle">Agent Dashboard</h1>
+        <p class="muted"><span data-rb-i18n="dashboard.agent.topPrefix">Hello,</span> <span id="agent-name">Agent</span>  <span data-rb-i18n="dashboard.agent.topSuffix">manage players, balances and requests</span></p>
+      </div>
+      <div class="actions">
+        <a class="btn" href="/" data-rb-i18n="dashboard.agent.backHome">Back to Site</a>
+        <a class="btn" href="/player-dashboard.html" data-rb-i18n="dashboard.agent.playerDashboard">Player Dashboard</a>
+        <button class="btn primary" type="button" data-action="logout" data-rb-i18n="dashboard.agent.logout">Logout</button>
+      </div>
+    </section>
+
+    <section class="grid stats">
+      <div class="stat"><strong id="balance">0 p</strong><span data-rb-i18n="dashboard.agent.statBalance">Agent Balance</span></div>
+      <div class="stat"><strong id="invite-code">--</strong><span data-rb-i18n="dashboard.agent.statInvite">Invite Code</span></div>
+      <div class="stat"><strong id="players-count">0</strong><span data-rb-i18n="dashboard.agent.statPlayers">Assigned Players</span></div>
+      <div class="stat"><strong id="pending-count">0</strong><span data-rb-i18n="dashboard.agent.statPending">Open Requests</span></div>
+    </section>
+
+    <section class="grid layout">
+      <div class="grid">
+        <div class="card">
+          <div class="card-head">
+            <h2 data-rb-i18n="dashboard.agent.playersTitle">Players</h2>
+            <span class="badge" id="api-state" data-rb-i18n="dashboard.agent.apiWaiting">Waiting for server</span>
+          </div>
+          <div class="card-body table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>ID</th>
+                  <th data-rb-i18n="dashboard.agent.tableUsername">Username</th>
+                  <th data-rb-i18n="dashboard.agent.tableEmail">Email</th>
+                  <th data-rb-i18n="dashboard.agent.tableBalance">Balance</th>
+                  <th data-rb-i18n="dashboard.agent.tableActions">Actions</th>
+                </tr>
+              </thead>
+              <tbody id="players-body">
+                <tr><td colspan="5" class="empty" data-rb-i18n="dashboard.agent.loadingPlayers">Loading players...</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+                <div class="card">
+          <div class="card-head"><h2 data-rb-i18n="dashboard.agent.toolsTitle">Agent Tools</h2><span class="muted" data-rb-i18n="dashboard.agent.toolsSub">Basic actions</span></div>
+          <div class="card-body grid tools">
+
+            <!--     -->
+            <form class="tool" data-tool="create-player">
+              <h3 data-rb-i18n="dashboard.agent.createPlayerTitle">Create Player</h3>
+              <label for="create-username" data-rb-i18n="dashboard.agent.username">Username</label>
+              <input id="create-username" name="username" required />
+
+              <label for="create-email" data-rb-i18n="dashboard.agent.email">Email</label>
+              <input id="create-email" name="email" type="email" required />
+
+              <label for="create-password" data-rb-i18n="dashboard.agent.password">Password</label>
+              <input id="create-password" name="password" type="password" minlength="6" required />
+
+              <button class="btn good" type="submit" data-rb-i18n="dashboard.agent.createPlayerBtn" aria-label="Create player">Create Player</button>
+            </form>
+
+            <!--     -->
+            <form class="tool" data-tool="transfer">
+              <h3 data-rb-i18n="dashboard.agent.transferTitle">Transfer Credit</h3>
+              <label for="transfer-player" data-rb-i18n="dashboard.agent.player">Player</label>
+              <select name="playerId" id="transfer-player" required></select>
+
+              <label for="transfer-amount" data-rb-i18n="dashboard.agent.amount">Amount</label>
+              <input id="transfer-amount" name="amount" type="number" min="1" step="1" required />
+
+              <button class="btn primary" type="submit" data-rb-i18n="dashboard.agent.transferBtn" aria-label="Transfer balance">Transfer</button>
+            </form>
+
+            <!--     -->
+            <form class="tool" data-tool="password">
+              <h3 data-rb-i18n="dashboard.agent.passwordTitle">Agent Password Change</h3>
+              <label for="agent-new-password" data-rb-i18n="dashboard.agent.newPassword">New password</label>
+              <input id="agent-new-password" name="password" type="password" minlength="6" required />
+
+              <button class="btn" type="submit" data-rb-i18n="dashboard.agent.saveBtn" aria-label="Save">Save</button>
+            </form>
+
+            <div class="tool">
+
+              <h3 data-rb-i18n="dashboard.agent.systemTitle">System Status</h3>
+              <p class="muted" data-rb-i18n="dashboard.agent.systemText">Player requests are stored locally and shown here for approve/reject.</p>
+              <span class="badge pending" data-rb-i18n="dashboard.agent.quickManage">Quick Management</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <aside class="grid">
+        <div class="card">
+          <div class="card-head"><h2 data-rb-i18n="dashboard.agent.requestsTitle">Deposit/Withdraw Requests</h2><button class="btn" type="button" data-action="clear-done" data-rb-i18n="dashboard.agent.clearClosed">Clear Closed</button></div>
+          <div class="card-body">
+            <div class="request-list" id="requests-list"></div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-head"><h2 data-rb-i18n="dashboard.agent.liveChat">Live Chat</h2><span class="muted" data-rb-i18n="dashboard.agent.chatSub">Players and tournaments</span></div>
+          <div class="card-body grid">
+            <div class="chat-log" id="chat-log"></div>
+            <form class="grid" data-tool="chat">
+              <textarea name="message" data-rb-i18n-placeholder="dashboard.agent.chatPlaceholder" placeholder="Write a message..." required></textarea>
+              <button class="btn primary" type="submit" data-rb-i18n="dashboard.agent.sendMessage">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </aside>
+    </section>
+  </main>
+
+  <script src="/assets/js/rb-security.js?v=20260705a"></script>
+  <script>
+    const resolveApiOrigin = () => {
+      const host = String(window.location.hostname || '').toLowerCase();
+      const port = String(window.location.port || '');
+      const storedRaw = localStorage.getItem('royalbet_api_origin');
+      const stored = window.RBSecurity && typeof window.RBSecurity.safeOrigin === 'function'
+        ? window.RBSecurity.safeOrigin(storedRaw, '')
+        : storedRaw;
+      if ((host === 'localhost' || host === 'localhost') && stored && /^https?:\/\//i.test(stored)) {
+        try {
+          const storedUrl = new URL(stored);
+          const storedHost = storedUrl.hostname.toLowerCase();
+          const storedPort = String(storedUrl.port || (storedUrl.protocol === 'https:' ? '443' : '80'));
+          if ((storedHost === 'localhost' || storedHost === 'localhost') && storedPort === '1337') {
+            return stored.replace(/\/+$/, '');
+          }
+        } catch {}
+      }
+      if (host === 'localhost' || host === 'localhost') {
+        return 'http://localhost:1337';
+      }
+      const baseHost = host.startsWith('www.') ? host.slice(4) : host;
+      if (stored && /^https?:\/\//i.test(stored)) {
+        try {
+          const storedHost = new URL(stored).hostname.toLowerCase();
+          if (storedHost === host || storedHost === `addapi.${baseHost}`) {
+            return stored.replace(/\/+$/, '');
+          }
+        } catch {}
+      }
+      if (host.startsWith('addapi.')) return window.location.origin;
+      if (baseHost) return `https://addapi.${baseHost}`;
+      return 'https://addapi.royalbet88.live';
+    };
+    let API_ORIGIN = resolveApiOrigin();
+    const API_BASE = (origin = API_ORIGIN) => `${origin}/api/agents`;
+    const deriveHostApiOrigin = () => {
+      const host = String(window.location.hostname || '').toLowerCase();
+      const port = String(window.location.port || '');
+      if (host === 'localhost' || host === 'localhost') {
+        return 'http://localhost:1337';
+      }
+      if (host.startsWith('addapi.')) return window.location.origin;
+      const baseHost = host.startsWith('www.') ? host.slice(4) : host;
+      if (baseHost) return `https://addapi.${baseHost}`;
+      return 'https://addapi.royalbet88.live';
+    };
+    const REQUESTS_KEY = 'royalbet_player_requests';
+    const CHAT_KEY = 'royalbet_live_chat_messages';
+    const LANGUAGE_KEY = 'royalbet_site_language';
+    const TRANSLATION_BASE_PATH = '/assets/i18n/site';
+    const dashboardLang = (() => {
+      const raw = String(localStorage.getItem(LANGUAGE_KEY) || 'he').trim().toLowerCase();
+      return ['he', 'en', 'es', 'fr', 'ar'].includes(raw) ? raw : 'he';
+    })();
+    const langLocale = { he: 'he-IL', en: 'en-US', es: 'es-ES', fr: 'fr-FR', ar: 'ar-SA' };
+    let activeTranslation = {};
+    const gt = (key, fallback = '') => String(activeTranslation?.[key] || fallback || key);
+    const loadGlobalTranslation = async () => {
+      const endpoint = `${TRANSLATION_BASE_PATH}/${dashboardLang}.json`;
+      try {
+        const response = await fetch(endpoint, { cache: 'no-store' });
+        if (!response.ok) return;
+        const payload = await response.json();
+        if (payload && typeof payload === 'object') activeTranslation = payload;
+      } catch {}
+    };
+    const applyGlobalI18n = () => {
+      document.querySelectorAll('[data-rb-i18n]').forEach((el) => {
+        const key = el.getAttribute('data-rb-i18n');
+        if (!key) return;
+        el.textContent = gt(key, el.textContent || '');
+      });
+      document.querySelectorAll('[data-rb-i18n-placeholder]').forEach((el) => {
+        const key = el.getAttribute('data-rb-i18n-placeholder');
+        if (!key) return;
+        el.setAttribute('placeholder', gt(key, el.getAttribute('placeholder') || ''));
+      });
+      document.querySelectorAll('[data-rb-i18n-aria]').forEach((el) => {
+        const key = el.getAttribute('data-rb-i18n-aria');
+        if (!key) return;
+        el.setAttribute('aria-label', gt(key, el.getAttribute('aria-label') || ''));
+      });
+    };
+    document.documentElement.lang = dashboardLang;
+    document.documentElement.dir = (dashboardLang === 'ar' || dashboardLang === 'he') ? 'rtl' : 'ltr';
+    document.body.dir = document.documentElement.dir;
+    let players = [];
+
+    const shekel = (value) => `${Number(value || 0).toLocaleString(langLocale[dashboardLang] || 'he-IL')} p`;
+    const readJson = (key, fallback) => {
+      try { const value = JSON.parse(localStorage.getItem(key) || ''); return value ?? fallback; } catch { return fallback; }
+    };
+    const writeJson = (key, value) => localStorage.setItem(key, JSON.stringify(value));
+    const escapeHtml = (value) => String(value ?? '').replace(/[&<>"']/g, (ch) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#039;' }[ch]));
+    const token = () => {
+      if (window.RBSecurity && typeof window.RBSecurity.getToken === 'function') {
+        return window.RBSecurity.getToken();
+      }
+      return localStorage.getItem('royalbet_api_jwt') || localStorage.getItem('jwt') || localStorage.getItem('token');
+    };
+    const authFetchOptions = (includeJson = false) => {
+      const jwt = token();
+      const headers = includeJson ? { 'Content-Type': 'application/json' } : {};
+      if (jwt) headers.Authorization = `Bearer ${jwt}`;
+      return { credentials: 'include', headers };
+    };
+    const USER_KEYS = ['royalbet_user', 'user'];
+    const AGENT_ROLE_MARKERS = ['agent', 'admin', 'master', 'super', 'manager', 'authenticated'];
+    const normalizeRole = (user) => {
+      const values = [user?.role?.type, user?.role?.name, user?.role?.code, user?.role, user?.type, user?.user_type];
+      const role = values.find((value) => typeof value === 'string' && value.trim());
+      return (role || '').trim().toLowerCase();
+    };
+    const isAgentRole = (role) => AGENT_ROLE_MARKERS.some((item) => role.includes(item));
+    const truthyMarker = (value) => value === true || value === 1 || String(value || '').trim().toLowerCase() === 'true';
+    const hasAgentMarkers = (user) => {
+      if (!user || typeof user !== 'object') return false;
+      const playersCount = Number(user?.players_count || user?.playersCount || user?.attributes?.players_count || 0);
+      return [
+        user?.is_agent,
+        user?.isAgent,
+        user?.attributes?.is_agent,
+        user?.attributes?.isAgent,
+        Boolean(user?.invite_code || user?.attributes?.invite_code),
+        playersCount > 0
+      ].some(truthyMarker);
+    };
+    const saveUserEverywhere = (user) => {
+      if (window.RBSecurity && typeof window.RBSecurity.setUser === 'function') {
+        window.RBSecurity.setUser(user || {});
+        return;
+      }
+      USER_KEYS.forEach((key) => localStorage.setItem(key, JSON.stringify(user || {})));
+    };
+    const clearAuth = () => {
+      if (window.RBSecurity && typeof window.RBSecurity.clearAuth === 'function') {
+        window.RBSecurity.clearAuth();
+        return;
+      }
+      ['royalbet_api_jwt', 'jwt', 'token', 'user', 'royalbet_user'].forEach((key) => localStorage.removeItem(key));
+    };
+    const redirectToAgentLogin = () => {
+      const loginUrl = new URL('/account/login.html', window.location.origin);
+      loginUrl.searchParams.set('role', 'agent');
+      loginUrl.searchParams.set('next', '/agent-dashboard.html');
+      loginUrl.searchParams.set('appOrigin', window.location.origin);
+      window.location.replace(loginUrl.toString());
+    };
+    const redirectToPlayerDashboard = () => {
+      window.location.replace('/player-dashboard.html');
+    };
+    async function ensureAgentAccess() {
+      try {
+        const me = await api('/me');
+        const agent = normalizeEntity(me?.data || me || {});
+        saveUserEverywhere(agent);
+        const role = normalizeRole(agent);
+        if (!isAgentRole(role) && !hasAgentMarkers(agent)) {
+          redirectToPlayerDashboard();
+          throw new Error('Player cannot access agent dashboard');
+        }
+        return agent;
+      } catch (error) {
+        if (error?.status === 401) {
+          clearAuth();
+          redirectToAgentLogin();
+          const e = new Error('Session expired');
+          e.status = 401;
+          throw e;
+        }
+        if (error?.status === 403) {
+          redirectToPlayerDashboard();
+          const e = new Error('Player cannot access agent dashboard');
+          e.status = 403;
+          throw e;
+        }
+        throw error;
+      }
+    }
+
+    function showNotice(message) {
+      const el = document.getElementById('notice');
+      el.textContent = message;
+      el.style.display = 'block';
+      window.setTimeout(() => { el.style.display = 'none'; }, 3800);
+    }
+
+    async function api(endpoint, method = 'GET', body) {
+      const res = await fetch(`${API_BASE()}${endpoint}`, {
+        method,
+        ...authFetchOptions(true),
+        body: body ? JSON.stringify(body) : undefined,
+      });
+      const data = await res.json().catch(() => ({}));
+      if (!res.ok) {
+        const error = new Error(data.error?.message || data.message || `HTTP ${res.status}`);
+        error.status = res.status;
+        throw error;
+      }
+      return data?.data || data;
+    }
+
+    function normalizeEntity(item) {
+      if (!item || typeof item !== 'object') return {};
+      const attrs = item.attributes && typeof item.attributes === 'object' ? item.attributes : {};
+      return { ...attrs, ...item, id: item.id ?? attrs.id };
+    }
+
+    function normalizePlayers(payload) {
+      const candidates = [
+        payload,
+        payload?.data,
+        payload?.players,
+        payload?.data?.players,
+        payload?.attributes?.players,
+        payload?.attributes?.players?.data,
+        payload?.data?.attributes?.players,
+        payload?.data?.attributes?.players?.data,
+      ];
+      const source = candidates.find((value) => Array.isArray(value));
+      return (source || []).map(normalizeEntity);
+    }
+
+    function renderPlayers() {
+      const body = document.getElementById('players-body');
+      const select = document.getElementById('transfer-player');
+      document.getElementById('players-count').textContent = players.length;
+      select.innerHTML = players.length ? players.map((player) => `<option value="${player.id}">${escapeHtml(player.username || player.email || player.id)}</option>`).join('') : `<option value="">${escapeHtml(gt('dashboard.agent.noPlayersOption', 'No players'))}</option>`;
+      if (!players.length) {
+        body.innerHTML = `<tr><td colspan="5" class="empty">${escapeHtml(gt('dashboard.agent.noPlayersRow', 'No players to display'))}</td></tr>`;
+        return;
+      }
+      body.innerHTML = players.map((player) => `
+        <tr>
+          <td>#${escapeHtml(player.id)}</td>
+          <td><strong>${escapeHtml(player.username || gt('dashboard.agent.player', 'Player'))}</strong></td>
+          <td>${escapeHtml(player.email || '-')}</td>
+          <td><span class="badge done">${shekel(player.balance || 0)}</span></td>
+          <td><button class="btn" type="button" data-transfer-player="${escapeHtml(player.id)}">${escapeHtml(gt('dashboard.agent.transferCredit', 'Transfer Credit'))}</button></td>
+        </tr>
+      `).join('');
+    }
+
+    function renderPlayersError(message) {
+      const body = document.getElementById('players-body');
+      const select = document.getElementById('transfer-player');
+      document.getElementById('players-count').textContent = '!';
+      if (select) select.innerHTML = `<option value="">${escapeHtml(gt('dashboard.agent.loadErrorOption', 'Load error'))}</option>`;
+      if (body) body.innerHTML = `<tr><td colspan="5" class="empty">${escapeHtml(message)}</td></tr>`;
+    }
+
+    function renderRequests() {
+      const list = document.getElementById('requests-list');
+      const requests = readJson(REQUESTS_KEY, []);
+      const pending = requests.filter((request) => request.status === 'pending').length;
+      document.getElementById('pending-count').textContent = pending;
+      if (!requests.length) {
+        list.innerHTML = `<p class="empty">${escapeHtml(gt('dashboard.agent.requestsEmpty', 'No open requests.'))}</p>`;
+        return;
+      }
+      list.innerHTML = requests.map((request) => {
+        const type = request.type === 'withdraw' ? gt('dashboard.agent.reqWithdraw', 'Withdraw') : request.type === 'password' ? gt('dashboard.agent.reqPassword', 'Password Change') : gt('dashboard.agent.reqDeposit', 'Deposit');
+        const cls = request.status === 'approved' ? 'done' : request.status === 'rejected' ? 'reject' : 'pending';
+        const label = request.status === 'approved' ? gt('dashboard.agent.stApproved', 'Approved') : request.status === 'rejected' ? gt('dashboard.agent.stRejected', 'Rejected') : gt('dashboard.agent.stPending', 'Pending');
+        return `
+          <article class="request">
+            <div class="request-head">
+              <strong>${type}  ${shekel(request.amount || 0)}</strong>
+              <span class="badge ${cls}">${label}</span>
+            </div>
+            <p class="muted">${escapeHtml(request.note || gt('dashboard.agent.noNote', 'No note'))}</p>
+            <div class="actions" style="margin-top:8px">
+              <button class="btn good" type="button" data-request="${request.id}" data-status="approved">${escapeHtml(gt('dashboard.agent.approve', 'Approve'))}</button>
+              <button class="btn warn" type="button" data-request="${request.id}" data-status="rejected">${escapeHtml(gt('dashboard.agent.reject', 'Reject'))}</button>
+            </div>
+          </article>
+        `;
+      }).join('');
+    }
+
+    function renderChat() {
+      const log = document.getElementById('chat-log');
+      const messages = readJson(CHAT_KEY, []);
+      log.innerHTML = messages.length ? messages.slice(-10).map((msg) => `
+        <div class="msg ${msg.from === 'agent' ? 'mine' : ''}">
+          <div class="msg-head"><strong>${escapeHtml(msg.name || (msg.from === 'agent' ? gt('dashboard.agent.agent', 'Agent') : gt('dashboard.agent.player', 'Player')))}</strong><span class="muted">${new Date(msg.at || Date.now()).toLocaleTimeString(langLocale[dashboardLang] || 'he-IL', { hour: '2-digit', minute: '2-digit' })}</span></div>
+          <p>${escapeHtml(msg.message)}</p>
+        </div>
+      `).join('') : `<p class="muted">${escapeHtml(gt('dashboard.agent.noMsgs', 'No messages yet.'))}</p>`;
+      log.scrollTop = log.scrollHeight;
+    }
+
+    async function loadAgent() {
+      try {
+        const agent = await ensureAgentAccess();
+        document.getElementById('agent-name').textContent = agent.username || agent.email || gt('dashboard.agent.agent', 'Agent');
+        document.getElementById('balance').textContent = shekel(agent.balance || 0);
+        document.getElementById('invite-code').textContent = agent.invite_code || '--';
+        document.getElementById('api-state').textContent = gt('dashboard.agent.apiConnected', 'Connected');
+        document.getElementById('api-state').className = 'badge done';
+
+        try {
+          const list = await api('/my-players');
+          players = normalizePlayers(list);
+          renderPlayers();
+        } catch (playersError) {
+          players = [];
+          renderPlayersError(playersError.message);
+        }
+      } catch (err) {
+        if (err?.status === 401) {
+          clearAuth();
+          redirectToAgentLogin();
+          return;
+        }
+        if (err?.status === 403 || /forbidden/i.test(String(err?.message || ''))) {
+          redirectToPlayerDashboard();
+          return;
+        }
+        players = [];
+        document.getElementById('api-state').textContent = gt('dashboard.agent.apiLocal', 'Local mode');
+        document.getElementById('api-state').className = 'badge pending';
+        renderPlayersError(err.message);
+        showNotice(gt('dashboard.agent.localModeNotice', 'Dashboard is running in local mode. Please log in to manage through the server.'));
+      }
+      renderRequests();
+      renderChat();
+    }
+
+    document.addEventListener('submit', async (event) => {
+      const form = event.target;
+      const tool = form.dataset.tool;
+      if (!tool) return;
+      event.preventDefault();
+      if (window.RBSecurity && typeof window.RBSecurity.rateLimit === 'function') {
+        const scope = `agent_${tool}`;
+        const allowed = window.RBSecurity.rateLimit(scope, tool === 'chat' ? 20 : 8, 60000);
+        if (!allowed) {
+          showNotice(gt('dashboard.agent.tooManyRequests', 'Too many requests. Please wait a minute.'));
+          return;
+        }
+      }
+      const data = Object.fromEntries(new FormData(form).entries());
+      try {
+        if (tool === 'chat') {
+          const cleanMessage = window.RBSecurity && typeof window.RBSecurity.sanitizeText === 'function'
+            ? window.RBSecurity.sanitizeText(data.message, 400)
+            : String(data.message || '').trim().slice(0, 400);
+          if (!cleanMessage) {
+            showNotice(gt('dashboard.agent.emptyMessage', 'Message cannot be empty.'));
+            return;
+          }
+          const messages = readJson(CHAT_KEY, []);
+          messages.push({ from: 'agent', name: gt('dashboard.agent.agent', 'Agent'), message: cleanMessage, at: new Date().toISOString() });
+          writeJson(CHAT_KEY, messages.slice(-60));
+          form.reset();
+          renderChat();
+          return;
+        }
+        if (tool === 'create-player') {
+          const cleanUsername = window.RBSecurity && typeof window.RBSecurity.sanitizeText === 'function'
+            ? window.RBSecurity.sanitizeText(data.username, 40)
+            : String(data.username || '').trim().slice(0, 40);
+          const cleanEmail = String(data.email || '').trim().toLowerCase().slice(0, 120);
+          const cleanPassword = window.RBSecurity && typeof window.RBSecurity.sanitizeText === 'function'
+            ? window.RBSecurity.sanitizeText(data.password, 72)
+            : String(data.password || '').trim().slice(0, 72);
+          if (!cleanUsername || cleanPassword.length < 6 || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(cleanEmail)) {
+            showNotice(gt('dashboard.agent.invalidCreateData', 'Invalid player details.'));
+            return;
+          }
+          await api('/register-player', 'POST', {
+            username: cleanUsername,
+            email: cleanEmail,
+            password: cleanPassword,
+            invite_code: document.getElementById('invite-code').textContent
+          });
+          showNotice(gt('dashboard.agent.created', 'Player created successfully.'));
+          form.reset();
+          await loadAgent();
+          return;
+        }
+        if (tool === 'transfer') {
+          const transferAmount = window.RBSecurity && typeof window.RBSecurity.toAmount === 'function'
+            ? window.RBSecurity.toAmount(data.amount, 1, 1000000)
+            : Number(data.amount || 0);
+          const targetId = Number(data.playerId);
+          if (!transferAmount || !Number.isFinite(targetId) || targetId <= 0) {
+            showNotice(gt('dashboard.agent.invalidTransfer', 'Invalid transfer values.'));
+            return;
+          }
+          await api('/transfer-balance', 'POST', { target_user_id: targetId, amount: transferAmount });
+          showNotice(gt('dashboard.agent.transferred', 'Credit transferred successfully.'));
+          form.reset();
+          await loadAgent();
+          return;
+        }
+        if (tool === 'password') {
+          const cleanPassword = window.RBSecurity && typeof window.RBSecurity.sanitizeText === 'function'
+            ? window.RBSecurity.sanitizeText(data.password, 72)
+            : String(data.password || '').trim().slice(0, 72);
+          if (cleanPassword.length < 6) {
+            showNotice(gt('dashboard.agent.invalidPassword', 'Password must be at least 6 characters.'));
+            return;
+          }
+          showNotice(gt('dashboard.agent.passwordSaved', 'Password change request saved.'));
+          form.reset();
+        }
+      } catch (err) {
+        showNotice(err.message);
+      }
+    });
+
+    document.addEventListener('click', (event) => {
+      const transfer = event.target.closest('[data-transfer-player]');
+      if (transfer) {
+        document.getElementById('transfer-player').value = transfer.dataset.transferPlayer;
+        document.querySelector('[data-tool="transfer"] input[name="amount"]').focus();
+        return;
+      }
+      const requestBtn = event.target.closest('[data-request]');
+      if (requestBtn) {
+        const requests = readJson(REQUESTS_KEY, []);
+        const id = Number(requestBtn.dataset.request);
+        const next = requests.map((request) => request.id === id ? { ...request, status: requestBtn.dataset.status } : request);
+        writeJson(REQUESTS_KEY, next);
+        renderRequests();
+        return;
+      }
+      if (event.target.matches('[data-action="clear-done"]')) {
+        writeJson(REQUESTS_KEY, readJson(REQUESTS_KEY, []).filter((request) => request.status === 'pending'));
+        renderRequests();
+        return;
+      }
+      if (event.target.matches('[data-action="logout"]')) {
+        clearAuth();
+        window.location.href = '/account/login.html';
+      }
+    });
+
+    (async () => {
+      await loadGlobalTranslation();
+      applyGlobalI18n();
+      document.title = gt('dashboard.agent.title', document.title);
+      await loadAgent();
+    })();
+  </script>
+</body>
+</html>

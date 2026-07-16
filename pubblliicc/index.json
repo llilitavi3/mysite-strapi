@@ -1,0 +1,1210 @@
+{
+ "version": 3,
+ "indexPages": [
+  "index.html"
+ ],
+ "redirects": [],
+ "files": [
+  {
+   "path": "index.json"
+  },
+  {
+   "path": "index.dat"
+  },
+  {
+   "path": "index.rdf"
+  },
+  {
+   "path": "history.rdf"
+  },
+  {
+   "path": "^metadata^"
+  },
+  {
+   "path": "index.html",
+   "url": "/",
+   "role": "document",
+   "token": "3e9184ec7b559030b1199c5789a0087892183cf5"
+  },
+  {
+   "path": "index.xhtml",
+   "role": "document"
+  },
+  {
+   "path": "index.svg",
+   "role": "document"
+  },
+  {
+   "path": "469174939e851944b8cbbb4ee6e93b27542d034a.png",
+   "role": "resource",
+   "token": "095178224a57c11494d90c892c39614e0d4601c7"
+  },
+  {
+   "path": "10d2abe72759c817d17d0cc4ae2fc72d2791ac18.png",
+   "role": "resource",
+   "token": "e6fddd5e7ea6e8e433a644ffedcd5a6d3252673b"
+  },
+  {
+   "path": "e76405e3af00cfc58868592ae470ffbf9c794a40.png",
+   "role": "resource",
+   "token": "ee9c8da580af736848f1f28b1bdb6d5d148534f8"
+  },
+  {
+   "path": "1731190cc38129db13ce65339f441054b155b557.png",
+   "role": "resource",
+   "token": "c79168e8697e5b1c6fd96cd532c0d14a2e853ffc"
+  },
+  {
+   "path": "6f8707137989d8b9f3b90adf4a62ffd71bd211dd.png",
+   "role": "resource",
+   "token": "0fe22a4a5079695db3580ab053df4ce6233b13ea"
+  },
+  {
+   "path": "f8d4af255667ef4d0c0bce4ffd28cef66d2eee73.png",
+   "role": "resource",
+   "token": "af3cc04bfd5dab09bc3c1f9862c4e3ac9ff97d9e"
+  },
+  {
+   "path": "9ca4cae3e4325aaff9d2f158b4e307055dd53dcd.png",
+   "role": "resource",
+   "token": "533c06bfb39700931954fb01af2635bc27d91144"
+  },
+  {
+   "path": "5c4cd7fa573f02f1cb24362fec4791d93c6d93c1.png",
+   "role": "resource",
+   "token": "7526a3f341d99a57c61f262c2afe464e69b54b20"
+  },
+  {
+   "path": "e936415d98f044fc63726a71ddd19b2e52c978ff.png",
+   "role": "resource",
+   "token": "6a15b140e070b3dc04949774f6343c1c23cd72e8"
+  },
+  {
+   "path": "db65e3c65319d3a6320fa0f7ceff37a12b40df4d.png",
+   "role": "resource",
+   "token": "37fc0f96cca27f235b853f14f5b56baa88d77e3b"
+  },
+  {
+   "path": "e8b422c0f0717ae9678d2601760048f1693e933f.png",
+   "role": "resource",
+   "token": "d498528836bd9db0258e7d11fe5a2382d2528c2e"
+  },
+  {
+   "path": "f1aa545ff9648a6cd30fb3b0cf00b32d8cdc8379.png",
+   "role": "resource",
+   "token": "28a46569a8db7cac7966efd2b0146ccf301b6723"
+  },
+  {
+   "path": "68f00c281fa2dfeb9e1f7419_Casino & Aggregation icon.svg",
+   "url": "https://cdn.prod.website-files.com/68ef93daf83e1a443f7c7f54/68f00c281fa2dfeb9e1f7419_Casino%20%26%20Aggregation%20icon.svg",
+   "role": "resource",
+   "token": "9296129dba92227bccfed078f5c61aaf33cf2d83"
+  },
+  {
+   "path": "68f00c36a7eb6acaab39d276_AI & Personalisation icon.svg",
+   "url": "https://cdn.prod.website-files.com/68ef93daf83e1a443f7c7f54/68f00c36a7eb6acaab39d276_AI%20%26%20Personalisation%20icon.svg",
+   "role": "resource",
+   "token": "bb102ab179060082b6e7c244b750d21995fb9306"
+  },
+  {
+   "path": "68f00c40c5c99e642a2de6f1_Trading Services icon.svg",
+   "url": "https://cdn.prod.website-files.com/68ef93daf83e1a443f7c7f54/68f00c40c5c99e642a2de6f1_Trading%20Services%20icon.svg",
+   "role": "resource",
+   "token": "5b43e627498c4900b0714baef417d0dc1db33e7e"
+  },
+  {
+   "path": "68f00c4938d0ab829cc4b80a_Player Account Management icon.svg",
+   "url": "https://cdn.prod.website-files.com/68ef93daf83e1a443f7c7f54/68f00c4938d0ab829cc4b80a_Player%20Account%20Management%20icon.svg",
+   "role": "resource",
+   "token": "80b6cb98393758f132388384d4a16f05c1a00ab3"
+  },
+  {
+   "path": "68f00c549a69fbad2685ec9b_Mobile Apps icon.svg",
+   "url": "https://cdn.prod.website-files.com/68ef93daf83e1a443f7c7f54/68f00c549a69fbad2685ec9b_Mobile%20Apps%20icon.svg",
+   "role": "resource",
+   "token": "daa7a5af0c5fda6d1091027df713f59f018c0215"
+  },
+  {
+   "path": "68f00c5fae29ccae4347fc46_Risk Management Tools icon.svg",
+   "url": "https://cdn.prod.website-files.com/68ef93daf83e1a443f7c7f54/68f00c5fae29ccae4347fc46_Risk%20Management%20Tools%20icon.svg",
+   "role": "resource",
+   "token": "68b7782d283c6ee8c7840ead6d82c5b38a33041a"
+  },
+  {
+   "path": "68f00c73503805446be52a77_Bespoke Development icon.svg",
+   "url": "https://cdn.prod.website-files.com/68ef93daf83e1a443f7c7f54/68f00c73503805446be52a77_Bespoke%20Development%20icon.svg",
+   "role": "resource",
+   "token": "f632e21ccab32d45ec6a0ecdc37d94349abab917"
+  },
+  {
+   "path": "68f00be1ffe642654a23a17b_Retail & Omni Channel icon.svg",
+   "url": "https://cdn.prod.website-files.com/68ef93daf83e1a443f7c7f54/68f00be1ffe642654a23a17b_Retail%20%26%20Omni%20Channel%20icon.svg",
+   "role": "resource",
+   "token": "c7871052122bd11069653155b226cfb0006b054b"
+  },
+  {
+   "path": "68f013592520e78fb15c0cea_Operators icon.svg",
+   "url": "https://cdn.prod.website-files.com/68ef93daf83e1a443f7c7f54/68f013592520e78fb15c0cea_Operators%20icon.svg",
+   "role": "resource",
+   "token": "ff860de8962429cac72effe8f1ed82a5cb9d306f"
+  },
+  {
+   "path": "68f013612a49400f6816e9ce_Start-ups icon.svg",
+   "url": "https://cdn.prod.website-files.com/68ef93daf83e1a443f7c7f54/68f013612a49400f6816e9ce_Start-ups%20icon.svg",
+   "role": "resource",
+   "token": "836a1a33520e7af737a22d082feb80f439646bda"
+  },
+  {
+   "path": "68f0136ad9e70d9ab783c342_National Lotteries icon.svg",
+   "url": "https://cdn.prod.website-files.com/68ef93daf83e1a443f7c7f54/68f0136ad9e70d9ab783c342_National%20Lotteries%20icon.svg",
+   "role": "resource",
+   "token": "bebdaf1bb9a7b28e090c4025d6992c8363d73c59"
+  },
+  {
+   "path": "68f0137351d30cfe128a564e_Land-Based & Retail icon.svg",
+   "url": "https://cdn.prod.website-files.com/68ef93daf83e1a443f7c7f54/68f0137351d30cfe128a564e_Land-Based%20%26%20Retail%20icon.svg",
+   "role": "resource",
+   "token": "fa2533ce25fe1c123ab9f247c45d2c244ef670d7"
+  },
+  {
+   "path": "68f0137ff64e269640408a3d_Multi-jurisdiction Brands icon.svg",
+   "url": "https://cdn.prod.website-files.com/68ef93daf83e1a443f7c7f54/68f0137ff64e269640408a3d_Multi-jurisdiction%20Brands%20icon.svg",
+   "role": "resource",
+   "token": "b1b844120a6a8676b4d6dcfe79c799877be0220d"
+  },
+  {
+   "path": "68f013ba6ab4f2e36c5d05d1_Reporting & BI icon.svg",
+   "url": "https://cdn.prod.website-files.com/68ef93daf83e1a443f7c7f54/68f013ba6ab4f2e36c5d05d1_Reporting%20%26%20BI%20icon.svg",
+   "role": "resource",
+   "token": "35b1722146c90ec67b224572e4df032d9937de85"
+  },
+  {
+   "path": "68f00d7cd7ef665f570a57be_Seamless Integration APIs icon.svg",
+   "url": "https://cdn.prod.website-files.com/68ef93daf83e1a443f7c7f54/68f00d7cd7ef665f570a57be_Seamless%20Integration%20APIs%20icon.svg",
+   "role": "resource",
+   "token": "01045cd5b223a03255064b1e193966352f6e306a"
+  },
+  {
+   "path": "68eff14b5ca92058b4d54311_b2.svg",
+   "url": "https://cdn.prod.website-files.com/68ef93daf83e1a443f7c7f54/68eff14b5ca92058b4d54311_b2.svg",
+   "role": "resource",
+   "token": "8f06516eda4ef7829a5174f1d5ffefef80e61b7b"
+  },
+  {
+   "path": "68eff13f125c1a29112bd463_b3.svg",
+   "url": "https://cdn.prod.website-files.com/68ef93daf83e1a443f7c7f54/68eff13f125c1a29112bd463_b3.svg",
+   "role": "resource",
+   "token": "d353e846fcbb97bbe31228bb6904fc6fca82dea2"
+  },
+  {
+   "path": "68eff129458035923d8c1846_b4.svg",
+   "url": "https://cdn.prod.website-files.com/68ef93daf83e1a443f7c7f54/68eff129458035923d8c1846_b4.svg",
+   "role": "resource",
+   "token": "d4e89290e36d26d6b8237362700c326b311ee622"
+  },
+  {
+   "path": "68eff11e0171d5d64ee331ff_b5.svg",
+   "url": "https://cdn.prod.website-files.com/68ef93daf83e1a443f7c7f54/68eff11e0171d5d64ee331ff_b5.svg",
+   "role": "resource",
+   "token": "b8875632ff6d4e0c3cb017d5670f99e7bfdac825"
+  },
+  {
+   "path": "68f00d6ad7b293e186b048a5_Reporting & BI icon.svg",
+   "url": "https://cdn.prod.website-files.com/68ef93daf83e1a443f7c7f54/68f00d6ad7b293e186b048a5_Reporting%20%26%20BI%20icon.svg",
+   "role": "resource",
+   "token": "3f5270750c7cfed9aa8424de33559cfea1f4fd91"
+  },
+  {
+   "path": "68f00922045ddd8a7419c4b2_Hard Rock.svg",
+   "url": "https://cdn.prod.website-files.com/68ef93daf83e1a443f7c7f54/68f00922045ddd8a7419c4b2_Hard%20Rock.svg",
+   "role": "resource",
+   "token": "fd4d479b0921bd4b00baef51271bc7df489e8a06"
+  },
+  {
+   "path": "68f00912b0aae0659eb45676_Flutter.svg",
+   "url": "https://cdn.prod.website-files.com/68ef93daf83e1a443f7c7f54/68f00912b0aae0659eb45676_Flutter.svg",
+   "role": "resource",
+   "token": "771ff275a3585533334bc1e315d0a2188a6e2820"
+  },
+  {
+   "path": "68f0090bbfb8a2a44567c4de_HKJC.svg",
+   "url": "https://cdn.prod.website-files.com/68ef93daf83e1a443f7c7f54/68f0090bbfb8a2a44567c4de_HKJC.svg",
+   "role": "resource",
+   "token": "08b4db9b9ddfeb898affdcf62d2b52553ede7c05"
+  },
+  {
+   "path": "68f008f9e96ccc8643dd6724_Fanatics.svg",
+   "url": "https://cdn.prod.website-files.com/68ef93daf83e1a443f7c7f54/68f008f9e96ccc8643dd6724_Fanatics.svg",
+   "role": "resource",
+   "token": "b90f381411527b2376413d66f1dc42b8a5064bf4"
+  },
+  {
+   "path": "68f008ef20d539c59f03c014_TOTE.svg",
+   "url": "https://cdn.prod.website-files.com/68ef93daf83e1a443f7c7f54/68f008ef20d539c59f03c014_TOTE.svg",
+   "role": "resource",
+   "token": "6e49232a3aa957f9757a64322b2f44538599494a"
+  },
+  {
+   "path": "68f008e2a2370db1765d4f62_Intralot.svg",
+   "url": "https://cdn.prod.website-files.com/68ef93daf83e1a443f7c7f54/68f008e2a2370db1765d4f62_Intralot.svg",
+   "role": "resource",
+   "token": "6af378ab615b8dcfc6c35c167215521e1a71dc8a"
+  },
+  {
+   "path": "68f008d9cdd929472ee1b61f_Betfair.svg",
+   "url": "https://cdn.prod.website-files.com/68ef93daf83e1a443f7c7f54/68f008d9cdd929472ee1b61f_Betfair.svg",
+   "role": "resource",
+   "token": "f45cb5868dd6efc1ea1fba10ee4815d00540458f"
+  },
+  {
+   "path": "68f008d04368a7383aeec33f_PaddyPower.svg",
+   "url": "https://cdn.prod.website-files.com/68ef93daf83e1a443f7c7f54/68f008d04368a7383aeec33f_PaddyPower.svg",
+   "role": "resource",
+   "token": "c5a30c6c9823ccf5e60b6b62533bff60b1ca6c33"
+  },
+  {
+   "path": "68f008bd9acd015cea6aa611_Ladbrookes.svg",
+   "url": "https://cdn.prod.website-files.com/68ef93daf83e1a443f7c7f54/68f008bd9acd015cea6aa611_Ladbrookes.svg",
+   "role": "resource",
+   "token": "88cb01909f9001ca6b8c36e9a0e0869898fc49cc"
+  },
+  {
+   "path": "68f0089952f6c5eaff167065_sky bet.svg",
+   "url": "https://cdn.prod.website-files.com/68ef93daf83e1a443f7c7f54/68f0089952f6c5eaff167065_sky%20bet.svg",
+   "role": "resource",
+   "token": "aa6e6e409dffe500c27761c87eca39bad9fc9976"
+  },
+  {
+   "path": "68f0088b79551cf17d6a0a1c_Coral.svg",
+   "url": "https://cdn.prod.website-files.com/68ef93daf83e1a443f7c7f54/68f0088b79551cf17d6a0a1c_Coral.svg",
+   "role": "resource",
+   "token": "fe55b43cd66e3404125f6908667ca036bd62da37"
+  },
+  {
+   "path": "68f00879da9682bb8d974c09_Whym.svg",
+   "url": "https://cdn.prod.website-files.com/68ef93daf83e1a443f7c7f54/68f00879da9682bb8d974c09_Whym.svg",
+   "role": "resource",
+   "token": "d0a0b4758c7ba1cc133a2071b2d802226a71bf91"
+  },
+  {
+   "path": "webfont.js",
+   "url": "https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js",
+   "role": "resource",
+   "token": "3e36a490006e2588a5c32b37f514c6de4d18c476"
+  },
+  {
+   "path": "attributes.js",
+   "url": "https://cdn.jsdelivr.net/npm/@finsweet/attributes@2/attributes.js",
+   "role": "resource",
+   "token": "1585aac1a4e796214fa5e192471ac4f3c1d9c837"
+  },
+  {
+   "path": "68e92f425ce686382f88c174_amelco hero bg-p-1600.webp",
+   "url": "https://cdn.prod.website-files.com/68e8b4c6fe33ee88d4bb2f43/68e92f425ce686382f88c174_amelco%20hero%20bg-p-1600.webp",
+   "role": "resource",
+   "token": "cc33e6838e93510289f7e11995def1ce6959ba91"
+  },
+  {
+   "path": "fs-cc.js",
+   "url": "https://cdn.jsdelivr.net/npm/@finsweet/cookie-consent@1/fs-cc.js",
+   "role": "resource",
+   "token": "10dc6c3e4586e841eb29ef934ae2a3a5f53be7c7"
+  },
+  {
+   "path": "68e92f425ce686382f88c174_amelco hero bg.webp",
+   "url": "https://cdn.prod.website-files.com/68e8b4c6fe33ee88d4bb2f43/68e92f425ce686382f88c174_amelco%20hero%20bg.webp",
+   "role": "resource",
+   "token": "4015547abfe16903b7db2d7e3b501f5028f0cddb"
+  },
+  {
+   "path": "swiper-bundle.min.js",
+   "url": "https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js",
+   "role": "resource",
+   "token": "59f31f9957402fff127bd9c67ed04a7369f49178"
+  },
+  {
+   "path": "68ef99f0241eba709e682b91_aa1.png",
+   "url": "https://cdn.prod.website-files.com/68ef93daf83e1a443f7c7f54/68ef99f0241eba709e682b91_aa1.png",
+   "role": "resource",
+   "token": "5a330b3d493991a8681b3c14eec7aa3890ef20fc"
+  },
+  {
+   "path": "68e8b56adde91c52a4f40fc6_amelco fav.svg",
+   "url": "https://cdn.prod.website-files.com/68e8b4c6fe33ee88d4bb2f43/68e8b56adde91c52a4f40fc6_amelco%20fav.svg",
+   "role": "resource",
+   "token": "14c4affa3117d7e45452fc66bff8a874058c99fe"
+  },
+  {
+   "path": "countup.js",
+   "url": "https://cdn.jsdelivr.net/npm/@flowbase-co/boosters-countup@1.0.2/dist/countup.js",
+   "role": "resource",
+   "token": "d7933d20dfe46e34bf50713467251b4af839a0e6"
+  },
+  {
+   "path": "68ef951bbaa5129a5c23982e_d5945b43a5fe9e232822af7965332c1e1164430b.png",
+   "url": "https://cdn.prod.website-files.com/68ef93daf83e1a443f7c7f54/68ef951bbaa5129a5c23982e_d5945b43a5fe9e232822af7965332c1e1164430b.png",
+   "role": "resource",
+   "token": "6bda51480d24608d96e70545c5a159a25553fb1d"
+  },
+  {
+   "path": "/",
+   "url": "logo.png",
+   "role": "resource",
+   "token": "ddb9bc2d5898c16990dc60ab31f4296332aa391e"
+  },
+  {
+   "path": "logo.png",
+   "url": "logo.png",
+   "role": "resource",
+   "token": "28185f0a476798d0700339ad928a50b7a08767e2"
+  },
+  {
+   "path": "6911db9a21caefafed06f540_st.webp",
+   "url": "https://cdn.prod.website-files.com/68ef93daf83e1a443f7c7f54/6911db9a21caefafed06f540_st.webp",
+   "role": "resource",
+   "token": "47ed04b0a471f4d97aef00a5353c4820a39ab25e"
+  },
+  {
+   "path": "68f00bffd9e70d9ab781cfad_End-to-End Platform icon.svg",
+   "url": "https://cdn.prod.website-files.com/68ef93daf83e1a443f7c7f54/68f00bffd9e70d9ab781cfad_End-to-End%20Platform%20icon.svg",
+   "role": "resource",
+   "token": "4c56e1d57dc7605c9cbe799f4871c2b842506e22"
+  },
+  {
+   "path": "68f00beb9ed99dea00a2a400_Sportsbook icon.svg",
+   "url": "https://cdn.prod.website-files.com/68ef93daf83e1a443f7c7f54/68f00beb9ed99dea00a2a400_Sportsbook%20icon.svg",
+   "role": "resource",
+   "token": "cc10e29dbefe2e303bf9748e45f9fb764afd19df"
+  },
+  {
+   "path": "68f01840c35544a5fc7f8218_National Lotteries Img Big (1).png",
+   "url": "https://cdn.prod.website-files.com/68ef93daf83e1a443f7c7f54/68f01840c35544a5fc7f8218_National%20Lotteries%20Img%20Big%20(1).png",
+   "role": "resource",
+   "token": "4695e5e7e8cad9f8d2814265e24037b540aca23e"
+  },
+  {
+   "path": "68e8d3dbc2fde84a78d0454e_amelco nav about icon 1.svg",
+   "url": "https://cdn.prod.website-files.com/68e8b4c6fe33ee88d4bb2f43/68e8d3dbc2fde84a78d0454e_amelco%20nav%20about%20icon%201.svg",
+   "role": "resource",
+   "token": "7294879caa704894ad6bfab78d8ed8d2b72ab673"
+  },
+  {
+   "path": "68e8d3dbf7d491e9609c52ed_amelco nav about icon 2.svg",
+   "url": "https://cdn.prod.website-files.com/68e8b4c6fe33ee88d4bb2f43/68e8d3dbf7d491e9609c52ed_amelco%20nav%20about%20icon%202.svg",
+   "role": "resource",
+   "token": "de5d638ea4095dc6477c2c07f6ea75dbd7aa4e86"
+  },
+  {
+   "path": "68e92f425ce686382f88c174_amelco hero bg-p-800.webp",
+   "url": "https://cdn.prod.website-files.com/68e8b4c6fe33ee88d4bb2f43/68e92f425ce686382f88c174_amelco%20hero%20bg-p-800.webp",
+   "role": "resource",
+   "token": "b12178bf6698b612a6436ffc99d5c090faa97ef9"
+  },
+  {
+   "path": "68e92f425ce686382f88c174_amelco hero bg-p-1080.webp",
+   "url": "https://cdn.prod.website-files.com/68e8b4c6fe33ee88d4bb2f43/68e92f425ce686382f88c174_amelco%20hero%20bg-p-1080.webp",
+   "role": "resource",
+   "token": "a31eedff5e707ad3566907ab2c9d62b29eb41f28"
+  },
+  {
+   "path": "68ef976e15ed0274a8a2eaa3_9e58c4ea8c31d512e75016db67fca9d67e9fb1c4-p-800.png",
+   "url": "https://cdn.prod.website-files.com/68ef93daf83e1a443f7c7f54/68ef976e15ed0274a8a2eaa3_9e58c4ea8c31d512e75016db67fca9d67e9fb1c4-p-800.png",
+   "role": "resource",
+   "token": "ee9ac888e69616bc0ca35f2b10263f7675d874e7"
+  },
+  {
+   "path": "68f018c805448475c5bca53f_Tribal Gaming img big (1).png",
+   "url": "https://cdn.prod.website-files.com/68ef93daf83e1a443f7c7f54/68f018c805448475c5bca53f_Tribal%20Gaming%20img%20big%20(1).png",
+   "role": "resource",
+   "token": "13d7ce0a3150e0cf890e79030a515523e13546ef"
+  },
+  {
+   "path": "6911db9a21caefafed06f540_st-p-500.webp",
+   "url": "https://cdn.prod.website-files.com/68ef93daf83e1a443f7c7f54/6911db9a21caefafed06f540_st-p-500.webp",
+   "role": "resource",
+   "token": "cb3d16dba906f5bcd76490c925ca707280297a69"
+  },
+  {
+   "path": "68ef948b9aead519e53f0003_f5d527f8359eaae423d6402e65f72ed0435423a7-p-500.png",
+   "url": "https://cdn.prod.website-files.com/68ef93daf83e1a443f7c7f54/68ef948b9aead519e53f0003_f5d527f8359eaae423d6402e65f72ed0435423a7-p-500.png",
+   "role": "resource",
+   "token": "1f81447d01a8d6ad0e69f39e1343fb193f1acc8d"
+  },
+  {
+   "path": "68ef99f0241eba709e682b91_aa1-p-500.png",
+   "url": "https://cdn.prod.website-files.com/68ef93daf83e1a443f7c7f54/68ef99f0241eba709e682b91_aa1-p-500.png",
+   "role": "resource",
+   "token": "ba24ebebcc8929b74ad169df8f7b722ef4120d5d"
+  },
+  {
+   "path": "68ef942359213929f5e3531e_a1-p-500.png",
+   "url": "https://cdn.prod.website-files.com/68ef93daf83e1a443f7c7f54/68ef942359213929f5e3531e_a1-p-500.png",
+   "role": "resource",
+   "token": "b3817db31bacb29d2973dfc6a77bed70bd0833d3"
+  },
+  {
+   "path": "68e92f425ce686382f88c174_amelco hero bg-p-500.webp",
+   "url": "https://cdn.prod.website-files.com/68e8b4c6fe33ee88d4bb2f43/68e92f425ce686382f88c174_amelco%20hero%20bg-p-500.webp",
+   "role": "resource",
+   "token": "83f32403ce85480f0c95cb9abde6e9eca640761f"
+  },
+  {
+   "path": "6911db9a21caefafed06f540_st-p-1080.webp",
+   "url": "https://cdn.prod.website-files.com/68ef93daf83e1a443f7c7f54/6911db9a21caefafed06f540_st-p-1080.webp",
+   "role": "resource",
+   "token": "177a49fbe807bfcbe50f6788a28db61a9ccc112b"
+  },
+  {
+   "path": "gsap.min.js",
+   "url": "https://cdn.prod.website-files.com/gsap/3.15.0/gsap.min.js",
+   "role": "resource",
+   "token": "4965e6ae9cd9bd13dab6e4dbac6581a721eb3867"
+  },
+  {
+   "path": "ScrollTrigger.min.js",
+   "url": "https://cdn.prod.website-files.com/gsap/3.15.0/ScrollTrigger.min.js",
+   "role": "resource",
+   "token": "799d695cd38a8b4aba52c3e989b478c819e4256e"
+  },
+  {
+   "path": "jquery-3.5.1.min.dc5e7f18c8.js",
+   "url": "https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=68e8b4c6fe33ee88d4bb2f43",
+   "role": "resource",
+   "token": "bcce1a8e0cf34730058d00977033a65f714f8904"
+  },
+  {
+   "path": "68ef951bbaa5129a5c23982e_d5945b43a5fe9e232822af7965332c1e1164430b-p-500.png",
+   "url": "https://cdn.prod.website-files.com/68ef93daf83e1a443f7c7f54/68ef951bbaa5129a5c23982e_d5945b43a5fe9e232822af7965332c1e1164430b-p-500.png",
+   "role": "resource",
+   "token": "3ad86242961978460f7c633c37aa5bccd0d5d76d"
+  },
+  {
+   "path": "68ef945c22c784bfef98a246_6ff887fd827737f6b4af7d6a71370a42dd82ccf6-p-500.png",
+   "url": "https://cdn.prod.website-files.com/68ef93daf83e1a443f7c7f54/68ef945c22c784bfef98a246_6ff887fd827737f6b4af7d6a71370a42dd82ccf6-p-500.png",
+   "role": "resource",
+   "token": "dd901b2c454d6fa741826cc9e295227e4f31f33b"
+  },
+  {
+   "path": "6911db9a21caefafed06f540_st-p-800.webp",
+   "url": "https://cdn.prod.website-files.com/68ef93daf83e1a443f7c7f54/6911db9a21caefafed06f540_st-p-800.webp",
+   "role": "resource",
+   "token": "5e0ae6c573f94dbbb419d5b20e067c49996b4ad9"
+  },
+  {
+   "path": "68ef97b8b4dbcf9ddba58cac_end-to-end-p-500.png",
+   "url": "https://cdn.prod.website-files.com/68ef93daf83e1a443f7c7f54/68ef97b8b4dbcf9ddba58cac_end-to-end-p-500.png",
+   "role": "resource",
+   "token": "65b319421b5b35999d2e520fbaaf5bf99f064921"
+  },
+  {
+   "path": "68ef976e15ed0274a8a2eaa3_9e58c4ea8c31d512e75016db67fca9d67e9fb1c4-p-500.png",
+   "url": "https://cdn.prod.website-files.com/68ef93daf83e1a443f7c7f54/68ef976e15ed0274a8a2eaa3_9e58c4ea8c31d512e75016db67fca9d67e9fb1c4-p-500.png",
+   "role": "resource",
+   "token": "b1bafc2680d33de69fbc77aa3ad573ea625b2848"
+  },
+  {
+   "path": "68ef965ff7155dce07d1a0e8_a465c7d5aed20249ec135d396d8a790c94877bf1 (1)-p-500.png",
+   "url": "https://cdn.prod.website-files.com/68ef93daf83e1a443f7c7f54/68ef965ff7155dce07d1a0e8_a465c7d5aed20249ec135d396d8a790c94877bf1%20(1)-p-500.png",
+   "role": "resource",
+   "token": "6cc1e77f863f47e4542ff712cbc9427da7e42e4b"
+  },
+  {
+   "path": "68ef965ff7155dce07d1a0e8_a465c7d5aed20249ec135d396d8a790c94877bf1 (1)-p-800.png",
+   "url": "https://cdn.prod.website-files.com/68ef93daf83e1a443f7c7f54/68ef965ff7155dce07d1a0e8_a465c7d5aed20249ec135d396d8a790c94877bf1%20(1)-p-800.png",
+   "role": "resource",
+   "token": "727f79ff38d47a0d5bc2f67bddd91593ec257f47"
+  },
+  {
+   "path": "68ef95c54f99663f05ec2d66_41a50f88b9055fa80fef2ec7734efd6f8dca966a-p-500.png",
+   "url": "https://cdn.prod.website-files.com/68ef93daf83e1a443f7c7f54/68ef95c54f99663f05ec2d66_41a50f88b9055fa80fef2ec7734efd6f8dca966a-p-500.png",
+   "role": "resource",
+   "token": "fcac568abcfe51d7debd02f69fed4afeb41f8c44"
+  },
+  {
+   "path": "68ef95652f040d6328ce8893_6ce090de028e4e05fc978eaf4005be4ccfa047ab (1)-p-500.png",
+   "url": "https://cdn.prod.website-files.com/68ef93daf83e1a443f7c7f54/68ef95652f040d6328ce8893_6ce090de028e4e05fc978eaf4005be4ccfa047ab%20(1)-p-500.png",
+   "role": "resource",
+   "token": "b5b7d1e68d9fb2c2f1eb2aefcf643d3bf041d076"
+  },
+  {
+   "path": "68ee52ee8988b0aa6ba025d4_amelco why bg v1.svg",
+   "url": "https://cdn.prod.website-files.com/68e8b4c6fe33ee88d4bb2f43/68ee52ee8988b0aa6ba025d4_amelco%20why%20bg%20v1.svg",
+   "role": "resource",
+   "token": "3689ae31eef19bda7666e62a8210260c98d9d6f6"
+  },
+  {
+   "path": "68ef6eff7b6941c50323dbeb_amelco reviews bg.svg",
+   "url": "https://cdn.prod.website-files.com/68e8b4c6fe33ee88d4bb2f43/68ef6eff7b6941c50323dbeb_amelco%20reviews%20bg.svg",
+   "role": "resource",
+   "token": "e5d32ce429c9b50064cf0fe9629ab495dfa2e93c"
+  },
+  {
+   "path": "css.css",
+   "url": "https://fonts.googleapis.com/css?family=Montserrat:100,100italic,200,200italic,300,300italic,400,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic",
+   "role": "css-utf-8",
+   "token": "139bd094d4906d7755b2219fb770f8868360d951"
+  },
+  {
+   "path": "amelco-staging-site.webflow.shared.996387083.min.css",
+   "url": "https://cdn.prod.website-files.com/68e8b4c6fe33ee88d4bb2f43/css/amelco-staging-site.webflow.shared.996387083.min.css",
+   "role": "css-utf-8",
+   "token": "4c9110d2d7db7a22b27359325c2dc5d886addeb5"
+  },
+  {
+   "path": "cd8065b53a84d8a81e7765a00384ea0f98c3c59d",
+   "role": "resource",
+   "token": "b2722e6f228b22abb63334dbfb10e39abd3d8629"
+  },
+  {
+   "path": "48100bb8f624f792a15cba21dc380f82bef18773.svg",
+   "role": "resource",
+   "token": "0e48ea7199a4e03c515e0cd9b70b98d4a8374a93"
+  },
+  {
+   "path": "0f00ddc9fbd1210111d35ec601374568ed148e7f.svg",
+   "role": "resource",
+   "token": "7b247a573d3694414c03b053fb37799f59267883"
+  },
+  {
+   "path": "5f62cb50c825ff69843904de14119906f6aecd57.svg",
+   "role": "resource",
+   "token": "cb0aac1c1820c69178395c5426f8d4a01a511171"
+  },
+  {
+   "path": "68f0188f669bed712bd6840d_Land-Based & Retail img big (1).png",
+   "url": "https://cdn.prod.website-files.com/68ef93daf83e1a443f7c7f54/68f0188f669bed712bd6840d_Land-Based%20%26%20Retail%20img%20big%20(1).png",
+   "role": "resource",
+   "token": "2db958e113a6d6280bc0de2f40b87fd84036993a"
+  },
+  {
+   "path": "68ef945c22c784bfef98a246_6ff887fd827737f6b4af7d6a71370a42dd82ccf6-p-800.png",
+   "url": "https://cdn.prod.website-files.com/68ef93daf83e1a443f7c7f54/68ef945c22c784bfef98a246_6ff887fd827737f6b4af7d6a71370a42dd82ccf6-p-800.png",
+   "role": "resource",
+   "token": "844e17a021c742d561feaacc285be153f5697404"
+  },
+  {
+   "path": "68ef971db04ea41fb050e2f9_8a87934a7ab0839dc2e1864d5f1caed09791492d-p-500.png",
+   "url": "https://cdn.prod.website-files.com/68ef93daf83e1a443f7c7f54/68ef971db04ea41fb050e2f9_8a87934a7ab0839dc2e1864d5f1caed09791492d-p-500.png",
+   "role": "resource",
+   "token": "f96059fba066ad505bac06750fa670e31dfd0518"
+  },
+  {
+   "path": "68ef96d0e989c753dc2d6b69_b94dc9cdf2b5c3e977704c367554b6e7c010379b-p-500.png",
+   "url": "https://cdn.prod.website-files.com/68ef93daf83e1a443f7c7f54/68ef96d0e989c753dc2d6b69_b94dc9cdf2b5c3e977704c367554b6e7c010379b-p-500.png",
+   "role": "resource",
+   "token": "9aaf1bbc072f3ccf15fbe8eabeb9e4b04313246a"
+  },
+  {
+   "path": "68ef960c10fb197aa936faa5_97a8c20aa4f01cb99d5308e8489f57c2772f8381-p-500.png",
+   "url": "https://cdn.prod.website-files.com/68ef93daf83e1a443f7c7f54/68ef960c10fb197aa936faa5_97a8c20aa4f01cb99d5308e8489f57c2772f8381-p-500.png",
+   "role": "resource",
+   "token": "2732539c11f86ee7c19c9844a8d1c3ce8e3aa9dd"
+  },
+  {
+   "path": "690e24d50f8928b9af72f10a_football-690e24cbe6e7c.webp",
+   "url": "https://cdn.prod.website-files.com/68e8b4c6fe33ee88d4bb2f43/690e24d50f8928b9af72f10a_football-690e24cbe6e7c.webp",
+   "role": "resource",
+   "token": "aa586288992b37234ab206059833081db73f22df"
+  },
+  {
+   "path": "690e25066f1d3a6b83bed08f_bball2-690e24fb4d780.webp",
+   "url": "https://cdn.prod.website-files.com/68e8b4c6fe33ee88d4bb2f43/690e25066f1d3a6b83bed08f_bball2-690e24fb4d780.webp",
+   "role": "resource",
+   "token": "d5a051498f9549e2964167ca2d166d0d7a140934"
+  },
+  {
+   "path": "68ef948b9aead519e53f0003_f5d527f8359eaae423d6402e65f72ed0435423a7-p-800.png",
+   "url": "https://cdn.prod.website-files.com/68ef93daf83e1a443f7c7f54/68ef948b9aead519e53f0003_f5d527f8359eaae423d6402e65f72ed0435423a7-p-800.png",
+   "role": "resource",
+   "token": "23b798c9078c077a8f38ef1d873fabd0e66e4bd2"
+  },
+  {
+   "path": "68ef942359213929f5e3531e_a1-p-800.png",
+   "url": "https://cdn.prod.website-files.com/68ef93daf83e1a443f7c7f54/68ef942359213929f5e3531e_a1-p-800.png",
+   "role": "resource",
+   "token": "ac5f70465d9d5977462e9b4d40af7ee659126e59"
+  },
+  {
+   "path": "68ef945c22c784bfef98a246_6ff887fd827737f6b4af7d6a71370a42dd82ccf6.png",
+   "url": "https://cdn.prod.website-files.com/68ef93daf83e1a443f7c7f54/68ef945c22c784bfef98a246_6ff887fd827737f6b4af7d6a71370a42dd82ccf6.png",
+   "role": "resource",
+   "token": "0361f8bdbf0c7db304f4df2c6d06cf8bfca452a3"
+  },
+  {
+   "path": "68ef948b9aead519e53f0003_f5d527f8359eaae423d6402e65f72ed0435423a7.png",
+   "url": "https://cdn.prod.website-files.com/68ef93daf83e1a443f7c7f54/68ef948b9aead519e53f0003_f5d527f8359eaae423d6402e65f72ed0435423a7.png",
+   "role": "resource",
+   "token": "3edbdccac4a90401c4ae8b41bfd6ce316c027aaf"
+  },
+  {
+   "path": "68ef96d0e989c753dc2d6b69_b94dc9cdf2b5c3e977704c367554b6e7c010379b.png",
+   "url": "https://cdn.prod.website-files.com/68ef93daf83e1a443f7c7f54/68ef96d0e989c753dc2d6b69_b94dc9cdf2b5c3e977704c367554b6e7c010379b.png",
+   "role": "resource",
+   "token": "3e886fc0b6c4443f62fcc6f79abe729a09f234ab"
+  },
+  {
+   "path": "68ef976e15ed0274a8a2eaa3_9e58c4ea8c31d512e75016db67fca9d67e9fb1c4.png",
+   "url": "https://cdn.prod.website-files.com/68ef93daf83e1a443f7c7f54/68ef976e15ed0274a8a2eaa3_9e58c4ea8c31d512e75016db67fca9d67e9fb1c4.png",
+   "role": "resource",
+   "token": "1190c8691b67d7e034d97fc265cdc4e8ea7a592a"
+  },
+  {
+   "path": "68ef942359213929f5e3531e_a1.png",
+   "url": "https://cdn.prod.website-files.com/68ef93daf83e1a443f7c7f54/68ef942359213929f5e3531e_a1.png",
+   "role": "resource",
+   "token": "20a6dd4dcffa786e8438c13d8b3f71190d90ffbd"
+  },
+  {
+   "path": "690d207f787087990a707696_mm-690d2074d09af.webp",
+   "url": "https://cdn.prod.website-files.com/68e8b4c6fe33ee88d4bb2f43/690d207f787087990a707696_mm-690d2074d09af.webp",
+   "role": "resource",
+   "token": "8eaf849b93750b2eab8b73ecfbd9b01485be6f84"
+  },
+  {
+   "path": "690d207f787087990a707696_mm-690d2074d09af-p-500.webp",
+   "url": "https://cdn.prod.website-files.com/68e8b4c6fe33ee88d4bb2f43/690d207f787087990a707696_mm-690d2074d09af-p-500.webp",
+   "role": "resource",
+   "token": "aec13fc7f5e3c76ea659fad0d0036df8ce9622bd"
+  },
+  {
+   "path": "webflow.schunk.36b8fb49256177c8.js",
+   "url": "https://cdn.prod.website-files.com/68e8b4c6fe33ee88d4bb2f43/js/webflow.schunk.36b8fb49256177c8.js",
+   "role": "resource",
+   "token": "5189a2076c9c2559240160b9ea2f371ad618608b"
+  },
+  {
+   "path": "webflow.schunk.b2d4fa44d0f47718.js",
+   "url": "https://cdn.prod.website-files.com/68e8b4c6fe33ee88d4bb2f43/js/webflow.schunk.b2d4fa44d0f47718.js",
+   "role": "resource",
+   "token": "932ee6d688f4d09db04f67f4e77ff4e8f3f9b0a2"
+  },
+  {
+   "path": "webflow.18c78c57.653ecb3ea2245795.js",
+   "url": "https://cdn.prod.website-files.com/68e8b4c6fe33ee88d4bb2f43/js/webflow.18c78c57.653ecb3ea2245795.js",
+   "role": "resource",
+   "token": "5d6439dd48f504cabd279430705fa4528a1e0bc9"
+  },
+  {
+   "path": "69084e0065beaf250d14edd3_amelco cta bg desktop v3-p-1080.png",
+   "url": "https://cdn.prod.website-files.com/68e8b4c6fe33ee88d4bb2f43/69084e0065beaf250d14edd3_amelco%20cta%20bg%20desktop%20v3-p-1080.png",
+   "role": "resource",
+   "token": "fb1a58c8c7c2e954b3715cb919df555f90cd2c50"
+  },
+  {
+   "path": "68ef95652f040d6328ce8893_6ce090de028e4e05fc978eaf4005be4ccfa047ab (1)-p-1080.png",
+   "url": "https://cdn.prod.website-files.com/68ef93daf83e1a443f7c7f54/68ef95652f040d6328ce8893_6ce090de028e4e05fc978eaf4005be4ccfa047ab%20(1)-p-1080.png",
+   "role": "resource",
+   "token": "66ab4254e6ef84319ba201965b6be4d56e06d51e"
+  },
+  {
+   "path": "68ef945c22c784bfef98a246_6ff887fd827737f6b4af7d6a71370a42dd82ccf6-p-1080.png",
+   "url": "https://cdn.prod.website-files.com/68ef93daf83e1a443f7c7f54/68ef945c22c784bfef98a246_6ff887fd827737f6b4af7d6a71370a42dd82ccf6-p-1080.png",
+   "role": "resource",
+   "token": "1cf89688d258dff3411e2d8e8772b7c680bc931e"
+  },
+  {
+   "path": "68ef976e15ed0274a8a2eaa3_9e58c4ea8c31d512e75016db67fca9d67e9fb1c4-p-1080.png",
+   "url": "https://cdn.prod.website-files.com/68ef93daf83e1a443f7c7f54/68ef976e15ed0274a8a2eaa3_9e58c4ea8c31d512e75016db67fca9d67e9fb1c4-p-1080.png",
+   "role": "resource",
+   "token": "e7a63d5792ad1dcf9a2617ba798969a73c2e671f"
+  },
+  {
+   "path": "68ef95c54f99663f05ec2d66_41a50f88b9055fa80fef2ec7734efd6f8dca966a-p-1080.png",
+   "url": "https://cdn.prod.website-files.com/68ef93daf83e1a443f7c7f54/68ef95c54f99663f05ec2d66_41a50f88b9055fa80fef2ec7734efd6f8dca966a-p-1080.png",
+   "role": "resource",
+   "token": "e044fd15f821f0f727b0d68269519a00198a795b"
+  },
+  {
+   "path": "68ef97b8b4dbcf9ddba58cac_end-to-end-p-1080.png",
+   "url": "https://cdn.prod.website-files.com/68ef93daf83e1a443f7c7f54/68ef97b8b4dbcf9ddba58cac_end-to-end-p-1080.png",
+   "role": "resource",
+   "token": "9e906d694afeec97ce5dfccf27925b48d7894204"
+  },
+  {
+   "path": "68ef971db04ea41fb050e2f9_8a87934a7ab0839dc2e1864d5f1caed09791492d-p-1080.png",
+   "url": "https://cdn.prod.website-files.com/68ef93daf83e1a443f7c7f54/68ef971db04ea41fb050e2f9_8a87934a7ab0839dc2e1864d5f1caed09791492d-p-1080.png",
+   "role": "resource",
+   "token": "26222d510e53b52ba4ebc879c31d837cf2e79473"
+  },
+  {
+   "path": "68ef96d0e989c753dc2d6b69_b94dc9cdf2b5c3e977704c367554b6e7c010379b-p-800.png",
+   "url": "https://cdn.prod.website-files.com/68ef93daf83e1a443f7c7f54/68ef96d0e989c753dc2d6b69_b94dc9cdf2b5c3e977704c367554b6e7c010379b-p-800.png",
+   "role": "resource",
+   "token": "59f74602d954560a509e7a5cde6d35627d458621"
+  },
+  {
+   "path": "68ef96d0e989c753dc2d6b69_b94dc9cdf2b5c3e977704c367554b6e7c010379b-p-1080.png",
+   "url": "https://cdn.prod.website-files.com/68ef93daf83e1a443f7c7f54/68ef96d0e989c753dc2d6b69_b94dc9cdf2b5c3e977704c367554b6e7c010379b-p-1080.png",
+   "role": "resource",
+   "token": "46c999604fd5e67a805fa72e7e4a33025913f3d4"
+  },
+  {
+   "path": "68ef960c10fb197aa936faa5_97a8c20aa4f01cb99d5308e8489f57c2772f8381-p-800.png",
+   "url": "https://cdn.prod.website-files.com/68ef93daf83e1a443f7c7f54/68ef960c10fb197aa936faa5_97a8c20aa4f01cb99d5308e8489f57c2772f8381-p-800.png",
+   "role": "resource",
+   "token": "55bb5ff950098349efa1315cfbdea29a65fa2037"
+  },
+  {
+   "path": "68ef965ff7155dce07d1a0e8_a465c7d5aed20249ec135d396d8a790c94877bf1 (1)-p-1080.png",
+   "url": "https://cdn.prod.website-files.com/68ef93daf83e1a443f7c7f54/68ef965ff7155dce07d1a0e8_a465c7d5aed20249ec135d396d8a790c94877bf1%20(1)-p-1080.png",
+   "role": "resource",
+   "token": "bdadbf06bbbe5b00c27b69b09cbb980654cb4447"
+  },
+  {
+   "path": "0211.mp4.webm",
+   "url": "https://ik.imagekit.io/webhost/Amelco/0211.mp4",
+   "role": "resource",
+   "token": "c10974afe8cee3ad0936cd04d0e11fefeaa66bc5"
+  },
+  {
+   "path": "68ef960c10fb197aa936faa5_97a8c20aa4f01cb99d5308e8489f57c2772f8381.png",
+   "url": "https://cdn.prod.website-files.com/68ef93daf83e1a443f7c7f54/68ef960c10fb197aa936faa5_97a8c20aa4f01cb99d5308e8489f57c2772f8381.png",
+   "role": "resource",
+   "token": "6403523bb5d7e855b272072b1b25ff748c1bc827"
+  },
+  {
+   "path": "68ef95652f040d6328ce8893_6ce090de028e4e05fc978eaf4005be4ccfa047ab (1).png",
+   "url": "https://cdn.prod.website-files.com/68ef93daf83e1a443f7c7f54/68ef95652f040d6328ce8893_6ce090de028e4e05fc978eaf4005be4ccfa047ab%20(1).png",
+   "role": "resource",
+   "token": "9dea4eb748d2d38c03e23354ef0a70ecb1017dac"
+  },
+  {
+   "path": "68ef960c10fb197aa936faa5_97a8c20aa4f01cb99d5308e8489f57c2772f8381-p-1080.png",
+   "url": "https://cdn.prod.website-files.com/68ef93daf83e1a443f7c7f54/68ef960c10fb197aa936faa5_97a8c20aa4f01cb99d5308e8489f57c2772f8381-p-1080.png",
+   "role": "resource",
+   "token": "4e58f5f9f3d4d1dffe9b61da049689bcc581b1af"
+  },
+  {
+   "path": "68ef97b8b4dbcf9ddba58cac_end-to-end.png",
+   "url": "https://cdn.prod.website-files.com/68ef93daf83e1a443f7c7f54/68ef97b8b4dbcf9ddba58cac_end-to-end.png",
+   "role": "resource",
+   "token": "ee755e4da92bc4bb9f32fb5e3e46880b0cebc4c0"
+  },
+  {
+   "path": "68ef942359213929f5e3531e_a1-p-1080.png",
+   "url": "https://cdn.prod.website-files.com/68ef93daf83e1a443f7c7f54/68ef942359213929f5e3531e_a1-p-1080.png",
+   "role": "resource",
+   "token": "cf846992df5e8f56e7129a6a06081511e8c01844"
+  },
+  {
+   "path": "68ef948b9aead519e53f0003_f5d527f8359eaae423d6402e65f72ed0435423a7-p-1080.png",
+   "url": "https://cdn.prod.website-files.com/68ef93daf83e1a443f7c7f54/68ef948b9aead519e53f0003_f5d527f8359eaae423d6402e65f72ed0435423a7-p-1080.png",
+   "role": "resource",
+   "token": "3dc4d59c3252c95cb56ac77d70cf03a3c7b7fd3f"
+  },
+  {
+   "path": "690e24d50f8928b9af72f10a_football-690e24cbe6e7c-p-500.webp",
+   "url": "https://cdn.prod.website-files.com/68e8b4c6fe33ee88d4bb2f43/690e24d50f8928b9af72f10a_football-690e24cbe6e7c-p-500.webp",
+   "role": "resource",
+   "token": "251658d8d21fffa20a9daf8210d0cdbd857e3d84"
+  },
+  {
+   "path": "690e24d50f8928b9af72f10a_football-690e24cbe6e7c-p-800.webp",
+   "url": "https://cdn.prod.website-files.com/68e8b4c6fe33ee88d4bb2f43/690e24d50f8928b9af72f10a_football-690e24cbe6e7c-p-800.webp",
+   "role": "resource",
+   "token": "0607c6ae1a3d6d2e086285dea2ad6f64e039d70e"
+  },
+  {
+   "path": "690e25066f1d3a6b83bed08f_bball2-690e24fb4d780-p-500.webp",
+   "url": "https://cdn.prod.website-files.com/68e8b4c6fe33ee88d4bb2f43/690e25066f1d3a6b83bed08f_bball2-690e24fb4d780-p-500.webp",
+   "role": "resource",
+   "token": "78b60334a32489d07971fb88924cbcdab243ca89"
+  },
+  {
+   "path": "690e25066f1d3a6b83bed08f_bball2-690e24fb4d780-p-800.webp",
+   "url": "https://cdn.prod.website-files.com/68e8b4c6fe33ee88d4bb2f43/690e25066f1d3a6b83bed08f_bball2-690e24fb4d780-p-800.webp",
+   "role": "resource",
+   "token": "eec097ea4b8d0c19d17bcaec337a5dacc3dc94a6"
+  },
+  {
+   "path": "69084e0065beaf250d14edd3_amelco cta bg desktop v3-p-500.png",
+   "url": "https://cdn.prod.website-files.com/68e8b4c6fe33ee88d4bb2f43/69084e0065beaf250d14edd3_amelco%20cta%20bg%20desktop%20v3-p-500.png",
+   "role": "resource",
+   "token": "a7f99ca5852fe6755efa97c690aa3511251ebb61"
+  },
+  {
+   "path": "69084e0065beaf250d14edd3_amelco cta bg desktop v3-p-800.png",
+   "url": "https://cdn.prod.website-files.com/68e8b4c6fe33ee88d4bb2f43/69084e0065beaf250d14edd3_amelco%20cta%20bg%20desktop%20v3-p-800.png",
+   "role": "resource",
+   "token": "45e3bb0f4dc0a2b0b42d3390da93e82a1728a9da"
+  },
+  {
+   "path": "68f0188f669bed712bd6840d_Land-Based & Retail img big (1)-p-500.png",
+   "url": "https://cdn.prod.website-files.com/68ef93daf83e1a443f7c7f54/68f0188f669bed712bd6840d_Land-Based%20%26%20Retail%20img%20big%20(1)-p-500.png",
+   "role": "resource",
+   "token": "f9876d8bd7dd14c415088169092a7ea64c6f48a2"
+  },
+  {
+   "path": "webflow.schunk.8208d3e53b97e3c7.js",
+   "url": "https://cdn.prod.website-files.com/68e8b4c6fe33ee88d4bb2f43/js/webflow.schunk.8208d3e53b97e3c7.js",
+   "role": "resource",
+   "token": "6b474097d975c4236561b28712f933cadd1fbb70"
+  },
+  {
+   "path": "68f01840c35544a5fc7f8218_National Lotteries Img Big (1)-p-500.png",
+   "url": "https://cdn.prod.website-files.com/68ef93daf83e1a443f7c7f54/68f01840c35544a5fc7f8218_National%20Lotteries%20Img%20Big%20(1)-p-500.png",
+   "role": "resource",
+   "token": "d5e2cc00365a7fd2f2cd88721aff7f011f71a37a"
+  },
+  {
+   "path": "68ef97b8b4dbcf9ddba58cac_end-to-end-p-800.png",
+   "url": "https://cdn.prod.website-files.com/68ef93daf83e1a443f7c7f54/68ef97b8b4dbcf9ddba58cac_end-to-end-p-800.png",
+   "role": "resource",
+   "token": "3d49b59aea11c8e59efb34bf656bdd36a18f4d1c"
+  },
+  {
+   "path": "68ef9b6ad796798e530cbc2a_aa5-p-500.png",
+   "url": "https://cdn.prod.website-files.com/68ef93daf83e1a443f7c7f54/68ef9b6ad796798e530cbc2a_aa5-p-500.png",
+   "role": "resource",
+   "token": "02eb816ddd733dc5865250087ea1aa40764506e9"
+  },
+  {
+   "path": "68f018c805448475c5bca53f_Tribal Gaming img big (1)-p-500.png",
+   "url": "https://cdn.prod.website-files.com/68ef93daf83e1a443f7c7f54/68f018c805448475c5bca53f_Tribal%20Gaming%20img%20big%20(1)-p-500.png",
+   "role": "resource",
+   "token": "7bfe510819dda28aa9813aad7cb7f6c85d895096"
+  },
+  {
+   "path": "68ef971db04ea41fb050e2f9_8a87934a7ab0839dc2e1864d5f1caed09791492d-p-800.png",
+   "url": "https://cdn.prod.website-files.com/68ef93daf83e1a443f7c7f54/68ef971db04ea41fb050e2f9_8a87934a7ab0839dc2e1864d5f1caed09791492d-p-800.png",
+   "role": "resource",
+   "token": "ef73db5a44b27d616525c100e662ded0a55a0927"
+  },
+  {
+   "path": "webflow.schunk.144a53ba486c518c.js",
+   "url": "https://cdn.prod.website-files.com/68e8b4c6fe33ee88d4bb2f43/js/webflow.schunk.144a53ba486c518c.js",
+   "role": "resource",
+   "token": "95dfdf398ee86ccd00aee0fa990f779c79d5a216"
+  },
+  {
+   "path": "68ef95c54f99663f05ec2d66_41a50f88b9055fa80fef2ec7734efd6f8dca966a-p-800.png",
+   "url": "https://cdn.prod.website-files.com/68ef93daf83e1a443f7c7f54/68ef95c54f99663f05ec2d66_41a50f88b9055fa80fef2ec7734efd6f8dca966a-p-800.png",
+   "role": "resource",
+   "token": "bb29b66844f846d8d6717974dc0fbff76b2d6554"
+  },
+  {
+   "path": "68ef95652f040d6328ce8893_6ce090de028e4e05fc978eaf4005be4ccfa047ab (1)-p-800.png",
+   "url": "https://cdn.prod.website-files.com/68ef93daf83e1a443f7c7f54/68ef95652f040d6328ce8893_6ce090de028e4e05fc978eaf4005be4ccfa047ab%20(1)-p-800.png",
+   "role": "resource",
+   "token": "ff403108342c72d154f19c5c8a907fdbc623a956"
+  },
+  {
+   "path": "68ef965ff7155dce07d1a0e8_a465c7d5aed20249ec135d396d8a790c94877bf1 (1).png",
+   "url": "https://cdn.prod.website-files.com/68ef93daf83e1a443f7c7f54/68ef965ff7155dce07d1a0e8_a465c7d5aed20249ec135d396d8a790c94877bf1%20(1).png",
+   "role": "resource",
+   "token": "6f2af7de259eb37fe03d49b52987dbc90b5c9956"
+  },
+  {
+   "path": "68ef971db04ea41fb050e2f9_8a87934a7ab0839dc2e1864d5f1caed09791492d-p-1600.png",
+   "url": "https://cdn.prod.website-files.com/68ef93daf83e1a443f7c7f54/68ef971db04ea41fb050e2f9_8a87934a7ab0839dc2e1864d5f1caed09791492d-p-1600.png",
+   "role": "resource",
+   "token": "86352cde4622f6cf3f2669cc5b9b0786a906e7e5"
+  },
+  {
+   "path": "68ef9b6ad796798e530cbc2a_aa5-p-800.png",
+   "url": "https://cdn.prod.website-files.com/68ef93daf83e1a443f7c7f54/68ef9b6ad796798e530cbc2a_aa5-p-800.png",
+   "role": "resource",
+   "token": "1e64e7b4669a90059237a2e6aed17bb5cac1a745"
+  },
+  {
+   "path": "68ef971db04ea41fb050e2f9_8a87934a7ab0839dc2e1864d5f1caed09791492d.png",
+   "url": "https://cdn.prod.website-files.com/68ef93daf83e1a443f7c7f54/68ef971db04ea41fb050e2f9_8a87934a7ab0839dc2e1864d5f1caed09791492d.png",
+   "role": "resource",
+   "token": "21a8999bea5c9b01f12808407c3fb350a5b67f7a"
+  },
+  {
+   "path": "68ef95c54f99663f05ec2d66_41a50f88b9055fa80fef2ec7734efd6f8dca966a.png",
+   "url": "https://cdn.prod.website-files.com/68ef93daf83e1a443f7c7f54/68ef95c54f99663f05ec2d66_41a50f88b9055fa80fef2ec7734efd6f8dca966a.png",
+   "role": "resource",
+   "token": "ee4d549c784ce2e552c4b7ff97147ee6eb98da22"
+  },
+  {
+   "path": "index.min.js",
+   "url": "https://unpkg.com/split-type@0.3.4/umd/index.min.js",
+   "role": "resource",
+   "token": "9d0e9049b771ed8a6e2de9da6868b498c610f880"
+  },
+  {
+   "path": "69084e0065beaf250d14edd3_amelco cta bg desktop v3.png",
+   "url": "https://cdn.prod.website-files.com/68e8b4c6fe33ee88d4bb2f43/69084e0065beaf250d14edd3_amelco%20cta%20bg%20desktop%20v3.png",
+   "role": "resource",
+   "token": "8663bc5a1f8b6857c9bd537da7580eafeaad2c8a"
+  },
+  {
+   "path": "custom-checkbox-checkmark.589d534424.svg",
+   "url": "https://d3e54v103j8qbb.cloudfront.net/static/custom-checkbox-checkmark.589d534424.svg",
+   "role": "resource",
+   "token": "933e6b61d353348351a6f7199576fdb08c76f470"
+  },
+  {
+   "path": "690d201538b81cb6927f5e71_cc-690d20075696d.webp",
+   "url": "https://cdn.prod.website-files.com/68e8b4c6fe33ee88d4bb2f43/690d201538b81cb6927f5e71_cc-690d20075696d.webp",
+   "role": "resource",
+   "token": "945a07db8df6fd8b21246de81aada608f576ea94"
+  },
+  {
+   "path": "68e93af2fa5f1d0f66805c82_amelco arrow border.svg",
+   "url": "https://cdn.prod.website-files.com/68e8b4c6fe33ee88d4bb2f43/68e93af2fa5f1d0f66805c82_amelco%20arrow%20border.svg",
+   "role": "resource",
+   "token": "687ff2dc387001bd08939e726cb34525b2367ffa"
+  },
+  {
+   "path": "69009ac9c30348b522ce0b5f_amelco block 4 frame.png",
+   "url": "https://cdn.prod.website-files.com/68e8b4c6fe33ee88d4bb2f43/69009ac9c30348b522ce0b5f_amelco%20block%204%20frame.png",
+   "role": "resource",
+   "token": "c68cf1f8dbaaedbd02c70868f6435637b9d3a8ea"
+  },
+  {
+   "path": "68ea33eb24df3e8fa458970b_6px grid v3.png",
+   "url": "https://cdn.prod.website-files.com/68e8b4c6fe33ee88d4bb2f43/68ea33eb24df3e8fa458970b_6px%20grid%20v3.png",
+   "role": "resource",
+   "token": "d6b3d8f6bbea1a8be7ad786ecf59870d0dbe7885"
+  },
+  {
+   "path": "68ea3241ff39988d37835ee5_amelco industry bg.svg",
+   "url": "https://cdn.prod.website-files.com/68e8b4c6fe33ee88d4bb2f43/68ea3241ff39988d37835ee5_amelco%20industry%20bg.svg",
+   "role": "resource",
+   "token": "5047adc728c59c16b57a56fd0371d619ed2244eb"
+  },
+  {
+   "path": "68effab8a7a72a2976149a91_amelco footer decor.svg",
+   "url": "https://cdn.prod.website-files.com/68e8b4c6fe33ee88d4bb2f43/68effab8a7a72a2976149a91_amelco%20footer%20decor.svg",
+   "role": "resource",
+   "token": "7a927ea20b64fe1b797c39fcf259b8c4b8cb0bf2"
+  },
+  {
+   "path": "68ef9b6ad796798e530cbc2a_aa5.png",
+   "url": "https://cdn.prod.website-files.com/68ef93daf83e1a443f7c7f54/68ef9b6ad796798e530cbc2a_aa5.png",
+   "role": "resource",
+   "token": "28b5decbc71736e7d1ab4a71c84ee5f1606f0870"
+  },
+  {
+   "path": "JTUQjIg1_i6t8kCHKm459WxRxi7mw9c.woff2",
+   "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUQjIg1_i6t8kCHKm459WxRxi7mw9c.woff2",
+   "role": "resource",
+   "token": "e57a8cd5c7d5af1a97b00a38e09a70fa126500fd"
+  },
+  {
+   "path": "JTUQjIg1_i6t8kCHKm459WxRzS7mw9c.woff2",
+   "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUQjIg1_i6t8kCHKm459WxRzS7mw9c.woff2",
+   "role": "resource",
+   "token": "88ffe80527ceb2ccc848ff5312f859309e25abe5"
+  },
+  {
+   "path": "690b3fa9a5739fc5d193f39a_TTNorms-Medium.otf",
+   "url": "https://cdn.prod.website-files.com/68e8b4c6fe33ee88d4bb2f43/690b3fa9a5739fc5d193f39a_TTNorms-Medium.otf",
+   "role": "resource",
+   "token": "e18a8fa6b2e448bb424f362d0515da8a399e7519"
+  },
+  {
+   "path": "690b3fa9d827a1e755a4f7b7_TTNorms-Light.otf",
+   "url": "https://cdn.prod.website-files.com/68e8b4c6fe33ee88d4bb2f43/690b3fa9d827a1e755a4f7b7_TTNorms-Light.otf",
+   "role": "resource",
+   "token": "2d790337f65fa0bf58f8b334f0302f416573161c"
+  },
+  {
+   "path": "690b3fa91349cfb384144639_TTNorms-ExtraLight.otf",
+   "url": "https://cdn.prod.website-files.com/68e8b4c6fe33ee88d4bb2f43/690b3fa91349cfb384144639_TTNorms-ExtraLight.otf",
+   "role": "resource",
+   "token": "29b465d25ad40396b36e9c591982ba4c57568c4e"
+  },
+  {
+   "path": "690b3fa975c189a2562161ea_TTNorms-Thin.otf",
+   "url": "https://cdn.prod.website-files.com/68e8b4c6fe33ee88d4bb2f43/690b3fa975c189a2562161ea_TTNorms-Thin.otf",
+   "role": "resource",
+   "token": "50257229c9dc42748dd7f2ec1146000a88c642b8"
+  },
+  {
+   "path": "6915b3c4efbd44da7d684fb1_hero-6915b3afce8a9.webp",
+   "url": "https://cdn.prod.website-files.com/68e8b4c6fe33ee88d4bb2f43/6915b3c4efbd44da7d684fb1_hero-6915b3afce8a9.webp",
+   "role": "resource",
+   "token": "83efc777f29393c25d6fc873c366b642183bdb65"
+  },
+  {
+   "path": "690d16c1a70361c0629e35ae_bg-690d16ad5a6e9.webp",
+   "url": "https://cdn.prod.website-files.com/68e8b4c6fe33ee88d4bb2f43/690d16c1a70361c0629e35ae_bg-690d16ad5a6e9.webp",
+   "role": "resource",
+   "token": "4892c1a3ebea2a777941a1fa134c281dede0ce72"
+  },
+  {
+   "path": "691478135befaae2c09be5ce_hero-bg-691477d848c22.webp",
+   "url": "https://cdn.prod.website-files.com/68e8b4c6fe33ee88d4bb2f43/691478135befaae2c09be5ce_hero-bg-691477d848c22.webp",
+   "role": "resource",
+   "token": "44ef9c0413c34b6aeab9bfb9a94d5a2fe0df38cb"
+  },
+  {
+   "path": "69135e9c167002bffcadb8ef_bbg-69135e82847b9.webp",
+   "url": "https://cdn.prod.website-files.com/68e8b4c6fe33ee88d4bb2f43/69135e9c167002bffcadb8ef_bbg-69135e82847b9.webp",
+   "role": "resource",
+   "token": "30dba1f3500b95756bb8f64f158eadf333ccb296"
+  },
+  {
+   "path": "690b3fa93c1fd0cd22550b16_TTNorms-Heavy.otf",
+   "url": "https://cdn.prod.website-files.com/68e8b4c6fe33ee88d4bb2f43/690b3fa93c1fd0cd22550b16_TTNorms-Heavy.otf",
+   "role": "resource",
+   "token": "8ba4b159674a78589a202e477c88a82618b221eb"
+  },
+  {
+   "path": "JTUSjIg1_i6t8kCHKm459WZhyzbi.woff2",
+   "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WZhyzbi.woff2",
+   "role": "resource",
+   "token": "eb607a60126186e55e22250093e2e4d5adec35d5"
+  },
+  {
+   "path": "JTUSjIg1_i6t8kCHKm459W1hyzbi.woff2",
+   "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459W1hyzbi.woff2",
+   "role": "resource",
+   "token": "dba09714d6c167297f102ed114d6a68d98e27293"
+  },
+  {
+   "path": "68e8b4c9fe33ee88d4bb301b_Webflow Background.svg",
+   "url": "https://cdn.prod.website-files.com/68e8b4c6fe33ee88d4bb2f43/68e8b4c9fe33ee88d4bb301b_Webflow%20Background.svg",
+   "role": "resource",
+   "token": "ffb8e31211d7e5cbe7a4bcd7915e66df1d9d6f1b"
+  },
+  {
+   "path": "690b3fa9dc97a182f6996744_TTNorms-BlackItalic.otf",
+   "url": "https://cdn.prod.website-files.com/68e8b4c6fe33ee88d4bb2f43/690b3fa9dc97a182f6996744_TTNorms-BlackItalic.otf",
+   "role": "resource",
+   "token": "0aa01a249cb4c1e025d61e78812a6fd59ff794e6"
+  },
+  {
+   "path": "JTUSjIg1_i6t8kCHKm459Wlhyw.woff2",
+   "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2",
+   "role": "resource",
+   "token": "d33bbe9ae68d1e79995769a585ba5b06d03910c9"
+  },
+  {
+   "path": "JTUQjIg1_i6t8kCHKm459WxRxC7mw9c.woff2",
+   "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUQjIg1_i6t8kCHKm459WxRxC7mw9c.woff2",
+   "role": "resource",
+   "token": "ab5122eb05fdf1ff440150913d485417c0715290"
+  },
+  {
+   "path": "690b3fa9526d6eecbc9cd9f6_TTNorms-HeavyItalic.otf",
+   "url": "https://cdn.prod.website-files.com/68e8b4c6fe33ee88d4bb2f43/690b3fa9526d6eecbc9cd9f6_TTNorms-HeavyItalic.otf",
+   "role": "resource",
+   "token": "ae5900c285afa2b4d7884d2ff60041f1538a5719"
+  },
+  {
+   "path": "690b3fa918f885fcd16895b7_TTNorms-Regular.otf",
+   "url": "https://cdn.prod.website-files.com/68e8b4c6fe33ee88d4bb2f43/690b3fa918f885fcd16895b7_TTNorms-Regular.otf",
+   "role": "resource",
+   "token": "7da4b9032fc945b8fa9e040a86580dfbf0254a56"
+  },
+  {
+   "path": "690b3fa925d829a28227d72f_TTNorms-ExtraBoldItalic.otf",
+   "url": "https://cdn.prod.website-files.com/68e8b4c6fe33ee88d4bb2f43/690b3fa925d829a28227d72f_TTNorms-ExtraBoldItalic.otf",
+   "role": "resource",
+   "token": "0dc91fa874ca2a1044bcf774fde07623f3de2c24"
+  },
+  {
+   "path": "JTUSjIg1_i6t8kCHKm459WRhyzbi.woff2",
+   "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459WRhyzbi.woff2",
+   "role": "resource",
+   "token": "238ad6da7ca9cc7b9f01dd275e22ac1c97a557d8"
+  },
+  {
+   "path": "JTUQjIg1_i6t8kCHKm459WxRyS7m.woff2",
+   "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUQjIg1_i6t8kCHKm459WxRyS7m.woff2",
+   "role": "resource",
+   "token": "2d190c42c339bf50cf809fa34f06fc99562394e6"
+  },
+  {
+   "path": "JTUSjIg1_i6t8kCHKm459Wdhyzbi.woff2",
+   "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUSjIg1_i6t8kCHKm459Wdhyzbi.woff2",
+   "role": "resource",
+   "token": "8250af2a188bfde692dcb56208410ac18ca505e8"
+  },
+  {
+   "path": "JTUQjIg1_i6t8kCHKm459WxRxy7mw9c.woff2",
+   "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUQjIg1_i6t8kCHKm459WxRxy7mw9c.woff2",
+   "role": "resource",
+   "token": "e0df2b9c19fd1b8d81a5b6b025169ab3469dbee6"
+  },
+  {
+   "path": "690b3fa9406e1208d65bf554_TTNorms-MediumItalic.otf",
+   "url": "https://cdn.prod.website-files.com/68e8b4c6fe33ee88d4bb2f43/690b3fa9406e1208d65bf554_TTNorms-MediumItalic.otf",
+   "role": "resource",
+   "token": "187ef1a5ee69eeec5d7158c6fcc06c53b3d39f75"
+  },
+  {
+   "path": "690b3fa990bc9afd948902a0_TTNorms-LightItalic.otf",
+   "url": "https://cdn.prod.website-files.com/68e8b4c6fe33ee88d4bb2f43/690b3fa990bc9afd948902a0_TTNorms-LightItalic.otf",
+   "role": "resource",
+   "token": "5deb1aab373ce9de7f7973eaa229c48a2027799f"
+  },
+  {
+   "path": "690b3fa90c3773cecc8c62d4_TTNorms-Black.otf",
+   "url": "https://cdn.prod.website-files.com/68e8b4c6fe33ee88d4bb2f43/690b3fa90c3773cecc8c62d4_TTNorms-Black.otf",
+   "role": "resource",
+   "token": "9aebcf49e13728735553524ecbeecc657b588cd5"
+  },
+  {
+   "path": "690b3fa9f8ca4dca4a1428e6_TTNorms-Bold.otf",
+   "url": "https://cdn.prod.website-files.com/68e8b4c6fe33ee88d4bb2f43/690b3fa9f8ca4dca4a1428e6_TTNorms-Bold.otf",
+   "role": "resource",
+   "token": "2b1dbbda9f7f45c2754ccfed0316cf439319fb3b"
+  },
+  {
+   "path": "6913570a51bfac03996df4c9_bg-691356f29436b.webp",
+   "url": "https://cdn.prod.website-files.com/68e8b4c6fe33ee88d4bb2f43/6913570a51bfac03996df4c9_bg-691356f29436b.webp",
+   "role": "resource",
+   "token": "55bae18b76289c66c74dc88b6012f8d1add52e22"
+  },
+  {
+   "path": "690b3fa99118e3b7a3ff3d41_TTNorms-Italic.otf",
+   "url": "https://cdn.prod.website-files.com/68e8b4c6fe33ee88d4bb2f43/690b3fa99118e3b7a3ff3d41_TTNorms-Italic.otf",
+   "role": "resource",
+   "token": "7b3f24d07ccc7f3b527a861365f3fe00c003df08"
+  },
+  {
+   "path": "690b3fa9fdc47cc091ab6179_TTNorms-ThinItalic.otf",
+   "url": "https://cdn.prod.website-files.com/68e8b4c6fe33ee88d4bb2f43/690b3fa9fdc47cc091ab6179_TTNorms-ThinItalic.otf",
+   "role": "resource",
+   "token": "704d802d6075ef8ed9cf8c67457927c35a54bc92"
+  },
+  {
+   "path": "68e8b4c9fe33ee88d4bb301f_chevron-down.svg",
+   "url": "https://cdn.prod.website-files.com/68e8b4c6fe33ee88d4bb2f43/68e8b4c9fe33ee88d4bb301f_chevron-down.svg",
+   "role": "resource",
+   "token": "cf00dca80f63006b5a5e5c6c8a46c2a7ab0e570c"
+  },
+  {
+   "path": "690b3fa952f27090b463f594_TTNorms-ExtraLightItalic.otf",
+   "url": "https://cdn.prod.website-files.com/68e8b4c6fe33ee88d4bb2f43/690b3fa952f27090b463f594_TTNorms-ExtraLightItalic.otf",
+   "role": "resource",
+   "token": "dba4887f48d7f37d101391e3b66e1c81f03a1237"
+  },
+  {
+   "path": "690cca8b3f294bc334308df0_World map.webp",
+   "url": "https://cdn.prod.website-files.com/68e8b4c6fe33ee88d4bb2f43/690cca8b3f294bc334308df0_World%20map.webp",
+   "role": "resource",
+   "token": "fbe66af5c72ebff116050ec1c1d94f73e00fa2f3"
+  },
+  {
+   "path": "690b3fa95236645a16cf5645_TTNorms-ExtraBold.otf",
+   "url": "https://cdn.prod.website-files.com/68e8b4c6fe33ee88d4bb2f43/690b3fa95236645a16cf5645_TTNorms-ExtraBold.otf",
+   "role": "resource",
+   "token": "bbd2aefaae266bf84e6173a4b603e320f9f38cde"
+  },
+  {
+   "path": "68e8b4c9fe33ee88d4bb301e_chevron-down-white.svg",
+   "url": "https://cdn.prod.website-files.com/68e8b4c6fe33ee88d4bb2f43/68e8b4c9fe33ee88d4bb301e_chevron-down-white.svg",
+   "role": "resource",
+   "token": "f6047ad8e21ba73e22a8708a52022579798f8dbc"
+  },
+  {
+   "path": "690b3fa912f2206838cddbdf_TTNorms-BoldItalic.otf",
+   "url": "https://cdn.prod.website-files.com/68e8b4c6fe33ee88d4bb2f43/690b3fa912f2206838cddbdf_TTNorms-BoldItalic.otf",
+   "role": "resource",
+   "token": "868b8666f7f6d3dc0f084cb3da4c1a93a112110b"
+  },
+  {
+   "path": "Amelco Hero Video.mp4",
+   "url": "https://lm-pr.b-cdn.net/Amelco%20Hero%20Video.mp4",
+   "role": "resource",
+   "token": "08a5d8bfd1b5266c614abd77a3115a606c03dcac"
+  }
+ ]
+}
