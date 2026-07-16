@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!-- saved from url=(0014)about:internet -->
+<html class="dark-mode hidenotification home-page rb-page-slider-ready" lang="he" dir="rtl"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<script>
+   
+                
+              </div>
+            </article>
+          </div>
+        <div class="rb-slip">
+          <strong>×˜×•×¤×¡ ×”×™×ž×•×¨</strong>
+          <div data-rb-selection="">×‘×—×¨ ×™×—×¡ ×ž××—×“ ×”×ž×©×—×§×™×</div>
+          <input data-rb-stake="" placeholder="×¡×›×•×" type="number" min="1" step="1">
+          <button data-rb-place="" disabled="">×©×œ×— ×”×™×ž×•×¨</button>
+          <button data-rb-logout="" hidden="">×™×¦×™××”</button>
+        </div>
+      </div>
+    </section>
+  </div><main class="app-main-content" aria-label="RoyalBet home"></main>
+  </app-root>
+
+  <noscript>
+    <p class="sr-only">JavaScript is required to load RoyalBet 88.</p>
+  </noscript>
+  <script defer="" src="./RoyalBet 88_files/royalbet-strapi-bridge.js.download"></script>
+  <script defer="" src="./RoyalBet 88_files/royalbet-site-runtime-20260704g.js.download"></script>
+  <script defer="" src="./RoyalBet 88_files/site-header.js.download"></script>
+
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/assets/sw.js')
+          .then((reg) => console.log('RoyalBet PWA Service Worker Registered', reg))
+          .catch((err) => console.error('PWA Registration Failed', err));
+      });
+    }
+  </script>
+
+
+
+
+
+
+
+
+
+</body></html>
