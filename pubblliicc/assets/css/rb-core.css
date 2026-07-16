@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+/*
+ * RoyalBet Core CSS Bundle
+ * Centralized stylesheet entrypoint for shared site styling.
+ * Page-specific overrides should be loaded after this file.
+ */
+
+@import url("./common.variables.css");
+@import url("./app-styles.css");
+@import url("./styles.css");
+@import url("./css.css");
+@import url("./css-1.css");
+@import url("./main.f500bfaf.css");
+@import url("./casino.css");
+@import url("./sportxl.css");
+@import url("./custom.css");
+@import url("./royalbet-red-theme.css");
+@import url("./rb-global-edge-spacing.css");
+/* Team/Player symbol rendering: keep original transparent assets without circular backgrounds */
+html.rb-sport-page-enhanced .rb-match-team,
+html.rb-route-live-line .rb-live-line-team-avatar {
+  background: transparent !important;
+  border: 0 !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+}
+
+html.rb-sport-page-enhanced .rb-match-team img,
+html.rb-route-live-line .rb-live-line-team-avatar img {
+  background: transparent !important;
+  border: 0 !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+  object-fit: contain !important;
+}
+
+html.rb-sport-page-enhanced .rb-match-team span,
+html.rb-route-live-line .rb-live-line-team-avatar b {
+  background: transparent !important;
+  border: 0 !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+}

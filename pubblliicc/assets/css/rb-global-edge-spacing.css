@@ -1,0 +1,185 @@
+/* Single source of truth for mobile edge spacing across the entire site */
+@media (max-width: 991px) {
+  :root {
+    --rb-global-edge-outer: 4px;
+    --rb-global-edge-inner: 4px;
+  }
+
+  app-root,
+  .app-main-content,
+  .main-content-wrapper,
+  .dashboard-wrapper,
+  .dash-container {
+    box-sizing: border-box !important;
+    margin-inline: 0 !important;
+    padding-inline: 0 !important;
+    overflow-x: clip !important;
+    max-width: 100% !important;
+  }
+
+  app-root > section,
+  app-root > div,
+  app-root > article,
+  .app-main-content > section,
+  .app-main-content > div,
+  .app-main-content > article,
+  .main-content-wrapper > section,
+  .main-content-wrapper > div,
+  .main-content-wrapper > article,
+  .dashboard-wrapper > section,
+  .dashboard-wrapper > div,
+  .dashboard-wrapper > article,
+  .dash-container > section,
+  .dash-container > div,
+  .dash-container > article,
+  .home-common-wrap,
+  .rb-sport-page-betting,
+  .rb-sport-page-hero,
+  .rb-sport-context,
+  .rb-home-sports,
+  .rb-sport-submenu,
+  .rb-home-betting-board,
+  .rb-sport-page-layout,
+  .rb-sport-page-events,
+  .rb-sport-page-controls,
+  .rb-casino-page,
+  .rb-casino-page-shell,
+  .rb-casino-page-nav {
+    margin-inline: var(--rb-global-edge-outer) !important;
+    max-width: calc(100% - (var(--rb-global-edge-outer) * 2)) !important;
+    width: auto !important;
+    box-sizing: border-box !important;
+  }
+
+  .rb-home-sports-inner,
+  .rb-home-betting-layout,
+  .rb-home-betting-events,
+  .rb-home-betting-carousel,
+  .rb-home-betting-track,
+  .rb-home-betting-slide,
+  .rb-home-betting-event,
+  .rb-sport-page-event {
+    box-sizing: border-box !important;
+    margin-inline: 0 !important;
+    max-width: 100% !important;
+    width: auto !important;
+  }
+
+  .rb-home-sports-inner,
+  .rb-sport-submenu,
+  .rb-home-betting-board,
+  .rb-sport-page-hero,
+  .rb-sport-context-card,
+  .rb-sport-page-event,
+  .rb-home-betting-slide.rb-sport-page-event {
+    padding-inline: var(--rb-global-edge-inner) !important;
+    overflow: hidden !important;
+  }
+
+  .rb-home-sports-groups,
+  .rb-home-sub-sports,
+  .rb-home-sports-slider,
+  .rb-sport-submenu-sports,
+  .rb-sport-submenu-tabs {
+    padding-inline: var(--rb-global-edge-inner) !important;
+    scroll-padding-inline: var(--rb-global-edge-inner) !important;
+  }
+
+  .rb-sport-page-event .rb-match-team:first-child,
+  .rb-home-betting-slide.rb-sport-page-event .rb-match-team:first-child {
+    left: var(--rb-global-edge-inner) !important;
+  }
+
+  .rb-sport-page-event .rb-match-team:last-child,
+  .rb-home-betting-slide.rb-sport-page-event .rb-match-team:last-child {
+    right: var(--rb-global-edge-inner) !important;
+  }
+
+  .rb-sport-page-betting > .rb-sport-page-inner {
+    margin-inline: 0 !important;
+    max-width: 100% !important;
+    width: 100% !important;
+  }
+
+  .rb-sport-page-inner > .rb-sport-page-hero,
+  .rb-sport-page-inner > .rb-home-sports,
+  .rb-sport-page-inner > .rb-sport-context,
+  .rb-sport-page-inner > .rb-sport-submenu,
+  .rb-sport-page-inner > .rb-home-betting-board,
+  .rb-sport-page-inner > .rb-sport-page-controls,
+  .rb-sport-page-inner > .rb-sport-page-layout,
+  .rb-sport-page-inner > .rb-sport-page-events {
+    margin-inline: 0 !important;
+    max-width: 100% !important;
+    width: 100% !important;
+  }
+
+  .rb-home-sports-inner > .rb-home-betting-board {
+    margin-inline: 0 !important;
+    max-width: 100% !important;
+    width: 100% !important;
+  }
+
+  .rb-sport-page-hero {
+    grid-template-columns: 62px minmax(0, 1fr) !important;
+    align-items: center !important;
+    gap: 10px !important;
+    padding: 12px 8px !important;
+  }
+
+  .rb-sport-page-hero > img {
+    grid-column: 1 !important;
+    grid-row: 1 !important;
+    justify-self: center !important;
+    width: 56px !important;
+    max-width: 56px !important;
+    margin: 0 !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    border: 0 !important;
+    border-radius: 999px !important;
+    clip-path: circle(50% at 50% 50%) !important;
+    object-fit: cover !important;
+    padding: 0 !important;
+    left: auto !important;
+    right: auto !important;
+    top: auto !important;
+    transform: none !important;
+  }
+
+  .rb-sport-page-hero > div {
+    grid-column: 2 !important;
+    grid-row: 1 !important;
+    min-width: 0 !important;
+  }
+
+  .rb-home-sport-card {
+    box-sizing: border-box !important;
+    min-height: 136px !important;
+    height: auto !important;
+    grid-template-rows: auto auto auto !important;
+    align-items: start !important;
+    overflow: hidden !important;
+  }
+
+  .rb-home-sport-card strong {
+    white-space: normal !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    display: -webkit-box !important;
+    -webkit-line-clamp: 2 !important;
+    -webkit-box-orient: vertical !important;
+    line-height: 1.2 !important;
+  }
+
+  .rb-home-sport-card small {
+    white-space: normal !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    display: -webkit-box !important;
+    -webkit-line-clamp: 2 !important;
+    -webkit-box-orient: vertical !important;
+    line-height: 1.25 !important;
+    max-width: 100% !important;
+  }
+}

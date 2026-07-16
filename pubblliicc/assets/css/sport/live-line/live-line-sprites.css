@@ -1,0 +1,51 @@
+/* Sport sprite/image helpers for /sport/live-line pages */
+
+html.live-sport-page .rb-sport-sprite {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+html.live-sport-page .rb-sport-sprite--football { background-image: url("/assets/images/footer-menu/footbal.jpeg"); }
+html.live-sport-page .rb-sport-sprite--basketball { background-image: url("/assets/images/footer-menu/basketball.jpeg"); }
+html.live-sport-page .rb-sport-sprite--tennis { background-image: url("/assets/images/footer-menu/tennis.jpeg"); }
+html.live-sport-page .rb-sport-sprite--volleyball { background-image: url("/assets/images/footer-menu/volleyball.jpeg"); }
+html.live-sport-page .rb-sport-sprite--baseball { background-image: url("/assets/images/footer-menu/baseball.jpeg"); }
+html.live-sport-page .rb-sport-sprite--ice-hockey { background-image: url("/assets/images/footer-menu/ice-hocky.jpeg"); }
+html.live-sport-page .rb-sport-sprite--handball { background-image: url("/assets/images/footer-menu/handball.jpeg"); }
+html.live-sport-page .rb-sport-sprite--table-tennis { background-image: url("/assets/images/footer-menu/table-tennis.jpeg"); }
+html.live-sport-page .rb-sport-sprite--boxing { background-image: url("/assets/images/footer-menu/boxing.jpeg"); }
+html.live-sport-page .rb-sport-sprite--mma { background-image: url("/assets/images/footer-menu/mma.jpeg"); }
+html.live-sport-page .rb-sport-sprite--cricket { background-image: url("/assets/images/footer-menu/cricket.jpeg"); }
+html.live-sport-page .rb-sport-sprite--rugby { background-image: url("/assets/images/footer-menu/rugby.jpeg"); }
+html.live-sport-page .rb-sport-sprite--golf { background-image: url("/assets/images/footer-menu/golf.jpeg"); }
+html.live-sport-page .rb-sport-sprite--darts { background-image: url("/assets/images/footer-menu/darts.jpeg"); }
+html.live-sport-page .rb-sport-sprite--motorsport { background-image: url("/assets/images/footer-menu/motorsport.jpeg"); }
+html.live-sport-page .rb-sport-sprite--cycling { background-image: url("/assets/images/footer-menu/cycling.jpeg"); }
+html.live-sport-page .rb-sport-sprite--swimming { background-image: url("/assets/images/footer-menu/swimming.jpeg"); }
+html.live-sport-page .rb-sport-sprite--athletics { background-image: url("/assets/images/footer-menu/athletics.jpeg"); }
+html.live-sport-page .rb-sport-sprite--badminton { background-image: url("/assets/images/footer-menu/badminton.jpeg"); }
+html.live-sport-page .rb-sport-sprite--field-hockey { background-image: url("/assets/images/footer-menu/field-hockey.jpeg"); }
+html.live-sport-page .rb-sport-sprite--judo { background-image: url("/assets/images/footer-menu/judo.jpeg"); }
+html.live-sport-page .rb-sport-sprite--karate { background-image: url("/assets/images/footer-menu/karate.jpeg"); }
+html.live-sport-page .rb-sport-sprite--taekwondo { background-image: url("/assets/images/footer-menu/teakwondo.jpeg"); }
+html.live-sport-page .rb-sport-sprite--wrestling { background-image: url("/assets/images/footer-menu/wresling.jpeg"); }
+html.live-sport-page .rb-sport-sprite--weightlifting { background-image: url("/assets/images/footer-menu/weightlifting.jpeg"); }
+html.live-sport-page .rb-sport-sprite--rowing { background-image: url("/assets/images/footer-menu/rowing.jpeg"); }
+html.live-sport-page .rb-sport-sprite--sailing { background-image: url("/assets/images/footer-menu/saling.jpeg"); }
+html.live-sport-page .rb-sport-sprite--surfing { background-image: url("/assets/images/footer-menu/surfing.jpeg"); }
+html.live-sport-page .rb-sport-sprite--skiing { background-image: url("/assets/images/footer-menu/skiing.jpeg"); }
+html.live-sport-page .rb-sport-sprite--snowboarding { background-image: url("/assets/images/footer-menu/snowboarding.jpeg"); }
+html.live-sport-page .rb-sport-sprite--skateboarding { background-image: url("/assets/images/footer-menu/skatboarding.jpeg"); }
+html.live-sport-page .rb-sport-sprite--softball { background-image: url("/assets/images/footer-menu/softball.jpeg"); }
+html.live-sport-page .rb-sport-sprite--bowling { background-image: url("/assets/images/footer-menu/bowling.jpeg"); }
+html.live-sport-page .rb-sport-sprite--fencing { background-image: url("/assets/images/footer-menu/fencing.jpeg"); }
+html.live-sport-page .rb-sport-sprite--equestrian { background-image: url("/assets/images/footer-menu/equesrian.jpeg"); }
+html.live-sport-page .rb-sport-sprite--triathlon { background-image: url("/assets/images/footer-menu/triathlon.jpeg"); }
+html.live-sport-page .rb-sport-sprite--basketball3x3 { background-image: url("/assets/images/footer-menu/basketball3x3.jpeg"); }
+html.live-sport-page .rb-sport-sprite--beach-volleyball { background-image: url("/assets/images/footer-menu/beach%20voleyball.jpeg"); }
+html.live-sport-page .rb-sport-sprite--water-polo { background-image: url("/assets/images/footer-menu/water-pold.jpeg"); }
+html.live-sport-page .rb-sport-sprite--american-football { background-image: url("/assets/images/footer-menu/am-football.jpeg"); }

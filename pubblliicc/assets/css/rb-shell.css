@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+html,
+body {
+  min-height: 100%;
+  margin: 0;
+  background: #050202;
+  color: #fff;
+}
+
+html.rb-page-slider-pending,
+html.rb-page-slider-pending body {
+  background: #050202 !important;
+}
+
+html.rb-page-slider-pending app-root {
+  visibility: visible !important;
+}
+
+html.rb-page-slider-ready app-root {
+  visibility: visible !important;
+}
+
+app-root {
+  display: block;
+  min-height: 1px;
+  position: relative;
+  z-index: 1;
+}
+
+.app-main-content,
+.main-content-wrapper {
+  position: relative;
+  z-index: 1;
+  visibility: visible !important;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}

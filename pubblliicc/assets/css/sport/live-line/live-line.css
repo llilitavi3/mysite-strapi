@@ -1,0 +1,2888 @@
+/* Dedicated styles for /sport/live-line only. */
+
+html.rb-route-live-line .rb-home-sport-groups,
+html.rb-route-live-line .rb-home-sports-groups,
+html.rb-route-live-line .rb-home-sub-sports,
+html.rb-route-live-line .rb-sport-submenu-sports,
+html.rb-route-live-line .rb-sport-submenu-tabs {
+  padding-inline: 4px !important;
+  box-sizing: border-box;
+}
+
+html.rb-route-live-line,
+html.rb-route-live-line body {
+  margin: 0;
+  overflow-x: clip;
+}
+
+html.rb-route-live-line #rb-site-header .rb-header {
+  left: 0 !important;
+  right: 0 !important;
+  width: 100vw !important;
+  max-width: 100vw !important;
+  box-sizing: border-box;
+}
+
+html.rb-route-live-line #rb-site-header .rb-header-inner {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin-inline: 0 !important;
+  box-sizing: border-box;
+}
+
+html.rb-route-live-line #rb-site-header .rb-header-language-slot .rb-language-switcher,
+html.rb-route-live-line #rb-site-header .rb-language-switcher {
+  position: relative !important;
+  inset: auto !important;
+  top: auto !important;
+  right: auto !important;
+  bottom: auto !important;
+  left: auto !important;
+  transform: none !important;
+  z-index: 1001 !important;
+}
+
+html.rb-route-live-line body > .rb-language-switcher {
+  display: none !important;
+}
+
+html.rb-route-live-line .rb-live-line-scroll-info-bar {
+  display: none !important;
+}
+
+html.rb-route-live-line #rb-site-header .rb-language-menu {
+  position: absolute !important;
+  top: calc(100% + 8px) !important;
+  right: auto !important;
+  bottom: auto !important;
+  left: 0 !important;
+}
+
+html.rb-route-live-line [data-rb-sport-page-betting],
+html.rb-route-live-line .rb-live-line-games-panel,
+html.rb-route-live-line .rb-live-line-shell,
+html.rb-route-live-line .rb-live-line-list-wrap,
+html.rb-route-live-line .rb-live-line-main-wrap,
+html.rb-route-live-line .rb-live-line-detail {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+html.rb-route-live-line .rb-home-sport-group,
+html.rb-route-live-line .rb-home-sub-sport,
+html.rb-route-live-line .rb-sport-submenu-sport,
+html.rb-route-live-line .rb-sport-submenu-tabs button,
+html.rb-route-live-line .rb-sport-submenu-tabs a,
+html.rb-route-live-line .rb-home-sport-groups button,
+html.rb-route-live-line .rb-home-sports-groups button,
+html.rb-route-live-line .rb-home-sub-sports button,
+html.rb-route-live-line .rb-home-sport-groups a,
+html.rb-route-live-line .rb-home-sports-groups a,
+html.rb-route-live-line .rb-home-sub-sports a,
+html.rb-route-live-line .dash-sports-slide,
+html.rb-route-live-line .sx-sport-list li,
+html.rb-route-live-line .sx-sport-list li a,
+html.rb-route-live-line .sx-sports-swiper swiper-slide,
+html.rb-route-live-line .sx-sports-swiper swiper-slide a,
+html.rb-route-live-line .sportcountry-view li {
+  background: #56090989 !important;
+  background-color: #56090989 !important;
+  background-image: none !important;
+}
+
+html.rb-route-live-line .rb-home-sport-group > span,
+html.rb-route-live-line .rb-home-sub-sport > span,
+html.rb-route-live-line .rb-sport-submenu-sport > span,
+html.rb-route-live-line .dash-sports-slide > span:first-child,
+html.rb-route-live-line .sx-sport-list li > span:first-child,
+html.rb-route-live-line .sx-sports-swiper swiper-slide > span:first-child,
+html.rb-route-live-line .sportcountry-view li > span:first-child {
+  background: transparent !important;
+  border-color: transparent !important;
+  box-shadow: none !important;
+}
+
+html.rb-route-live-line .rb-home-betting-head,
+html.rb-route-live-line .rb-home-betting-board,
+html.rb-route-live-line .rb-home-betting-layout,
+html.rb-route-live-line .rb-home-betting-events,
+html.rb-route-live-line .rb-sport-page-events,
+html.rb-route-live-line .rb-sport-page-event,
+html.rb-route-live-line .rb-home-betting-slide.rb-sport-page-event {
+  background: #56090989 !important;
+  background-color: #56090989 !important;
+  background-image: none !important;
+}
+
+html.rb-route-live-line .rb-home-betting-slide,
+html.rb-route-live-line .rb-sport-page-event {
+  padding-inline: 4px !important;
+  box-sizing: border-box;
+}
+
+/* Keep only sport menus on live-line page */
+html.rb-route-live-line [data-rb-sport-page-betting] .rb-sport-page-slider,
+html.rb-route-live-line [data-rb-sport-page-betting] .rb-sport-page-hero,
+html.rb-route-live-line [data-rb-sport-page-betting] .rb-home-sports-head,
+html.rb-route-live-line [data-rb-sport-page-betting] .rb-home-sports-slider,
+html.rb-route-live-line [data-rb-sport-page-betting] .rb-home-betting-board,
+html.rb-route-live-line [data-rb-sport-page-betting] .rb-sport-page-layout,
+html.rb-route-live-line [data-rb-sport-page-betting] .rb-sport-page-side,
+html.rb-route-live-line [data-rb-sport-page-betting] .rb-sport-page-events {
+  display: none !important;
+}
+
+html.rb-route-live-line [data-rb-sport-page-betting] .rb-sport-page-inner {
+  display: block !important;
+  padding: 0 !important;
+}
+
+html.rb-route-live-line [data-rb-sport-page-betting] .rb-sport-page-home-menu {
+  margin: 4px !important;
+  padding: 4px !important;
+  border: 1px solid rgba(255, 255, 255, 0.12) !important;
+  border-radius: 10px !important;
+  background: rgba(0, 0, 0, 0.3) !important; /* 70% transparent */
+  background-color: rgba(0, 0, 0, 0.3) !important;
+  background-image: none !important;
+}
+
+html.rb-route-live-line [data-rb-sport-page-betting] .rb-home-sports-inner {
+  padding: 0 !important;
+  background: transparent !important;
+  background-color: transparent !important;
+  background-image: none !important;
+}
+
+html.rb-route-live-line [data-rb-sport-page-betting] .rb-home-sport-groups,
+html.rb-route-live-line [data-rb-sport-page-betting] .rb-home-sports-groups,
+html.rb-route-live-line [data-rb-sport-page-betting] .rb-home-sub-sports {
+  background: transparent !important;
+  background-color: transparent !important;
+  background-image: none !important;
+}
+
+html.rb-route-live-line [data-rb-live-line-sub-sports][data-rb-live-line-secondary="1"],
+html.rb-route-live-line [data-rb-home-sub-sports][data-rb-live-line-secondary="1"] {
+  display: flex !important;
+  flex-direction: row-reverse;
+  direction: ltr;
+  align-items: center;
+  width: 100%;
+  gap: 8px !important;
+  padding: 4px !important;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-behavior: auto !important;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}
+
+html.rb-route-live-line [data-rb-live-line-sub-sports][data-rb-live-line-secondary="1"]::-webkit-scrollbar,
+html.rb-route-live-line [data-rb-home-sub-sports][data-rb-live-line-secondary="1"]::-webkit-scrollbar {
+  display: none;
+}
+
+html.rb-route-live-line .rb-live-line-secondary-tab {
+  position: relative;
+  width: auto !important;
+  min-width: 92px !important;
+  max-width: none !important;
+  flex-basis: auto !important;
+  min-height: 20px !important;
+  display: grid !important;
+  grid-template-columns: 1fr 18px;
+  direction: ltr;
+  align-items: center;
+  gap: 6px;
+  padding: 2px 8px !important;
+  border-radius: 3px !important;
+}
+
+html.rb-route-live-line .rb-live-line-secondary-tab > span {
+  grid-column: 2;
+  width: 18px !important;
+  height: 18px !important;
+  border-radius: 3px !important;
+}
+
+html.rb-route-live-line .rb-live-line-secondary-tab .rb-live-line-secondary-label {
+  grid-column: 1;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 10px !important;
+  font-weight: 400 !important;
+  text-align: right;
+}
+
+html.rb-route-live-line [data-rb-live-line-primary-groups][data-rb-live-line-primary="1"],
+html.rb-route-live-line [data-rb-home-sport-groups][data-rb-live-line-primary="1"] {
+  display: flex !important;
+  flex-direction: row-reverse;
+  direction: ltr;
+  align-items: center;
+  width: 100%;
+  gap: 8px !important;
+  padding: 4px !important;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-behavior: auto !important;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}
+
+html.rb-route-live-line [data-rb-live-line-primary-groups][data-rb-live-line-primary="1"]::-webkit-scrollbar,
+html.rb-route-live-line [data-rb-home-sport-groups][data-rb-live-line-primary="1"]::-webkit-scrollbar {
+  display: none;
+}
+
+html.rb-route-live-line .rb-live-line-primary-tab {
+  position: relative;
+  width: auto !important;
+  min-width: 92px !important;
+  max-width: none !important;
+  flex-basis: auto !important;
+  min-height: 20px !important;
+  display: grid !important;
+  grid-template-columns: 1fr 18px !important;
+  direction: ltr;
+  align-items: center;
+  gap: 6px;
+  padding: 2px 8px !important;
+  border-radius: 3px !important;
+}
+
+html.rb-route-live-line .rb-live-line-primary-tab > strong {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 10px !important;
+  font-weight: 400 !important;
+  text-align: right;
+}
+
+html.rb-route-live-line .rb-live-line-primary-tab > span {
+  grid-column: 2;
+  width: 18px !important;
+  height: 18px !important;
+  border-radius: 3px !important;
+}
+
+html.rb-route-live-line .rb-live-line-countries-row {
+  display: flex;
+  flex-direction: row-reverse;
+  direction: ltr;
+  align-items: center;
+  gap: 8px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 4px !important;
+  margin-top: 2px;
+  scroll-behavior: auto !important;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}
+
+html.rb-route-live-line .rb-live-line-countries-row::-webkit-scrollbar {
+  display: none;
+}
+
+html.rb-route-live-line .rb-live-line-country-chip {
+  position: relative;
+  width: auto !important;
+  min-width: 92px !important;
+  max-width: none !important;
+  min-height: 20px !important;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 3px;
+  background: rgba(86, 9, 9, 0.45);
+  color: #fff;
+  display: grid;
+  grid-template-columns: 1fr 18px;
+  direction: ltr;
+  align-items: center;
+  gap: 6px;
+  padding: 2px 8px !important;
+}
+
+html.rb-route-live-line .rb-live-line-filter-count {
+  position: absolute;
+  inset-inline-start: 4px;
+  inset-block-start: 50%;
+  transform: translateY(-50%);
+  min-width: 10px;
+  height: 10px;
+  border-radius: 3px;
+  padding: 0 2px;
+  display: inline-grid;
+  place-items: center;
+  background: rgba(8, 15, 8, 0.92);
+  color: #29e348;
+  font: 400 8px/10px "Noto Sans Hebrew", "Noto Sans", Arial, sans-serif;
+  box-shadow: 0 0 0 1px rgba(41, 227, 72, 0.6), 0 0 6px rgba(41, 227, 72, 0.22);
+  pointer-events: none;
+  z-index: 2;
+}
+
+html.rb-route-live-line .rb-live-line-country-chip-label {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font: 500 10px/1.1 "Noto Sans Hebrew", "Noto Sans", Arial, sans-serif;
+  text-align: right;
+}
+
+html.rb-route-live-line .rb-live-line-country-chip-flag {
+  font-size: 13px;
+  line-height: 1;
+  text-align: center;
+  width: 16px;
+  height: 12px;
+  display: inline-grid;
+  place-items: center;
+}
+
+html.rb-route-live-line .rb-live-line-country-chip-flag img {
+  width: 16px;
+  height: 12px;
+  border-radius: 2px;
+  object-fit: cover;
+  display: block;
+}
+
+html.rb-route-live-line .rb-live-line-country-chip.active {
+  background: rgba(86, 9, 9, 0.75);
+  border-color: rgba(255, 170, 170, 0.7);
+}
+
+html.rb-route-live-line .rb-live-line-world-cup-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 4px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 2px 4px 4px;
+  margin-top: 2px;
+  scrollbar-width: none;
+}
+
+html.rb-route-live-line .rb-live-line-world-cup-row::-webkit-scrollbar {
+  display: none;
+}
+
+html.rb-route-live-line .rb-live-line-world-cup-group {
+  display: flex;
+  flex-direction: row-reverse;
+  direction: ltr;
+  align-items: center;
+  gap: 6px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scrollbar-width: none;
+}
+
+html.rb-route-live-line .rb-live-line-world-cup-group::-webkit-scrollbar {
+  display: none;
+}
+
+html.rb-route-live-line .rb-live-line-world-cup-chip {
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  border-radius: 999px;
+  background: rgba(20, 8, 8, 0.72);
+  color: #fff;
+  min-height: 22px;
+  padding: 2px 9px;
+  white-space: nowrap;
+  font: 500 10px/1.1 "Noto Sans Hebrew", "Noto Sans", Arial, sans-serif;
+}
+
+html.rb-route-live-line .rb-live-line-world-cup-chip.active {
+  background: rgba(86, 9, 9, 0.78);
+  border-color: rgba(255, 188, 95, 0.88);
+}
+
+html.rb-route-live-line .rb-live-line-games-panel {
+  margin: 6px 4px 0;
+  padding: 0 0 84px;
+}
+
+html.rb-route-live-line .rb-live-line-empty {
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.28);
+  color: #fff;
+  padding: 12px;
+  font: 500 12px/1.3 "Noto Sans Hebrew", "Noto Sans", Arial, sans-serif;
+  text-align: center;
+}
+
+html.rb-route-live-line .rb-live-line-shell {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 8px;
+}
+
+html.rb-route-live-line .rb-live-line-list-wrap,
+html.rb-route-live-line .rb-live-line-detail,
+html.rb-route-live-line .rb-live-line-timeline,
+html.rb-route-live-line .rb-live-line-markets {
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.36);
+  color: #fff;
+}
+
+html.rb-route-live-line .rb-live-line-list-wrap,
+html.rb-route-live-line .rb-live-line-main-wrap,
+html.rb-route-live-line .rb-live-line-timeline,
+html.rb-route-live-line .rb-live-line-markets,
+html.rb-route-live-line .rb-live-line-detail {
+  padding: 8px;
+}
+
+html.rb-route-live-line .rb-live-line-live-chip {
+  display: grid;
+  gap: 4px;
+  min-height: 72px;
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 14px;
+  padding: 9px 10px;
+  background: rgba(10, 2, 2, 0.42);
+  color: #fff;
+  cursor: pointer;
+  text-align: right;
+  transition: transform 0.16s ease, border-color 0.16s ease, background 0.16s ease;
+}
+
+html.rb-route-live-line .rb-live-line-live-chip:hover,
+html.rb-route-live-line .rb-live-line-live-chip.active {
+  border-color: rgba(255, 214, 102, 0.62);
+  background: rgba(91, 16, 10, 0.62);
+  transform: translateY(-1px);
+}
+
+html.rb-route-live-line .rb-live-line-live-chip span,
+html.rb-route-live-line .rb-live-line-live-chip small {
+  color: rgba(255, 255, 255, 0.72);
+  font: 700 10px/1.2 "Noto Sans Hebrew", "Noto Sans", Arial, sans-serif;
+}
+
+html.rb-route-live-line .rb-live-line-live-chip b {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  color: #fff;
+  font: 800 12px/1.25 "Noto Sans Hebrew", "Noto Sans", Arial, sans-serif;
+}
+
+html.rb-route-live-line .rb-live-line-live-chip i {
+  flex: 0 0 auto;
+  border-radius: 999px;
+  padding: 3px 8px;
+  background: rgba(255, 214, 102, 0.16);
+  color: #ffe8a3;
+  font-style: normal;
+}
+
+html.rb-route-live-line .rb-live-line-meta {
+  margin: -2px 0 6px;
+  font: 500 10px/1.2 "Noto Sans Hebrew", "Noto Sans", Arial, sans-serif;
+  color: rgba(255, 255, 255, 0.78);
+}
+
+html.rb-route-live-line .rb-live-line-sim-chip {
+  display: inline-block;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 1;
+  padding: 3px 7px;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 110, 110, 0.6);
+  background: rgba(180, 20, 20, 0.35);
+  color: #ffd7d7;
+}
+
+html.rb-route-live-line .rb-live-line-main-wrap {
+  padding: 0;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 8px;
+}
+
+html.rb-route-live-line .rb-live-line-detail {
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+}
+
+html.rb-route-live-line .rb-live-line-lower-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 8px;
+}
+
+html.rb-route-live-line .rb-live-line-games-list {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 3px;
+  max-height: 360px;
+  overflow: auto;
+}
+
+html.rb-route-live-line .rb-live-line-game-card {
+  direction: ltr;
+  display: grid;
+  grid-template-columns: 150px 50px minmax(0, 1fr);
+  grid-template-areas:
+    "market head score";
+  align-items: center;
+  column-gap: 5px;
+  row-gap: 0;
+  min-height: 34px;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 4px;
+  background:
+    linear-gradient(145deg, rgba(255, 255, 255, 0.055), rgba(0, 0, 0, 0.16)),
+    rgba(0, 0, 0, 0.32);
+  color: #fff;
+  padding: 2px 4px;
+  cursor: pointer;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.06);
+  transition: border-color .2s ease, background-color .2s ease, transform .2s ease;
+}
+
+html.rb-route-live-line .rb-live-line-game-card.active {
+  border-color: rgba(255, 90, 90, 0.85);
+  background: rgba(86, 9, 9, 0.5);
+}
+
+html.rb-route-live-line .rb-live-line-game-card.is-live-now {
+  border-color: rgba(85, 226, 141, 0.42);
+  background:
+    linear-gradient(145deg, rgba(27, 84, 43, 0.24), rgba(0, 0, 0, 0.16)),
+    rgba(0, 0, 0, 0.34);
+}
+
+html.rb-route-live-line .rb-live-line-game-card.is-live-now .rb-live-line-time-chip.is-live {
+  border-color: rgba(86, 231, 143, 0.48);
+  background: rgba(35, 152, 75, 0.34);
+  color: #d9ffe6;
+}
+
+html.rb-route-live-line .rb-live-line-game-card:active {
+  transform: scale(0.995);
+}
+
+html.rb-route-live-line .rb-live-line-card-head {
+  display: none !important;
+  visibility: hidden !important;
+  height: 0 !important;
+  min-height: 0 !important;
+  max-height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  overflow: hidden !important;
+}
+
+html.rb-route-live-line .rb-live-line-card-team b,
+html.rb-route-live-line .rb-live-line-detail-team b,
+html.rb-route-live-line .rb-live-line-team-avatar b,
+html.rb-route-live-line .rb-live-line-team-balance b,
+html.rb-route-live-line [class*="team"] strong,
+html.rb-route-live-line [class*="team"] b,
+html.rb-route-live-line [class*="match"] strong,
+html.rb-route-live-line [class*="match"] b,
+html.rb-route-live-line [class*="fixture"] strong,
+html.rb-route-live-line [class*="fixture"] b {
+  font-weight: 400 !important;
+  font-size: min(16px, 1em) !important;
+}
+
+html.rb-route-live-line .rb-live-line-card-head {
+  direction: rtl;
+  grid-area: head;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  min-width: 0;
+}
+
+html.rb-route-live-line .rb-live-line-card-head strong {
+  display: none;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  flex: 1;
+  margin: 0;
+  font: 400 9px/1.05 "Noto Sans Hebrew", "Noto Sans", Arial, sans-serif;
+}
+
+html.rb-route-live-line .rb-live-line-time-chip {
+  display: none !important;
+  flex: 1 1 auto;
+  min-width: 0;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font: 400 8.5px/1 "Noto Sans Hebrew", "Noto Sans", Arial, sans-serif;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 999px;
+  padding: 3px 4px;
+}
+
+html.rb-route-live-line .rb-live-line-game-card .rb-live-line-time-chip,
+html.rb-route-live-line .rb-live-line-game-card .rb-live-line-card-timeline,
+html.rb-route-live-line .rb-live-line-overview-grid .rb-live-line-overview-timeline {
+  display: none !important;
+  visibility: hidden !important;
+  height: 0 !important;
+  min-height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  overflow: hidden !important;
+}
+
+html.rb-route-live-line .rb-live-line-time-chip.is-live {
+  background: rgba(220, 30, 30, 0.35);
+}
+
+html.rb-route-live-line .rb-live-line-card-scoreline {
+  direction: rtl;
+  grid-area: score;
+  display: grid;
+  grid-template-columns: 26px minmax(0, 1fr);
+  grid-template-areas:
+    "score home"
+    "score away";
+  align-items: center;
+  column-gap: 4px;
+  row-gap: 1px;
+  margin-top: 0;
+}
+
+html.rb-route-live-line .rb-live-line-card-team {
+  justify-self: stretch;
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  min-width: 0;
+}
+
+html.rb-route-live-line .rb-live-line-card-team:first-child {
+  grid-area: home;
+}
+
+html.rb-route-live-line .rb-live-line-card-team--away {
+  grid-area: away;
+  justify-content: flex-start;
+}
+
+html.rb-route-live-line .rb-live-line-card-team b {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font: 400 10px/1.05 "Noto Sans Hebrew", "Noto Sans", Arial, sans-serif;
+}
+
+html.rb-route-live-line .rb-live-line-mini-score {
+  grid-area: score;
+  align-self: stretch;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 27.6px;
+  gap: 2px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+  background: rgba(18, 5, 5, 0.8);
+  padding: 2px 3px;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.06);
+}
+
+html.rb-route-live-line .rb-live-line-mini-score b {
+  font: 400 10px/1 "Noto Sans Hebrew", "Noto Sans", Arial, sans-serif;
+}
+
+html.rb-route-live-line .rb-live-line-mini-score i {
+  font-style: normal;
+  opacity: .8;
+}
+
+html.rb-route-live-line .rb-live-line-card-signals {
+  display: none;
+  align-items: stretch;
+  gap: 4px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  margin-top: 7px;
+  padding-bottom: 1px;
+  scrollbar-width: none;
+}
+
+html.rb-route-live-line .rb-live-line-card-signals::-webkit-scrollbar {
+  display: none;
+}
+
+html.rb-route-live-line .rb-live-line-card-timeline {
+  display: none !important;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 8px;
+  margin-top: 6px;
+}
+
+html.rb-route-live-line .rb-live-line-overview-timeline,
+html.rb-route-live-line .rb-live-line-card-timeline-track,
+html.rb-route-live-line .rb-live-line-card-timeline-fill,
+html.rb-route-live-line .rb-live-line-card-timeline strong {
+  display: none !important;
+}
+
+html.rb-route-live-line .rb-live-line-card-timeline-track {
+  position: relative;
+  height: 10px;
+  border-radius: 999px;
+  overflow: hidden;
+  background:
+    linear-gradient(90deg, rgba(255, 90, 90, 0.2), rgba(255, 224, 122, 0.18) 45%, rgba(98, 240, 143, 0.2)),
+    rgba(12, 7, 9, 0.75);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.45);
+}
+
+html.rb-route-live-line .rb-live-line-card-timeline-fill {
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: 0;
+  border-radius: inherit;
+  background: linear-gradient(90deg, #49e27f 0%, #9af45b 45%, #f6e267 100%);
+  box-shadow: 0 0 12px rgba(112, 233, 126, 0.45);
+}
+
+html.rb-route-live-line .rb-live-line-card-timeline strong {
+  min-width: 34px;
+  text-align: center;
+  font: 800 20px/1 "Noto Sans Hebrew", "Noto Sans", Arial, sans-serif;
+  color: #ffffff;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.5), 0 0 8px rgba(255, 255, 255, 0.3);
+}
+
+html.rb-route-live-line .rb-live-line-card-market-preview {
+  direction: rtl;
+  grid-area: market;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 46px));
+  align-self: center;
+  gap: 4px;
+  margin-top: 0;
+  min-width: 0;
+  height: 28px;
+}
+
+html.rb-route-live-line .rb-live-line-card-market-preview span {
+  direction: rtl;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  min-width: 0;
+  min-height: 0;
+  height: 28px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 2px;
+  padding: 1px 2px;
+  background: rgba(18, 18, 18, 0.16);
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+}
+
+html.rb-route-live-line .rb-live-line-card-market-preview small {
+  flex: 0 0 auto;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: rgba(255, 255, 255, 0.72);
+  font: 500 10px/1 "Noto Sans Hebrew", "Noto Sans", Arial, sans-serif;
+  font-variant-numeric: tabular-nums;
+}
+
+html.rb-route-live-line .rb-live-line-card-market-preview b {
+  flex: 0 1 auto;
+  min-width: 0;
+  color: #ffe45f;
+  font: 400 11px/1 "Noto Sans Hebrew", "Noto Sans", Arial, sans-serif;
+}
+
+html.rb-route-live-line .rb-live-line-card-market-preview--locked span {
+  border-color: rgba(255, 255, 255, 0.08);
+  background: rgba(12, 12, 12, 0.58);
+}
+
+html.rb-route-live-line .rb-live-line-card-market-preview--locked b,
+html.rb-route-live-line .rb-live-line-card-market-preview--locked small {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+html.rb-route-live-line .rb-live-line-card-market-preview span.rb-live-line-odd-up {
+  border-color: rgba(92, 226, 141, 0.9);
+  border-top-width: 2px;
+  background:
+    linear-gradient(180deg, rgba(42, 201, 95, 0.24), rgba(18, 18, 18, 0.86) 42%),
+    rgba(18, 62, 34, 0.92);
+  box-shadow: inset 0 2px 0 rgba(92, 226, 141, 0.95), 0 0 0 1px rgba(92, 226, 141, 0.28);
+  animation: rbLiveOddUp .7s ease;
+}
+
+html.rb-route-live-line .rb-live-line-card-market-preview span.rb-live-line-odd-down {
+  border-color: rgba(255, 87, 87, 0.95);
+  border-bottom-width: 2px;
+  background:
+    linear-gradient(0deg, rgba(255, 54, 54, 0.24), rgba(18, 18, 18, 0.86) 42%),
+    rgba(86, 24, 32, 0.92);
+  box-shadow: inset 0 -2px 0 rgba(255, 72, 72, 0.96), 0 0 0 1px rgba(255, 72, 72, 0.26);
+  animation: rbLiveOddDown .7s ease;
+}
+
+html.rb-route-live-line .rb-live-line-card-market-preview span.rb-live-line-odd-up .rb-live-line-odd-delta {
+  color: rgba(115, 255, 163, 0.98);
+}
+
+html.rb-route-live-line .rb-live-line-card-market-preview span.rb-live-line-odd-down .rb-live-line-odd-delta {
+  color: rgba(255, 142, 160, 0.98);
+}
+
+html.rb-route-live-line .rb-live-line-card-footer {
+  direction: rtl;
+  grid-area: footer;
+  display: none;
+  align-items: center;
+  justify-content: space-between;
+  gap: 6px;
+  margin-top: 0;
+  color: rgba(255, 255, 255, 0.76);
+}
+
+html.rb-route-live-line .rb-live-line-card-footer span {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font: 500 9.5px/1.15 "Noto Sans Hebrew", "Noto Sans", Arial, sans-serif;
+}
+
+html.rb-route-live-line .rb-live-line-status-lamp {
+  flex: 0 0 auto;
+  width: 5px;
+  height: 5px;
+  border-radius: 999px;
+  background: #b8bec8;
+  box-shadow: 0 0 0 3px rgba(184, 190, 200, 0.13), 0 0 9px rgba(184, 190, 200, 0.45);
+}
+
+html.rb-route-live-line .rb-live-line-status-lamp--live {
+  background: #5ee28d;
+  box-shadow: 0 0 0 3px rgba(94, 226, 141, 0.14), 0 0 10px rgba(94, 226, 141, 0.6);
+}
+
+html.rb-route-live-line .rb-live-line-status-lamp--half {
+  background: #ffd36a;
+  box-shadow: 0 0 0 3px rgba(255, 211, 106, 0.15), 0 0 10px rgba(255, 211, 106, 0.58);
+}
+
+html.rb-route-live-line .rb-live-line-status-lamp--late {
+  background: #ff6d6d;
+  box-shadow: 0 0 0 3px rgba(255, 109, 109, 0.16), 0 0 10px rgba(255, 109, 109, 0.62);
+}
+
+html.rb-route-live-line .rb-live-line-status-lamp--pregame {
+  background: #9db0c8;
+}
+
+html.rb-route-live-line .rb-live-line-team-avatar {
+  --rb-team-hue: 30;
+  flex: 0 0 auto;
+  display: inline-grid;
+  place-items: center;
+  overflow: visible;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  color: #fff;
+  box-shadow: none;
+}
+
+html.rb-route-live-line .rb-live-line-team-avatar--small {
+  width: 16px;
+  height: 16px;
+}
+
+html.rb-route-live-line .rb-live-line-team-avatar--large {
+  width: 34px;
+  height: 34px;
+  margin-bottom: 4px;
+}
+
+html.rb-route-live-line .rb-live-line-team-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 0;
+  background: transparent;
+}
+
+html.rb-route-live-line .rb-live-line-team-avatar--flag img {
+  width: 82%;
+  height: 82%;
+  margin: 9%;
+  border-radius: 3px;
+  object-fit: cover;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.18);
+}
+
+html.rb-route-live-line .rb-live-line-team-avatar b {
+  font: 800 9px/1 "Noto Sans Hebrew", "Noto Sans", Arial, sans-serif;
+  letter-spacing: 0;
+}
+
+html.rb-route-live-line .rb-live-line-team-avatar--large b {
+  font-size: 11px;
+}
+
+html.rb-route-live-line .rb-live-line-signal {
+  flex: 0 0 auto;
+  min-width: 72px;
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  column-gap: 4px;
+  row-gap: 2px;
+  align-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 7px;
+  background: rgba(12, 8, 10, 0.64);
+  padding: 4px 5px;
+}
+
+html.rb-route-live-line .rb-live-line-signal i {
+  grid-row: 1 / span 2;
+  display: inline-grid;
+  place-items: center;
+  width: 18px;
+  height: 18px;
+  border-radius: 6px;
+  background: rgba(255, 255, 255, 0.1);
+  font: 800 8.5px/1 "Noto Sans Hebrew", "Noto Sans", Arial, sans-serif;
+  font-style: normal;
+}
+
+html.rb-route-live-line .rb-live-line-signal i img {
+  width: 13px;
+  height: 13px;
+  object-fit: contain;
+  display: block;
+  opacity: 0.86;
+}
+
+html.rb-route-live-line .rb-live-line-signal span {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: rgba(255, 255, 255, 0.68);
+  font: 600 8.5px/1 "Noto Sans Hebrew", "Noto Sans", Arial, sans-serif;
+}
+
+html.rb-route-live-line .rb-live-line-signal b {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: #fff;
+  font: 800 9.5px/1.05 "Noto Sans Hebrew", "Noto Sans", Arial, sans-serif;
+}
+
+html.rb-route-live-line .rb-live-line-signal--live,
+html.rb-route-live-line .rb-live-line-signal--home {
+  border-color: rgba(94, 226, 141, 0.34);
+}
+
+html.rb-route-live-line .rb-live-line-signal--away,
+html.rb-route-live-line .rb-live-line-signal--late {
+  border-color: rgba(255, 130, 90, 0.38);
+}
+
+html.rb-route-live-line .rb-live-line-signal--half {
+  border-color: rgba(255, 211, 106, 0.38);
+}
+
+html.rb-route-live-line .rb-live-line-signal--good {
+  border-color: rgba(94, 226, 141, 0.42);
+}
+
+html.rb-route-live-line .rb-live-line-signal--warn {
+  border-color: rgba(255, 211, 106, 0.46);
+}
+
+html.rb-route-live-line .rb-live-line-signal--bad {
+  border-color: rgba(255, 87, 87, 0.44);
+}
+
+html.rb-route-live-line .rb-live-line-detail-head {
+  display: none !important;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+html.rb-route-live-line .rb-live-line-detail-head {
+  position: fixed;
+  top: 50px;
+  left: 8px;
+  right: 8px;
+  z-index: 1220;
+  margin: 0;
+  min-height: 22px;
+  padding: 2px 10px;
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  border-radius: 999px;
+  background: rgba(15, 5, 6, 0.4);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.32);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transform: translateY(-8px);
+  transition: opacity .16s ease, transform .16s ease, visibility .16s ease;
+}
+
+html.rb-route-live-line .rb-live-line-shell > .rb-live-line-detail-head {
+  grid-column: 1 / -1;
+}
+
+html.rb-route-live-line.rb-live-line-scrolled .rb-live-line-detail-head {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  transform: translateY(0);
+}
+
+html.rb-route-live-line .rb-live-line-detail-title {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  min-width: 0;
+  flex: 1 1 0;
+}
+
+html.rb-route-live-line .rb-live-line-detail-title strong {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+html.rb-route-live-line .rb-live-line-detail-title small {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  min-width: 0;
+  max-width: 42vw;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: rgba(255, 255, 255, 0.72);
+  font: 600 9px/1 "Noto Sans Hebrew", "Noto Sans", Arial, sans-serif;
+}
+
+html.rb-route-live-line .rb-live-line-detail-head-actions {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  flex: 0 0 auto;
+  flex-wrap: nowrap;
+}
+
+html.rb-route-live-line .rb-live-line-pin-btn {
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  border-radius: 999px;
+  background: rgba(18, 5, 5, 0.72);
+  color: #fff;
+  padding: 2px 8px;
+  font: 600 10px/1 "Noto Sans Hebrew", "Noto Sans", Arial, sans-serif;
+  cursor: pointer;
+}
+
+html.rb-route-live-line .rb-live-line-pin-btn.active {
+  border-color: rgba(255, 180, 90, 0.95);
+  background: rgba(120, 64, 12, 0.75);
+}
+
+html.rb-route-live-line .rb-live-line-detail-head strong {
+  font: 600 12px/1.2 "Noto Sans Hebrew", "Noto Sans", Arial, sans-serif;
+}
+
+html.rb-route-live-line .rb-live-line-detail-head span {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 999px;
+  padding: 2px 8px;
+  font: 600 10px/1 "Noto Sans Hebrew", "Noto Sans", Arial, sans-serif;
+}
+
+html.rb-route-live-line .rb-live-line-detail-head span.is-live {
+  background: rgba(220, 30, 30, 0.36);
+  border-color: rgba(255, 130, 130, 0.75);
+}
+
+html.rb-route-live-line .rb-live-line-detail-head span.is-pregame {
+  background: rgba(18, 5, 5, 0.75);
+  border-color: rgba(255, 255, 255, 0.26);
+}
+
+html.rb-route-live-line .rb-live-line-detail-main {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(82px, auto) minmax(0, 1fr);
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+  padding: 7px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 9px;
+  background:
+    linear-gradient(145deg, rgba(255, 255, 255, 0.05), rgba(0, 0, 0, 0.12)),
+    rgba(10, 6, 8, 0.56);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.08);
+}
+
+html.rb-route-live-line .rb-live-line-detail-team {
+  min-width: 0;
+  overflow: hidden;
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+
+html.rb-route-live-line .rb-live-line-pitch-wrap {
+  margin-bottom: 8px;
+}
+
+html.rb-route-live-line .rb-live-line-pitch-wrap--external {
+  position: relative;
+}
+
+html.rb-route-live-line .rb-live-line-animation-host {
+  width: 100%;
+  min-height: 88px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  overflow: hidden;
+  background: rgba(10, 10, 12, 0.38);
+}
+
+html.rb-route-live-line .rb-live-line-animation-host sc-animation-component {
+  display: block;
+  width: 100%;
+  min-height: 88px;
+}
+
+html.rb-route-live-line .rb-live-line-animation-fallback[hidden] {
+  display: none !important;
+}
+
+html.rb-route-live-line .rb-live-line-pitch {
+  position: relative;
+  height: 88px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  background: linear-gradient(180deg, rgba(22, 80, 42, 0.75), rgba(14, 58, 30, 0.82));
+  overflow: hidden;
+}
+
+html.rb-route-live-line .rb-live-line-pitch--football {
+  background: linear-gradient(180deg, rgba(22, 80, 42, 0.75), rgba(14, 58, 30, 0.82));
+}
+
+html.rb-route-live-line .rb-live-line-pitch--basketball {
+  background: linear-gradient(180deg, rgba(126, 71, 29, 0.86), rgba(87, 43, 16, 0.9));
+}
+
+html.rb-route-live-line .rb-live-line-pitch--tennis {
+  background: linear-gradient(180deg, rgba(44, 102, 168, 0.82), rgba(28, 66, 108, 0.9));
+}
+
+html.rb-route-live-line .rb-live-line-pitch--water {
+  background: linear-gradient(180deg, rgba(20, 92, 130, 0.82), rgba(12, 52, 88, 0.9));
+}
+
+html.rb-route-live-line .rb-live-line-pitch--motor {
+  background: linear-gradient(180deg, rgba(78, 78, 78, 0.84), rgba(38, 38, 38, 0.92));
+}
+
+html.rb-route-live-line .rb-live-line-pitch--combat {
+  background: linear-gradient(180deg, rgba(98, 20, 20, 0.84), rgba(58, 10, 10, 0.92));
+}
+
+html.rb-route-live-line .rb-live-line-pitch--precision {
+  background: linear-gradient(180deg, rgba(70, 28, 76, 0.82), rgba(34, 12, 40, 0.9));
+}
+
+html.rb-route-live-line .rb-live-line-pitch--generic {
+  background: linear-gradient(180deg, rgba(80, 30, 30, 0.82), rgba(36, 14, 14, 0.9));
+}
+
+html.rb-route-live-line .rb-live-line-pitch-midline {
+  position: absolute;
+  inset-block: 8px;
+  inset-inline-start: 50%;
+  width: 1px;
+  background: rgba(255, 255, 255, 0.45);
+}
+
+html.rb-route-live-line .rb-live-line-pitch-circle {
+  position: absolute;
+  inset-inline-start: 50%;
+  inset-block-start: 50%;
+  width: 28px;
+  height: 28px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 999px;
+  transform: translate(-50%, -50%);
+}
+
+html.rb-route-live-line .rb-live-line-pitch-net {
+  position: absolute;
+  inset-inline: 8px;
+  inset-block-start: 50%;
+  height: 2px;
+  background: rgba(255, 255, 255, 0.85);
+  transform: translateY(-50%);
+}
+
+html.rb-route-live-line .rb-live-line-pitch-box {
+  position: absolute;
+  inset-block-start: 18px;
+  width: 16px;
+  height: 52px;
+  border: 1px solid rgba(255, 255, 255, 0.45);
+}
+
+html.rb-route-live-line .rb-live-line-pitch-arc {
+  position: absolute;
+  inset-block-start: 50%;
+  width: 42px;
+  height: 42px;
+  border: 2px solid rgba(255, 255, 255, 0.45);
+  border-radius: 999px;
+  transform: translateY(-50%);
+}
+
+html.rb-route-live-line .rb-live-line-pitch-arc-home {
+  inset-inline-start: -18px;
+}
+
+html.rb-route-live-line .rb-live-line-pitch-arc-away {
+  inset-inline-end: -18px;
+}
+
+html.rb-route-live-line .rb-live-line-pitch-service {
+  position: absolute;
+  inset-inline-start: 16%;
+  inset-inline-end: 16%;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.55);
+}
+
+html.rb-route-live-line .rb-live-line-pitch-service-home {
+  inset-block-start: 32%;
+}
+
+html.rb-route-live-line .rb-live-line-pitch-service-away {
+  inset-block-start: 68%;
+}
+
+html.rb-route-live-line .rb-live-line-pitch-box-home {
+  inset-inline-start: 0;
+  border-inline-start: none;
+  border-radius: 0 6px 6px 0;
+}
+
+html.rb-route-live-line .rb-live-line-pitch-box-away {
+  inset-inline-end: 0;
+  border-inline-end: none;
+  border-radius: 6px 0 0 6px;
+}
+
+html.rb-route-live-line .rb-live-line-pitch--basketball .rb-live-line-pitch-box,
+html.rb-route-live-line .rb-live-line-pitch--basketball .rb-live-line-pitch-service,
+html.rb-route-live-line .rb-live-line-pitch--basketball .rb-live-line-pitch-net,
+html.rb-route-live-line .rb-live-line-pitch--tennis .rb-live-line-pitch-box,
+html.rb-route-live-line .rb-live-line-pitch--tennis .rb-live-line-pitch-arc {
+  display: none;
+}
+
+html.rb-route-live-line .rb-live-line-pitch--football .rb-live-line-pitch-arc,
+html.rb-route-live-line .rb-live-line-pitch--football .rb-live-line-pitch-service,
+html.rb-route-live-line .rb-live-line-pitch--football .rb-live-line-pitch-net,
+html.rb-route-live-line .rb-live-line-pitch--tennis .rb-live-line-pitch-arc,
+html.rb-route-live-line .rb-live-line-pitch--tennis .rb-live-line-pitch-box,
+html.rb-route-live-line .rb-live-line-pitch--basketball .rb-live-line-pitch-box,
+html.rb-route-live-line .rb-live-line-pitch--basketball .rb-live-line-pitch-net,
+html.rb-route-live-line .rb-live-line-pitch--basketball .rb-live-line-pitch-service {
+  display: none;
+}
+
+html.rb-route-live-line .rb-live-line-pitch--water .rb-live-line-pitch-midline,
+html.rb-route-live-line .rb-live-line-pitch--water .rb-live-line-pitch-circle,
+html.rb-route-live-line .rb-live-line-pitch--water .rb-live-line-pitch-net,
+html.rb-route-live-line .rb-live-line-pitch--water .rb-live-line-pitch-box,
+html.rb-route-live-line .rb-live-line-pitch--water .rb-live-line-pitch-arc,
+html.rb-route-live-line .rb-live-line-pitch--water .rb-live-line-pitch-service,
+html.rb-route-live-line .rb-live-line-pitch--motor .rb-live-line-pitch-midline,
+html.rb-route-live-line .rb-live-line-pitch--motor .rb-live-line-pitch-circle,
+html.rb-route-live-line .rb-live-line-pitch--motor .rb-live-line-pitch-net,
+html.rb-route-live-line .rb-live-line-pitch--motor .rb-live-line-pitch-box,
+html.rb-route-live-line .rb-live-line-pitch--motor .rb-live-line-pitch-arc,
+html.rb-route-live-line .rb-live-line-pitch--motor .rb-live-line-pitch-service,
+html.rb-route-live-line .rb-live-line-pitch--combat .rb-live-line-pitch-midline,
+html.rb-route-live-line .rb-live-line-pitch--combat .rb-live-line-pitch-circle,
+html.rb-route-live-line .rb-live-line-pitch--combat .rb-live-line-pitch-net,
+html.rb-route-live-line .rb-live-line-pitch--combat .rb-live-line-pitch-box,
+html.rb-route-live-line .rb-live-line-pitch--combat .rb-live-line-pitch-arc,
+html.rb-route-live-line .rb-live-line-pitch--combat .rb-live-line-pitch-service,
+html.rb-route-live-line .rb-live-line-pitch--precision .rb-live-line-pitch-midline,
+html.rb-route-live-line .rb-live-line-pitch--precision .rb-live-line-pitch-circle,
+html.rb-route-live-line .rb-live-line-pitch--precision .rb-live-line-pitch-net,
+html.rb-route-live-line .rb-live-line-pitch--precision .rb-live-line-pitch-box,
+html.rb-route-live-line .rb-live-line-pitch--precision .rb-live-line-pitch-arc,
+html.rb-route-live-line .rb-live-line-pitch--precision .rb-live-line-pitch-service,
+html.rb-route-live-line .rb-live-line-pitch--generic .rb-live-line-pitch-midline,
+html.rb-route-live-line .rb-live-line-pitch--generic .rb-live-line-pitch-circle,
+html.rb-route-live-line .rb-live-line-pitch--generic .rb-live-line-pitch-net,
+html.rb-route-live-line .rb-live-line-pitch--generic .rb-live-line-pitch-box,
+html.rb-route-live-line .rb-live-line-pitch--generic .rb-live-line-pitch-arc,
+html.rb-route-live-line .rb-live-line-pitch--generic .rb-live-line-pitch-service {
+  display: none;
+}
+
+html.rb-route-live-line .rb-live-line-pitch-track {
+  position: absolute;
+  inset-inline: 8%;
+  inset-block-start: 35%;
+  height: 2px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+html.rb-route-live-line .rb-live-line-pitch-track-alt {
+  inset-block-start: 65%;
+  opacity: 0.75;
+}
+
+html.rb-route-live-line .rb-live-line-pitch-ball {
+  position: absolute;
+  top: 50%;
+  width: 12px;
+  height: 12px;
+  border-radius: 999px;
+  background: radial-gradient(circle at 35% 35%, #fff 0 35%, #e6e6e6 36% 100%);
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.22), 0 0 12px rgba(255, 255, 255, 0.35);
+  transform: translate(-50%, -50%);
+  transition:
+    left var(--rb-ball-speed, 6s) linear,
+    top var(--rb-ball-speed, 6s) linear;
+  will-change: left, top;
+}
+
+html.rb-route-live-line .rb-live-line-pitch-ball--football {
+  background:
+    radial-gradient(circle at 30% 30%, #ffffff 0 34%, #ececec 35% 100%),
+    radial-gradient(circle at 62% 42%, rgba(15, 15, 15, 0.92) 0 18%, transparent 19%),
+    radial-gradient(circle at 40% 66%, rgba(15, 15, 15, 0.86) 0 14%, transparent 15%),
+    radial-gradient(circle at 72% 70%, rgba(15, 15, 15, 0.8) 0 12%, transparent 13%);
+}
+
+html.rb-route-live-line .rb-live-line-pitch-ball--tennis {
+  background: radial-gradient(circle at 30% 30%, #f8ff9a 0 32%, #d4ee44 33% 100%);
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.2), 0 0 10px rgba(215, 244, 62, 0.5);
+}
+
+html.rb-route-live-line .rb-live-line-pitch-ball--basketball {
+  background:
+    radial-gradient(circle at 30% 30%, #ffb36b 0 34%, #de6e16 35% 100%),
+    linear-gradient(90deg, transparent 47%, rgba(30, 18, 10, 0.75) 48% 52%, transparent 53%);
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.24), 0 0 10px rgba(255, 160, 85, 0.38);
+}
+
+html.rb-route-live-line .rb-live-line-pitch-ball--rugby,
+html.rb-route-live-line .rb-live-line-pitch-ball--american-football {
+  width: 16px;
+  height: 10px;
+  border-radius: 52% 48% 48% 52% / 50% 50% 50% 50%;
+  background: linear-gradient(180deg, #b8733d 0, #7a3f16 100%);
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.26), 0 0 9px rgba(255, 214, 180, 0.28);
+}
+
+html.rb-route-live-line .rb-live-line-pitch-ball--baseball {
+  background: radial-gradient(circle at 30% 30%, #ffffff 0 45%, #ececec 46% 100%);
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.2), 0 0 10px rgba(255, 255, 255, 0.45);
+}
+
+html.rb-route-live-line .rb-live-line-pitch-ball--cricket,
+html.rb-route-live-line .rb-live-line-pitch-ball--handball {
+  background: radial-gradient(circle at 30% 30%, #ff8d8d 0 35%, #c51616 36% 100%);
+}
+
+html.rb-route-live-line .rb-live-line-pitch-ball--golf {
+  background: radial-gradient(circle at 30% 30%, #ffffff 0 32%, #e8e8e8 33% 100%);
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.3), 0 0 9px rgba(255, 255, 255, 0.55);
+}
+
+html.rb-route-live-line .rb-live-line-pitch-ball--water-polo {
+  background:
+    radial-gradient(circle at 30% 30%, #fff6de 0 30%, #e7c791 31% 100%),
+    repeating-linear-gradient(45deg, rgba(191, 39, 39, 0.7) 0 2px, rgba(255, 255, 255, 0.2) 2px 4px);
+}
+
+html.rb-route-live-line .rb-live-line-pitch--no-tracking {
+  display: grid;
+  place-items: center;
+  padding: 10px;
+  text-align: center;
+}
+
+html.rb-route-live-line .rb-live-line-pitch--no-tracking > span {
+  display: inline-block;
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  border-radius: 7px;
+  padding: 8px 10px;
+  background: rgba(0, 0, 0, 0.24);
+  color: rgba(255, 255, 255, 0.9);
+  font: 500 11px/1.25 "Noto Sans Hebrew", "Noto Sans", Arial, sans-serif;
+}
+
+html.rb-route-live-line .rb-live-line-tracker-widget {
+  margin-bottom: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  background:
+    linear-gradient(150deg, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0)),
+    linear-gradient(180deg, rgba(5, 5, 8, 0.85), rgba(16, 6, 6, 0.92));
+  overflow: hidden;
+}
+
+html.rb-route-live-line .rb-live-line-tracker-stage {
+  position: relative;
+  height: 132px;
+  background:
+    radial-gradient(circle at 20% 15%, rgba(255, 255, 255, 0.1), transparent 45%),
+    radial-gradient(circle at 82% 80%, rgba(255, 110, 110, 0.08), transparent 48%),
+    linear-gradient(180deg, rgba(2, 2, 4, 0.82), rgba(6, 6, 8, 0.92));
+  perspective: 600px;
+}
+
+html.rb-route-live-line .rb-live-line-tracker-widget--football .rb-live-line-tracker-stage {
+  background:
+    radial-gradient(150% 82% at 50% -18%, rgba(189, 222, 255, 0.3), rgba(90, 146, 212, 0.08) 42%, transparent 68%),
+    radial-gradient(120% 52% at 50% 14%, rgba(130, 186, 255, 0.14), transparent 74%),
+    linear-gradient(180deg, rgba(8, 24, 70, 0.96), rgba(5, 14, 43, 0.97) 52%, rgba(4, 10, 26, 0.96) 100%);
+}
+
+html.rb-route-live-line .rb-live-line-tracker-widget--football .rb-live-line-tracker-stage::before {
+  content: "";
+  position: absolute;
+  left: 2%;
+  right: 2%;
+  top: 3px;
+  height: 56px;
+  pointer-events: none;
+  background:
+    radial-gradient(circle, rgba(255, 255, 255, 0.92) 0 1.5px, transparent 2.2px) 0 2px / 13px 11px repeat-x,
+    radial-gradient(circle, rgba(186, 226, 255, 0.74) 0 1.4px, transparent 2.1px) 6px 8px / 13px 11px repeat-x,
+    linear-gradient(180deg, rgba(223, 236, 255, 0.62), rgba(223, 236, 255, 0.06));
+  border: 1px solid rgba(218, 239, 255, 0.34);
+  border-radius: 10px 10px 18px 18px;
+  clip-path: polygon(0 0, 100% 0, 94% 96%, 6% 96%);
+  filter: drop-shadow(0 0 7px rgba(226, 241, 255, 0.78));
+  opacity: 0.9;
+  z-index: 1;
+}
+
+html.rb-route-live-line .rb-live-line-tracker-widget--football .rb-live-line-tracker-stage::after {
+  content: "";
+  position: absolute;
+  left: 1.5%;
+  right: 1.5%;
+  top: 31px;
+  height: 42px;
+  border-radius: 11px;
+  background:
+    repeating-linear-gradient(
+      90deg,
+      rgba(196, 224, 255, 0.24) 0 2px,
+      transparent 2px 26px
+    ),
+    linear-gradient(180deg, rgba(69, 98, 142, 0.34), rgba(19, 36, 64, 0.15));
+  clip-path: polygon(0 0, 100% 0, 89% 100%, 11% 100%);
+  opacity: 0.85;
+  z-index: 1;
+}
+
+html.rb-route-live-line .rb-live-line-tracker-field {
+  position: absolute;
+  inset: 14px 10px 10px;
+  z-index: 2;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 10px;
+  overflow: hidden;
+  transform: perspective(620px) rotateX(48deg);
+  transform-origin: center bottom;
+  background:
+    linear-gradient(180deg, rgba(31, 119, 66, 0.88), rgba(18, 78, 42, 0.9)),
+    repeating-linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.04) 0,
+      rgba(255, 255, 255, 0.04) 14%,
+      rgba(0, 0, 0, 0.05) 14%,
+      rgba(0, 0, 0, 0.05) 28%
+    );
+  box-shadow:
+    inset 0 15px 16px rgba(255, 255, 255, 0.08),
+    inset 0 -20px 24px rgba(0, 0, 0, 0.25);
+}
+
+html.rb-route-live-line .rb-live-line-tracker-field--football {
+  background:
+    linear-gradient(180deg, rgba(74, 176, 84, 0.94), rgba(48, 148, 64, 0.96)),
+    repeating-linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.055) 0,
+      rgba(255, 255, 255, 0.055) 12%,
+      rgba(9, 65, 25, 0.07) 12%,
+      rgba(9, 65, 25, 0.07) 24%
+    ),
+    repeating-linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.045) 0,
+      rgba(255, 255, 255, 0.045) 10%,
+      rgba(0, 0, 0, 0.05) 10%,
+      rgba(0, 0, 0, 0.05) 20%
+    ),
+    linear-gradient(180deg, rgba(220, 230, 255, 0.06), transparent 34%);
+  border-color: rgba(235, 245, 255, 0.65);
+  box-shadow:
+    inset 0 16px 18px rgba(255, 255, 255, 0.1),
+    inset 0 -26px 32px rgba(8, 42, 16, 0.36),
+    0 -2px 0 rgba(242, 252, 255, 0.4);
+}
+
+html.rb-route-live-line .rb-live-line-tracker-field--basketball {
+  background:
+    linear-gradient(180deg, rgba(126, 71, 29, 0.9), rgba(87, 43, 16, 0.92)),
+    repeating-linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.05) 0,
+      rgba(255, 255, 255, 0.05) 16%,
+      rgba(0, 0, 0, 0.05) 16%,
+      rgba(0, 0, 0, 0.05) 32%
+    );
+}
+
+html.rb-route-live-line .rb-live-line-tracker-field--tennis {
+  background: linear-gradient(180deg, rgba(44, 102, 168, 0.9), rgba(28, 66, 108, 0.93));
+}
+
+html.rb-route-live-line .rb-live-line-tracker-field--water {
+  background: linear-gradient(180deg, rgba(20, 92, 130, 0.9), rgba(12, 52, 88, 0.93));
+}
+
+html.rb-route-live-line .rb-live-line-tracker-field--motor {
+  background: linear-gradient(180deg, rgba(78, 78, 78, 0.9), rgba(38, 38, 38, 0.94));
+}
+
+html.rb-route-live-line .rb-live-line-tracker-field--combat {
+  background: linear-gradient(180deg, rgba(98, 20, 20, 0.9), rgba(58, 10, 10, 0.94));
+}
+
+html.rb-route-live-line .rb-live-line-tracker-field--precision {
+  background: linear-gradient(180deg, rgba(70, 28, 76, 0.88), rgba(34, 12, 40, 0.93));
+}
+
+html.rb-route-live-line .rb-live-line-tracker-field--generic {
+  background: linear-gradient(180deg, rgba(80, 30, 30, 0.88), rgba(36, 14, 14, 0.93));
+}
+
+html.rb-route-live-line .rb-live-line-tracker-mark {
+  position: absolute;
+  display: block;
+}
+
+html.rb-route-live-line .rb-live-line-tracker-mark.midline {
+  top: 4%;
+  bottom: 4%;
+  left: 50%;
+  width: 1px;
+  background: rgba(255, 255, 255, 0.65);
+  transform: translateX(-50%);
+}
+
+html.rb-route-live-line .rb-live-line-tracker-mark.circle {
+  left: 50%;
+  top: 50%;
+  width: 21%;
+  aspect-ratio: 1 / 1;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.62);
+  transform: translate(-50%, -50%);
+}
+
+html.rb-route-live-line .rb-live-line-tracker-mark.box {
+  top: 22%;
+  width: 16%;
+  height: 56%;
+  border: 1px solid rgba(245, 252, 255, 0.82);
+}
+
+html.rb-route-live-line .rb-live-line-tracker-mark.box-a {
+  left: 0;
+  border-left: none;
+  border-radius: 0 6px 6px 0;
+}
+
+html.rb-route-live-line .rb-live-line-tracker-mark.box-b {
+  right: 0;
+  border-right: none;
+  border-radius: 6px 0 0 6px;
+}
+
+html.rb-route-live-line .rb-live-line-tracker-mark.arc {
+  top: 50.5%;
+  width: 18%;
+  aspect-ratio: 1 / 1;
+  border: 1px solid rgba(245, 252, 255, 0.76);
+  border-radius: 999px;
+  transform: translateY(-50%);
+}
+
+html.rb-route-live-line .rb-live-line-tracker-mark.arc-a {
+  left: 8%;
+  clip-path: inset(0 0 0 50%);
+}
+
+html.rb-route-live-line .rb-live-line-tracker-mark.arc-b {
+  right: 8%;
+  clip-path: inset(0 50% 0 0);
+}
+
+html.rb-route-live-line .rb-live-line-tracker-mark.small-box {
+  top: 35%;
+  width: 7%;
+  height: 30%;
+  border: 1px solid rgba(245, 252, 255, 0.8);
+}
+
+html.rb-route-live-line .rb-live-line-tracker-mark.small-box-a {
+  left: 0;
+  border-left: none;
+}
+
+html.rb-route-live-line .rb-live-line-tracker-mark.small-box-b {
+  right: 0;
+  border-right: none;
+}
+
+html.rb-route-live-line .rb-live-line-tracker-mark.spot {
+  top: 50%;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background: rgba(245, 252, 255, 0.96);
+  transform: translateY(-50%);
+}
+
+html.rb-route-live-line .rb-live-line-tracker-mark.spot-a {
+  left: 11.2%;
+}
+
+html.rb-route-live-line .rb-live-line-tracker-mark.spot-b {
+  right: 11.2%;
+}
+
+html.rb-route-live-line .rb-live-line-tracker-mark.goal {
+  top: 35%;
+  width: 5.4%;
+  height: 30%;
+  border: 1px solid rgba(234, 247, 255, 0.92);
+  border-left-width: 2px;
+  border-right-width: 2px;
+  background:
+    repeating-linear-gradient(90deg, rgba(255, 255, 255, 0.48) 0 1px, transparent 1px 4px),
+    repeating-linear-gradient(180deg, rgba(255, 255, 255, 0.38) 0 1px, transparent 1px 5px),
+    linear-gradient(180deg, rgba(210, 232, 255, 0.36), rgba(208, 226, 250, 0.07));
+  box-shadow:
+    inset 0 0 0 1px rgba(210, 240, 255, 0.42),
+    0 2px 10px rgba(9, 20, 30, 0.44);
+  transform: perspective(220px) rotateY(8deg);
+  transform-origin: center;
+  z-index: 3;
+}
+
+html.rb-route-live-line .rb-live-line-tracker-mark.goal-a {
+  left: -5.4%;
+  border-right: none;
+  border-radius: 4px 0 0 4px;
+  transform: perspective(220px) rotateY(15deg);
+}
+
+html.rb-route-live-line .rb-live-line-tracker-mark.goal-b {
+  right: -5.4%;
+  border-left: none;
+  border-radius: 0 4px 4px 0;
+  transform: perspective(220px) rotateY(-15deg);
+}
+
+html.rb-route-live-line .rb-live-line-tracker-mark.goal::before,
+html.rb-route-live-line .rb-live-line-tracker-mark.goal::after {
+  content: "";
+  position: absolute;
+  inset: -1px auto -1px auto;
+  width: 2px;
+  background: linear-gradient(180deg, rgba(248, 252, 255, 0.98), rgba(219, 235, 255, 0.7));
+}
+
+html.rb-route-live-line .rb-live-line-tracker-mark.goal::before {
+  left: -2px;
+}
+
+html.rb-route-live-line .rb-live-line-tracker-mark.goal::after {
+  right: -2px;
+}
+
+html.rb-route-live-line .rb-live-line-tracker-mark.net {
+  inset-inline: 6%;
+  top: 50%;
+  height: 2px;
+  background: rgba(255, 255, 255, 0.82);
+  transform: translateY(-50%);
+}
+
+html.rb-route-live-line .rb-live-line-tracker-mark.service {
+  inset-inline: 16%;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.58);
+}
+
+html.rb-route-live-line .rb-live-line-tracker-mark.service-a {
+  top: 32%;
+}
+
+html.rb-route-live-line .rb-live-line-tracker-mark.service-b {
+  top: 68%;
+}
+
+html.rb-route-live-line .rb-live-line-tracker-mark.track {
+  inset-inline: 8%;
+  height: 2px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+html.rb-route-live-line .rb-live-line-tracker-mark.track-a {
+  top: 35%;
+}
+
+html.rb-route-live-line .rb-live-line-tracker-mark.track-b {
+  top: 65%;
+  opacity: 0.75;
+}
+
+html.rb-route-live-line .rb-live-line-tracker-field--basketball .rb-live-line-tracker-mark.box,
+html.rb-route-live-line .rb-live-line-tracker-field--basketball .rb-live-line-tracker-mark.net,
+html.rb-route-live-line .rb-live-line-tracker-field--basketball .rb-live-line-tracker-mark.service,
+html.rb-route-live-line .rb-live-line-tracker-field--tennis .rb-live-line-tracker-mark.box,
+html.rb-route-live-line .rb-live-line-tracker-field--tennis .rb-live-line-tracker-mark.circle,
+html.rb-route-live-line .rb-live-line-tracker-field--tennis .rb-live-line-tracker-mark.arc,
+html.rb-route-live-line .rb-live-line-tracker-field--water .rb-live-line-tracker-mark.midline,
+html.rb-route-live-line .rb-live-line-tracker-field--water .rb-live-line-tracker-mark.circle,
+html.rb-route-live-line .rb-live-line-tracker-field--water .rb-live-line-tracker-mark.box,
+html.rb-route-live-line .rb-live-line-tracker-field--water .rb-live-line-tracker-mark.arc,
+html.rb-route-live-line .rb-live-line-tracker-field--water .rb-live-line-tracker-mark.net,
+html.rb-route-live-line .rb-live-line-tracker-field--water .rb-live-line-tracker-mark.service,
+html.rb-route-live-line .rb-live-line-tracker-field--motor .rb-live-line-tracker-mark.midline,
+html.rb-route-live-line .rb-live-line-tracker-field--motor .rb-live-line-tracker-mark.circle,
+html.rb-route-live-line .rb-live-line-tracker-field--motor .rb-live-line-tracker-mark.box,
+html.rb-route-live-line .rb-live-line-tracker-field--motor .rb-live-line-tracker-mark.arc,
+html.rb-route-live-line .rb-live-line-tracker-field--motor .rb-live-line-tracker-mark.net,
+html.rb-route-live-line .rb-live-line-tracker-field--motor .rb-live-line-tracker-mark.service,
+html.rb-route-live-line .rb-live-line-tracker-field--combat .rb-live-line-tracker-mark.midline,
+html.rb-route-live-line .rb-live-line-tracker-field--combat .rb-live-line-tracker-mark.circle,
+html.rb-route-live-line .rb-live-line-tracker-field--combat .rb-live-line-tracker-mark.box,
+html.rb-route-live-line .rb-live-line-tracker-field--combat .rb-live-line-tracker-mark.arc,
+html.rb-route-live-line .rb-live-line-tracker-field--combat .rb-live-line-tracker-mark.net,
+html.rb-route-live-line .rb-live-line-tracker-field--combat .rb-live-line-tracker-mark.service,
+html.rb-route-live-line .rb-live-line-tracker-field--precision .rb-live-line-tracker-mark.midline,
+html.rb-route-live-line .rb-live-line-tracker-field--precision .rb-live-line-tracker-mark.circle,
+html.rb-route-live-line .rb-live-line-tracker-field--precision .rb-live-line-tracker-mark.box,
+html.rb-route-live-line .rb-live-line-tracker-field--precision .rb-live-line-tracker-mark.arc,
+html.rb-route-live-line .rb-live-line-tracker-field--precision .rb-live-line-tracker-mark.net,
+html.rb-route-live-line .rb-live-line-tracker-field--precision .rb-live-line-tracker-mark.service,
+html.rb-route-live-line .rb-live-line-tracker-field--generic .rb-live-line-tracker-mark.midline,
+html.rb-route-live-line .rb-live-line-tracker-field--generic .rb-live-line-tracker-mark.circle,
+html.rb-route-live-line .rb-live-line-tracker-field--generic .rb-live-line-tracker-mark.box,
+html.rb-route-live-line .rb-live-line-tracker-field--generic .rb-live-line-tracker-mark.arc,
+html.rb-route-live-line .rb-live-line-tracker-field--generic .rb-live-line-tracker-mark.net,
+html.rb-route-live-line .rb-live-line-tracker-field--generic .rb-live-line-tracker-mark.service {
+  display: none;
+}
+
+html.rb-route-live-line .tracker-player,
+html.rb-route-live-line .rbl-3d-ball,
+html.rb-route-live-line .rbl-3d-ball-shadow {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  transition: all 1s ease-in-out;
+  will-change: left, top, width, height;
+}
+
+html.rb-route-live-line .tracker-player {
+  left: 50%;
+  top: 44%;
+  width: 38px;
+  height: 62px;
+  border-radius: 0;
+  background: url('/assets/images/live-line/player-football.svg') center bottom / contain no-repeat;
+  filter: drop-shadow(0 8px 8px rgba(0, 0, 0, 0.38));
+  box-shadow: none;
+  z-index: 3;
+}
+
+html.rb-route-live-line .tracker-player[data-team="TEAM_B"] {
+  filter: hue-rotate(160deg) saturate(1.15);
+}
+
+html.rb-route-live-line .tracker-player::after {
+  content: attr(data-player-tag);
+  position: absolute;
+  top: -11px;
+  left: 50%;
+  transform: translateX(-50%);
+  min-width: 14px;
+  height: 14px;
+  padding: 0 3px;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 255, 255, 0.65);
+  background: rgba(8, 8, 8, 0.82);
+  color: #fff;
+  font: 700 9px/12px "Noto Sans Hebrew", "Noto Sans", Arial, sans-serif;
+  text-align: center;
+  pointer-events: none;
+}
+
+html.rb-route-live-line .rbl-3d-ball {
+  left: 50%;
+  top: 52%;
+  width: 18px;
+  height: 18px;
+  border-radius: 999px;
+  background:
+    radial-gradient(circle at 30% 30%, #ffffff 0 32%, #ececec 33% 100%),
+    conic-gradient(from 45deg, #1d1d1d 0 20%, #ffffff 20% 40%, #1d1d1d 40% 60%, #ffffff 60% 80%, #1d1d1d 80% 100%);
+  box-shadow:
+    0 0 0 1px rgba(0, 0, 0, 0.55),
+    0 0 14px rgba(255, 255, 255, 0.55);
+  z-index: 4;
+}
+
+html.rb-route-live-line .rbl-3d-ball--football {
+  background:
+    radial-gradient(circle at 32% 30%, rgba(255, 255, 255, 0.98) 0 34%, rgba(226, 230, 236, 0.98) 35% 100%),
+    radial-gradient(circle at 50% 50%, rgba(18, 18, 18, 0.98) 0 20%, transparent 21%),
+    radial-gradient(circle at 28% 40%, rgba(22, 22, 22, 0.94) 0 13%, transparent 14%),
+    radial-gradient(circle at 71% 38%, rgba(20, 20, 20, 0.92) 0 12%, transparent 13%),
+    radial-gradient(circle at 34% 76%, rgba(20, 20, 20, 0.88) 0 12%, transparent 13%),
+    radial-gradient(circle at 69% 71%, rgba(20, 20, 20, 0.88) 0 11%, transparent 12%);
+  box-shadow:
+    0 0 0 1px rgba(0, 0, 0, 0.6),
+    0 0 16px rgba(255, 255, 255, 0.62),
+    inset -2px -3px 4px rgba(0, 0, 0, 0.16);
+}
+
+html.rb-route-live-line .rbl-3d-ball--tennis {
+  background: radial-gradient(circle at 30% 30%, #f8ff9a 0 32%, #d4ee44 33% 100%);
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.46), 0 0 14px rgba(216, 245, 72, 0.6);
+}
+
+html.rb-route-live-line .rbl-3d-ball--basketball {
+  background:
+    radial-gradient(circle at 30% 30%, #ffb36b 0 34%, #de6e16 35% 100%),
+    linear-gradient(90deg, transparent 47%, rgba(30, 18, 10, 0.75) 48% 52%, transparent 53%);
+}
+
+html.rb-route-live-line .rbl-3d-ball--rugby,
+html.rb-route-live-line .rbl-3d-ball--american-football {
+  width: 22px;
+  height: 13px;
+  border-radius: 52% 48% 48% 52% / 50% 50% 50% 50%;
+  background: linear-gradient(180deg, #b8733d 0, #7a3f16 100%);
+}
+
+html.rb-route-live-line .rbl-3d-ball--baseball {
+  background: radial-gradient(circle at 30% 30%, #ffffff 0 45%, #ececec 46% 100%);
+}
+
+html.rb-route-live-line .rbl-3d-ball--cricket,
+html.rb-route-live-line .rbl-3d-ball--handball {
+  background: radial-gradient(circle at 30% 30%, #ff8d8d 0 35%, #c51616 36% 100%);
+}
+
+html.rb-route-live-line .rbl-3d-ball--golf {
+  background: radial-gradient(circle at 30% 30%, #ffffff 0 32%, #e8e8e8 33% 100%);
+}
+
+html.rb-route-live-line .rbl-3d-ball--water-polo {
+  background:
+    radial-gradient(circle at 30% 30%, #fff6de 0 30%, #e7c791 31% 100%),
+    repeating-linear-gradient(45deg, rgba(191, 39, 39, 0.7) 0 2px, rgba(255, 255, 255, 0.2) 2px 4px);
+}
+
+html.rb-route-live-line .rbl-3d-ball-shadow {
+  left: 50%;
+  top: 57%;
+  width: 18px;
+  height: 7px;
+  border-radius: 999px;
+  background: rgba(0, 0, 0, 0.35);
+  filter: blur(0.6px);
+  z-index: 2;
+}
+
+html.rb-route-live-line .rbl-3d-ball-shadow--rugby,
+html.rb-route-live-line .rbl-3d-ball-shadow--american-football {
+  width: 22px;
+  height: 6px;
+}
+
+html.rb-route-live-line .rb-live-line-tracker-overlay {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  background: linear-gradient(120deg, rgba(127, 16, 16, 0.5), rgba(66, 66, 66, 0.48));
+  color: #fff;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 260ms ease;
+  z-index: 8;
+}
+
+html.rb-route-live-line .rb-live-line-tracker-overlay strong {
+  border: 1px solid rgba(255, 255, 255, 0.48);
+  border-radius: 8px;
+  background: rgba(0, 0, 0, 0.35);
+  padding: 7px 10px;
+  font: 700 12px/1.2 "Noto Sans Hebrew", "Noto Sans", Arial, sans-serif;
+}
+
+html.rb-route-live-line .rb-live-line-tracker-widget.is-suspended .rb-live-line-tracker-overlay {
+  opacity: 1;
+  animation: rb-live-line-suspend-flash 760ms steps(2, end) infinite;
+}
+
+@keyframes rb-live-line-suspend-flash {
+  0% { background: linear-gradient(120deg, rgba(148, 20, 20, 0.58), rgba(75, 75, 75, 0.52)); }
+  100% { background: linear-gradient(120deg, rgba(88, 88, 88, 0.5), rgba(148, 20, 20, 0.58)); }
+}
+
+html.rb-route-live-line .rb-live-line-tracker-text {
+  margin: 0;
+  padding: 8px 10px;
+  min-height: 34px;
+  color: rgba(255, 255, 255, 0.94);
+  background: rgba(9, 3, 3, 0.74);
+  border-top: 1px solid rgba(255, 255, 255, 0.14);
+  font: 600 12px/1.32 "Noto Sans Hebrew", "Noto Sans", Arial, sans-serif;
+}
+
+html.rb-route-live-line .rb-live-line-detail-team b {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  font: 600 14px/1.2 "Noto Sans Hebrew", "Noto Sans", Arial, sans-serif;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+html.rb-route-live-line .rb-live-line-detail-score {
+  min-width: 82px;
+  max-width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 8px;
+  background: rgba(18, 5, 5, 0.8);
+  padding: 6px 8px;
+  text-align: center;
+}
+
+html.rb-route-live-line .rb-live-line-detail-score strong {
+  font: 700 20px/1 "Noto Sans Hebrew", "Noto Sans", Arial, sans-serif;
+  display: block;
+}
+
+html.rb-route-live-line .rb-live-line-detail-score small {
+  display: block;
+  margin-top: 4px;
+  font: 500 10px/1.2 "Noto Sans Hebrew", "Noto Sans", Arial, sans-serif;
+  color: rgba(255, 255, 255, 0.84);
+}
+
+html.rb-route-live-line .rb-live-line-detail-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 6px;
+}
+
+html.rb-route-live-line .rb-live-line-detail-grid span {
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 8px;
+  background: rgba(18, 5, 5, 0.82);
+  text-align: center;
+  padding: 6px 4px;
+  font: 500 11px/1.2 "Noto Sans Hebrew", "Noto Sans", Arial, sans-serif;
+}
+
+html.rb-route-live-line .rb-live-line-accordion {
+  display: grid;
+  gap: 7px;
+}
+
+html.rb-route-live-line .rb-live-line-accordion-item {
+  border: 1px solid rgba(255, 255, 255, 0.13);
+  border-radius: 8px;
+  background: rgba(10, 6, 8, 0.42);
+  overflow: hidden;
+}
+
+html.rb-route-live-line .rb-live-line-accordion-item.open {
+  border-color: rgba(255, 255, 255, 0.22);
+  background:
+    linear-gradient(145deg, rgba(255, 255, 255, 0.055), rgba(0, 0, 0, 0.08)),
+    rgba(10, 6, 8, 0.56);
+}
+
+html.rb-route-live-line .rb-live-line-accordion-toggle {
+  width: 100%;
+  min-height: 34px;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto auto;
+  align-items: center;
+  gap: 7px;
+  border: 0;
+  background: transparent;
+  color: #fff;
+  padding: 7px 8px;
+  cursor: pointer;
+}
+
+html.rb-route-live-line .rb-live-line-accordion-toggle span {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: start;
+  font: 800 11px/1.1 "Noto Sans Hebrew", "Noto Sans", Arial, sans-serif;
+}
+
+html.rb-route-live-line .rb-live-line-accordion-toggle em {
+  max-width: 118px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font: 600 9px/1 "Noto Sans Hebrew", "Noto Sans", Arial, sans-serif;
+  font-style: normal;
+  color: rgba(255, 255, 255, 0.68);
+}
+
+html.rb-route-live-line .rb-live-line-accordion-toggle i {
+  display: inline-grid;
+  place-items: center;
+  width: 20px;
+  height: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 6px;
+  font: 900 13px/1 "Noto Sans Hebrew", "Noto Sans", Arial, sans-serif;
+  font-style: normal;
+}
+
+html.rb-route-live-line .rb-live-line-accordion-body {
+  padding: 0 8px 8px;
+}
+
+html.rb-route-live-line .rb-live-line-overview-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.25fr) minmax(150px, .75fr);
+  gap: 8px;
+  align-items: stretch;
+}
+
+html.rb-route-live-line .rb-live-line-overview-main {
+  min-width: 0;
+}
+
+html.rb-route-live-line .rb-live-line-overview-side {
+  display: none !important;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 5px;
+  align-content: start;
+}
+
+html.rb-route-live-line .rb-live-line-overview-side .rb-live-line-signal {
+  min-width: 0;
+}
+
+html.rb-route-live-line .rb-live-line-overview-timeline {
+  grid-column: 1 / -1;
+  margin-top: 2px;
+}
+
+html.rb-route-live-line .rb-live-line-overview-timeline .rb-live-line-card-timeline-track {
+  height: 12px;
+}
+
+html.rb-route-live-line .rb-live-line-momentum-bar {
+  height: 6px;
+  border-radius: 999px;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: rgba(255, 255, 255, 0.08);
+  margin-top: -2px;
+}
+
+html.rb-route-live-line .rb-live-line-momentum-bar span {
+  display: block;
+  height: 100%;
+  border-radius: inherit;
+  background: linear-gradient(90deg, #4ee090, #e4c766 58%, #ff835f);
+}
+
+html.rb-route-live-line .rb-live-line-stat-matrix {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 6px;
+}
+
+html.rb-route-live-line .rb-live-line-stat-matrix span {
+  min-width: 0;
+  display: grid;
+  gap: 3px;
+  align-content: center;
+  min-height: 44px;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 7px;
+  background: rgba(14, 8, 10, 0.64);
+  padding: 6px 5px;
+  text-align: center;
+}
+
+html.rb-route-live-line .rb-live-line-stat-matrix i,
+html.rb-route-live-line .rb-live-line-stat-matrix b {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+html.rb-route-live-line .rb-live-line-stat-matrix i {
+  color: rgba(255, 255, 255, 0.68);
+  font: 600 9px/1 "Noto Sans Hebrew", "Noto Sans", Arial, sans-serif;
+  font-style: normal;
+}
+
+html.rb-route-live-line .rb-live-line-stat-matrix b {
+  color: #fff;
+  font: 900 12px/1 "Noto Sans Hebrew", "Noto Sans", Arial, sans-serif;
+}
+
+html.rb-route-live-line .rb-live-line-team-balance {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(80px, 1.2fr) minmax(0, 1fr);
+  align-items: center;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+html.rb-route-live-line .rb-live-line-team-balance b {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font: 700 9.5px/1 "Noto Sans Hebrew", "Noto Sans", Arial, sans-serif;
+}
+
+html.rb-route-live-line .rb-live-line-team-balance span {
+  height: 7px;
+  border-radius: 999px;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+html.rb-route-live-line .rb-live-line-team-balance span i {
+  display: block;
+  width: var(--rb-home-share, 50%);
+  height: 100%;
+  background: linear-gradient(90deg, #5ee28d, #ffd36a);
+}
+
+html.rb-route-live-line .rb-live-line-timeline-list {
+  display: grid;
+  gap: 6px;
+}
+
+html.rb-route-live-line .rb-live-line-timeline-row {
+  display: grid;
+  grid-template-columns: 38px minmax(0, 1fr);
+  align-items: center;
+  gap: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 8px;
+  background: rgba(18, 5, 5, 0.74);
+  padding: 6px;
+}
+
+html.rb-route-live-line .rb-live-line-timeline-row span {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 6px;
+  text-align: center;
+  padding: 3px;
+  font: 700 10px/1 "Noto Sans Hebrew", "Noto Sans", Arial, sans-serif;
+}
+
+html.rb-route-live-line .rb-live-line-timeline-row p {
+  margin: 0;
+  font: 500 11px/1.2 "Noto Sans Hebrew", "Noto Sans", Arial, sans-serif;
+}
+
+html.rb-route-live-line .rb-live-line-timeline-row.is-home span {
+  border-color: rgba(78, 214, 120, .7);
+}
+
+html.rb-route-live-line .rb-live-line-timeline-row.is-away span {
+  border-color: rgba(255, 150, 90, .8);
+}
+
+html.rb-route-live-line .rb-live-line-timeline-empty {
+  border: 1px dashed rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+  font: 500 11px/1.2 "Noto Sans Hebrew", "Noto Sans", Arial, sans-serif;
+}
+
+html.rb-route-live-line .rb-live-line-market-list {
+  display: grid;
+  gap: 8px;
+}
+
+html.rb-route-live-line .rb-live-line-market-head {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 6px;
+  margin-bottom: 6px;
+  align-items: center;
+}
+
+html.rb-route-live-line .rb-live-line-market-search {
+  display: block;
+}
+
+html.rb-route-live-line .rb-live-line-market-search input {
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 8px;
+  background: rgba(18, 5, 5, 0.82);
+  color: #fff;
+  padding: 6px 8px;
+  font: 600 11px/1 "Noto Sans Hebrew", "Noto Sans", Arial, sans-serif;
+}
+
+html.rb-route-live-line .rb-live-line-market-id {
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 8px;
+  background: rgba(18, 5, 5, 0.82);
+  color: rgba(255, 255, 255, 0.9);
+  padding: 6px 8px;
+  font: 700 10px/1 "Noto Sans Hebrew", "Noto Sans", Arial, sans-serif;
+  white-space: nowrap;
+}
+
+html.rb-route-live-line .rb-live-line-market-toggle {
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 8px;
+  background: rgba(18, 5, 5, 0.56);
+  color: #fff;
+  padding: 6px 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  cursor: pointer;
+}
+
+html.rb-route-live-line .rb-live-line-market-toggle i {
+  font-style: normal;
+  font: 700 14px/1 "Noto Sans Hebrew", "Noto Sans", Arial, sans-serif;
+  opacity: .9;
+}
+
+html.rb-route-live-line .rb-live-line-market-row h4 {
+  margin: 0;
+  font: 700 12px/1.2 "Noto Sans Hebrew", "Noto Sans", Arial, sans-serif;
+}
+
+html.rb-route-live-line .rb-live-line-market-row h4 small {
+  font: 600 10px/1 "Noto Sans Hebrew", "Noto Sans", Arial, sans-serif;
+  opacity: .8;
+  margin-inline-start: 6px;
+}
+
+html.rb-route-live-line .rb-live-line-market-odds {
+  display: grid;
+  grid-template-columns: repeat(var(--rb-market-cols, 3), minmax(0, 1fr));
+  gap: 6px;
+  margin-top: 6px;
+}
+
+html.rb-route-live-line .rb-live-line-market-btn {
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 8px;
+  background: rgba(18, 5, 5, 0.16);
+  color: #fff;
+  padding: 5px 4px;
+  display: grid;
+  gap: 2px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+}
+
+html.rb-route-live-line .rb-live-line-market-btn::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transition: opacity .24s ease;
+  z-index: 0;
+}
+
+html.rb-route-live-line .rb-live-line-market-btn::after {
+  content: "";
+  position: absolute;
+  inset-inline-end: 0;
+  inset-block-end: 0;
+  width: 0;
+  height: 0;
+  border-inline-start: 11px solid transparent;
+  border-block-end: 11px solid transparent;
+  opacity: 0;
+  transition: opacity .24s ease;
+  z-index: 0;
+}
+
+html.rb-route-live-line .rb-live-line-market-btn > * {
+  position: relative;
+  z-index: 1;
+}
+
+html.rb-route-live-line .rb-live-line-market-btn small {
+  font: 500 10px/1 "Noto Sans Hebrew", "Noto Sans", Arial, sans-serif;
+  font-variant-numeric: tabular-nums;
+  opacity: 0.9;
+  overflow-wrap: anywhere;
+}
+
+html.rb-route-live-line .rb-live-line-market-btn b {
+  font: 700 13px/1 "Noto Sans Hebrew", "Noto Sans", Arial, sans-serif;
+}
+
+html.rb-route-live-line .rb-live-line-odd-delta {
+  position: absolute;
+  inset-inline-start: 50%;
+  inset-block-start: 52%;
+  transform: translate(-50%, -50%);
+  font: 700 18px/1 "Noto Sans Hebrew", "Noto Sans", Arial, sans-serif;
+  letter-spacing: 0;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.18);
+  pointer-events: none;
+  z-index: 2;
+}
+
+@media (max-width: 620px) {
+  html.rb-route-live-line .rb-live-line-market-odds {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+html.rb-route-live-line .rb-live-line-market-btn.active {
+  border-color: rgba(255, 90, 90, 0.9);
+  background: rgba(120, 16, 16, 0.8);
+}
+
+html.rb-route-live-line .rb-live-line-market-btn.placing {
+  opacity: 0.72;
+  pointer-events: none;
+}
+
+html.rb-route-live-line .rb-live-line-market-btn.is-readonly {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+html.rb-route-live-line .rb-live-line-market-btn.is-unavailable {
+  background: rgba(24, 24, 24, 0.16);
+  border-color: rgba(255, 255, 255, 0.12);
+}
+
+html.rb-route-live-line .rb-live-line-market-btn.is-unavailable b {
+  color: rgba(255, 255, 255, 0.58);
+}
+
+html.rb-route-live-line .rb-live-line-market-btn.rb-live-line-odd-up {
+  border-color: rgba(92, 226, 141, 0.9);
+  border-top-width: 2px;
+  box-shadow: inset 0 2px 0 rgba(92, 226, 141, 0.95), 0 0 0 1px rgba(92, 226, 141, 0.24);
+  animation: rbLiveOddUp .7s ease;
+}
+
+html.rb-route-live-line .rb-live-line-market-btn.rb-live-line-odd-down {
+  border-color: rgba(255, 87, 87, 0.95);
+  border-bottom-width: 2px;
+  box-shadow: inset 0 -2px 0 rgba(255, 72, 72, 0.96), 0 0 0 1px rgba(255, 72, 72, 0.24);
+  animation: rbLiveOddDown .7s ease;
+}
+
+html.rb-route-live-line .rb-live-line-market-btn.rb-live-line-odd-up::before {
+  background: linear-gradient(180deg, rgba(42, 201, 95, 0.22), transparent 60%);
+  opacity: 1;
+}
+
+html.rb-route-live-line .rb-live-line-market-btn.rb-live-line-odd-up::after {
+  border-block-end-color: rgba(45, 179, 95, 0.92);
+  opacity: 1;
+}
+
+html.rb-route-live-line .rb-live-line-market-btn.rb-live-line-odd-up .rb-live-line-odd-delta {
+  color: rgba(28, 136, 69, 0.98);
+}
+
+html.rb-route-live-line .rb-live-line-market-btn.rb-live-line-odd-down::before {
+  background: linear-gradient(0deg, rgba(255, 54, 54, 0.22), transparent 60%);
+  opacity: 1;
+}
+
+html.rb-route-live-line .rb-live-line-market-btn.rb-live-line-odd-down::after {
+  border-block-end-color: rgba(244, 64, 104, 0.95);
+  opacity: 1;
+}
+
+html.rb-route-live-line .rb-live-line-market-btn.rb-live-line-odd-down .rb-live-line-odd-delta {
+  color: rgba(224, 18, 77, 0.98);
+}
+
+html.rb-route-live-line .rb-live-line-mini-slip {
+  display: none !important;
+  position: fixed;
+  left: 8px;
+  right: 8px;
+  bottom: 76px;
+  z-index: 30;
+}
+
+html.rb-route-live-line .rb-live-line-mini-slip-inner {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  background: rgba(16, 6, 7, 0.92);
+  color: #fff;
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+  padding: 8px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+/* Prevent scroll-blur artifacts on live-line route */
+html.rb-route-live-line #rb-site-header .rb-header,
+html.rb-route-live-line #rb-site-header .rb-dropdown {
+  background: #0a0a0a !important;
+  background-color: #0a0a0a !important;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+}
+
+/* Force sharp text on sticky live-line top strips while scrolling */
+html.rb-route-live-line #rb-site-header,
+html.rb-route-live-line #rb-site-header *,
+html.rb-route-live-line .rb-live-line-detail,
+html.rb-route-live-line .rb-live-line-detail *,
+html.rb-route-live-line .rb-live-line-detail::before,
+html.rb-route-live-line .rb-live-line-detail::after,
+html.rb-route-live-line .rb-live-line-detail *::before,
+html.rb-route-live-line .rb-live-line-detail *::after,
+html.rb-route-live-line [data-rb-sport-page-betting],
+html.rb-route-live-line [data-rb-sport-page-betting] *,
+html.rb-route-live-line [data-rb-sport-page-betting] *::before,
+html.rb-route-live-line [data-rb-sport-page-betting] *::after {
+  filter: none !important;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+}
+
+/* Keep sticky top area optically crisp while scrolling */
+html.rb-route-live-line .rb-live-line-detail {
+  background: rgba(14, 5, 6, 0.98) !important;
+  border-radius: 10px;
+}
+
+html.rb-route-live-line .rb-live-line-time-chip,
+html.rb-route-live-line .rb-live-line-detail-head span {
+  background: rgba(24, 8, 9, 0.96) !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
+  color: #fff !important;
+}
+
+/* Remove any right-edge fade overlays that may blur text in RTL */
+html.rb-route-live-line .rb-live-line-shell::before,
+html.rb-route-live-line .rb-live-line-shell::after,
+html.rb-route-live-line .rb-live-line-detail-head::before,
+html.rb-route-live-line .rb-live-line-detail-head::after,
+html.rb-route-live-line .rb-live-line-card-head::before,
+html.rb-route-live-line .rb-live-line-card-head::after,
+html.rb-route-live-line [data-rb-live-line-primary-groups][data-rb-live-line-primary="1"]::before,
+html.rb-route-live-line [data-rb-live-line-primary-groups][data-rb-live-line-primary="1"]::after,
+html.rb-route-live-line [data-rb-home-sport-groups][data-rb-live-line-primary="1"]::before,
+html.rb-route-live-line [data-rb-home-sport-groups][data-rb-live-line-primary="1"]::after,
+html.rb-route-live-line [data-rb-live-line-sub-sports][data-rb-live-line-secondary="1"]::before,
+html.rb-route-live-line [data-rb-live-line-sub-sports][data-rb-live-line-secondary="1"]::after,
+html.rb-route-live-line [data-rb-home-sub-sports][data-rb-live-line-secondary="1"]::before,
+html.rb-route-live-line [data-rb-home-sub-sports][data-rb-live-line-secondary="1"]::after {
+  content: none !important;
+  display: none !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  filter: none !important;
+  backdrop-filter: none !important;
+  -webkit-backdrop-filter: none !important;
+}
+
+html.rb-route-live-line [data-rb-live-line-primary-groups][data-rb-live-line-primary="1"],
+html.rb-route-live-line [data-rb-home-sport-groups][data-rb-live-line-primary="1"],
+html.rb-route-live-line [data-rb-live-line-sub-sports][data-rb-live-line-secondary="1"],
+html.rb-route-live-line [data-rb-home-sub-sports][data-rb-live-line-secondary="1"] {
+  mask-image: none !important;
+  -webkit-mask-image: none !important;
+}
+
+html.rb-route-live-line .rb-live-line-detail-title strong,
+html.rb-route-live-line .rb-live-line-detail-title small,
+html.rb-route-live-line .rb-live-line-card-head strong,
+html.rb-route-live-line .rb-live-line-time-chip {
+  opacity: 1 !important;
+  text-shadow: none !important;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: geometricPrecision;
+}
+
+html.rb-route-live-line .rb-live-line-mini-slip-copy {
+  min-width: 0;
+  display: grid;
+  gap: 2px;
+}
+
+html.rb-route-live-line .rb-live-line-mini-slip-copy strong {
+  font: 700 12px/1.1 "Noto Sans Hebrew", "Noto Sans", Arial, sans-serif;
+}
+
+html.rb-route-live-line .rb-live-line-mini-slip-copy strong em {
+  display: inline-block;
+  margin-inline-start: 6px;
+  padding: 1px 6px;
+  border-radius: 999px;
+  border: 1px solid rgba(255, 195, 110, 0.9);
+  background: rgba(120, 64, 12, 0.7);
+  color: #ffd89c;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 1.1;
+}
+
+html.rb-route-live-line .rb-live-line-mini-slip-copy span {
+  font: 500 11px/1.1 "Noto Sans Hebrew", "Noto Sans", Arial, sans-serif;
+  color: rgba(255, 255, 255, 0.86);
+}
+
+html.rb-route-live-line .rb-live-line-mini-slip-copy small {
+  font: 500 10px/1.1 "Noto Sans Hebrew", "Noto Sans", Arial, sans-serif;
+  color: rgba(255, 255, 255, 0.72);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+html.rb-route-live-line .rb-live-line-mini-slip-actions {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+html.rb-route-live-line .rb-live-line-mini-slip-actions button,
+html.rb-route-live-line .rb-live-line-mini-slip-actions a {
+  border: 1px solid rgba(255, 255, 255, 0.22);
+  border-radius: 999px;
+  background: rgba(120, 16, 16, 0.75);
+  color: #fff;
+  padding: 5px 10px;
+  font: 700 11px/1 "Noto Sans Hebrew", "Noto Sans", Arial, sans-serif;
+  text-decoration: none;
+  min-width: 42px;
+  text-align: center;
+}
+
+html.rb-route-live-line .rb-live-line-toast {
+  position: fixed;
+  inset-inline: 12px;
+  bottom: 142px;
+  z-index: 45;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 10px;
+  background: rgba(16, 6, 7, 0.94);
+  color: #fff;
+  padding: 9px 10px;
+  font: 600 12px/1.25 "Noto Sans Hebrew", "Noto Sans", Arial, sans-serif;
+  text-align: center;
+  opacity: 0;
+  transform: translateY(8px);
+  transition: opacity .2s ease, transform .2s ease;
+  pointer-events: none;
+}
+
+html.rb-route-live-line .rb-live-line-toast.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+html.rb-route-live-line .rb-live-line-toast[data-kind="success"] {
+  border-color: rgba(92, 226, 141, 0.8);
+}
+
+html.rb-route-live-line .rb-live-line-toast[data-kind="error"] {
+  border-color: rgba(255, 120, 120, 0.85);
+}
+
+@keyframes rbLiveOddUp {
+  0% { box-shadow: 0 0 0 0 rgba(66, 210, 120, 0.45); }
+  100% { box-shadow: 0 0 0 10px rgba(66, 210, 120, 0); }
+}
+
+@keyframes rbLiveOddDown {
+  0% { box-shadow: 0 0 0 0 rgba(255, 92, 92, 0.45); }
+  100% { box-shadow: 0 0 0 10px rgba(255, 92, 92, 0); }
+}
+
+@media (max-width: 720px) {
+  html.rb-route-live-line .rb-live-line-detail-head {
+    align-items: center;
+  }
+
+  html.rb-route-live-line .rb-live-line-detail-head-actions {
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+  }
+
+  html.rb-route-live-line .rb-live-line-overview-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  html.rb-route-live-line .rb-live-line-overview-side {
+    order: -1;
+  }
+
+  html.rb-route-live-line .rb-live-line-overview-side {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  html.rb-route-live-line .rb-live-line-stat-matrix {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  html.rb-route-live-line .rb-live-line-team-balance {
+    grid-template-columns: minmax(0, .8fr) minmax(74px, 1fr) minmax(0, .8fr);
+  }
+
+  html.rb-route-live-line .rb-live-line-card-signals {
+    display: none;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    overflow: visible;
+  }
+
+  html.rb-route-live-line .rb-live-line-card-signals .rb-live-line-signal {
+    min-width: 0;
+  }
+
+  html.rb-route-live-line .rb-live-line-accordion-toggle em {
+    max-width: 82px;
+  }
+}
+
+@media (min-width: 980px) {
+  html.rb-route-live-line .rb-live-line-shell {
+    grid-template-columns: minmax(0, 1fr) 300px;
+    align-items: start;
+  }
+
+  html.rb-route-live-line .rb-live-line-shell > .rb-live-line-detail-head {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  html.rb-route-live-line .rb-live-line-mini-slip {
+    left: 12px;
+    right: 12px;
+    bottom: 14px;
+    max-width: 560px;
+    margin: 0 auto;
+  }
+
+  html.rb-route-live-line .rb-live-line-main-wrap {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  html.rb-route-live-line .rb-live-line-list-wrap {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  html.rb-route-live-line .rb-live-line-lower-grid {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1.15fr);
+  }
+}
+
+/* User preference: unify Live Line typography weight */
+html.rb-route-live-line body,
+html.rb-route-live-line body *,
+html.rb-route-live-line body *::before,
+html.rb-route-live-line body *::after {
+  font-weight: 400 !important;
+}
+
+html.rb-route-live-line .rb-live-line-game-card,
+html.rb-route-live-line .rb-live-line-game-card * {
+  font-weight: 400 !important;
+}
+
+html.rb-route-live-line .rb-live-line-card-team b,
+html.rb-route-live-line .rb-live-line-card-head strong,
+html.rb-route-live-line .rb-live-line-time-chip,
+html.rb-route-live-line .rb-live-line-mini-score b,
+html.rb-route-live-line .rb-live-line-mini-score i {
+  font-size: 10px !important;
+  line-height: 1.05 !important;
+  font-weight: 400 !important;
+}
+
+html.rb-route-live-line .rb-live-line-card-scoreline {
+  grid-template-columns: 24px minmax(0, 1fr) !important;
+  column-gap: 3px !important;
+  row-gap: 0 !important;
+}
+
+html.rb-route-live-line .rb-live-line-card-team {
+  gap: 2px !important;
+  align-items: center !important;
+}
+
+html.rb-route-live-line .rb-live-line-card-team b {
+  font-size: 8.5px !important;
+  line-height: 1.08 !important;
+  letter-spacing: 0 !important;
+}
+
+html.rb-route-live-line .rb-live-line-time-chip,
+html.rb-route-live-line .rb-live-line-card-timeline,
+html.rb-route-live-line .rb-live-line-card-timeline-track,
+html.rb-route-live-line .rb-live-line-card-timeline-fill,
+html.rb-route-live-line .rb-live-line-overview-timeline,
+html.rb-route-live-line .rb-live-line-scroll-info-bar,
+html.rb-route-live-line .rb-live-line-detail-head {
+  display: none !important;
+  visibility: hidden !important;
+  height: 0 !important;
+  min-height: 0 !important;
+  max-height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  overflow: hidden !important;
+}
+
+html.rb-route-live-line .rb-live-line-card-head strong,
+html.rb-route-live-line .rb-live-line-time-chip {
+  font-size: 8.5px !important;
+  line-height: 1 !important;
+}
+
+html.rb-route-live-line .rb-live-line-mini-score {
+  min-width: 22px !important;
+  padding: 1px 2px !important;
+}
+
+html.rb-route-live-line .rb-live-line-mini-score b,
+html.rb-route-live-line .rb-live-line-mini-score i {
+  font-size: 9px !important;
+  line-height: 1 !important;
+}
+
+html.rb-route-live-line .rb-live-line-card-team b {
+  font-size: 10px !important;
+  line-height: 1.05 !important;
+  font-weight: 400 !important;
+}
+
+html.rb-route-live-line .rb-live-line-mini-score {
+  background: rgba(9, 6, 6, 0.4) !important;
+  border-color: rgba(255, 255, 255, 0.34) !important;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.08), 0 0 0 1px rgba(122, 38, 38, 0.55) !important;
+}
+
+html.rb-route-live-line .rb-live-line-mini-score b,
+html.rb-route-live-line .rb-live-line-mini-score i {
+  color: #ffffff !important;
+  font-weight: 400 !important;
+}
+
+html.rb-route-live-line .rb-live-line-card-head {
+  display: none !important;
+  visibility: hidden !important;
+  height: 0 !important;
+  min-height: 0 !important;
+  max-height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  overflow: hidden !important;
+}
