@@ -377,10 +377,10 @@ export default factories.createCoreService('api::fixture.fixture', ({ strapi }) 
     return { removed };
   },
 
-  async syncFromTheOddsApi() {
+    async syncFromTheOddsApi() {
     const apiKey = process.env.THE_ODDS_API_KEY || '';
     const baseUrl = (process.env.THE_ODDS_API_BASE_URL || 'https://api.the-odds-api.com').replace(/\/+$/, '');
-    const regions = process.env.ODDS_API_REGIONS || 'us,us2,us_ex,uk,eu,au,fr';
+    const regions = process.env.ODDS_API_REGIONS || 'eu';
     const markets = process.env.ODDS_API_MARKETS || 'h2h';
     const marketsList = normalizeListLower(parseList(markets));
     const requestsH2hOnly = marketsList.length > 0 && marketsList.every((market) => market === 'h2h');
@@ -401,33 +401,32 @@ export default factories.createCoreService('api::fixture.fixture', ({ strapi }) 
 
         if (!apiKey) {
       strapi.log.warn('[the-odds-api-sync] THE_ODDS_API_KEY is missing. Skipping sync.');
-      return { success: false, provider: 'the-odds-api.com', fetched: 0, created: 0, updated: 0, sports: 0 };
+      return { success: false, provider: 'api.the-odds-api.com', fetched: 0, created: 0, updated: 0, sports: 0 };
     }
 
     const configuredSports = parseList(process.env.ODDS_API_SPORTS_LIST || '');
     const configuredWantsAll = configuredSports.length === 0 || configuredSports.some((sport) => sport.toLowerCase() === 'all');
     const configuredSportsLower = normalizeListLower(configuredSports);
-    
-    // בדיקה האם הגדרנו 'live' ברשימת ענפי הספורט
-    const isLiveRequest = configuredSportsLower.includes('live');
+
+
+	  const isLiveRequest = configuredSportsLower.includes('live');
 
     if (syncMode === 'upcoming') {
       let limitedFixtures: any[] = [];
       try {
-        // בניית URL מדוייקת וחכמה בהתאם לסוג הבקשה
-        const url = isLiveRequest 
+
+		  const url = isLiveRequest
           ? `${baseUrl}/v4/sports/all/odds/?all=true&apiKey=${apiKey}&regions=${regions}&markets=${markets}&oddsFormat=${oddsFormat}&dateFormat=iso`
           : `${baseUrl}/v4/sports/upcoming/odds/?apiKey=${apiKey}&regions=${regions}&markets=${markets}&oddsFormat=${oddsFormat}&dateFormat=iso`;
 
         const response = await axios.get(url, { headers: { Accept: 'application/json' }, timeout: 60000 });
         const fixturesArray = Array.isArray(response.data) ? response.data : [];
-        
-        // אם זה לייב, נשמור את כל הפיקסטורז שחזרו (כי כולם לייב ורלוונטיים)
-        // אם זה אפקאמינג רגיל, נסנן לפי רשימת הספורט
-        const filteredBySport = (isLiveRequest || configuredWantsAll)
-          ? fixturesArray
-          : fixturesArray.filter((fixture: any) => configuredSportsLower.includes(String(fixture?.sport_key || '').toLowerCase()));
-          
+
+
+		    const filteredBySport = (isLiveRequest || configuredWantsAll)
+            ? fixturesArray
+            : fixturesArray.filter((fixture: any) => configuredSportsLower.includes(String(fixture?.sport_key || '').toLowerCase()));
+
         limitedFixtures = maxEvents > 0 ? filteredBySport.slice(0, maxEvents) : filteredBySport;
         totalFetched += limitedFixtures.length;
 
@@ -449,7 +448,6 @@ export default factories.createCoreService('api::fixture.fixture', ({ strapi }) 
           const liveMinute = readFixtureMinute(fixture);
           const status = normalizeFixtureStatus(fixture?.status, 'open');
           const isLive = ['live', 'inplay', 'in_play', 'in-play', 'running', 'in progress'].includes(status) || fixture?.inplay === true || fixture?.is_live === true || liveMinute > 0;
-          
           const fixtureData = {
             fixture_id: fixtureId,
             home_team: String(fixture.home_team || ''),
@@ -475,7 +473,7 @@ export default factories.createCoreService('api::fixture.fixture', ({ strapi }) 
             status,
             publishedAt: new Date().toISOString(),
           };
-          
+
           const result = await upsertFixture(strapi, fixtureId, fixtureData);
           glossaryFixtures.push({ ...fixture, ...fixtureData });
 
@@ -486,7 +484,7 @@ export default factories.createCoreService('api::fixture.fixture', ({ strapi }) 
         strapi.log.error(`[the-odds-api-sync] Upcoming sync failed: ${error.message}`);
         return {
           success: false,
-          provider: 'the-odds-api.com',
+          provider: 'api.the-odds-api.com',
           mode: 'upcoming',
           fetched: totalFetched,
           created,
@@ -496,11 +494,10 @@ export default factories.createCoreService('api::fixture.fixture', ({ strapi }) 
         };
       }
 
-      // חוק הגנה: אם מדובר בבקשת לייב, נעצור כאן! אין צורך לרוץ על לולאת ה-Scores היקרה
       if (isLiveRequest) {
         return {
           success: true,
-          provider: 'the-odds-api.com',
+          provider: 'api.the-odds-api.com',
           mode: 'live-odds-only',
           fetched: totalFetched,
           created,
@@ -510,16 +507,15 @@ export default factories.createCoreService('api::fixture.fixture', ({ strapi }) 
         };
       }
 
-      // קוד המקור שלך עבור משחקים עתידיים רגילים (Upcoming Mode) ימשיך מכאן בלבד:
       const scoreSportsToRefresh = uniqueList([
         ...(limitedFixtures || []).map((fixture: any) => String(fixture?.sport_key || '').trim()).filter(Boolean),
         ...(configuredWantsAll ? PRIORITY_ODDS_SPORT_KEYS : configuredSports),
       ]);
-      
+
       for (const sport of scoreSportsToRefresh) {
         try {
           const scoreDaysFrom = Math.max(1, Number(process.env.ODDS_API_SCORES_DAYS_FROM || 2));
-          const scoresUrl = `${baseUrl}/v4/sports/${sport}/scores/?apiKey=${apiKey}&daysFrom=${scoreDaysFrom}`;
+          const scoresUrl = `${baseUrl}v4/sports/${sport}/scores/?apiKey=${apiKey}&daysFrom=${scoreDaysFrom}`;
           const scoresResponse = await axios.get(scoresUrl, { headers: { Accept: 'application/json' }, timeout: 60000 });
           const scoreRows = Array.isArray(scoresResponse.data) ? scoresResponse.data : [];
 
@@ -533,7 +529,7 @@ export default factories.createCoreService('api::fixture.fixture', ({ strapi }) 
               where: { fixture_id: scoreFixtureId },
               select: ['id', 'status', 'commence_time', 'home_team', 'away_team'],
             });
-            
+
             if (!existing?.id) {
               if (!homeTeam || !awayTeam) continue;
               if (!shouldKeepByStatus(scoreFixture)) continue;
@@ -569,10 +565,9 @@ export default factories.createCoreService('api::fixture.fixture', ({ strapi }) 
               continue;
             }
 
-        // Some providers delay/omit live flags in odds payload. Apply score snapshots
-        // directly to existing fixtures so started matches become visible as live.
-        for (const scoreFixture of scoresByFixtureId.values()) {
-          const scoreFixtureId = String(scoreFixture?.id || '').trim();
+	            const scores = new Map();
+              for (const scoreFixture of scores.values()) {
+              const scoreFixtureId = String(scoreFixture?.id || '').trim();
           if (!scoreFixtureId) continue;
 
           const existing = await strapi.db.query('api::fixture.fixture').findOne({
@@ -595,7 +590,7 @@ export default factories.createCoreService('api::fixture.fixture', ({ strapi }) 
             scoreFixture,
           );
           const scoreMinute = readFixtureMinute(scoreFixture);
-          const scoreIsLive = ['live', 'inplay', 'in_play', 'in-play', 'running', 'in progress'].includes(scoreStatus) || scoreMinute > 0;
+        const scoreIsLive = ['live', 'inplay', 'in_play', 'in-play', 'running', 'in progress'].includes(scoreStatus) || scoreMinute > 0;
           const updatePayload: Record<string, any> = {
             status: scoreStatus,
             live_minute: scoreMinute,
@@ -617,9 +612,10 @@ export default factories.createCoreService('api::fixture.fixture', ({ strapi }) 
           });
           updated += 1;
         }
-      } catch (error: any) {
-        const status = Number(error?.response?.status || 0);
-        if (status === 422) {
+        }
+        } catch (error: any) {
+          const status = Number(error?.response?.status || 0);
+          if (status === 422) {
           strapi.log.warn(`[the-odds-api-sync] Skipping incompatible sport "${sport}" for markets=${markets}: HTTP 422`);
           continue;
         }
@@ -630,33 +626,31 @@ export default factories.createCoreService('api::fixture.fixture', ({ strapi }) 
     const glossary = await persistSportsGlossaryEntities(strapi, glossaryFixtures).catch((error: any) => {
       strapi.log.warn(`[sports-glossary] Sync persistence failed: ${error?.message || error}`);
       return { skipped: true, error: error?.message || 'glossary-persist-failed' };
-    });
+        });
     const purged = await this.purgeFinishedFixtures().catch(() => ({ removed: 0 }));
 
     return {
       success: true,
-      provider: 'the-odds-api.com',
+      provider: 'api.the-odds-api.com',
       fetched: totalFetched,
       created,
       updated,
-      sports: sportsToFetch.length,
+      sports: scoreSportsToRefresh.length,
       uniqueFixtures: seenFixtureIds.size,
       glossary,
       purged,
     };
-  },
-
-    // ... פונקציית עזר ל-BetsAPI (syncFromBetsApi) כאן ...
+  }
+},
 
   async syncAllProviders() {
     const theOdds = await this.syncFromTheOddsApi();
-    const betsApi = await this.syncFromBetsApi(); // שילוב ה-BetsAPI
+
     return {
-      success: true,
-      providers: { theOdds, betsApi },
-      created: (theOdds?.created || 0) + betsApi.created,
-      updated: (theOdds?.updated || 0) + betsApi.updated,
+      providers: { theOdds },
+      fetched: Number(theOdds?.fetched || 0),
+      created: Number(theOdds?.created || 0),
+      updated: Number(theOdds?.updated || 0),
     };
   },
 }));
-
