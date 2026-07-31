@@ -114,35 +114,6 @@ const shouldKeepByStatus = (fixture: any): boolean => {
 
 const DEFAULT_PROVIDER_BOOKMAKER_PRIORITY = [
   'bet365',
-  'sport888',
-  'winamax_de',
-  'winamax_fr',
-  'unibet',
-  'unibet_uk',
-  'unibet_fr',
-  'unibet_se',
-  'pinnacle',
-  'betfair_ex_uk',
-  'betfair_ex_eu',
-  'betfair_ex_au',
-  'betfair_sb_uk',
-  'sportsbet',
-  'paddypower',
-  'williamhill',
-  'williamhill_us',
-  'betvictor',
-  'betsson',
-  'betway',
-  'betclic_fr',
-  'fanduel',
-  'draftkings',
-  'betmgm',
-  'betrivers',
-  'pointsbetus',
-  'pointsbetau',
-  'marathonbet',
-  'betonlineag',
-  'bovada',
 ];
 
 const bookmakerHasMarket = (bookmaker: any, marketKey = 'h2h') => (
@@ -184,10 +155,25 @@ const pickH2hOdds = (bookmakers: any, homeTeam: string, awayTeam: string, prefer
 };
 
 const normalizeProviderMarkets = (bookmakers: any[], preferredBookmakers: string[] = []) => {
-  const bookmaker = chooseBookmaker(bookmakers, preferredBookmakers);
-  const markets = Array.isArray(bookmaker?.markets) ? bookmaker.markets : [];
-  return markets
-    .map((market: any) => {
+  const rows = Array.isArray(bookmakers) ? bookmakers : [];
+  const priority = Array.from(new Set([
+    ...preferredBookmakers.map((item) => String(item || '').toLowerCase()),
+    ...DEFAULT_PROVIDER_BOOKMAKER_PRIORITY,
+  ]));
+  const orderedBookmakers = [...rows].sort((left, right) => {
+    const leftIndex = priority.indexOf(String(left?.key || '').toLowerCase());
+    const rightIndex = priority.indexOf(String(right?.key || '').toLowerCase());
+    return (leftIndex < 0 ? Number.MAX_SAFE_INTEGER : leftIndex) - (rightIndex < 0 ? Number.MAX_SAFE_INTEGER : rightIndex);
+  });
+  const selectedMarkets = new Map<string, { market: any; bookmaker: any }>();
+  for (const bookmaker of orderedBookmakers) {
+    for (const market of (Array.isArray(bookmaker?.markets) ? bookmaker.markets : [])) {
+      const key = String(market?.key || market?.id || '').trim();
+      if (key && !selectedMarkets.has(key)) selectedMarkets.set(key, { market, bookmaker });
+    }
+  }
+  return Array.from(selectedMarkets.values())
+    .map(({ market, bookmaker }) => {
       const key = String(market?.key || market?.id || '').trim();
       const outcomes = Array.isArray(market?.outcomes) ? market.outcomes : [];
       if (!key || !outcomes.length) return null;
@@ -233,6 +219,36 @@ const providerOddsBookmaker = (bookmakers: any[], preferredBookmakers: string[] 
   const bookmaker = chooseBookmaker(bookmakers, preferredBookmakers);
   return String(bookmaker?.key || bookmaker?.title || '').trim() || undefined;
 };
+
+const normalizeTheOddsApiComBooks = (books: any[]): OddsApiBookmaker[] => {
+  const grouped = new Map<string, any>();
+  for (const row of Array.isArray(books) ? books : []) {
+    const bookmakerKey = String(row?.book || row?.bookmaker || '').trim();
+    const marketKey = String(row?.market || row?.key || '').trim();
+    const outcomes = Array.isArray(row?.outcomes) ? row.outcomes : [];
+    if (!bookmakerKey || !marketKey || !outcomes.length) continue;
+    if (!grouped.has(bookmakerKey)) grouped.set(bookmakerKey, { key: bookmakerKey, markets: [] });
+    grouped.get(bookmakerKey).markets.push({
+      key: marketKey,
+      title: String(row?.title || marketKey).trim(),
+      last_update: row?.updated_at || row?.last_update,
+      outcomes,
+    });
+  }
+  return Array.from(grouped.values());
+};
+
+const flattenTheOddsApiComExtendedBooks = (markets: any[]): any[] => (
+  (Array.isArray(markets) ? markets : []).flatMap((market: any) => {
+    const marketKey = String(market?.market || market?.key || '').trim();
+    return (Array.isArray(market?.books) ? market.books : []).map((book: any) => ({
+      book: book?.book || book?.key,
+      market: marketKey,
+      updated_at: book?.updated_at || market?.updated_at,
+      outcomes: book?.outcomes,
+    }));
+  })
+);
 
 const normalizeFixtureStatus = (value: unknown, fallback = 'open') => {
   const status = String(value || '').trim().toLowerCase();
@@ -345,27 +361,145 @@ const upsertFixture = async (strapi: any, fixtureId: string, data: Record<string
 };
 
 export default factories.createCoreService('api::fixture.fixture', ({ strapi }) => ({
+  async syncFromTheOddsApiCom() {
+    const apiKey = String(process.env.THEODDSAPI_API_KEY || '').trim();
+    const baseUrl = String(process.env.THEODDSAPI_BASE_URL || 'https://api.theoddsapi.com').replace(/\/+$/, '');
+    const sports = parseList(process.env.THEODDSAPI_SPORTS_LIST || 'all');
+    const markets = parseList(process.env.THEODDSAPI_MARKETS || 'h2h,spreads,totals').join(',');
+    const regions = parseList(process.env.THEODDSAPI_REGIONS || '').join(',');
+    const bookmakers = parseList(process.env.THEODDSAPI_BOOKMAKERS || '').join(',');
+    const preferredBookmakers = parseList(process.env.THEODDSAPI_BOOKMAKER_PRIORITY || 'pinnacle,bet365');
+    const maxEvents = Math.max(0, Number(process.env.THEODDSAPI_SYNC_MAX_EVENTS || 0));
+    const extendedEnabled = String(process.env.THEODDSAPI_EXTENDED_ENABLED || 'false').toLowerCase() === 'true';
+    const extendedEndpoints = parseList(process.env.THEODDSAPI_EXTENDED_ENDPOINTS || 'props,period-markets,additional');
+
+    if (!apiKey) {
+      strapi.log.warn('[theoddsapi-sync] THEODDSAPI_API_KEY is missing. Skipping sync.');
+      return { success: false, provider: 'api.theoddsapi.com', fetched: 0, created: 0, updated: 0, sports: 0 };
+    }
+
+    let fetched = 0;
+    let created = 0;
+    let updated = 0;
+    const glossaryFixtures: any[] = [];
+
+    for (const sport of sports) {
+      try {
+        const extendedBooksByEvent = new Map<string, any[]>();
+        if (extendedEnabled) {
+          for (const endpoint of extendedEndpoints) {
+            try {
+              const extendedResponse = await axios.get(`${baseUrl}/${endpoint}/`, {
+                headers: { Accept: 'application/json', 'x-api-key': apiKey },
+                params: { sport_key: sport },
+                timeout: 60000,
+              });
+              const extendedRows = Array.isArray(extendedResponse?.data?.data) ? extendedResponse.data.data : [];
+              for (const event of extendedRows) {
+                const eventId = String(event?.event_id || event?.id || '').trim();
+                if (!eventId) continue;
+                extendedBooksByEvent.set(eventId, [
+                  ...(extendedBooksByEvent.get(eventId) || []),
+                  ...flattenTheOddsApiComExtendedBooks(event?.markets),
+                ]);
+              }
+            } catch (error: any) {
+              const status = Number(error?.response?.status || 0);
+              if (status !== 403 && status !== 404) {
+                strapi.log.warn(`[theoddsapi-sync] Extended endpoint ${endpoint} failed for ${sport}: ${error?.message || error}`);
+              }
+            }
+          }
+        }
+
+        const response = await axios.get(`${baseUrl}/odds/`, {
+          headers: { Accept: 'application/json', 'x-api-key': apiKey },
+          params: {
+            sport_key: sport,
+            oddsFormat: 'decimal',
+            ...(markets ? { markets } : {}),
+            ...(regions ? { regions } : {}),
+            ...(bookmakers ? { bookmakers } : {}),
+          },
+          timeout: 60000,
+        });
+        const sourceRows = Array.isArray(response?.data?.data)
+          ? response.data.data
+          : (Array.isArray(response?.data) ? response.data : []);
+        const rows = maxEvents > 0 ? sourceRows.slice(0, maxEvents) : sourceRows;
+        fetched += rows.length;
+
+        for (const fixture of rows) {
+          const fixtureId = String(fixture?.event_id || fixture?.id || '').trim();
+          const homeTeam = String(fixture?.home_team || '').trim();
+          const awayTeam = String(fixture?.away_team || '').trim();
+          const startTime = fixture?.start_time || fixture?.commence_time;
+          if (!fixtureId || !homeTeam || !awayTeam || !startTime) continue;
+
+          const normalizedBookmakers = normalizeTheOddsApiComBooks([
+            ...(Array.isArray(fixture?.books) ? fixture.books : []),
+            ...(extendedBooksByEvent.get(fixtureId) || []),
+          ]);
+          const odds = pickH2hOdds(normalizedBookmakers, homeTeam, awayTeam, preferredBookmakers);
+          const providerMarkets = normalizeProviderMarkets(normalizedBookmakers, preferredBookmakers);
+          const commenceTime = new Date(startTime).toISOString();
+          const isLive = Date.parse(commenceTime) <= Date.now();
+          const sportKey = String(fixture?.sport_key || fixture?.sport || sport).trim();
+          const sportTitle = String(fixture?.league || fixture?.sport_title || titleFromSportKey(sportKey) || sportKey).trim();
+          const fixtureData = {
+            fixture_id: fixtureId,
+            home_team: homeTeam,
+            away_team: awayTeam,
+            sport_key: sportKey,
+            sport_title: sportTitle,
+            league_name: sportTitle,
+            commence_time: commenceTime,
+            odds_home: odds.odds_home,
+            odds_away: odds.odds_away,
+            odds_draw: odds.odds_draw,
+            odds_updated_at: providerOddsUpdatedAt(normalizedBookmakers, preferredBookmakers),
+            odds_bookmaker: providerOddsBookmaker(normalizedBookmakers, preferredBookmakers),
+            odds_provider: 'theoddsapi-com',
+            is_live: isLive,
+            inplay: isLive,
+            markets: providerMarkets,
+            status: isLive ? 'live' : 'open',
+            publishedAt: new Date().toISOString(),
+          };
+          const result = await upsertFixture(strapi, fixtureId, fixtureData);
+          glossaryFixtures.push({ ...fixture, ...fixtureData });
+          if (result === 'created') created += 1;
+          else updated += 1;
+        }
+      } catch (error: any) {
+        const status = Number(error?.response?.status || 0);
+        strapi.log.error(`[theoddsapi-sync] ${sport} failed${status ? ` (HTTP ${status})` : ''}: ${error?.message || error}`);
+      }
+    }
+
+    const glossary = await persistSportsGlossaryEntities(strapi, glossaryFixtures).catch((error: any) => ({
+      skipped: true,
+      error: error?.message || 'glossary-persist-failed',
+    }));
+    const purged = await this.purgeFinishedFixtures().catch(() => ({ removed: 0 }));
+    return { success: true, provider: 'api.theoddsapi.com', fetched, created, updated, sports: sports.length, glossary, purged };
+  },
+
+  async syncConfiguredProvider() {
+    const provider = String(process.env.ODDS_PRIMARY_PROVIDER || 'the-odds-api').trim().toLowerCase();
+    if (['theoddsapi', 'theoddsapi-com', 'api.theoddsapi.com'].includes(provider)) {
+      return this.syncFromTheOddsApiCom();
+    }
+    return this.syncFromTheOddsApi();
+  },
+
   async purgeFinishedFixtures() {
-    const staleHours = Number(process.env.FIXTURE_STALE_RETENTION_HOURS || 72);
+    // Finished fixtures must remain available long enough for the settlement
+    // worker to grade every pending bet. Only age-based retention may delete
+    // them; deleting immediately by status races the settlement cron.
+    const staleHours = Number(process.env.FIXTURE_STALE_RETENTION_HOURS || 168);
     const staleIso = new Date(Date.now() - (Math.max(1, staleHours) * 60 * 60 * 1000)).toISOString();
     let removed = 0;
-
-    const byFlags = await strapi.db.query('api::fixture.fixture').deleteMany({
-      where: {
-        $or: [
-          { completed: true },
-          { finished: true },
-        ],
-      },
-    });
-    removed += Number((byFlags as any)?.count || 0);
-
-    const byStatus = await strapi.db.query('api::fixture.fixture').deleteMany({
-      where: {
-        $or: FINISHED_STATUS_VALUES.map((value) => ({ status: { $eqi: value } })),
-      },
-    });
-    removed += Number((byStatus as any)?.count || 0);
 
     const byStaleTime = await strapi.db.query('api::fixture.fixture').deleteMany({
       where: {
@@ -507,19 +641,33 @@ export default factories.createCoreService('api::fixture.fixture', ({ strapi }) 
         };
       }
 
-      const scoreSportsToRefresh = uniqueList([
-        ...(limitedFixtures || []).map((fixture: any) => String(fixture?.sport_key || '').trim()).filter(Boolean),
-        ...(configuredWantsAll ? PRIORITY_ODDS_SPORT_KEYS : configuredSports),
-      ]);
+                 // 1. החזרת המשתנה המקורי מהקוד שלכם כדי ש-TS יזהה אותו
+        const scoreSportsToRefresh = normalizeListLower(parseList(process.env.ODDS_API_SPORTS_LIST || 'all'));
 
-      for (const sport of scoreSportsToRefresh) {
-        try {
-          const scoreDaysFrom = Math.max(1, Number(process.env.ODDS_API_SCORES_DAYS_FROM || 2));
-          const scoresUrl = `${baseUrl}v4/sports/${sport}/scores/?apiKey=${apiKey}&daysFrom=${scoreDaysFrom}`;
-          const scoresResponse = await axios.get(scoresUrl, { headers: { Accept: 'application/json' }, timeout: 60000 });
-          const scoreRows = Array.isArray(scoresResponse.data) ? scoresResponse.data : [];
+        for (const sport of scoreSportsToRefresh) {
+          try {
+            const scoreDaysFrom = Math.max(1, Number(process.env.ODDS_API_SCORES_DAYS_FROM || 2));
+            const scoresUrl = `${baseUrl}/v4/sports/${sport}/scores?apiKey=${process.env.THE_ODDS_API_KEY}&daysFrom=${scoreDaysFrom}`;
 
-          for (const scoreFixture of scoreRows) {
+            // --- 🛡️ התחלת הצינור המוגן (מונע קריסות 404 של פגרות) ---
+            let scoresResponse;
+            try {
+              scoresResponse = await axios.get(scoresUrl, { headers: { Accept: 'application/json' }, timeout: 60000 });
+            } catch (apiError: any) {
+              if (apiError?.response?.status === 404) {
+                strapi.log.info(`[the-odds-api-sync] Sport ${sport} has no active scores currently (404), skipping.`);
+                continue; 
+              }
+              throw apiError; 
+            }
+            // --- 🛡️ סיום הצינור המוגן ---
+
+            const scoreRows = Array.isArray(scoresResponse?.data) ? scoresResponse.data : [];
+
+            for (const scoreFixture of scoreRows) {
+
+
+
             const scoreFixtureId = String(scoreFixture?.id || '').trim();
             if (!scoreFixtureId) continue;
 
@@ -644,7 +792,7 @@ export default factories.createCoreService('api::fixture.fixture', ({ strapi }) 
 },
 
   async syncAllProviders() {
-    const theOdds = await this.syncFromTheOddsApi();
+    const theOdds = await this.syncConfiguredProvider();
 
     return {
       providers: { theOdds },
