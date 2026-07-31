@@ -545,88 +545,99 @@ export default factories.createCoreService('api::fixture.fixture', ({ strapi }) 
 
 	  const isLiveRequest = configuredSportsLower.includes('live');
 
-    if (syncMode === 'upcoming') {
-      let limitedFixtures: any[] = [];
-      try {
+       if (syncMode === 'upcoming') {
+      let sportsToSync: string[] = [];
 
-		  const url = isLiveRequest
-          ? `${baseUrl}/v4/sports/all/odds/?all=true&apiKey=${apiKey}&regions=${regions}&markets=${markets}&oddsFormat=${oddsFormat}&dateFormat=iso`
-          : `${baseUrl}/v4/sports/upcoming/odds/?apiKey=${apiKey}&regions=${regions}&markets=${markets}&oddsFormat=${oddsFormat}&dateFormat=iso`;
-
-        const response = await axios.get(url, { headers: { Accept: 'application/json' }, timeout: 60000 });
-        const fixturesArray = Array.isArray(response.data) ? response.data : [];
-
-
-		    const filteredBySport = (isLiveRequest || configuredWantsAll)
-            ? fixturesArray
-            : fixturesArray.filter((fixture: any) => configuredSportsLower.includes(String(fixture?.sport_key || '').toLowerCase()));
-
-        limitedFixtures = maxEvents > 0 ? filteredBySport.slice(0, maxEvents) : filteredBySport;
-        totalFetched += limitedFixtures.length;
-
-        for (const fixture of limitedFixtures) {
-          const fixtureId = String(fixture?.id || '').trim();
-          if (!fixtureId) continue;
-          if (seenFixtureIds.has(fixtureId)) continue;
-          if (!shouldKeepByStatus(fixture)) continue;
-          if (!shouldKeepFixtureTime(fixture?.commence_time, fixture?.sport_key)) continue;
-          seenFixtureIds.add(fixtureId);
-
-          const sportKey = String(fixture?.sport_key || '').trim();
-          const fallbackSportTitle = sportTitleByKey.get(sportKey) || titleFromSportKey(sportKey) || sportKey;
-          const odds = pickH2hOdds(fixture.bookmakers || [], fixture.home_team, fixture.away_team, preferredBookmakers);
-          const providerMarkets = normalizeProviderMarkets(fixture.bookmakers || [], preferredBookmakers);
-          const oddsUpdatedAt = providerOddsUpdatedAt(fixture.bookmakers || [], preferredBookmakers);
-          const oddsBookmaker = providerOddsBookmaker(fixture.bookmakers || [], preferredBookmakers);
-          const score = readFixtureScores(fixture, fixture.home_team, fixture.away_team);
-          const liveMinute = readFixtureMinute(fixture);
-          const status = normalizeFixtureStatus(fixture?.status, 'open');
-          const isLive = ['live', 'inplay', 'in_play', 'in-play', 'running', 'in progress'].includes(status) || fixture?.inplay === true || fixture?.is_live === true || liveMinute > 0;
-          const fixtureData = {
-            fixture_id: fixtureId,
-            home_team: String(fixture.home_team || ''),
-            away_team: String(fixture.away_team || ''),
-            sport_key: sportKey,
-            sport_title: String(fixture.sport_title || fallbackSportTitle || ''),
-            league_name: String(fixture.sport_title || fixture.league || fallbackSportTitle || ''),
-            commence_time: new Date(fixture.commence_time).toISOString(),
-            odds_home: odds.odds_home,
-            odds_away: odds.odds_away,
-            odds_draw: odds.odds_draw,
-            odds_updated_at: oddsUpdatedAt,
-            odds_bookmaker: oddsBookmaker,
-            odds_provider: 'the-odds-api',
-            is_live: isLive,
-            inplay: isLive,
-            markets: providerMarkets,
-            ...(score ? {
-              home_score: score.home,
-              away_score: score.away,
-            } : {}),
-            live_minute: liveMinute,
-            status,
-            publishedAt: new Date().toISOString(),
-          };
-
-          const result = await upsertFixture(strapi, fixtureId, fixtureData);
-          glossaryFixtures.push({ ...fixture, ...fixtureData });
-
-          if (result === 'created') created += 1;
-          else updated += 1;
+      // שלב א': הבאת רשימת כל הליגות (תומך בליגות שבפגרה על בסיס משתנה הסביבה)
+      if (configuredWantsAll) {
+        try {
+          const sportsListUrl = `${baseUrl}/v4/sports?apiKey=${apiKey}&all=${includeInactiveSports}`;
+          const sportsListResponse = await axios.get(sportsListUrl, { timeout: 30000 });
+          if (Array.isArray(sportsListResponse.data)) {
+            sportsToSync = sportsListResponse.data.map((s: any) => s.key);
+          }
+        } catch (error: any) {
+          strapi.log.error(`[the-odds-api-sync] Failed to fetch sports list: ${error.message}`);
+          sportsToSync = FALLBACK_ODDS_SPORT_KEYS;
         }
-      } catch (error: any) {
-        strapi.log.error(`[the-odds-api-sync] Upcoming sync failed: ${error.message}`);
-        return {
-          success: false,
-          provider: 'api.the-odds-api.com',
-          mode: 'upcoming',
-          fetched: totalFetched,
-          created,
-          updated,
-          sports: 0,
-          uniqueFixtures: seenFixtureIds.size,
-        };
+      } else {
+        sportsToSync = configuredSportsLower;
       }
+
+      // הגבלת כמות הליגות במידה והוגדר מקסימום ספורט בקובץ ההגדרות
+      if (maxSports > 0) {
+        sportsToSync = sportsToSync.slice(0, maxSports);
+      }
+
+      // שלב ב': ריצה בלולאה על כל ליגה וסנכרון המשחקים העתידיים שלה
+      for (const sport of sportsToSync) {
+        try {
+          const url = `${baseUrl}/v4/sports/${sport}/odds/?apiKey=${apiKey}&regions=${regions}&markets=${markets}&oddsFormat=${oddsFormat}&dateFormat=iso&all=${includeInactiveSports}`;
+          const response = await axios.get(url, { headers: { Accept: 'application/json' }, timeout: 60000 });
+          const fixturesArray = Array.isArray(response.data) ? response.data : [];
+
+          const limitedFixtures = maxEvents > 0 ? fixturesArray.slice(0, maxEvents) : fixturesArray;
+          totalFetched += limitedFixtures.length;
+
+          for (const fixture of limitedFixtures) {
+            const fixtureId = String(fixture?.id || '').trim();
+            if (!fixtureId || seenFixtureIds.has(fixtureId)) continue;
+            if (!shouldKeepByStatus(fixture)) continue;
+            if (!shouldKeepFixtureTime(fixture?.commence_time, fixture?.sport_key)) continue;
+            seenFixtureIds.add(fixtureId);
+
+            const sportKey = String(fixture?.sport_key || '').trim();
+            const fallbackSportTitle = sportTitleByKey.get(sportKey) || titleFromSportKey(sportKey) || sportKey;
+            const odds = pickH2hOdds(fixture.bookmakers || [], fixture.home_team, fixture.away_team, preferredBookmakers);
+            const providerMarkets = normalizeProviderMarkets(fixture.bookmakers || [], preferredBookmakers);
+            const oddsUpdatedAt = providerOddsUpdatedAt(fixture.bookmakers || [], preferredBookmakers);
+            const oddsBookmaker = providerOddsBookmaker(fixture.bookmakers || [], preferredBookmakers);
+            const score = readFixtureScores(fixture, fixture.home_team, fixture.away_team);
+            const liveMinute = readFixtureMinute(fixture);
+            const status = normalizeFixtureStatus(fixture?.status, 'open');
+            const isLive = ['live', 'inplay', 'in_play', 'in-play', 'running', 'in progress'].includes(status) || fixture?.inplay === true || fixture?.is_live === true || liveMinute > 0;
+            
+            const fixtureData = {
+              fixture_id: fixtureId,
+              home_team: String(fixture.home_team || ''),
+              away_team: String(fixture.away_team || ''),
+              sport_key: sportKey,
+              sport_title: String(fixture.sport_title || fallbackSportTitle || ''),
+              league_name: String(fixture.sport_title || fixture.league || fallbackSportTitle || ''),
+              commence_time: new Date(fixture.commence_time).toISOString(),
+              odds_home: odds.odds_home,
+              odds_away: odds.odds_away,
+              odds_draw: odds.odds_draw,
+              odds_updated_at: oddsUpdatedAt,
+              odds_bookmaker: oddsBookmaker,
+              odds_provider: 'the-odds-api',
+              is_live: isLive,
+              inplay: isLive,
+              markets: providerMarkets,
+              ...(score ? {
+                home_score: score.home,
+                away_score: score.away,
+              } : {}),
+              live_minute: liveMinute,
+              status,
+              publishedAt: new Date().toISOString(),
+            };
+
+            const result = await upsertFixture(strapi, fixtureId, fixtureData);
+            glossaryFixtures.push({ ...fixture, ...fixtureData });
+
+            if (result === 'created') created += 1;
+            else updated += 1;
+          }
+        } catch (error: any) {
+          // הגנה חשובה: דילוג שקט אם לליגה מסוימת בפגרה אין יחסים כרגע (שגיאת 404)
+          if (error?.response?.status === 404) {
+            continue; 
+          }
+          strapi.log.error(`[the-odds-api-sync] Error fetching odds for ${sport}: ${error.message}`);
+        }
+      }
+    }
 
       if (isLiveRequest) {
         return {
