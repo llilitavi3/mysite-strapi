@@ -9,12 +9,14 @@
   <meta property="og:title" content="RoyalBet 88 - Live Sports">
   <meta property="og:description" content="Live sports markets and in-play betting.">
   <meta property="og:type" content="website">
-  <title>RoyalBet 88 - Live Sports</title>
+    <title>RoyalBet 88 - Live Sports</title>
+    <link rel="icon" type="image/png" href="/assets/icon-192.png?v=20260727">
+    <link rel="apple-touch-icon" href="/assets/icon-192.png?v=20260727">
   <link rel="stylesheet" href="/assets/css/rb-shell.css?v=20260710a">
   <link rel="stylesheet" href="/assets/css/rb-core.css?v=20260710a">
   <link rel="stylesheet" href="/assets/css/sport/live-line/live-line-theme.css?v=20260705w">
   <link rel="stylesheet" href="/assets/css/sport/live-line/live-line-sprites.css?v=20260705w">
-  <link rel="stylesheet" href="/assets/css/sport/live-line/live-line.css?v=20260710ae">
+  <link rel="stylesheet" href="/assets/css/sport/live-line/live-line.css?v=20260801c">
 
   <style>
     /* מכולה עליונה מאופסת לחלוטין ללא שוליים */
@@ -55,7 +57,7 @@
     }
 
     /* התאמת תמונות ווידאו למילוי מלא של שטח הסליידר */
-    .rb-slide img, 
+    .rb-slide img,
     .rb-slide video {
       width: 100%;
       height: 100%;
@@ -112,36 +114,77 @@
       border-color: #ff3333;
     }
 
+    .rb-live-game-slider-head { display:flex; justify-content:space-between; align-items:center; padding:10px 14px; background:rgba(117,0,0,.72); color:#fff; font-weight:800; }
+    .rb-live-game-slider-head small { color:#caffbd; font-size:12px; }
+    .rb-live-game-slider { display:flex; gap:10px; overflow-x:auto; padding:11px; scroll-snap-type:x mandatory; scrollbar-width:thin; }
+    .rb-live-game-slide { flex:0 0 min(280px,78vw); scroll-snap-align:start; border:1px solid #652027; border-radius:10px; padding:11px; background:#160607; color:#fff; text-align:right; cursor:pointer; font:inherit; }
+    .rb-live-game-slide:hover,.rb-live-game-slide.active { border-color:#db4a4e; background:#2c080b; box-shadow:0 0 0 1px rgba(255,84,84,.25) inset; }
+    .rb-live-game-slide-teams { display:grid; gap:4px; font-weight:700; }
+    .rb-live-game-slide-score { color:#ffdd58; font-size:18px; white-space:nowrap; }
+    .rb-live-game-slide-time { display:block; margin-top:8px; color:#baf2bc; font-size:12px; }
+    .rb-live-bet-slide { height:100%; overflow:auto; padding:16px; box-sizing:border-box; background:linear-gradient(135deg,rgba(38,5,8,.98),rgba(10,3,5,.97)); color:#fff; }
+    .rb-live-bet-slide-head { display:flex; justify-content:space-between; align-items:center; gap:10px; font-weight:800; }
+    .rb-live-bet-slide-back { border:1px solid #b7333b; background:#5c0b11; color:#fff; border-radius:8px; padding:7px 11px; cursor:pointer; font:inherit; }
+    .rb-live-bet-match { display:grid; grid-template-columns:minmax(0,1fr) 118px minmax(0,1fr); align-items:center; gap:12px; margin:12px 0; padding:12px; border-top:1px solid #602027; border-bottom:1px solid #602027; }
+    .rb-live-bet-team { display:grid; justify-items:center; gap:6px; min-width:0; text-align:center; font-weight:800; }
+    .rb-live-bet-team b { overflow:hidden; text-overflow:ellipsis; white-space:nowrap; max-width:100%; }
+    .rb-live-bet-score { display:grid; justify-items:center; gap:5px; padding:9px; border:1px solid #76242a; border-radius:10px; background:#140607; }
+    .rb-live-bet-score strong { font-size:28px; line-height:1; color:#fff; }
+    .rb-live-bet-score small { color:#baf2bc; text-align:center; }
+    .rb-live-bet-primary { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:7px; }
+    .rb-live-bet-primary span { display:grid; gap:2px; justify-items:center; padding:7px; border:1px solid #652027; border-radius:8px; color:#fff; background:#160607; }
+    .rb-live-bet-primary b { color:#ffdd58; font-size:18px; }
+    .rb-live-bet-markets { display:grid; gap:8px; margin-top:12px; }
+    .rb-live-bet-markets details { border:1px solid #652027; border-radius:8px; background:#160607; }
+    .rb-live-bet-markets summary { cursor:pointer; padding:9px 11px; font-weight:700; }
+    .rb-live-bet-odds { display:flex; flex-wrap:wrap; gap:7px; padding:0 11px 11px; }
+    .rb-live-bet-odds span { padding:6px 8px; border:1px solid #472025; border-radius:6px; color:#ffdd58; font-size:13px; }
     .rb-prev { right: 15px; }
     .rb-next { left: 15px; }
 
     @media (max-width: 600px) {
       .rb-custom-slider { height: 190px; }
+      .rb-custom-slider.rb-live-bet-mode { height: 470px; }
       .rb-slide-caption h3 { font-size: 16px; }
       .rb-slide-caption p { font-size: 12px; }
       .rb-nav-btn { width: 34px; height: 34px; font-size: 14px; }
+      .rb-live-bet-slide { padding:10px; -webkit-overflow-scrolling:touch; }
+      .rb-live-bet-slide-head { font-size:12px; }
+      .rb-live-bet-slide-back { padding:6px 8px; font-size:11px; }
+      .rb-live-bet-match { grid-template-columns:minmax(0,1fr) 82px minmax(0,1fr); gap:6px; margin:8px 0; padding:8px 2px; }
+      .rb-live-bet-team { font-size:12px; }
+      .rb-live-bet-team .rb-live-line-team-avatar { transform:scale(.78); margin-block:-5px; }
+      .rb-live-bet-score { padding:7px 4px; }
+      .rb-live-bet-score strong { font-size:22px; }
+      .rb-live-bet-score small { font-size:10px; }
+      .rb-live-bet-primary { gap:4px; }
+      .rb-live-bet-primary span { padding:6px 3px; font-size:11px; }
+      .rb-live-bet-primary b { font-size:16px; }
+      .rb-live-bet-markets { margin-top:8px; gap:6px; }
+      .rb-live-bet-markets summary { padding:8px; font-size:13px; }
+      .rb-live-bet-odds { gap:5px; padding:0 8px 8px; }
+      .rb-live-bet-odds span { padding:5px 6px; font-size:11px; }
     }
- </style>
+  </style>
 </head>
 <body class="appSidebarVisible sx-sport-page-wrap">
-  
+
   <app-root>
     <div class="rb-top-slider-container">
       <div class="rb-custom-slider">
 
         <!-- שקופית תמונה 1 - מוגדרת כפעילה ראשונה -->
         <div class="rb-slide rb-active" data-duration="4000">
-          <img src="/assets/slider/images/line-run/messironaldo2.jpg" alt="ספורט 1">
+          <img src="/assets/slider/images/line-run/messironaldo2.jpg" alt="sport odds ronaldomessi">
           <div class="rb-slide-caption">
             <h3>חווית גיימינג מותאמת אישית</h3>
             <p>עדכוני תוצאות וסטטיסטיקות ישירות ובזמנים מדויקים.</p>
           </div>
         </div>
-        
         <!-- סרטון רולנדו מסי -->
         <div class="rb-slide" data-duration="8000">
-          <video autoplay loop muted playsinline poster="">
-            <source src="/assets/slider/video/line-run/ronmess.mp4" type="video/mp4">
+          <video preload="none" loop muted playsinline poster="">
+            <source data-src="/assets/slider/video/line-run/ronmess.mp4" type="video/mp4">
             Your browser does not support the video tag.
           </video>
           <div class="rb-slide-caption">
@@ -152,7 +195,7 @@
 
         <!-- שקופית תמונה 2 -->
         <div class="rb-slide" data-duration="4000">
-          <img src="/assets/slider/images/line-run/israelfootball2.jpg" alt="ספורט 2">
+          <img src="/assets/slider/images/line-run/israelfootball2.jpg" alt="sport odds 2">
           <div class="rb-slide-caption">
             <h3>חווית גיימינג מותאמת אישית</h3>
             <p>עדכוני תוצאות וסטטיסטיקות ישירות ובזמנים מדויקים.</p>
@@ -161,7 +204,7 @@
 
         <!-- כדורגל ישראלי שקופית תמונה -->
         <div class="rb-slide" data-duration="4000">
-          <img src="/assets/slider/images/line-run/israelfootball.jpg" alt="ספורט 3">
+          <img src="/assets/slider/images/line-run/israelfootball.jpg" alt="sport odds football">
           <div class="rb-slide-caption">
             <h3>חווית הימורים מותאמת לך אישית</h3>
             <p>עדכוני תוצאות וסטטיסטיקות ישירות ובזמנים מדויקים.</p>
@@ -170,8 +213,8 @@
 
         <!-- סרטון איגרוף גברים -->
         <div class="rb-slide" data-duration="8000">
-          <video autoplay loop muted playsinline poster="">
-            <source src="/assets/slider/video/line-run/maboging.mp4" type="video/mp4">
+          <video preload="none" loop muted playsinline poster="">
+            <source data-src="/assets/slider/video/line-run/maboging.mp4" type="video/mp4">
             Your browser does not support the video tag.
           </video>
           <div class="rb-slide-caption">
@@ -182,8 +225,8 @@
 
         <!-- סרטון מירוצי סוסים -->
         <div class="rb-slide" data-duration="8000">
-          <video autoplay loop muted playsinline poster="">
-            <source src="/assets/slider/video/line-run/horsesbet.mp4" type="video/mp4">
+          <video preload="none" loop muted playsinline poster="">
+            <source data-src="/assets/slider/video/line-run/horsesbet.mp4" type="video/mp4">
             Your browser does not support the video tag.
           </video>
           <div class="rb-slide-caption">
@@ -194,8 +237,8 @@
 
         <!-- סרטון איגרוף נשים -->
         <div class="rb-slide" data-duration="8000">
-          <video autoplay loop muted playsinline poster="">
-            <source src="/assets/slider/video/line-run/waboging.mp4" type="video/mp4">
+          <video preload="none" loop muted playsinline poster="">
+            <source data-src="/assets/slider/video/line-run/waboging.mp4" type="video/mp4">
             Your browser does not support the video tag.
           </video>
           <div class="rb-slide-caption">
@@ -206,7 +249,7 @@
 
         <!-- שקופית תמונה 3 -->
         <div class="rb-slide" data-duration="4000">
-          <img src="/assets/slider/images/line-run/messironaldo2.jpg" alt="ספורט 4">
+          <img src="/assets/slider/images/line-run/messironaldo2.jpg" alt="sport odds messivsronaldo">
           <div class="rb-slide-caption">
             <h3>חווית גיימינג מותאמת אישית</h3>
             <p>עדכוני תוצאות וסטטיסטיקות ישירות ובזמנים מדויקים.</p>
@@ -215,7 +258,7 @@
 
         <!-- שקופית תמונה 4 -->
         <div class="rb-slide" data-duration="4000">
-          <img src="/assets/slider/images/line-run/seesport2.jpg" alt="ספורט 5">
+          <img src="/assets/slider/images/line-run/seesport2.jpg" alt="seesale-sport">
           <div class="rb-slide-caption">
             <h3>חווית הימורים מותאמת אישית</h3>
             <p>עדכוני תוצאות וסטטיסטיקות ישירות ובזמנים מדויקים.</p>
@@ -224,8 +267,8 @@
 
         <!-- סרטון ספורט ימי -->
         <div class="rb-slide" data-duration="8000">
-          <video autoplay loop muted playsinline poster="">
-            <source src="/assets/slider/video/line-run/Olympicsailing.mp4" type="video/mp4">
+          <video preload="none" loop muted playsinline poster="">
+            <source data-src="/assets/slider/video/line-run/Olympicsailing.mp4" type="video/mp4">
             Your browser does not support the video tag.
           </video>
           <div class="rb-slide-caption">
@@ -236,8 +279,8 @@
 
         <!-- סרטון איגרוף נשים 2 -->
         <div class="rb-slide" data-duration="8000">
-          <video autoplay loop muted playsinline poster="">
-            <source src="/assets/slider/video/line-run/waboging2.mp4" type="video/mp4">
+          <video preload="none" loop muted playsinline poster="">
+            <source data-src="/assets/slider/video/line-run/waboging2.mp4" type="video/mp4">
             Your browser does not support the video tag.
           </video>
           <div class="rb-slide-caption">
@@ -248,8 +291,8 @@
 
         <!-- סרטון טניס -->
         <div class="rb-slide" data-duration="7000">
-          <video autoplay loop muted playsinline>
-            <source src="/assets/slider/video/line-run/tenisbet.mp4" type="video/mp4">
+          <video preload="none" loop muted playsinline>
+            <source data-src="/assets/slider/video/line-run/tenisbet.mp4" type="video/mp4">
             Your browser does not support the video tag.
           </video>
           <div class="rb-slide-caption">
@@ -263,7 +306,6 @@
         <button class="rb-nav-btn rb-next" onclick="handleNavClick(1)" aria-label="הבא">❮</button>
       </div>
     </div>
-
 
     <main class="app-main-content" aria-label="RoyalBet 88 - Live Sports"></main>
   </app-root>
@@ -280,24 +322,37 @@
     );
     window.ROYALBET_SOCKET_URL = window.ROYALBET_SOCKET_URL || window.ROYALBET_API_BASE || window.location.origin;
   </script>
-  <script defer src="/assets/js/royalbet-strapi-bridge.js?v=20260707a"></script>
-  <script defer src="/assets/js/royalbet-site-runtime-20260704j.js?v=20260710b"></script>
+  <script defer src="/assets/js/royalbet-strapi-bridge.js?v=20260728a"></script>
+    <script defer src="/assets/js/royalbet-site-runtime-20260704j.js?v=20260802b"></script>
   <script defer src="/assets/js/rb-security.js?v=20260705a"></script>
   <script defer src="/assets/js/sport/live-line/live-line-config.js?v=20260705x"></script>
   <script defer src="/assets/js/sport/live-line/live-line-sprites.js?v=20260705x"></script>
-  <script defer src="https://socket.io" crossorigin="anonymous"></script>
-  <script defer src="/assets/js/sport/live-line/live-line.js?v=20260710ak"></script>
-  <script defer src="/assets/js/site-header.js?v=20260710a"></script>
+  <script defer src="/assets/js/sport/live-line/live-line.js?v=20260802m"></script>
+  <script defer src="/assets/js/site-header.js?v=20260727m"></script>
 
  <script>
   let currentRbIdx = 0;
   let sliderTimer = null;
+
+  function activateRbSlideVideo(slide) {
+    const video = slide && slide.querySelector('video');
+    if (!video) return;
+    const source = video.querySelector('source[data-src]');
+    if (source && !source.getAttribute('src')) {
+      source.setAttribute('src', source.dataset.src);
+      video.load();
+    }
+    video.currentTime = 0;
+    video.play().catch(() => {});
+  }
 
   function moveRbSlide(direction) {
     let rbSlides = document.querySelectorAll('.rb-slide');
     if (rbSlides.length === 0) return;
     
     // הסרת השקופית הנוכחית
+    const previousVideo = rbSlides[currentRbIdx].querySelector('video');
+    if (previousVideo) previousVideo.pause();
     rbSlides[currentRbIdx].classList.remove('rb-active');
     
     // חישוב השקופית הבאה
@@ -307,11 +362,7 @@
     rbSlides[currentRbIdx].classList.add('rb-active');
 
     // אם השקופית החדשה מכילה וידאו, נפעיל אותו מההתחלה
-    let activeVideo = rbSlides[currentRbIdx].querySelector('video');
-    if (activeVideo) {
-      activeVideo.currentTime = 0;
-      activeVideo.play().catch(e => console.log("ממתין לאינטראקציה"));
-    }
+    activateRbSlideVideo(rbSlides[currentRbIdx]);
 
     resetAutoPlay();
   }
@@ -323,7 +374,7 @@
     
     // קריאת זמן ההמתנה הספציפי לכל שקופית (4000 לתמונות, 8000 לווידאו)
     let duration = parseInt(rbSlides[currentRbIdx].getAttribute('data-duration')) || 4000;
-
+    
     sliderTimer = setTimeout(() => {
       moveRbSlide(1);
     }, duration);
